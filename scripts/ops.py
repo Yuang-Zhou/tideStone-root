@@ -84,7 +84,7 @@ def backup():
 def backup_locked():
     dest=ROOT/'backups';dest.mkdir(exist_ok=True)
     name='tidestone-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'-'+uuid.uuid4().hex[:6]+'.tar.gz';archive=dest/name
-    paths=['Projects','scripts','web','assets','config','docs','reference','.agents','tests','runs','AGENTS.md','README.md','启动潮石.command','停止潮石.command','备份潮石.command','.gitignore']
+    paths=['Projects','scripts','web','assets','config','docs','reference','.agents','tests','runs','AGENTS.md','README.md','CONTRIBUTING.md','.github','.gitattributes','启动潮石.command','停止潮石.command','备份潮石.command','.gitignore']
     hashes={}
     with tarfile.open(archive,'w:gz') as tar:
         for rel in paths:
