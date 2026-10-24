@@ -1,0 +1,51 @@
+{
+  "verified_at": "2026-10-24T16:48:13.545915+00:00",
+  "scope": "Metadata-only update after root revised 02 short-term debt coverage qualifier; no model execution and no report mutation.",
+  "revision_baseline": "Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_revisions/2026-10-24T16-47-20-631825Z",
+  "exact_changed_json_path": "/upstream_sha256/02_财务分析.md",
+  "old_02_sha256": "412ee982711b8b877d02d1a708a4964ab44db1fe548f5828d328ff790263ed45",
+  "new_02_sha256": "67a4aa578c45c8e80cd342e7c02e92e1215e69d6b8fa58b6d5765881244014f5",
+  "old_forecast_model_sha256": "86dc292e2b15cad1feeefc56b3017b6bd7417e11686b0eb009a5ad0f7827500d",
+  "new_forecast_model_sha256": "d93d0bbae5f6b7de39f2731b7d6005a1d1bbdbd292c5ede79b92b59e722cfbc0",
+  "file_bytes": 186284,
+  "checks": {
+    "only_upstream_02_changed": true,
+    "other_three_upstream_hashes_match": true,
+    "new_02_upstream_hash_matches": true,
+    "model_deep_equal": true,
+    "valuation_bridge_deep_equal": true,
+    "common_assumptions_deep_equal": true,
+    "scenario_assumptions_deep_equal": true,
+    "drivers_deep_equal": true,
+    "other_three_delivery_lock_entries_unchanged": true,
+    "all_four_delivery_hashes_match": true,
+    "report_bytes_unchanged": true,
+    "model_script_unchanged": true,
+    "valuation_handoff_unchanged": true
+  },
+  "all_pass": true,
+  "upstream_hashes": {
+    "01_企业文化.md": "d492e2fd1f65446bca3b3c1da0fe3d5edaf01509cad63421845a2d33aa833689",
+    "02_财务分析.md": "67a4aa578c45c8e80cd342e7c02e92e1215e69d6b8fa58b6d5765881244014f5",
+    "03_商业模式.md": "aae93d413413fcb854745ba941613931c9b6c2b1a57dee0454276332be0d7bae",
+    "04_战略决策.md": "169ec7e7adc79983f8cf570f2d266253957d0852a190fe0363cda9a7ad2535ec"
+  },
+  "delivery_hashes": {
+    "_support/06/model.py": {
+      "bytes": 25527,
+      "sha256": "2859cda74ef3f97030b50d589c96af5fd24e0a013576251bcd0c58a042f80a9f"
+    },
+    "_support/06/forecast_model.json": {
+      "bytes": 186284,
+      "sha256": "d93d0bbae5f6b7de39f2731b7d6005a1d1bbdbd292c5ede79b92b59e722cfbc0"
+    },
+    "_support/06/valuation_handoff.json": {
+      "bytes": 11901,
+      "sha256": "e82c3ef43065318aca36e8dd3d7a5f61698541dd22844998bfad2424b48743e9"
+    },
+    "06_财务预测.md": {
+      "bytes": 31852,
+      "sha256": "7cf511c691104e97d69490b66105713607ce9e6c043761997c991f63829d96eb"
+    }
+  }
+}

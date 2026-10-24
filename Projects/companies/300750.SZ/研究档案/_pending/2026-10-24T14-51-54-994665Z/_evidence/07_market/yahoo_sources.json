@@ -1,0 +1,42 @@
+[
+  {
+    "file": "300014.SZ.json",
+    "provider": "Yahoo Finance via yfinance",
+    "public_quote_url": "https://finance.yahoo.com/quote/300014.SZ/",
+    "fetched_utc": "2026-10-24T15:44:24.415522+00:00",
+    "operations": "Ticker.info; history(start=2026-10-19,end=2026-10-24,auto_adjust=False); quarterly income/cashflow/balance",
+    "endpoint_capture": "Underlying HTTP request log not captured; script and unmodified decoded response saved"
+  },
+  {
+    "file": "3931.HK.json",
+    "provider": "Yahoo Finance via yfinance",
+    "public_quote_url": "https://finance.yahoo.com/quote/3931.HK/",
+    "fetched_utc": "2026-10-24T15:44:24.416153+00:00",
+    "operations": "Ticker.info; history(start=2026-10-19,end=2026-10-24,auto_adjust=False); quarterly income/cashflow/balance",
+    "endpoint_capture": "Underlying HTTP request log not captured; script and unmodified decoded response saved"
+  },
+  {
+    "file": "373220.KS.json",
+    "provider": "Yahoo Finance via yfinance",
+    "public_quote_url": "https://finance.yahoo.com/quote/373220.KS/",
+    "fetched_utc": "2026-10-24T15:44:24.416350+00:00",
+    "operations": "Ticker.info; history(start=2026-10-19,end=2026-10-24,auto_adjust=False); quarterly income/cashflow/balance",
+    "endpoint_capture": "Underlying HTTP request log not captured; script and unmodified decoded response saved"
+  },
+  {
+    "file": "006400.KS.json",
+    "provider": "Yahoo Finance via yfinance",
+    "public_quote_url": "https://finance.yahoo.com/quote/006400.KS/",
+    "fetched_utc": "2026-10-24T15:44:24.416564+00:00",
+    "operations": "Ticker.info; history(start=2026-10-19,end=2026-10-24,auto_adjust=False); quarterly income/cashflow/balance",
+    "endpoint_capture": "Underlying HTTP request log not captured; script and unmodified decoded response saved"
+  },
+  {
+    "file": "002594.SZ.json",
+    "provider": "Yahoo Finance via yfinance",
+    "public_quote_url": "https://finance.yahoo.com/quote/002594.SZ/",
+    "fetched_utc": "2026-10-24T15:44:24.416774+00:00",
+    "operations": "Ticker.info; history(start=2026-10-19,end=2026-10-24,auto_adjust=False); quarterly income/cashflow/balance",
+    "endpoint_capture": "Underlying HTTP request log not captured; script and unmodified decoded response saved"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "annual_2025",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+    "published_at": "2026-03-10",
+    "retrieved_at": "2026-10-24T22:35:25.666359+08:00",
+    "file": "300750.SZ Wiki/raw/OFFICIAL/annual_2025.pdf",
+    "sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9"
+  },
+  {
+    "id": "annual_2024",
+    "source": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+    "published_at": "2025-03-15",
+    "retrieved_at": "2026-10-24T22:35:25.665635+08:00",
+    "file": "300750.SZ Wiki/raw/OFFICIAL/annual_2024.pdf",
+    "sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad"
+  },
+  {
+    "id": "annual_2023",
+    "source": "https://static.cninfo.com.cn/finalpage/2024-03-16/1219313047.PDF",
+    "published_at": "2024-03-16",
+    "retrieved_at": "2026-10-24T22:35:25.671214+08:00",
+    "file": "300750.SZ Wiki/raw/OFFICIAL/annual_2023.pdf",
+    "sha256": "6081f0377617dddb82f900569d6458c278a7ab26697b34c87684188eac083471"
+  },
+  {
+    "id": "interim_2026",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+    "published_at": "2026-07-25",
+    "retrieved_at": "2026-10-24T22:35:25.666264+08:00",
+    "file": "300750.SZ Wiki/raw/OFFICIAL/interim_2026.pdf",
+    "sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9"
+  },
+  {
+    "id": "q3_2026",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF",
+    "published_at": "2026-10-21",
+    "retrieved_at": "2026-10-24T22:36:25.047108+08:00",
+    "file": "300750.SZ Wiki/raw/OFFICIAL/q3_2026.pdf",
+    "sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3"
+  },
+  {
+    "id": "ir_20260309",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002708.PDF",
+    "published_at": "2026-03-10",
+    "retrieved_at": "2026-10-24T22:36:28.404315+08:00",
+    "file": "300750.SZ Wiki/raw/transcripts/OFFICIAL_IR/ir_20260309.pdf",
+    "sha256": "3d41391972aa85460edc4808fbb48a45836779470685e1175692fd62ff470b0b"
+  },
+  {
+    "id": "ir_20260724",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-26/1225442224.PDF",
+    "published_at": "2026-07-26",
+    "retrieved_at": "2026-10-24T22:36:31.755055+08:00",
+    "file": "300750.SZ Wiki/raw/transcripts/OFFICIAL_IR/ir_20260724.pdf",
+    "sha256": "e3e0d885ef439c1ed49f3c0d91c7d3ce34a7124232432b89d5d6dcea226e5437"
+  },
+  {
+    "id": "ir_20261020",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613436.PDF",
+    "published_at": "2026-10-21",
+    "retrieved_at": "2026-10-24T22:36:32.200133+08:00",
+    "file": "300750.SZ Wiki/raw/transcripts/OFFICIAL_IR/ir_20261020.pdf",
+    "sha256": "42d041299a85b939e9b5dff4c687be929629e2b572f702f462a4b1c29de85cd2"
+  },
+  {
+    "id": "annual_2021",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204211560705495_1.pdf",
+    "published_at": "2022-04-21",
+    "retrieved_at": "2026-10-24",
+    "file": "../05/annual_2021_eastmoney.pdf",
+    "sha256": "060a73fa73d896d0dce4ea2215dc4d616f92b60aed64a8c09028430def38a4ca",
+    "note": "公司原年报镜像，非媒体摘数；逐字段页码见records"
+  },
+  {
+    "id": "huada_2026_inquiry",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441536.PDF",
+    "published_at": "2026-07-25",
+    "retrieved_at": "2026-10-24",
+    "file": "../01a/huada_2026_inquiry.pdf",
+    "pages": [
+      28
+    ],
+    "sha256": "a262868ef24d3d6748ba986cc4a55d6bc5b7ea6ad0ba03acb56d77dee572089c",
+    "note": "供应商独立申报：90天后取得6个月融单，不是90天现金付款"
+  }
+]

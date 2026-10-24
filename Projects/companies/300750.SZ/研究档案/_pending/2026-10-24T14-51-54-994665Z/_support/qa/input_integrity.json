@@ -1,0 +1,16 @@
+{
+  "registered_material_count": 21,
+  "all_registered_hashes_ok": true,
+  "material_manifest_unchanged": true,
+  "01_independent_parts_verbatim": {
+    "01a_使命愿景.md": true,
+    "01c_公司治理.md": true,
+    "01b_领导力.md": true
+  },
+  "04_lint": [
+    [],
+    []
+  ],
+  "formal_modules_exist": [],
+  "note": "只核文件、来源完整性和交接格式，不替代研究复核。"
+}

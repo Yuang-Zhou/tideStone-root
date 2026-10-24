@@ -1,0 +1,71 @@
+{
+  "research_cutoff": "2026-10-24",
+  "created_utc": "2026-10-24T16:02:27.814270+00:00",
+  "scope": "Reuse same-batch source evidence; no new post-cutoff public material; no registered material mutations",
+  "upstream_inputs": [
+    {
+      "file": "01_企业文化.md",
+      "bytes": 36176,
+      "sha256": "d492e2fd1f65446bca3b3c1da0fe3d5edaf01509cad63421845a2d33aa833689"
+    },
+    {
+      "file": "02_财务分析.md",
+      "bytes": 40066,
+      "sha256": "412ee982711b8b877d02d1a708a4964ab44db1fe548f5828d328ff790263ed45"
+    },
+    {
+      "file": "03_商业模式.md",
+      "bytes": 26187,
+      "sha256": "aae93d413413fcb854745ba941613931c9b6c2b1a57dee0454276332be0d7bae"
+    },
+    {
+      "file": "05_股性分析.md",
+      "bytes": 23160,
+      "sha256": "0ed72a87b17c17f4641c832c5f55bb01f010bbbb96354d79af8f230c275261d5"
+    },
+    {
+      "file": "_support/02/analysis_inputs_results.json",
+      "bytes": 161611,
+      "sha256": "180b525745683879ff8583fe90322d0b17f31aaf2768b5264f88dd017673b863"
+    },
+    {
+      "file": "_evidence/03_policy/readme.md",
+      "bytes": 1890,
+      "sha256": "0ec049072a2ad85529058be6eb7909f7be18276069a1ec462a4c20d8c1fe4554"
+    },
+    {
+      "file": "_parts/03_A1_产品客户事实.md",
+      "bytes": 8066,
+      "sha256": "33a3f8477816ce1b88549769e9522f97fae432653334c614e171c50011f2ed98"
+    }
+  ],
+  "latest_supply_finance": {
+    "url": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+    "published": "2026-07-25",
+    "physical_pages": [
+      143,
+      158
+    ],
+    "source_text_sha256": "c56710a16c3d322962940c8caacdd58ac2ccbd25f668df96a1df6e06e236899b",
+    "unit": "CNY million",
+    "supplier_finance": 57764.224,
+    "electronic_vouchers": 20391.072,
+    "reverse_factoring": 37373.152,
+    "suppliers_already_financed": 50406.338,
+    "goods_payable": 168867.568,
+    "engineering_equipment_payable": 33641.213,
+    "limits": "H1 only, not Q3; overlap of supplier financing with engineering payable unknown; lender payment is not CATL cash repayment"
+  },
+  "source_index_location": "04_战略决策.md §八",
+  "source_archives": [
+    "../01a",
+    "../01b",
+    "../01c",
+    "../02",
+    "../03_A1",
+    "../03_A2",
+    "../03_A3",
+    "../03_policy",
+    "../05"
+  ]
+}

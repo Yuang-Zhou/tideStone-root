@@ -1,0 +1,107 @@
+[
+  {
+    "id": "annual_2021.pdf",
+    "source": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2022/2022-4/2022-04-22/8039190.PDF",
+    "error": "HTTPSConnectionPool(host='file.finance.sina.com.cn', port=443): Max retries exceeded with url: /211.154.219.97:9494/MRGG/CNSESZ_STOCK/2022/2022-4/2022-04-22/8039190.PDF (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))"
+  },
+  {
+    "id": "ipo_2018.pdf",
+    "published_at": "2018-05-29",
+    "source": "https://epaper.cs.com.cn/zgzqb/images/2018-05/29/A25/AGG0250529C.pdf",
+    "status": 200,
+    "file": "ipo_2018.pdf",
+    "bytes": 426480,
+    "sha256": "6fb9728157933a97a4fca2fbb7a944d1d0185a46c6aab4aa364e1843b172eeca",
+    "retrieved_at": "2026-10-24T14:57:38.008774+00:00"
+  },
+  {
+    "id": "tesla_annual_2020.html",
+    "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7162623&stockid=300750",
+    "error": "HTTPSConnectionPool(host='money.finance.sina.com.cn', port=443): Max retries exceeded with url: /corp/view/vCB_AllBulletinDetail.php?id=7162623&stockid=300750 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))"
+  },
+  {
+    "id": "policy_20240924.html",
+    "published_at": "2024-09-24",
+    "source": "https://www.sse.com.cn/home/component/news/c/c_20240924_10762338.shtml",
+    "status": 200,
+    "file": "policy_20240924.html",
+    "bytes": 80621,
+    "sha256": "d5ab97345b95c73ef860d7853286060fbd1a9e5cd0117435cbc12d9f964ab17c",
+    "retrieved_at": "2026-10-24T14:57:37.745123+00:00"
+  },
+  {
+    "id": "miit_nev_2021.html",
+    "source": "https://www.miit.gov.cn/jgsj/zbys/gzdt/art/2022/art_406f5c19283842ddac3af9b6becfece7.html",
+    "error": "HTTPSConnectionPool(host='www.miit.gov.cn', port=443): Max retries exceeded with url: /jgsj/zbys/gzdt/art/2022/art_406f5c19283842ddac3af9b6becfece7.html (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))"
+  },
+  {
+    "id": "catl_hk_ipo.html",
+    "published_at": "2025-05-20",
+    "source": "https://www.catl.com/news/8519.html",
+    "status": 200,
+    "file": "catl_hk_ipo.html",
+    "bytes": 51072,
+    "sha256": "4777a41960b3c626bb9571e8624d7612d12784747d9ee6a631f837d04ef91579",
+    "retrieved_at": "2026-10-24T14:57:40.688276+00:00"
+  },
+  {
+    "id": "investing_history.html",
+    "published_at": "2026-10-23",
+    "source": "https://cn.investing.com/equities/amperex-tech-a-historical-data",
+    "status": 403,
+    "file": "investing_history.html",
+    "bytes": 3,
+    "sha256": "d26eae87829adde551bf4b852f9da6b8c3c2db9b65b8b68870632a2db5f53e00",
+    "retrieved_at": "2026-10-24T14:57:40.508919+00:00"
+  },
+  {
+    "id": "yahoo_history.html",
+    "published_at": "2026-10-23",
+    "source": "https://hk.finance.yahoo.com/quote/300750.SZ/history/",
+    "status": 404,
+    "file": "yahoo_history.html",
+    "bytes": 502,
+    "sha256": "5ae611309f48a34dd4603e73e592e36ff02ab92dd65ea31833e3a8d72160df5b",
+    "retrieved_at": "2026-10-24T14:57:41.735303+00:00"
+  },
+  {
+    "id": "annual_2020.pdf",
+    "published_at": "2021-04-28",
+    "source": "https://www.catl.com/uploads/1/file/public/202104/20210430094928_4n1av8qek4.pdf",
+    "status": 200,
+    "file": "annual_2020.pdf",
+    "bytes": 5900269,
+    "sha256": "6296ba5eb2610d361da715661b2b91047ba312843aaa240e4839a5016197a256",
+    "retrieved_at": "2026-10-24T14:59:05.326158+00:00"
+  },
+  {
+    "id": "annual_2021_eastmoney.pdf",
+    "published_at": "2022-04-22",
+    "source": "https://pdf.dfcfw.com/pdf/H2_AN202204211560705495_1.pdf",
+    "status": 200,
+    "file": "annual_2021_eastmoney.pdf",
+    "bytes": 6316659,
+    "sha256": "060a73fa73d896d0dce4ea2215dc4d616f92b60aed64a8c09028430def38a4ca",
+    "retrieved_at": "2026-10-24T14:59:09.994063+00:00"
+  },
+  {
+    "id": "tariff_20250402.html",
+    "published_at": "2025-04-02",
+    "source": "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/",
+    "status": 200,
+    "file": "tariff_20250402.html",
+    "bytes": 329889,
+    "sha256": "cf2fc13d6d469e21081131626cfe0607f42b894e8c0e14e781424a5d888d0ca3",
+    "retrieved_at": "2026-10-24T15:03:34.460121+00:00"
+  },
+  {
+    "id": "annual_2018.pdf",
+    "published_at": "2019-04-25",
+    "source": "https://static.cninfo.com.cn/finalpage/2019-04-25/1206093043.PDF",
+    "status": 200,
+    "file": "annual_2018.pdf",
+    "bytes": 10003051,
+    "sha256": "cffd02492f4d06700f629237b4a07df8feca62fbfbbe3eb5d4518e79d4c399bc",
+    "retrieved_at": "2026-10-24T15:10:10.651531+00:00"
+  }
+]

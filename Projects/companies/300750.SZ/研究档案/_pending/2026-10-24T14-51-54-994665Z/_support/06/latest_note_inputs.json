@@ -1,0 +1,133 @@
+{
+  "supplier_financing": {
+    "unit": "CNY million",
+    "2025_yearend": {
+      "electronic_receipts": 23902.653,
+      "reverse_factoring": 13320.128,
+      "total": 37222.781,
+      "supplier_cash_received": 30728.127,
+      "source": "annual_2025 p202–203; interim_2026 p158 comparative"
+    },
+    "2026_H1": {
+      "electronic_receipts": 20391.072,
+      "reverse_factoring": 37373.152,
+      "total": 57764.224,
+      "supplier_cash_received": 50406.338,
+      "source": "interim_2026 p158"
+    },
+    "2026_9M": null,
+    "Q3_proxy_adjustment_permission": "No assumption chosen; if H1 is used as Q3 proxy, identify as sensitivity, not actual"
+  },
+  "payables_composition": {
+    "2025_yearend": {
+      "goods": 134821.193,
+      "engineering_equipment": 25507.769,
+      "total": 160328.962,
+      "ordinary_goods_payable_ex_supplier_finance_identification_range": [
+        97598.412,
+        123106.181
+      ]
+    },
+    "2026_H1": {
+      "goods": 168867.568,
+      "engineering_equipment": 33641.213,
+      "total": 202508.781,
+      "ordinary_goods_payable_ex_supplier_finance_identification_range": [
+        111103.344,
+        144744.557
+      ]
+    },
+    "source": "interim_2026 p143",
+    "supplier_finance_overlap_with_engineering_payables": "not disclosed; cannot independently subtract both totals and assume disjointness"
+  },
+  "other_payables_H1": {
+    "accrued_expenses": 3931.597,
+    "performance_guarantees_deposits": 3381.276,
+    "other": 2286.071,
+    "total": 9598.945,
+    "rounding": 0.001,
+    "source": "interim_2026 p143"
+  },
+  "provisions_H1": {
+    "warranty": 59131.359,
+    "rebates": 39327.759,
+    "abandonment_other": 148.125,
+    "total": 98607.243,
+    "source": "interim_2026 p148",
+    "classification": "predominantly operating long-term obligations; do not treat as ordinary debt or immediately payable NWC without maturity assumptions"
+  },
+  "other_current_assets_H1": {
+    "input_VAT": 17149.888,
+    "other": 1010.565,
+    "total": 18160.453,
+    "source": "interim_2026 p131"
+  },
+  "other_noncurrent_assets_H1": {
+    "capex_prepayment_net": 16374.459,
+    "long_goods_prepayment_and_deposits": 8560.053,
+    "long_receivables": 941.124,
+    "time_deposits": 2669.332,
+    "total": 28544.967,
+    "rounding": -0.001,
+    "source": "interim_2026 p141"
+  },
+  "other_current_liabilities_H1": {
+    "output_VAT_deferred": 2428.737,
+    "input_VAT_to_transfer": 6422.166,
+    "total": 8850.903,
+    "source": "interim_2026 p146"
+  },
+  "other_noncurrent_liabilities_H1": {
+    "sales_advance": 4213.371,
+    "source": "interim_2026 p148"
+  },
+  "other_receivables_H1": {
+    "net": 2618.732,
+    "dividends_receivable": 114.195,
+    "employee_gross": 248.2,
+    "deposits_gross": 738.604,
+    "other_gross": 2172.433,
+    "source": "interim_2026 p127–128",
+    "warning": "gross components cannot replace net account; residual contains credit provisions and rounding"
+  },
+  "taxes_payable_H1": {
+    "income_tax": 7639.39,
+    "VAT": 867.868,
+    "other": 995.224,
+    "total": 9502.483,
+    "rounding": 0.001,
+    "source": "interim_2026 p145"
+  },
+  "cash_definition_H1": {
+    "monetary_funds": 372053.275,
+    "excluded_deposits": 25256.727,
+    "bank_overdraft_subtracted_in_CE": 6210.332,
+    "cash_equivalents": 340586.216,
+    "formula": "monetary_funds-excluded_deposits-overdraft=CE",
+    "source": "interim_2026 p72,157–158",
+    "warning": "assess overlap of overdraft with short borrowings before EV cash-debt adjustment; Q3 decomposition not provided"
+  },
+  "cash_definition_9M": {
+    "monetary_funds": 369813.786,
+    "cash_equivalents": 333397.571,
+    "difference_unclassified": 36416.215,
+    "source": "q3_2026 p5,p12",
+    "warning": "Do not label whole difference restricted cash or copy H1 proportions"
+  },
+  "H1_DA": {
+    "depreciation": 14282.273,
+    "rou_depreciation": 276.258,
+    "intangibles_amort": 258.901,
+    "long_deferred_amort": 1021.822,
+    "total": 15839.254,
+    "source": "interim_2026 p156",
+    "Q3_actual": null
+  },
+  "H1_CFO_bridge": {
+    "inventory_change": -37859.085,
+    "operating_receivables_change": -33026.925,
+    "operating_payables_change": 71690.439,
+    "source": "interim_2026 p157",
+    "warning": "cash-flow working-capital categories not identical to endpoint balance-account differences"
+  }
+}

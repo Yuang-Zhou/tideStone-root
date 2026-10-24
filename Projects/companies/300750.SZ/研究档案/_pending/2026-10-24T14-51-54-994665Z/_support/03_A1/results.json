@@ -1,0 +1,100 @@
+{
+  "FY2025": {
+    "total": {
+      "revenue_million_CNY": 423701.834,
+      "COGS_million_CNY": 312383.297,
+      "share_pct": 100.0,
+      "gross_margin_pct": 26.272847570445023
+    },
+    "动力": {
+      "revenue_million_CNY": 316506.369,
+      "COGS_million_CNY": 241064.397,
+      "share_pct": 74.70025938098725,
+      "gross_margin_pct": 23.835846412303948
+    },
+    "储能": {
+      "revenue_million_CNY": 62439.82,
+      "COGS_million_CNY": 45763.689,
+      "share_pct": 14.7367358339072,
+      "gross_margin_pct": 26.707525742386828
+    },
+    "材料回收": {
+      "revenue_million_CNY": 21860.936,
+      "COGS_million_CNY": 15899.813,
+      "share_pct": 5.159509411044938,
+      "gross_margin_pct": 27.26837954239471
+    },
+    "矿产": {
+      "revenue_million_CNY": 5978.096,
+      "COGS_million_CNY": 5305.599,
+      "share_pct": 1.4109204917909324,
+      "gross_margin_pct": 11.249350963918946
+    },
+    "其他（披露）": {
+      "revenue_million_CNY": 16916.612,
+      "COGS_million_CNY": 4349.799,
+      "share_pct": 3.992574646254658,
+      "gross_margin_pct": 74.28681937021432
+    },
+    "尾差": {
+      "revenue_million_CNY": 0.001,
+      "COGS_million_CNY": 0.0,
+      "share_pct": 2.3601502749218687e-07,
+      "gross_margin_pct": null
+    }
+  },
+  "2026H1": {
+    "total": {
+      "revenue_million_CNY": 276916.58,
+      "COGS_million_CNY": 210654.89,
+      "share_pct": 100.0,
+      "gross_margin_pct": 23.928393886707685
+    },
+    "动力": {
+      "revenue_million_CNY": 192124.89,
+      "COGS_million_CNY": 152492.111,
+      "share_pct": 69.38006023330203,
+      "gross_margin_pct": 20.628654100986083
+    },
+    "储能": {
+      "revenue_million_CNY": 53260.967,
+      "COGS_million_CNY": 40500.853,
+      "share_pct": 19.233578213337747,
+      "gross_margin_pct": 23.957721233262625
+    },
+    "材料回收及矿产": {
+      "revenue_million_CNY": 18811.078,
+      "COGS_million_CNY": 13723.882,
+      "share_pct": 6.793048650246944,
+      "gross_margin_pct": 27.043617595971902
+    },
+    "其他（差额）": {
+      "revenue_million_CNY": 12719.645,
+      "COGS_million_CNY": 3938.044,
+      "share_pct": 4.593312903113277,
+      "gross_margin_pct": 69.03967052539596
+    }
+  },
+  "region": {
+    "FY2025": {
+      "domestic_share_pct": 69.40271492900831,
+      "overseas_share_pct": 30.597285070991692
+    },
+    "2026H1": {
+      "domestic_share_pct": 68.53594392939564,
+      "overseas_share_pct": 31.464056070604368
+    }
+  },
+  "sales_quantity": {
+    "FY2025_combined_power_storage_GWh": 661,
+    "FY2024_combined_power_storage_GWh": 475,
+    "growth_pct": 39.1578947368421,
+    "FY2025_combined_revenue_per_Wh_CNY": 0.5732922677760969,
+    "definition": "combined recognized product revenue/sold energy; mix measure, not contract unit quote, not vehicle installation"
+  },
+  "concentration": {
+    "top5_revenue_million": 165061.533,
+    "share_pct": 38.95700224889751,
+    "top1_share_pct": 13.72644565895365
+  }
+}

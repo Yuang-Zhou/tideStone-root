@@ -1,0 +1,81 @@
+{
+  "currency": "CNY",
+  "unit": "million",
+  "basis": "CAS合并，Other明确为报表已披露总额减已列项目，非预测平衡数",
+  "periods": {
+    "2025": {
+      "assets": {
+        "monetary_funds": 333512.927,
+        "trading_assets": 58993.528,
+        "trade_receivables": 76403.264,
+        "inventories": 94526.239,
+        "prepayments": 14282.335000000001,
+        "ppe_net": 146400.592,
+        "construction": 29733.108,
+        "rou": 3268.966,
+        "intangibles": 15263.875,
+        "goodwill": 837.328,
+        "dta": 28170.283,
+        "other_assets_disclosed_residual": 173435.09899999993
+      },
+      "total_assets": 974827.544,
+      "liabilities": {
+        "short_term_borrowings": 12935.498,
+        "long_term_borrowings": 78234.935,
+        "bonds_payable": 3443.434,
+        "current_portion_of_noncurrent_liabilities": 22237.54,
+        "lease_noncurrent": 2805.081,
+        "ap": 160328.962,
+        "notes_payable": 103276.999,
+        "contract_liabilities": 49233.377,
+        "employee_liabilities": 23110.912,
+        "provisions": 85324.35800000001,
+        "other_liabilities_disclosed_residual": 62870.12400000007
+      },
+      "total_liabilities": 603801.22,
+      "equity": 371026.324,
+      "parent_equity": 337107.747,
+      "minority_equity": 33918.577,
+      "cash_equivalents_distinct_from_monetary_funds": 299929.741,
+      "identity_rounding_million": 0.0,
+      "source": "2025年报p111–113"
+    },
+    "2026_9M": {
+      "assets": {
+        "monetary_funds": 369813.786,
+        "trading_assets": 62779.978,
+        "trade_receivables": 112911.65,
+        "inventories": 144769.537,
+        "prepayments": 26460.002,
+        "ppe_net": 184125.94700000001,
+        "construction": 43032.402,
+        "rou": 4700.8640000000005,
+        "intangibles": 16131.683,
+        "goodwill": 819.488,
+        "dta": 33309.42,
+        "other_assets_disclosed_residual": 184318.81000000006
+      },
+      "total_assets": 1183173.567,
+      "liabilities": {
+        "short_term_borrowings": 39897.579,
+        "long_term_borrowings": 76354.823,
+        "bonds_payable": 52737.747,
+        "current_portion_of_noncurrent_liabilities": 16871.1,
+        "lease_noncurrent": 4064.886,
+        "ap": 180441.683,
+        "notes_payable": 152929.878,
+        "contract_liabilities": 40668.908,
+        "employee_liabilities": 24512.322,
+        "provisions": 104110.971,
+        "other_liabilities_disclosed_residual": 67366.90299999993
+      },
+      "total_liabilities": 759956.8,
+      "equity": 423216.766,
+      "parent_equity": 386880.99,
+      "minority_equity": 36335.776,
+      "cash_equivalents_distinct_from_monetary_funds": 333397.571,
+      "identity_rounding_million": 0.0009999999892897904,
+      "source": "2026Q3p5–8"
+    }
+  }
+}

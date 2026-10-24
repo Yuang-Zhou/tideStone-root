@@ -1,0 +1,5 @@
+{
+  "checked": 81,
+  "git_blob_hash_mismatches": [],
+  "note": "80份通过恢复连接器新增换行/换行规范化后与原仓库字节一致。reverse-dcf methodology末尾为截断UTF-8字节e4bc，原始字节对固定Git blob SHA-1完全匹配；可读副本明确标缺损，不补写语义。GitHub raw fallback404未取得文件，不计为成功取数。"
+}

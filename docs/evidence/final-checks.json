@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-24T00:54:58.769529+08:00",
+  "checks": [
+    {
+      "name": "regressions",
+      "returncode": 0,
+      "log": "docs/evidence/regressions.log"
+    },
+    {
+      "name": "skill_resources",
+      "returncode": 0,
+      "log": "docs/evidence/skill_resources.log"
+    },
+    {
+      "name": "web_syntax",
+      "returncode": 0,
+      "log": "docs/evidence/web_syntax.log"
+    },
+    {
+      "name": "formal_build",
+      "returncode": 0,
+      "log": "docs/evidence/formal_build.log"
+    }
+  ],
+  "all_passed": true
+}

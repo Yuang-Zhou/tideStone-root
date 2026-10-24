@@ -1,0 +1,1025 @@
+{
+  "2025": {
+    "assets": {
+      "monetary_funds": {
+        "value_million": 333512.927,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "货币资金  333,512,927   303,511,993"
+      },
+      "trading_assets": {
+        "value_million": 58993.528,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "交易性金融资产  58,993,528   14,282,253"
+      },
+      "derivative_assets": {
+        "value_million": 1133.502,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "衍生金融资产  1,133,502"
+      },
+      "notes_receivable": {
+        "value_million": 1380.016,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "应收票据  1,380,016   130,403"
+      },
+      "trade_receivables": {
+        "value_million": 76403.264,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "应收账款  76,403,264   64,135,510"
+      },
+      "receivables_financing": {
+        "value_million": 43205.292,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "应收款项融资  43,205,292   53,309,701"
+      },
+      "prepayments": {
+        "value_million": 14282.335,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "预付款项  14,282,335   5,969,685"
+      },
+      "other_receivables": {
+        "value_million": 2119.77,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "其他应收款  2,119,770   2,206,947"
+      },
+      "inventories": {
+        "value_million": 94526.239,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "存货  94,526,239   59,835,533"
+      },
+      "contract_assets": {
+        "value_million": 375.468,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "合同资产  375,468   400,626"
+      },
+      "current_noncurrent_assets": {
+        "value_million": 169.898,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "一年内到期的非流动资产  169,898   72,972"
+      },
+      "other_current_assets": {
+        "value_million": 12379.304,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "其他流动资产  12,379,304   6,286,465"
+      },
+      "long_receivables": {
+        "value_million": 386.18,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "长期应收款  386,180   151,342"
+      },
+      "equity_method_investments": {
+        "value_million": 64884.321,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "长期股权投资  64,884,321   54,791,525"
+      },
+      "other_equity_investments": {
+        "value_million": 16296.853,
+        "source": "annual_2025",
+        "page": 111,
+        "column": 0,
+        "excerpt": "其他权益工具投资  16,296,853   11,900,901"
+      },
+      "other_noncurrent_financial_assets": {
+        "value_million": 2882.264,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "其他非流动金融资产  2,882,264   3,135,658"
+      },
+      "ppe_net": {
+        "value_million": 146400.592,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "固定资产  146,400,592   112,589,053"
+      },
+      "construction": {
+        "value_million": 29733.108,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "在建工程  29,733,108   29,754,703"
+      },
+      "rou": {
+        "value_million": 3268.966,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "使用权资产  3,268,966   889,995"
+      },
+      "intangibles": {
+        "value_million": 15263.875,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "无形资产  15,263,875   14,419,804"
+      },
+      "goodwill": {
+        "value_million": 837.328,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "商誉  837,328   894,757"
+      },
+      "long_deferred_expenses": {
+        "value_million": 4960.638,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "长期待摊费用  4,960,638   4,593,980"
+      },
+      "dta": {
+        "value_million": 28170.283,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "递延所得税资产  28,170,283   24,118,834"
+      },
+      "other_noncurrent_assets": {
+        "value_million": 23261.595,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "其他非流动资产  23,261,595   19,275,483"
+      }
+    },
+    "liabilities": {
+      "short_term_borrowings": {
+        "value_million": 12935.498,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "短期借款  12,935,498   19,696,282"
+      },
+      "derivative_liabilities": {
+        "value_million": 393.224,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "衍生金融负债  393,224   2,116,017"
+      },
+      "notes_payable": {
+        "value_million": 103276.999,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "应付票据  103,276,999   67,356,323"
+      },
+      "ap": {
+        "value_million": 160328.962,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "应付账款  160,328,962   130,977,408"
+      },
+      "contract_liabilities": {
+        "value_million": 49233.377,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "合同负债  49,233,377   27,834,446"
+      },
+      "employee_liabilities": {
+        "value_million": 23110.912,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "应付职工薪酬  23,110,912   18,653,079"
+      },
+      "taxes_payable": {
+        "value_million": 11775.019,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "应交税费  11,775,019   9,436,442"
+      },
+      "other_payables": {
+        "value_million": 10504.098,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "其他应付款  10,504,098   16,161,923"
+      },
+      "current_portion_of_noncurrent_liabilities": {
+        "value_million": 22237.54,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "一年内到期的非流动负债  22,237,540   22,881,417"
+      },
+      "other_current_liabilities": {
+        "value_million": 5830.358,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "其他流动负债  5,830,358   2,058,196"
+      },
+      "long_term_borrowings": {
+        "value_million": 78234.935,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "长期借款  78,234,935   81,238,456"
+      },
+      "bonds_payable": {
+        "value_million": 3443.434,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "应付债券  3,443,434   11,922,623"
+      },
+      "lease_noncurrent": {
+        "value_million": 2805.081,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "租赁负债  2,805,081   662,814"
+      },
+      "long_payables": {
+        "value_million": 1639.608,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "长期应付款  1,639,608   1,606,480"
+      },
+      "provisions": {
+        "value_million": 85324.358,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "预计负债  85,324,358   71,926,943"
+      },
+      "deferred_income": {
+        "value_million": 27321.553,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "递延收益  27,321,553   22,041,069"
+      },
+      "dtl": {
+        "value_million": 922.254,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "递延所得税负债 922,254   1,231,236"
+      },
+      "other_noncurrent_liabilities": {
+        "value_million": 4484.01,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "其他非流动负债  4,484,010   5,400,795"
+      }
+    },
+    "totals": {
+      "assets": {
+        "value_million": 974827.544,
+        "source": "annual_2025",
+        "page": 112,
+        "column": 0,
+        "excerpt": "资产总计 974,827,544   786,658,123"
+      },
+      "liabilities": {
+        "value_million": 603801.22,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "负债合计 603,801,220   513,201,949"
+      },
+      "equity": {
+        "value_million": 371026.324,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "所有者权益合计 371,026,324   273,456,174"
+      },
+      "parent_equity": {
+        "value_million": 337107.747,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "归属于母公司所有者权益合计 337,107,747   246,930,033"
+      },
+      "minority_equity": {
+        "value_million": 33918.577,
+        "source": "annual_2025",
+        "page": 113,
+        "column": 0,
+        "excerpt": "少数股东权益  33,918,577   26,526,141"
+      }
+    },
+    "reported_line_rounding_million": {
+      "assets": -0.0020000000949949026,
+      "liabilities": 1.1641532182693481e-10
+    }
+  },
+  "2026_H1": {
+    "assets": {
+      "monetary_funds": {
+        "value_million": 372053.275,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "货币资金  372,053,275   333,512,927"
+      },
+      "trading_assets": {
+        "value_million": 68158.325,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "交易性金融资产  68,158,325   58,993,528"
+      },
+      "derivative_assets": {
+        "value_million": 2657.905,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "衍生金融资产  2,657,905   1,133,502"
+      },
+      "notes_receivable": {
+        "value_million": 779.835,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "应收票据  779,835   1,380,016"
+      },
+      "trade_receivables": {
+        "value_million": 88417.984,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "应收账款  88,417,984   76,403,264"
+      },
+      "receivables_financing": {
+        "value_million": 51923.468,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "应收款项融资  51,923,468   43,205,292"
+      },
+      "prepayments": {
+        "value_million": 22793.18,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "预付款项  22,793,180   14,282,335"
+      },
+      "other_receivables": {
+        "value_million": 2618.732,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "其他应收款  2,618,732   2,119,770"
+      },
+      "inventories": {
+        "value_million": 130819.205,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "存货  130,819,205   94,526,239"
+      },
+      "contract_assets": {
+        "value_million": 338.742,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "合同资产  338,742   375,468"
+      },
+      "current_noncurrent_assets": {
+        "value_million": 158.436,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "一年内到期的非流动资产  158,436   169,898"
+      },
+      "other_current_assets": {
+        "value_million": 18160.453,
+        "source": "interim_2026",
+        "page": 72,
+        "column": 0,
+        "excerpt": "其他流动资产  18,160,453   12,379,304"
+      },
+      "long_receivables": {
+        "value_million": 408.706,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "长期应收款  408,706   386,180"
+      },
+      "equity_method_investments": {
+        "value_million": 70254.796,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "长期股权投资  70,254,796   64,884,321"
+      },
+      "other_equity_investments": {
+        "value_million": 15354.665,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "其他权益工具投资  15,354,665   16,296,853"
+      },
+      "other_noncurrent_financial_assets": {
+        "value_million": 7689.022,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "其他非流动金融资产  7,689,022   2,882,264"
+      },
+      "ppe_net": {
+        "value_million": 169381.82,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "固定资产  169,381,820   146,400,592"
+      },
+      "construction": {
+        "value_million": 33025.296,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "在建工程  33,025,296   29,733,108"
+      },
+      "rou": {
+        "value_million": 3900.575,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "使用权资产  3,900,575   3,268,966"
+      },
+      "intangibles": {
+        "value_million": 15378.514,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "无形资产  15,378,514   15,263,875"
+      },
+      "goodwill": {
+        "value_million": 826.988,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "商誉  826,988   837,328"
+      },
+      "long_deferred_expenses": {
+        "value_million": 4741.001,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "长期待摊费用  4,741,001   4,960,638"
+      },
+      "dta": {
+        "value_million": 30494.902,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "递延所得税资产  30,494,902   28,170,283"
+      },
+      "other_noncurrent_assets": {
+        "value_million": 28544.967,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "其他非流动资产  28,544,967   23,261,595"
+      }
+    },
+    "liabilities": {
+      "short_term_borrowings": {
+        "value_million": 20885.906,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "短期借款  20,885,906   12,935,498"
+      },
+      "derivative_liabilities": {
+        "value_million": 688.861,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "衍生金融负债  688,861   393,224"
+      },
+      "notes_payable": {
+        "value_million": 152977.931,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "应付票据  152,977,931   103,276,999"
+      },
+      "ap": {
+        "value_million": 202508.781,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "应付账款  202,508,781   160,328,962"
+      },
+      "contract_liabilities": {
+        "value_million": 36482.664,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "合同负债  36,482,664   49,233,377"
+      },
+      "employee_liabilities": {
+        "value_million": 23099.804,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "应付职工薪酬  23,099,804   23,110,912"
+      },
+      "taxes_payable": {
+        "value_million": 9502.483,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "应交税费  9,502,483   11,775,019"
+      },
+      "other_payables": {
+        "value_million": 9598.945,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "其他应付款  9,598,945   10,504,098"
+      },
+      "current_portion_of_noncurrent_liabilities": {
+        "value_million": 22010.724,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "一年内到期的非流动负债  22,010,724   22,237,540"
+      },
+      "other_current_liabilities": {
+        "value_million": 8850.903,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "其他流动负债  8,850,903   5,830,358"
+      },
+      "long_term_borrowings": {
+        "value_million": 74262.746,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "长期借款  74,262,746   78,234,935"
+      },
+      "bonds_payable": {
+        "value_million": 28512.039,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "应付债券  28,512,039   3,443,434"
+      },
+      "lease_noncurrent": {
+        "value_million": 3357.63,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "租赁负债  3,357,630   2,805,081"
+      },
+      "long_payables": {
+        "value_million": 1632.319,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "长期应付款  1,632,319   1,639,608"
+      },
+      "provisions": {
+        "value_million": 98607.243,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "预计负债  98,607,243   85,324,358"
+      },
+      "deferred_income": {
+        "value_million": 27433.641,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "递延收益  27,433,641   27,321,553"
+      },
+      "dtl": {
+        "value_million": 299.567,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "递延所得税负债  299,567   922,254"
+      },
+      "other_noncurrent_liabilities": {
+        "value_million": 4213.371,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "其他非流动负债  4,213,371   4,484,010"
+      }
+    },
+    "totals": {
+      "assets": {
+        "value_million": 1138880.789,
+        "source": "interim_2026",
+        "page": 73,
+        "column": 0,
+        "excerpt": "资产总计  1,138,880,789   974,827,544"
+      },
+      "liabilities": {
+        "value_million": 724925.558,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "负债合计  724,925,558   603,801,220"
+      },
+      "equity": {
+        "value_million": 413955.232,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "所有者权益合计  413,955,232   371,026,324"
+      },
+      "parent_equity": {
+        "value_million": 379353.71,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "归属于母公司所有者权益合计  379,353,710   337,107,747"
+      },
+      "minority_equity": {
+        "value_million": 34601.522,
+        "source": "interim_2026",
+        "page": 74,
+        "column": 0,
+        "excerpt": "少数股东权益  34,601,522   33,918,577"
+      }
+    },
+    "reported_line_rounding_million": {
+      "assets": -0.0029999995604157448,
+      "liabilities": -1.1641532182693481e-10
+    }
+  },
+  "2026_9M": {
+    "assets": {
+      "monetary_funds": {
+        "value_million": 369813.786,
+        "source": "q3_2026",
+        "page": 5,
+        "column": 0,
+        "excerpt": "货币资金                369,813,786                 333,512,927"
+      },
+      "trading_assets": {
+        "value_million": 62779.978,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "交易性金融资产                  62,779,978                   58,993,528"
+      },
+      "derivative_assets": {
+        "value_million": 629.346,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "衍生金融资产 629,346                     1,133,502"
+      },
+      "notes_receivable": {
+        "value_million": 464.25,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "应收票据 464,250                     1,380,016"
+      },
+      "trade_receivables": {
+        "value_million": 112911.65,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "应收账款                112,911,650                   76,403,264"
+      },
+      "receivables_financing": {
+        "value_million": 25783.555,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "应收款项融资                  25,783,555                   43,205,292"
+      },
+      "prepayments": {
+        "value_million": 26460.002,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "预付款项                  26,460,002                   14,282,335"
+      },
+      "other_receivables": {
+        "value_million": 2341.638,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "其他应收款                    2,341,638                     2,119,770"
+      },
+      "inventories": {
+        "value_million": 144769.537,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "存货                144,769,537                   94,526,239"
+      },
+      "contract_assets": {
+        "value_million": 323.884,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "合同资产 323,884  375,468"
+      },
+      "current_noncurrent_assets": {
+        "value_million": 223.129,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "一年内到期的非流动资产 223,129  169,898"
+      },
+      "other_current_assets": {
+        "value_million": 20630.554,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "其他流动资产                  20,630,554                   12,379,304"
+      },
+      "long_receivables": {
+        "value_million": 410.415,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "长期应收款 410,415  386,180"
+      },
+      "equity_method_investments": {
+        "value_million": 72840.531,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "长期股权投资                  72,840,531                   64,884,321"
+      },
+      "other_equity_investments": {
+        "value_million": 13148.849,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "其他权益工具投资                  13,148,849                   16,296,853"
+      },
+      "other_noncurrent_financial_assets": {
+        "value_million": 11824.729,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "其他非流动金融资产                  11,824,729                     2,882,264"
+      },
+      "ppe_net": {
+        "value_million": 184125.947,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "固定资产                184,125,947                 146,400,592"
+      },
+      "construction": {
+        "value_million": 43032.402,
+        "source": "q3_2026",
+        "page": 6,
+        "column": 0,
+        "excerpt": "在建工程                  43,032,402                   29,733,108"
+      },
+      "rou": {
+        "value_million": 4700.864,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "使用权资产                    4,700,864                     3,268,966"
+      },
+      "intangibles": {
+        "value_million": 16131.683,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "无形资产                  16,131,683                   15,263,875"
+      },
+      "goodwill": {
+        "value_million": 819.488,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "商誉 819,488  837,328"
+      },
+      "long_deferred_expenses": {
+        "value_million": 4780.704,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "长期待摊费用                    4,780,704                     4,960,638"
+      },
+      "dta": {
+        "value_million": 33309.42,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "递延所得税资产                  33,309,420                   28,170,283"
+      },
+      "other_noncurrent_assets": {
+        "value_million": 30917.227,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "其他非流动资产                  30,917,227                   23,261,595"
+      }
+    },
+    "liabilities": {
+      "short_term_borrowings": {
+        "value_million": 39897.579,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "短期借款                  39,897,579                   12,935,498"
+      },
+      "derivative_liabilities": {
+        "value_million": 1646.355,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "衍生金融负债                    1,646,355  393,224"
+      },
+      "notes_payable": {
+        "value_million": 152929.878,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "应付票据                152,929,878                 103,276,999"
+      },
+      "ap": {
+        "value_million": 180441.683,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "应付账款                180,441,683                 160,328,962"
+      },
+      "contract_liabilities": {
+        "value_million": 40668.908,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "合同负债                  40,668,908                   49,233,377"
+      },
+      "employee_liabilities": {
+        "value_million": 24512.322,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "应付职工薪酬                  24,512,322                   23,110,912"
+      },
+      "taxes_payable": {
+        "value_million": 11574.265,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "应交税费                  11,574,265                   11,775,019"
+      },
+      "other_payables": {
+        "value_million": 10902.73,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "其他应付款                  10,902,730                   10,504,098"
+      },
+      "current_portion_of_noncurrent_liabilities": {
+        "value_million": 16871.1,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "一年内到期的非流动负债                  16,871,100                   22,237,540"
+      },
+      "other_current_liabilities": {
+        "value_million": 9734.884,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "其他流动负债                    9,734,884                     5,830,358"
+      },
+      "long_term_borrowings": {
+        "value_million": 76354.823,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "长期借款                  76,354,823                   78,234,935"
+      },
+      "bonds_payable": {
+        "value_million": 52737.747,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "应付债券                  52,737,747                     3,443,434"
+      },
+      "lease_noncurrent": {
+        "value_million": 4064.886,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "租赁负债                    4,064,886                     2,805,081"
+      },
+      "long_payables": {
+        "value_million": 1632.147,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "长期应付款                    1,632,147                     1,639,608"
+      },
+      "provisions": {
+        "value_million": 104110.971,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "预计负债                104,110,971                   85,324,358"
+      },
+      "deferred_income": {
+        "value_million": 27173.538,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "递延收益                  27,173,538                   27,321,553"
+      },
+      "dtl": {
+        "value_million": 530.682,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "递延所得税负债 530,682  922,254"
+      },
+      "other_noncurrent_liabilities": {
+        "value_million": 4172.303,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "其他非流动负债                    4,172,303                     4,484,010"
+      }
+    },
+    "totals": {
+      "assets": {
+        "value_million": 1183173.567,
+        "source": "q3_2026",
+        "page": 7,
+        "column": 0,
+        "excerpt": "资产总计             1,183,173,567                 974,827,544"
+      },
+      "liabilities": {
+        "value_million": 759956.8,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "负债合计                759,956,800                 603,801,220"
+      },
+      "equity": {
+        "value_million": 423216.766,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "所有者权益合计                423,216,766                 371,026,324"
+      },
+      "parent_equity": {
+        "value_million": 386880.99,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "归属于母公司所有者权益合计                386,880,990                 337,107,747"
+      },
+      "minority_equity": {
+        "value_million": 36335.776,
+        "source": "q3_2026",
+        "page": 8,
+        "column": 0,
+        "excerpt": "少数股东权益                  36,335,776                   33,918,577"
+      }
+    },
+    "reported_line_rounding_million": {
+      "assets": -0.0009999996982514858,
+      "liabilities": -0.0010000000474974513
+    }
+  }
+}

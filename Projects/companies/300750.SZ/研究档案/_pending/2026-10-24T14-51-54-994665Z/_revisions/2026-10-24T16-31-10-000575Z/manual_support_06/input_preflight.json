@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-10-24",
+  "scope": "method + actual-input preparation only; no scenario forecasts",
+  "currency": "CNY",
+  "unit": "million",
+  "upstream_hashes": {
+    "01_企业文化.md": "d492e2fd1f65446bca3b3c1da0fe3d5edaf01509cad63421845a2d33aa833689",
+    "02_财务分析.md": "412ee982711b8b877d02d1a708a4964ab44db1fe548f5828d328ff790263ed45",
+    "03_商业模式.md": "aae93d413413fcb854745ba941613931c9b6c2b1a57dee0454276332be0d7bae",
+    "_support/02/handoff.json": "4776c10433d954f773bb79133250a2a26d42b0e78843a9069d0a204fe42880a2"
+  },
+  "04_status": "not consumed; awaiting completed H2/H3/H5 and parent authorization",
+  "base_balance_audit": {
+    "audited_fields": 58,
+    "all_verified": true,
+    "2026_9M_identity_rounding_million": 0.0009999999892897904
+  },
+  "actual_bridges_ready": [
+    "2025_Q4=FY2025-9M2025",
+    "2026_Q3=9M2026-H1_2026"
+  ],
+  "model_calendar": {
+    "2026E": "9M actual + Q4 forecast; do not annualize 9M",
+    "full_forecast_years": [
+      2027,
+      2028,
+      2029,
+      2030,
+      2031
+    ],
+    "valuation_price_date": "2026-10-23",
+    "latest_balance_as_of": "2026-09-30",
+    "balance_to_price_gap_days": 23,
+    "remaining_Q4_days": 69,
+    "full_Q4_days": 92,
+    "stub_warning": "Q4 is 2026-10-01 to 12-31, but valuation price date is 10-23. Either provide modeled remaining-period fraction with an explicit convention, or value at 9/30 then bridge cash to 10/23; 10/1–10/23 actual CFO is undisclosed. No past 9M cash flows enter future DCF.",
+    "cash_asset_for_three_statements_million": 369813.786,
+    "cash_flow_cash_equivalents_million": 333397.571,
+    "unclassified_cash_basis_difference_million": 36416.215
+  },
+  "hard_guards": [
+    "CAS operating profit is not operating EBIT; investment/FV/other income and net finance cost require separate bridges",
+    "FCF proxy is not unlevered FCFF",
+    "Keep consolidated operating value, associate investments, net financing income, minority interest, and parent profit separate; avoid double counting",
+    "Use 4627.250m current total A+H shares only as explicit unweighted proxy; do not use suspect2023 EPS",
+    "Do not assume H1 supplier financing is Q3 actual or add it twice to cash/debt/NWC",
+    "Do not treat reported residual balance categories as prospective plug accounts",
+    "All future drivers and financing/equity policy deferred until04; no weighted forecasts"
+  ],
+  "important_new_fact": "H1 supplier finance57764.224m vs FY202537222.781m; Q3 undisclosed",
+  "method_references_read": [
+    "financial-forecast/SKILL.md",
+    "financial-forecast/references/original.md",
+    "tidestone-research/references/local-runtime.md"
+  ],
+  "method_additional_references": "Original forecast skill names no other actual reference file; no missing file invented",
+  "analyst_snapshot": "Reuse _evidence/valuation_precheck/UOB_20261022 and readme; not a complete rating distribution, analyst price range or independently accessed consensus",
+  "additional_ready_files": [
+    "earnings_classification_inputs.json",
+    "latest_note_inputs.json",
+    "complete_actual_balances.json"
+  ]
+}

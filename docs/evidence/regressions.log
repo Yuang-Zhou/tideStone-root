@@ -1,0 +1,33 @@
+test_accept_messages_use_current_paths_and_only_missing_downstream (test_core.CoreWorkflow) ... ok
+test_add_currency_defaults_override_and_other_requires_explicit_code (test_core.CoreWorkflow) ... ok
+test_change_after_finalize_requires_refinalize (test_core.CoreWorkflow) ... ok
+test_empty_and_unfinalized_cannot_be_accepted (test_core.CoreWorkflow) ... ok
+test_formal_content_hash_and_approval_are_required_on_rescan (test_core.CoreWorkflow) ... ok
+test_interrupted_promotion_restores_previous_files (test_core.CoreWorkflow) ... ok
+test_materials_drafts_and_arbitrary_legacy_names_are_never_formal (test_core.CoreWorkflow) ... ok
+test_missing_material_or_upstream_blocks_finalize (test_core.CoreWorkflow) ... ok
+test_paper_candidate_rejects_missing_or_invalid_currency_rate (test_core.CoreWorkflow) ... ok
+test_paper_existing_holding_without_valid_fx_cannot_write_nav (test_core.CoreWorkflow) ... [paper] 无法运行：持仓 EUROTEST 缺少该币种有效汇率；未生成新净值
+ok
+test_same_batch_upstream_and_stale_baseline (test_core.CoreWorkflow) ... ok
+test_sync_rejects_unaccepted_pending_source (test_core.CoreWorkflow) ... ok
+test_three_year_currency_year_math_and_batch_errors_remain_pending (test_core.CoreWorkflow) ... ok
+test_three_year_sync_records_same_accepted_source_and_retains_missing_queue (test_core.CoreWorkflow) ... ok
+test_tracking_defaults_active_and_can_pause_before_research (test_core.CoreWorkflow) ... ok
+test_unapproved_canonical_file_is_not_complete_or_a_dependency (test_core.CoreWorkflow) ... ok
+test_update_history_event_and_restart (test_core.CoreWorkflow) ... ok
+test_summary_requires_registration_and_matching_content (test_local_views.LocalViews) ... ok
+test_tampered_dossier_and_stale_registration_are_not_published (test_local_views.LocalViews) ... ok
+test_current_total_adds_both_leases_without_double_counting_due_principal (test_render_tables.RenderTablesTests) ... ok
+test_existing_allowance_formula_uses_gross_receivables (test_render_tables.RenderTablesTests) ... ok
+test_incomplete_or_ambiguous_scope_is_not_a_complete_coverage_ratio (test_render_tables.RenderTablesTests) ... ok
+test_missing_lease_is_not_zero (test_render_tables.RenderTablesTests) ... ok
+test_period_record_takes_precedence_over_global_tag_map (test_render_tables.RenderTablesTests) ... ok
+test_project_and_skill_entry_scripts_match (test_render_tables.RenderTablesTests) ... ok
+test_short_borrowings_require_current_long_term_principal (test_render_tables.RenderTablesTests) ... ok
+test_submillion_interest_is_not_zero (test_render_tables.RenderTablesTests) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 15.335s
+
+OK

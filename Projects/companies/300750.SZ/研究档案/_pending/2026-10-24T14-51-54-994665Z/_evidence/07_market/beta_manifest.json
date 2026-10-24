@@ -1,0 +1,92 @@
+[
+  {
+    "file": "_support/07_market/beta_calculate.py",
+    "sha256": "09b3dfd0b756003e56aa147d8027cf5195799c1bdc9284b854896238abe6314a",
+    "bytes": 4819
+  },
+  {
+    "file": "_support/07_market/beta_fetch.py",
+    "sha256": "505a58093d17c4abc20ed85bfb9b5cab06362ff72a6b1f1b3a8b99ec0d7a48dd",
+    "bytes": 1735
+  },
+  {
+    "file": "_support/07_market/beta_fetch_tencent.py",
+    "sha256": "180038bdeefa49467d21dd9e94e7f911b75a909a4e078290dc98ab06cc263294",
+    "bytes": 1611
+  },
+  {
+    "file": "_support/07_market/beta_results.json",
+    "sha256": "e3a8ff664a1ddc77763f675b4da3355c4872cc19a8803b92b31a041602e2bc8c",
+    "bytes": 4696
+  },
+  {
+    "file": "_support/07_market/beta_review.md",
+    "sha256": "42a3fbf3214e9393fd6afe72bc95ed5bb666e1e207ba2deead494f981a15e1c0",
+    "bytes": 4496
+  },
+  {
+    "file": "_support/07_market/beta_weekly_aligned.csv",
+    "sha256": "c38080ada64146c797cfa8981e9da4dc1491019c6609a3430a77a9da7e913132",
+    "bytes": 47849
+  },
+  {
+    "file": "_evidence/07_market/beta_000300.SS_daily.csv",
+    "sha256": "17bf1ed5882949cc606dd495cc097da2bf820fb0e1021f851aafab17ce082ffe",
+    "bytes": 196
+  },
+  {
+    "file": "_evidence/07_market/beta_399300.SZ_daily.csv",
+    "sha256": "17bf1ed5882949cc606dd495cc097da2bf820fb0e1021f851aafab17ce082ffe",
+    "bytes": 196
+  },
+  {
+    "file": "_evidence/07_market/beta_csi300_factsheet.pdf",
+    "sha256": "38e1d50e5cf0018afc0cfe7b46bf25faa21de839d4d0e269ce4084575cb00bbc",
+    "bytes": 457366
+  },
+  {
+    "file": "_evidence/07_market/beta_sources.json",
+    "sha256": "6bb3b4243b0c3fd71c50ec325e2fe4db13d1f6aa19d61c58ceba4b4f4d43b570",
+    "bytes": 4857
+  },
+  {
+    "file": "_evidence/07_market/beta_tencent_csi300_daily.csv",
+    "sha256": "afd0ceaef5b5725e92222b6188fb938c293b0d26102033f92132f4e75a3f0837",
+    "bytes": 68096
+  },
+  {
+    "file": "_evidence/07_market/beta_tencent_sh000300_2021.json",
+    "sha256": "5f6fa4686f655c6219b2b617c2accede283e45b12874210b69b1d4710ca99bca",
+    "bytes": 71062
+  },
+  {
+    "file": "_evidence/07_market/beta_tencent_sh000300_2022.json",
+    "sha256": "ebbfae3f96c3069a98d5954ee976f0cd8fbb77d2466a5444cec081422d013cea",
+    "bytes": 71004
+  },
+  {
+    "file": "_evidence/07_market/beta_tencent_sh000300_2023.json",
+    "sha256": "eef90958a21fa9503a46c6a9b01bfa883da1cf34b3adac98dc75192de2781a3c",
+    "bytes": 70985
+  },
+  {
+    "file": "_evidence/07_market/beta_tencent_sh000300_2024.json",
+    "sha256": "a63cc9f5229a0a50f057799c63285dd40a03f113e1f1105df99e7121eb48c247",
+    "bytes": 71038
+  },
+  {
+    "file": "_evidence/07_market/beta_tencent_sh000300_2025.json",
+    "sha256": "6f797e8b5c8e160ad61bcd32793cc1bcd6cc3d578213ba948d04ad8de6e97cd0",
+    "bytes": 71113
+  },
+  {
+    "file": "_evidence/07_market/beta_tencent_sh000300_2026.json",
+    "sha256": "6f797e8b5c8e160ad61bcd32793cc1bcd6cc3d578213ba948d04ad8de6e97cd0",
+    "bytes": 71113
+  },
+  {
+    "file": "_evidence/07_market/beta_tencent_sources.json",
+    "sha256": "c15e14d2060c7564f16d614ac0d4c646cd34f0be37877ba6385c3893c994a0bb",
+    "bytes": 2492
+  }
+]

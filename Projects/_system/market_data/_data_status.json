@@ -1,0 +1,42 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-10-24T22:41:30+08:00",
+ "generated_by": "market_data_fetcher.py run_one（300750.SZ 单标的入库取数，运行证据见 source_log）",
+ "summary": {
+  "success": 1,
+  "fail": 0
+ },
+ "markets": {
+  "CN": {
+   "max_last_date": "2026-10-23",
+   "tickers": 1
+  }
+ },
+ "tickers": {
+  "300750.SZ": {
+   "last_date": "2026-10-23",
+   "rows": 2030,
+   "last_row": {
+    "date": "2026-10-23",
+    "open": 220.0,
+    "high": 238.0,
+    "low": 216.51,
+    "close": 237.6,
+    "volume": 111479900
+   },
+   "status": "ok",
+   "mode": "full",
+   "first_date": "2018-06-11",
+   "source": "tencent_via_akshare",
+   "adjustment": "qfq",
+   "currency": "CNY",
+   "rows_exclude_header": true,
+   "source_log": "fetch_log/market-300750.SZ-20261024-223943.json",
+   "quality_notes": [
+    "前复权来源最早两个交易日含非正价格，开展对数股价研究前需另核后复权/总回报口径。"
+   ]
+  }
+ },
+ "indices": {},
+ "failures": []
+}

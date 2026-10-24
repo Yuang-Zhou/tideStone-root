@@ -1,0 +1,39 @@
+{
+  "scope": "Arithmetic, schema and source-hash checks only; not research truth assurance",
+  "checks": [
+    {
+      "year": "2021",
+      "check": "pretax-tax=consolidated profit",
+      "difference_million": -3.637978807091713e-12,
+      "pass": true
+    },
+    {
+      "year": "2022",
+      "check": "pretax-tax=consolidated profit",
+      "difference_million": 7.275957614183426e-12,
+      "pass": true
+    },
+    {
+      "year": "2023",
+      "check": "pretax-tax=consolidated profit",
+      "difference_million": 0.0,
+      "pass": true
+    },
+    {
+      "year": "2024",
+      "check": "pretax-tax=consolidated profit",
+      "difference_million": -7.275957614183426e-12,
+      "pass": true
+    },
+    {
+      "year": "2025",
+      "check": "pretax-tax=consolidated profit",
+      "difference_million": 0.0,
+      "pass": true
+    }
+  ],
+  "ttm_recomputed_fields": 17,
+  "handoff_matches_json": true,
+  "report_bytes": 39387,
+  "sha256": "dde67a06053b5558c430cd12d2527595756db282e35c4b5b41b7bc1bed24de63"
+}

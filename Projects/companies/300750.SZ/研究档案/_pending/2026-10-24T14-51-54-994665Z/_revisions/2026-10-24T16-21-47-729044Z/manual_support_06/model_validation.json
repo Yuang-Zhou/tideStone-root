@@ -1,0 +1,1140 @@
+{
+  "check_count": 162,
+  "all_pass": true,
+  "checks": [
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "balance_identity_residual",
+      "value": 0.001000000222120434,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "identity_change_from_rounding",
+      "value": 3.346940502524376e-10,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "cash_roll_error",
+      "value": -6.366462912410498e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "parent_equity_roll_error",
+      "value": -2.091837814077735e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "minority_equity_roll_error",
+      "value": 2.7853275241795927e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "productive_assets_roll_error",
+      "value": 9.094947017729282e-13,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2026_Q4",
+      "check": "associate_roll_error",
+      "value": 1.0231815394945443e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "balance_identity_residual",
+      "value": 0.0009999998728744686,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "identity_change_from_rounding",
+      "value": -1.4551915228366852e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "cash_roll_error",
+      "value": -4.729372449219227e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "parent_equity_roll_error",
+      "value": 3.069544618483633e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "minority_equity_roll_error",
+      "value": -2.0463630789890885e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "productive_assets_roll_error",
+      "value": -9.094947017729282e-13,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2027",
+      "check": "associate_roll_error",
+      "value": 1.000444171950221e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "balance_identity_residual",
+      "value": 0.0009999999310821295,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "identity_change_from_rounding",
+      "value": 4.3655745685100555e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "cash_roll_error",
+      "value": 4.3655745685100555e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "parent_equity_roll_error",
+      "value": -4.547473508864641e-13,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "minority_equity_roll_error",
+      "value": 3.410605131648481e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "productive_assets_roll_error",
+      "value": 3.637978807091713e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2028",
+      "check": "associate_roll_error",
+      "value": -2.7284841053187847e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "balance_identity_residual",
+      "value": 0.0009999998728744686,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "identity_change_from_rounding",
+      "value": -1.4551915228366852e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "cash_roll_error",
+      "value": 2.9103830456733704e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "parent_equity_roll_error",
+      "value": -9.549694368615746e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "minority_equity_roll_error",
+      "value": -1.8189894035458565e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "productive_assets_roll_error",
+      "value": -4.18367562815547e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2029",
+      "check": "associate_roll_error",
+      "value": 9.094947017729282e-13,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "balance_identity_residual",
+      "value": 0.0009999998146668077,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "identity_change_from_rounding",
+      "value": -7.275957614183426e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "cash_roll_error",
+      "value": 3.637978807091713e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "parent_equity_roll_error",
+      "value": 7.389644451905042e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "minority_equity_roll_error",
+      "value": 1.5916157281026244e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "productive_assets_roll_error",
+      "value": 4.638422979041934e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2030",
+      "check": "associate_roll_error",
+      "value": 8.185452315956354e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "balance_identity_residual",
+      "value": 0.0010000000474974513,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "identity_change_from_rounding",
+      "value": 1.6007106751203537e-10,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "cash_roll_error",
+      "value": 1.4551915228366852e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "parent_equity_roll_error",
+      "value": 1.0686562745831907e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "minority_equity_roll_error",
+      "value": 1.1368683772161603e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "productive_assets_roll_error",
+      "value": 1.8189894035458565e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bear",
+      "period": "2031",
+      "check": "associate_roll_error",
+      "value": 1.000444171950221e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "balance_identity_residual",
+      "value": 0.0010000001057051122,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "identity_change_from_rounding",
+      "value": 2.1827872842550278e-10,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "cash_roll_error",
+      "value": 3.2741809263825417e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "parent_equity_roll_error",
+      "value": -9.094947017729282e-12,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "minority_equity_roll_error",
+      "value": 5.684341886080801e-13,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "productive_assets_roll_error",
+      "value": -4.547473508864641e-12,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2026_Q4",
+      "check": "associate_roll_error",
+      "value": 1.0231815394945443e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "balance_identity_residual",
+      "value": 0.0010000005131587386,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "identity_change_from_rounding",
+      "value": 6.257323548197746e-10,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "cash_roll_error",
+      "value": 2.9103830456733704e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "parent_equity_roll_error",
+      "value": 8.640199666842818e-12,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "minority_equity_roll_error",
+      "value": 4.547473508864641e-13,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "productive_assets_roll_error",
+      "value": -1.1368683772161603e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2027",
+      "check": "associate_roll_error",
+      "value": 1.000444171950221e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "balance_identity_residual",
+      "value": 0.0010000000474974513,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "identity_change_from_rounding",
+      "value": 1.6007106751203537e-10,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "cash_roll_error",
+      "value": 9.458744898438454e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "parent_equity_roll_error",
+      "value": 1.2960299500264227e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "minority_equity_roll_error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "productive_assets_roll_error",
+      "value": 2.637534635141492e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2028",
+      "check": "associate_roll_error",
+      "value": -2.7284841053187847e-12,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "balance_identity_residual",
+      "value": 0.001000000280328095,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "identity_change_from_rounding",
+      "value": 3.92901711165905e-10,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "cash_roll_error",
+      "value": -2.9103830456733704e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "parent_equity_roll_error",
+      "value": -5.2295945351943374e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "minority_equity_roll_error",
+      "value": 1.8189894035458565e-12,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "productive_assets_roll_error",
+      "value": 2.546585164964199e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2029",
+      "check": "associate_roll_error",
+      "value": 9.094947017729282e-13,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "balance_identity_residual",
+      "value": 0.0010000000474974513,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "identity_change_from_rounding",
+      "value": 1.6007106751203537e-10,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "cash_roll_error",
+      "value": -8.731149137020111e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "parent_equity_roll_error",
+      "value": -4.229150363244116e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "minority_equity_roll_error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "productive_assets_roll_error",
+      "value": 2.1827872842550278e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2030",
+      "check": "associate_roll_error",
+      "value": 8.185452315956354e-12,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "balance_identity_residual",
+      "value": 0.0009999996982514858,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "identity_change_from_rounding",
+      "value": -1.8917489796876907e-10,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "cash_roll_error",
+      "value": 8.731149137020111e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "parent_equity_roll_error",
+      "value": -2.2737367544323206e-13,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "minority_equity_roll_error",
+      "value": 1.8189894035458565e-12,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "productive_assets_roll_error",
+      "value": 3.728928277269006e-11,
+      "pass": true
+    },
+    {
+      "scenario": "base",
+      "period": "2031",
+      "check": "associate_roll_error",
+      "value": 1.000444171950221e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "balance_identity_residual",
+      "value": 0.0010000001057051122,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "identity_change_from_rounding",
+      "value": 2.1827872842550278e-10,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "cash_roll_error",
+      "value": -2.546585164964199e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "parent_equity_roll_error",
+      "value": 1.0913936421275139e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "minority_equity_roll_error",
+      "value": -1.3642420526593924e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "productive_assets_roll_error",
+      "value": -2.000888343900442e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2026_Q4",
+      "check": "associate_roll_error",
+      "value": 1.0231815394945443e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "balance_identity_residual",
+      "value": 0.0009999998728744686,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "identity_change_from_rounding",
+      "value": -1.4551915228366852e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "cash_roll_error",
+      "value": 5.820766091346741e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "parent_equity_roll_error",
+      "value": -1.1368683772161603e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "minority_equity_roll_error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "productive_assets_roll_error",
+      "value": -1.2732925824820995e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2027",
+      "check": "associate_roll_error",
+      "value": 1.000444171950221e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "balance_identity_residual",
+      "value": 0.000999999581836164,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "identity_change_from_rounding",
+      "value": -3.055902197957039e-10,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "cash_roll_error",
+      "value": -1.0186340659856796e-10,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "parent_equity_roll_error",
+      "value": -5.002220859751105e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "minority_equity_roll_error",
+      "value": -3.637978807091713e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "productive_assets_roll_error",
+      "value": 5.638867150992155e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2028",
+      "check": "associate_roll_error",
+      "value": -2.7284841053187847e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "balance_identity_residual",
+      "value": 0.0010000000474974513,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "identity_change_from_rounding",
+      "value": 1.6007106751203537e-10,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "cash_roll_error",
+      "value": 4.3655745685100555e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "parent_equity_roll_error",
+      "value": -3.524291969370097e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "minority_equity_roll_error",
+      "value": -2.7284841053187847e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "productive_assets_roll_error",
+      "value": -4.547473508864641e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2029",
+      "check": "associate_roll_error",
+      "value": 9.094947017729282e-13,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "balance_identity_residual",
+      "value": 0.0009999999310821295,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "identity_change_from_rounding",
+      "value": 4.3655745685100555e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "cash_roll_error",
+      "value": 2.9103830456733704e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "parent_equity_roll_error",
+      "value": 1.6143530956469476e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "minority_equity_roll_error",
+      "value": 5.4569682106375694e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "productive_assets_roll_error",
+      "value": -1.3642420526593924e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2030",
+      "check": "associate_roll_error",
+      "value": 8.185452315956354e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "balance_identity_residual",
+      "value": 0.0009999993490055203,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "identity_change_from_rounding",
+      "value": -5.384208634495735e-10,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "cash_roll_error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "working_assets_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "liabilities_nonnegative",
+      "value": true,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "parent_equity_roll_error",
+      "value": 7.73070496506989e-12,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "minority_equity_roll_error",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "productive_assets_roll_error",
+      "value": 8.549250196665525e-11,
+      "pass": true
+    },
+    {
+      "scenario": "bull",
+      "period": "2031",
+      "check": "associate_roll_error",
+      "value": 1.000444171950221e-11,
+      "pass": true
+    }
+  ]
+}

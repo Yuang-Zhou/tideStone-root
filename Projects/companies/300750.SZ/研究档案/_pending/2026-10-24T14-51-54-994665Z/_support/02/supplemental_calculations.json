@@ -1,0 +1,116 @@
+{
+  "Q3_standalone": {
+    "revenue": 165220.84399999998,
+    "cost_of_sales": 131040.12299999996,
+    "net_profit_parent": 21246.061,
+    "net_profit": 22467.814999999995,
+    "operating_cash_flow": 1408.6359999999986,
+    "cash_paid_for_long_lived_assets": 17094.7,
+    "gross_margin": 0.20687898798047555,
+    "fcf_proxy": -15686.064000000002
+  },
+  "Q3_formula_inputs": {
+    "revenue": {
+      "formula": "2026_9M - 2026H1",
+      "inputs": [
+        442137.424,
+        276916.58
+      ],
+      "source_H1_page": 77,
+      "result": 165220.84399999998
+    },
+    "cost_of_sales": {
+      "formula": "2026_9M - 2026H1",
+      "inputs": [
+        341695.013,
+        210654.89
+      ],
+      "source_H1_page": 77,
+      "result": 131040.12299999996
+    },
+    "net_profit_parent": {
+      "formula": "2026_9M - 2026H1",
+      "inputs": [
+        64530.063,
+        43284.002
+      ],
+      "source_H1_page": 78,
+      "result": 21246.061
+    },
+    "net_profit": {
+      "formula": "2026_9M - 2026H1",
+      "inputs": [
+        69498.453,
+        47030.638
+      ],
+      "source_H1_page": 78,
+      "result": 22467.814999999995
+    },
+    "operating_cash_flow": {
+      "formula": "2026_9M - 2026H1",
+      "inputs": [
+        61625.487,
+        60216.851
+      ],
+      "source_H1_page": 81,
+      "result": 1408.6359999999986
+    },
+    "cash_paid_for_long_lived_assets": {
+      "formula": "2026_9M - 2026H1",
+      "inputs": [
+        42167.472,
+        25072.772
+      ],
+      "source_H1_page": 81,
+      "result": 17094.7
+    }
+  },
+  "2025_ocf_less_netprofit": 56433.672999999995,
+  "2025_working_capital_cf_bridge": {
+    "inputs": [
+      -39837.988,
+      -16911.542,
+      89965.735
+    ],
+    "source": "2025年报p201",
+    "result": 33216.205
+  },
+  "2025_inventory_reserve_ratio": 0.0754718909581094,
+  "2024_inventory_reserve_ratio": 0.0919524853562995,
+  "2025_inventory_finished_plus_delivered_pct": 0.6477249698286494,
+  "2024_inventory_finished_plus_delivered_pct": 0.5917707788319357,
+  "2025_receivables_older_1y_ratio": 0.036743458316345116,
+  "2024_receivables_older_1y_ratio": 0.032921210699552214,
+  "2025_depreciation_gross_ratio": 0.09992797339508165,
+  "2024_depreciation_gross_ratio": 0.12043235817472517,
+  "cash_capex_output_2023_2025": 0.8876190466324412,
+  "10pct_revenue_sensitivity": 0.12435236055205305,
+  "2pt_margin_sensitivity_profit": 8474.03668,
+  "2025_net_cash_after_supplier_finance_reclassification": 143105.76299999998,
+  "dupont": {
+    "2022": {
+      "net_margin": 0.10181909825723759,
+      "asset_turnover": 0.7232820589109162,
+      "equity_multiplier": 3.3711078815505378,
+      "roe": 0.24826162281876268
+    },
+    "2023": {
+      "net_margin": 0.11663518571528932,
+      "asset_turnover": 0.6083162769645668,
+      "equity_multiplier": 3.3219403443937177,
+      "roe": 0.2356952615662189
+    },
+    "2024": {
+      "net_margin": 0.1491848650088527,
+      "asset_turnover": 0.4814553206563309,
+      "equity_multiplier": 3.0482592564458546,
+      "roe": 0.21894380303050034
+    },
+    "2025": {
+      "net_margin": 0.18122722829658555,
+      "asset_turnover": 0.4810732689316853,
+      "equity_multiplier": 2.733178437686604,
+      "roe": 0.23828826768232889
+    }
+  }
+}

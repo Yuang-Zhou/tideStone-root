@@ -1,0 +1,39 @@
+[
+  {
+    "id": "huada_2026_inquiry",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441536.PDF",
+    "published": "2026-07-25",
+    "retrieved": "2026-10-24",
+    "file": "huada_2026_inquiry.pdf",
+    "sha256": "a262868ef24d3d6748ba986cc4a55d6bc5b7ea6ad0ba03acb56d77dee572089c",
+    "physical_pages": [
+      28
+    ],
+    "page_count": 46
+  },
+  {
+    "id": "calb_2025h1",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0926/2025092602695_c.pdf",
+    "published": "2025-09-26",
+    "retrieved": "2026-10-24",
+    "file": "calb_2025h1.pdf",
+    "sha256": "7871bd68edb3c758508cf2a01710cfdb71c7b047b7c0bc572422533f8df9f953",
+    "physical_pages": [
+      52,
+      53
+    ],
+    "page_count": 58
+  },
+  {
+    "id": "catl_esg2023",
+    "url": "https://www.catl.com/uploads/1/file/public/202403/20240325205418_7hedp0r5ht.pdf",
+    "published": "2024-03",
+    "retrieved": "2026-10-24",
+    "file": "catl_esg2023.pdf",
+    "sha256": "0561c9cde610ae19a9ab2c9577a1e8c0985a46cc1c86ddc4f65f8adce5ff1dac",
+    "physical_pages": [
+      8
+    ],
+    "page_count": 135
+  }
+]

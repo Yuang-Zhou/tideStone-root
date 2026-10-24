@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-10-24T22:32:42.348828+08:00",
+  "finished_at": "2026-10-24T22:32:53.714920+08:00",
+  "ticker": "300750.SZ",
+  "probe": false,
+  "steps": [
+    {
+      "name": "定期报告",
+      "status": "failed",
+      "returncode": 1,
+      "output": "[fetch_raw_filings v1.2] 300750.SZ A股 → None\n  FAIL 东方财富列表失败：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain \n  FAIL 深交所列表失败：<urlopen error EOF occurred in violation of protocol (_ssl.c:1007)>\n  清单：/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/MANIFEST.md\n  [WARN] 一份都没拿到——渠道可能在当前网络不可达，去 MANIFEST 看失败原因，或换个能联网的机器跑\n\n"
+    },
+    {
+      "name": "电话会纪要",
+      "status": "not_applicable",
+      "detail": "原来源脚本仅适用美国上市公司"
+    },
+    {
+      "name": "SEC 财务底稿",
+      "status": "not_applicable",
+      "detail": "原来源脚本仅适用美国上市公司"
+    }
+  ]
+}

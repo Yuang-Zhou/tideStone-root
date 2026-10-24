@@ -1,0 +1,81 @@
+[
+  {
+    "id": "annual_2025",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+    "published_at": "2026-03-10",
+    "retrieved_at": "2026-10-24T22:35:25.666359+08:00",
+    "source_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/OFFICIAL/annual_2025.pdf",
+    "source_sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+    "source_hash_matches_catalog": true,
+    "physical_pages": [
+      111,
+      112,
+      113,
+      116,
+      117,
+      120,
+      121,
+      201,
+      202,
+      203
+    ],
+    "extract_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_support/06/source_extracts/annual_2025.txt",
+    "extract_sha256": "4c6d1e1075f0f0bdfee905b1d628640150cea5599a75a767cae5ae01859bd871"
+  },
+  {
+    "id": "q3_2026",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF",
+    "published_at": "2026-10-21",
+    "retrieved_at": "2026-10-24T22:36:25.047108+08:00",
+    "source_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/OFFICIAL/q3_2026.pdf",
+    "source_sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3",
+    "source_hash_matches_catalog": true,
+    "physical_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "extract_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_support/06/source_extracts/q3_2026.txt",
+    "extract_sha256": "698af60cc8b2a32c162f01d2f75e6738daee05be6302231f3aad01492848ca46"
+  },
+  {
+    "id": "interim_2026",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+    "published_at": "2026-07-25",
+    "retrieved_at": "2026-10-24T22:35:25.666264+08:00",
+    "source_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/OFFICIAL/interim_2026.pdf",
+    "source_sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9",
+    "source_hash_matches_catalog": true,
+    "physical_pages": [
+      72,
+      73,
+      74,
+      77,
+      78,
+      81,
+      82,
+      127,
+      128,
+      131,
+      141,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      152,
+      156,
+      157,
+      158
+    ],
+    "extract_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_support/06/source_extracts/interim_2026.txt",
+    "extract_sha256": "d8f30f3100675291a1ebf1a67043bda8cc30c43730a52372698abe6457dcde8c"
+  }
+]

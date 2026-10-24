@@ -1,0 +1,28 @@
+[
+  {
+    "file": "eve_q3_2025.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2025-10-24/1224728971.pdf",
+    "retrieved_utc": "2026-10-24T15:50:49.529424+00:00",
+    "sha256": "54e47aa60b444837839cf69605b88aff6f0e7cb7a12410ff0f342a158c0dd8a6",
+    "bytes": 576496
+  },
+  {
+    "file": "fx_cny_hkd_20261023.html",
+    "url": "https://hk.investing.com/currencies/cny-hkd-historical-data",
+    "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '30', 'https://hk.investing.com/currencies/cny-hkd-historical-data', '-o', 'Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/07_market/fx_cny_hkd_20261023.html']' returned non-zero exit status 56."
+  },
+  {
+    "file": "sdi_ir_shares.html",
+    "url": "https://ir.gsifn.io/samsungsdi/ir3_stock_listing.html?koreng=1",
+    "retrieved_utc": "2026-10-24T15:50:48.598353+00:00",
+    "sha256": "91b017a61940bdeb9609bf738873739e1c749ba2f0590320cdc3f192659edd06",
+    "bytes": 1969
+  },
+  {
+    "file": "lges_krx_shares_20260108.html",
+    "url": "https://kind.krx.co.kr/external/2026/01/08/000003/20260108000010/00634.htm",
+    "retrieved_utc": "2026-10-24T15:50:49.529108+00:00",
+    "sha256": "5182e6fcad898cf8d2d5521d7a20f1024ecd62988e564a308badfd29e751fab1",
+    "bytes": 18509
+  }
+]

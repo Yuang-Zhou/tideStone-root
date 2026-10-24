@@ -1,0 +1,476 @@
+检索日期2026-10-24，定点查找返回的页面文本，非原HTML。
+
+CATL Statement Regarding May 21, 2026 U.S. Congressional Report (https://www.catl.com/en/news/6832.html)
+citeturn61view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"https://www.catl.com/en/news/6832.html","pattern":"reconsideration"}); Total lines: 213
+L0: 【0†iframe†www.googletagmanager.com】
+L1: 
+L2: 【1†Image】 【2†Image】
+L3: 
+L4: Worldwide
+L5: 
+L6: Select a Country or Region
+L7: 
+L8: 【3†简体中文】
+L9: 
+L10: 【4†English】
+L11: 
+L12: 【5†Français】
+L13: 
+L14: 【6†Deutsch】
+L15: 
+L16: 【7†Magyar】
+L17: 
+L18: 【8†Bahasa Indonesia】
+L19: 
+L20: 【9†Italiano】
+L21: 
+L22: 【10†日本語】
+L23: 
+L24: 【11†한국어】
+L25: 
+L26: 【12†Español】
+L27: 
+L28: [Input: Search...] [Input]
+L29: 
+L30:   * 【4†Home】
+L31:   * Solution
+L32: 
+L33: ## Solution
+L34: 
+L35:     * 【13†Passenger Vehicles】
+L36:     * 【14†Commercial Application】
+L37:     * 【15†Energy Storage System】
+L38:     * 【16†Battery Recycling】
+L39: ## Service Center
+L40: 
+L41:     * 【17†Service Network】
+L42:     * 【18†Contact Us】
+L43:     * 【19†Feedback】
+L44: 
+L45:   * R&D
+L46: 
+L47: ## R&D
+L48: 
+L49:     * 【20†Innovative Concept】
+L50:     * 【21†Innovative Technology】
+L51: 
+L52: 【22†Image】 【23†Image】
+L53: 
+L54:   * 【24†News】
+L55:   * Brands
+L56: 
+L57: ## Brands
+L58: 
+L59:     * 【25†Technology Brand】
+L60:     * 【26†Service Brand】
+L61: 
+L62: 【22†Image】 【23†Image】
+L63: 
+L64:   * About Us
+L65: ## About Us
+L66: 
+L67:     * 【27†Corporate Culture】
+L68:     * 【28†Corporate Strategies】
+L69:     * 【29†Company Profile】
+L70:     * 【30†Sustainability】
+L71:     * 【31†About GECC】
+L72: 
+L73: 【22†Image】 【23†Image】
+L74: 
+L75:   * 【32†Contact Us】
+L76: 
+L77: /
+L78: * Solution
+L79: * R&D
+L80: * 【24†News】
+L81: * Brands
+L82: * About Us
+L83: * 【32†Contact Us】
+L84: 
+L85:   * #### 【4†Home】
+L86: 
+L87:   * #### Solution
+L88: 
+L89:     * ##### 【13†Passenger Vehicles】
+L90: 
+L91:     * ##### 【14†Commercial Application】
+L92: 
+L93:     * ##### 【15†Energy Storage System】
+L94: 
+L95:     * ##### 【16†Battery Recycling】
+L96: 
+L97:   * #### R&D
+L98: 
+L99:     * ##### 【20†Innovative Concept】
+L100:     * ##### 【21†Innovative Technology】
+L101: 
+L102:   * #### 【24†News】
+L103: 
+L104:   * #### Brands
+L105: 
+L106:     * ##### 【25†Technology Brand】
+L107: 
+L108:     * ##### 【26†Service Brand】
+L109: 
+L110:   * #### 【33†Smart Manufacturing】
+L111: 
+L112:   * #### 【34†After-market Service†support.catl.com】
+L113: 
+L114:   * #### 【35†Investor Relation】
+L115: 
+L116:   * #### About Us
+L117: 
+L118:     * ##### 【27†Corporate Culture】
+L119: 
+L120:     * ##### 【28†Corporate Strategies】
+L121: 
+L122:     * ##### 【29†Company Profile】
+L123: 
+L124:     * ##### 【30†Sustainability】
+L125: 
+L126:     * ##### 【31†About GECC】
+L127: 
+L128:   * #### 【18†Contact Us】
+L129: 
+L130:   * #### 【32†Contact Us】
+L131:   * #### 【36†B2B Privacy Policy】
+L132: 
+L133:   * #### 【37†Suppliers†nsrm.catl.com】
+L134: 
+L135: 【2†Image】
+L136: 
+L137: Worldwide
+L138: 
+L139: Back to Main Menu
+L140: 
+L141: Select a Country or Region
+L142: 
+L143: 【3†简体中文】
+L144: 
+L145: 【4†English】
+L146: 
+L147: 【5†Français】
+L148: 
+L149: 【6†Deutsch】
+L150: 
+L151: 【7†Magyar】
+L152: 
+L153: 【8†Bahasa Indonesia】
+L154: 
+L155: 【9†Italiano】
+L156: 
+L157: 【10†日本語】
+L158: 
+L159: 【11†한국어】
+L160: 
+L161: 【12†Español】
+L162: 
+L163: 返回列表
+L164: # CATL Statement Regarding May 21, 2026 U.S. Congressional Report
+L165: 
+L166: 2026-06-05
+L167: 
+L168: CATL is aware of the report from the Select Committee on the Strategic Competition between the United States and the Chinese Communist Party, issued on May 21, 2026, titled "Bankrolling Beijing: U.S. Banks Raised Billions for a Chinese Military Company". The report was addressed to two banks, JPMorgan and Bank of America.
+L169: We took the specific allegations seriously and carried out a detailed review. After careful examination, we arrived at the conclusion that these allegations are not true or reflect misunderstandings.
+L170: 
+L171: As previously stated, CATL has never engaged in any military-related business or activities, nor has it used forced labor or has any connection thereto. CATL follows the highest business and ethical standards and adheres to the laws and regulations in all regions where CATL operates.
+L172: For more than a decade, our battery solutions have helped millions of American families and small businesses manage power outages caused by severe weather and grid instability. As a global leader of new energy technology, CATL intends to continue our efforts to deliver affordable, reliable energy for American workers and families.
+L173: Regarding the Report's suggestion that CATL did not respond to being included in the 1260H List amounts to a default admission, CATL has already filed an administrative reconsideration request with the U.S. government and will continue to pursue the removal from the list actively.
+L174: CATL is committed to advancing a sustainable, green energy future through transparent collaboration with partners worldwide. We have established rigorous internal control system of procurement and partnership to protect our products and the trust placed in us.
+L175: 
+L176: Return to list
+L177: 
+L178: 【38†Previous： What Can 3,300 Pure Electric Buses Do for the Urban Power Grid?】
+L179: 
+L180: 【39†Next： CATL Receives National-Level Carbon Footprint Label Certification】
+L181: 
+L182: 【40†Image】
+L183:   * Solution
+L184:     * 【13†Passenger Vehicles】
+L185:     * 【14†Commercial Application】
+L186:     * 【15†Energy Storage System】
+L187:     * 【16†Battery Recycling】
+L188:   * R&D
+L189:     * 【20†Innovative Concept】
+L190:     * 【21†Innovative Technology】
+L191:   * Brands
+L192:     * 【25†Technology Brand】
+L193:     * 【26†Service Brand】
+L194:   * About Us
+L195:     * 【27†Corporate Culture】
+L196:     * 【28†Corporate Strategies】
+L197:     * 【29†Company Profile】
+L198:     * 【30†Sustainability】
+L199:     * 【31†About GECC】
+L200:   * 【24†News】 【33†Smart Manufacturing】 【34†After-market Service†support.catl.com】 【35†Investor Relation】 【18†Contact Us】 【37†Suppliers†nsrm.catl.com】 【18†Enquiry】 Service
+L201: Copyright © 2020-2023 Contemporary Amperex Technology Co., Limited. All Rights Reserved.【41†闽ICP备14008486号-3†beian.miit.gov.cn】【42†闽公网安备 35090202000349号†www.beian.gov.cn】
+L202: 
+L203: 
+L204: 
+L205: 【43†Privacy Policy】
+L206: 
+L207: 【36†B2B Privacy Policy】
+L208: 
+L209: 【44†Legal】
+L210: By clicking on the button “I accept” or by further usage of this website you express consent with usage of cookies as well as you grant us the permission to collect and process personal data about your activity on this website. Such information are used to determine personalised content and display of the relevant advertisement on social networks and other websites. More information about personal data processing can be found on this link. 【45†Read More】
+L211: 
+L212: [Button: I Accept]
+--------------------------------------------------------------------------------
+CATL Launches Battery Swap Ecosystem with Nearly 100 Partners (https://www.catl.com/en/news/6342.html)
+citeturn61view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"https://www.catl.com/en/news/6342.html","pattern":"1,000"}); Total lines: 255
+L0: 【0†iframe†www.googletagmanager.com】
+L1: 
+L2: 【1†Image】 【2†Image】
+L3: 
+L4: Worldwide
+L5: 
+L6: Select a Country or Region
+L7: 
+L8: 【3†简体中文】
+L9: 
+L10: 【4†English】
+L11: 
+L12: 【5†Français】
+L13: 
+L14: 【6†Deutsch】
+L15: 
+L16: 【7†Magyar】
+L17: 
+L18: 【8†Bahasa Indonesia】
+L19: 
+L20: 【9†Italiano】
+L21: 
+L22: 【10†日本語】
+L23: 
+L24: 【11†한국어】
+L25: 
+L26: 【12†Español】
+L27: 
+L28: [Input: Search...] [Input]
+L29: 
+L30:   * 【4†Home】
+L31:   * Solution
+L32: 
+L33: ## Solution
+L34: 
+L35:     * 【13†Passenger Vehicles】
+L36:     * 【14†Commercial Application】
+L37:     * 【15†Energy Storage System】
+L38:     * 【16†Battery Recycling】
+L39: ## Service Center
+L40: 
+L41:     * 【17†Service Network】
+L42:     * 【18†Contact Us】
+L43:     * 【19†Feedback】
+L44: 
+L45:   * R&D
+L46: 
+L47: ## R&D
+L48: 
+L49:     * 【20†Innovative Concept】
+L50:     * 【21†Innovative Technology】
+L51: 
+L52: 【22†Image】 【23†Image】
+L53: 
+L54:   * 【24†News】
+L55:   * Brands
+L56: 
+L57: ## Brands
+L58: 
+L59:     * 【25†Technology Brand】
+L60:     * 【26†Service Brand】
+L61: 
+L62: 【22†Image】 【23†Image】
+L63: 
+L64:   * About Us
+L65: ## About Us
+L66: 
+L67:     * 【27†Corporate Culture】
+L68:     * 【28†Corporate Strategies】
+L69:     * 【29†Company Profile】
+L70:     * 【30†Sustainability】
+L71:     * 【31†About GECC】
+L72: 
+L73: 【22†Image】 【23†Image】
+L74: 
+L75:   * 【32†Contact Us】
+L76: 
+L77: /
+L78: * Solution
+L79: * R&D
+L80: * 【24†News】
+L81: * Brands
+L82: * About Us
+L83: * 【32†Contact Us】
+L84: 
+L85:   * #### 【4†Home】
+L86: 
+L87:   * #### Solution
+L88: 
+L89:     * ##### 【13†Passenger Vehicles】
+L90: 
+L91:     * ##### 【14†Commercial Application】
+L92: 
+L93:     * ##### 【15†Energy Storage System】
+L94: 
+L95:     * ##### 【16†Battery Recycling】
+L96: 
+L97:   * #### R&D
+L98: 
+L99:     * ##### 【20†Innovative Concept】
+L100:     * ##### 【21†Innovative Technology】
+L101: 
+L102:   * #### 【24†News】
+L103: 
+L104:   * #### Brands
+L105: 
+L106:     * ##### 【25†Technology Brand】
+L107: 
+L108:     * ##### 【26†Service Brand】
+L109: 
+L110:   * #### 【33†Smart Manufacturing】
+L111: 
+L112:   * #### 【34†After-market Service†support.catl.com】
+L113: 
+L114:   * #### 【35†Investor Relation】
+L115: 
+L116:   * #### About Us
+L117: 
+L118:     * ##### 【27†Corporate Culture】
+L119: 
+L120:     * ##### 【28†Corporate Strategies】
+L121: 
+L122:     * ##### 【29†Company Profile】
+L123: 
+L124:     * ##### 【30†Sustainability】
+L125: 
+L126:     * ##### 【31†About GECC】
+L127: 
+L128:   * #### 【18†Contact Us】
+L129: 
+L130:   * #### 【32†Contact Us】
+L131:   * #### 【36†B2B Privacy Policy】
+L132: 
+L133:   * #### 【37†Suppliers†nsrm.catl.com】
+L134: 
+L135: 【2†Image】
+L136: 
+L137: Worldwide
+L138: 
+L139: Back to Main Menu
+L140: 
+L141: Select a Country or Region
+L142: 
+L143: 【3†简体中文】
+L144: 
+L145: 【4†English】
+L146: 
+L147: 【5†Français】
+L148: 
+L149: 【6†Deutsch】
+L150: 
+L151: 【7†Magyar】
+L152: 
+L153: 【8†Bahasa Indonesia】
+L154: 
+L155: 【9†Italiano】
+L156: 
+L157: 【10†日本語】
+L158: 
+L159: 【11†한국어】
+L160: 
+L161: 【12†Español】
+L162: 
+L163: 返回列表
+L164: # CATL Launches Battery Swap Ecosystem with Nearly 100 Partners
+L165: 
+L166: 2024-12-18
+L167: 
+L168: On December 18, 2024, CATL unveiled two standardized battery models, #20 and #25, at the Choco-Swap ecosystem conference held in the coastal city of Xiamen. Jointly launched by CATL in collaboration with nearly 100 partners, the Choco-Swap ecosystem marked a historic step toward the standardization of electric vehicle battery swapping.
+L169: 
+L170: 【38†Image: 图片1.jpg】
+L171: As a global leader in innovative new energy technology, CATL has been continuously exploring a new energy ecosystem where everyone can enjoy electrification and participate in sustainable development. This conference aims to create a public service platform by collaborating with automakers, financial institutions, insurance companies, e-commerce platforms, and other interested parties in the ecosystem, giving users an "easier, safer, and more cost-effective" electric travel experience.
+L172: Redefining Standardization: Introducing the #20 and #25 Standard Choco-Swap Batteries
+L173: 
+L174: "We will continue to promote the standardization of battery swapping, with the key being the standardization of battery dimensions," said Robin Zeng, founder, chairman, and CEO of CATL, in his opening remarks at the conference. He announced the launch of two standard Choco-Swap batteries named #20 and #25, analogous to #92 and #95 gasoline at gas stations.
+L175: 
+L176: 【39†Image: 图片2.jpg】
+L177: These two standard battery models offer various capacities depending on their chemical systems. Each model comes with lithium iron phosphate (LFP) and NMC versions with different energy densities to meet user needs.
+L178: According to Yang Jun, CEO of CATL's battery swapping arm CAES, the #20 LFP version battery pack offers 42 kWh capacities and a range of 400km, the NMC version offers 52kWh capacities and a range of 500 km; while the #25 LFP version battery pack offers 56 kWh capacities and a range of 500 km, the NMC version offers 70 kWh capacities and a range of 600 km. These two standardized batteries are suitable for A0-class and A/B-class vehicles respectively.
+L179: Need-based energy use is the advantage of Choco-Swap. Yang Jun pointed out that users will shift from the traditional mode of purchasing the entire battery packs to paying according to usage, and each battery will maximize its value.
+L180: 
+L181: At the ecosystem conference, Robin Zeng announced that all new battery technologies in CATL will be applied to Choco-Swap models in the future.
+L182: This standardization is expected to significantly reduce the development costs of battery swappable vehicles, shorten new vehicle development cycles by more than six months, and break the "quality, performance, and cost" trilemma.
+L183: 
+L184: Will standardization lead to homogenization?
+L185: "We are addressing the challenges faced by the electric vehicle industry as the industry goes into uncharted waters," said Yang Jun. "The simpler the solutions we provide, the better our automotive partners can leverage their strengths in intelligence and personalization to create value for users."
+L186: "We are excited at CATL's announcement of a universal battery swap solution," said Lu Mei, general manager of China Automotive Technology & Research Center Co. Ltd (CATARC). "We hope that this will serve as an opportunity for CATARC to drive the development of crucial standards in priority areas, laying a solid foundation for the improvement and promotion of the battery swap ecosystem."
+L187: 
+L188: New Infrastructure: The Collaborative Ecosystem Plans to Build 30,000 Battery Swap Stations
+L189: CATL has a clear timetable for the construction of the battery swap network: by 2025, it will build 1,000 Choco-Swap stations and will expand into Hong Kong and Macau. In its mid-term plan, CATL will build 10,000 stations together with its partners. As the battery swap ecosystem expands, and through the joint efforts of the whole society, there will be 30,000 Choco-Swap stations in the future.
+L190: In his opening remarks at the conference, Robin Zeng predicted that by 2030, battery swapping, home charging piles, and public charging piles will each account for a third of the market.
+L191: 
+L192: Yang Jun explained that given the existence of 100,000 gas stations in China now and assuming a one-third market share for battery swapping, 30,000 battery swap stations will be needed in the electric vehicle era.
+L193: CATL's standard battery swap stations are compatible with vehicles with wheelbases ranging from 2.55 meters to 3.1 meters, "making them the battery swap stations with the highest wheelbase compatibility in the industry," said Yang Jun. Each standard battery swap station is equipped with 14-30 battery compartments, achieving the highest space utilization rate in the industry.
+L194: Such stations ensure a 99.99% success rate for battery swap operations, and each operation requires only 100 seconds. In practice, swapping batteries becomes as easy as refueling but at a significantly reduced cost.
+L195: 
+L196: The 30,000 battery swap stations will combine energy storage, charging, and swapping, and support B2G (battery-to-grid), serving as 30,000 distributed energy storage units.
+L197: With a cloud-based dispatching platform as a "brain," CATL can connect these energy storage units to power grids and park photovoltaic systems, enable participation interaction with power grids, intelligently charge batteries during off-peak hours to reduce cost, and provide a second-level response to grid peak load and frequency regulation. Swapping batteries aims to maximize the use of green energy during charging, which ensures grid stability and increases the consumption of green energy.
+L198: Estimates show that 30,000 battery swap stations, each with 14-30 battery packs, can store a total of 33.6 million kWh of electricity. Combined with the 1.12 billion kWh of electricity stored by the 20 million vehicles, which the 30,000 battery swap stations can serve, these distributed energy storages can respond to grid demands at any time.
+L199: CATL maintains the world's largest battery database, which allows queries about the historical and real-time data of each swappable battery and even each individual cell. Combined with large-model technology for battery degradation monitoring, this ensures optimal battery usage. The entire system maximizes the value of each battery cycle.
+L200: There are nine advantages of Choco-Swap, making batteries chargeable, swappable, upgradeable, leasable, purchasable, buy-backable, visible, manageable, and optimizable. Users can choose between charging, battery swapping, and battery upgrades, as well as leasing, outright purchase, or buyback services. The swappable batteries and assets within the swap stations are "visible, manageable, and optimizable."
+L201: 
+L202: Choco-Swap Ecosystem: Already Nearly 100 Partners
+L203: Battery swapping offers convenience to users by separating vehicle and battery. However, battery swapping requires greater collaboration across the industry.
+L204: 
+L205: "Battery swapping is not only CATL's endeavor but also the endeavor of everyone who wants to promote sustainable development. We hope to bring together more forces through the Choco-Swap ecosystem to jointly promote the prosperous development of the battery swapping industry," said Robin Zeng at the event.
+L206: To this end, CATL is collaborating with automakers, financial institutions, insurance companies, and other interested parties to unlock the battery-swapping model, allowing consumers to buy, use and replace cars without any worries.
+L207: CATL has officially announced collaborations with Changan, GAC, BAIC, Wuling, and FAW. Ten battery swap models were jointly launched at the conference and will be marketed starting at the end of this year. More models will come to the market. Choco-Swap is the first brand featuring standardized battery swapping to achieve cross-brand, cross-vehicle, and cross-industry service capabilities.
+L208: Related transactions will also be as seamless as battery swapping operations. The Choco-Swap ecosystem has fully considered the entry and exit mechanisms for various transaction scenarios. Partners of the ecosystem specialize in vehicle marketing, battery leasing and sales, battery insurance, and battery testing.
+L209: In the future, consumers will be able to purchase vehicles, maintain vehicles, and subscribe batteries on e-commerce platforms like JD.com. Insurance companies such as PICC, China Life, and CUPI will provide specialized battery insurance, reducing battery insurance premiums from 2,000 yuan to 500 yuan per unit.
+L210: Financial institutions such as China Development Bank Leasing and CMB Financial Leasing will offer innovative financial products and services, shifting from financing entire vehicles to vehicles without batteries, resulting in lower purchase cost and safer assets.
+L211: Consumers will also be able to assess battery value on assessment platforms like Chaboshi, sell vehicles without batteries directly on used car platforms like UXIN, and enter into long- or short-term rentals of battery swap vehicles on car rental platforms such as Shenzhou.
+L212: 
+L213: As of the conference date, the number of partners in the Choco-Swap ecosystem has increased to nearly 100. CATL has signed subscription agreements with 30 companies for 107,500 battery packs.
+L214: 
+L215: 【40†Image: 图片3.jpg】
+L216: CATL announced the initial rents for the LFP version of swappable battery packs: The monthly rent of the #25 battery packs is 599 yuan for unlimited mileage or 499 yuan for the family plan. The monthly rent of the #20 battery packs is 469 yuan for unlimited mileage or 369 yuan for the family plan.
+L217: 
+L218: Return to list
+L219: 
+L220: 【41†Previous： CATL Engages in Strategic Cooperation with Xiamen R&B Group】
+L221: 
+L222: 【42†Next： ​CATL Batteries on 75% New Luxury Models in 2024】
+L223: 
+L224: 【43†Image】
+L225:   * Solution
+L226:     * 【13†Passenger Vehicles】
+L227:     * 【14†Commercial Application】
+L228:     * 【15†Energy Storage System】
+L229:     * 【16†Battery Recycling】
+L230:   * R&D
+L231:     * 【20†Innovative Concept】
+L232:     * 【21†Innovative Technology】
+L233:   * Brands
+L234:     * 【25†Technology Brand】
+L235:     * 【26†Service Brand】
+L236:   * About Us
+L237:     * 【27†Corporate Culture】
+L238:     * 【28†Corporate Strategies】
+L239:     * 【29†Company Profile】
+L240:     * 【30†Sustainability】
+L241:     * 【31†About GECC】
+L242:   * 【24†News】 【33†Smart Manufacturing】 【34†After-market Service†support.catl.com】 【35†Investor Relation】 【18†Contact Us】 【37†Suppliers†nsrm.catl.com】 【18†Enquiry】 Service
+L243: Copyright © 2020-2023 Contemporary Amperex Technology Co., Limited. All Rights Reserved.【44†闽ICP备14008486号-3†beian.miit.gov.cn】【45†闽公网安备 35090202000349号†www.beian.gov.cn】
+L244: 
+L245: 
+L246: 
+L247: 【46†Privacy Policy】
+L248: 
+L249: 【36†B2B Privacy Policy】
+L250: 
+L251: 【47†Legal】
+L252: By clicking on the button “I accept” or by further usage of this website you express consent with usage of cookies as well as you grant us the permission to collect and process personal data about your activity on this website. Such information are used to determine personalised content and display of the relevant advertisement on social networks and other websites. More information about personal data processing can be found on this link. 【48†Read More】
+L253: 
+L254: [Button: I Accept]
+

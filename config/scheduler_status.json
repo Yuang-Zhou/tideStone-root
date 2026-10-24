@@ -1,0 +1,10 @@
+{
+  "status": "已加载；最近一次宿主任务退出成功（详见运行日志）",
+  "installed_at": "2026-10-24T00:21:22+08:00",
+  "schedule": "每天本机时间 08:30",
+  "service": "gui/501/local.tidestone.daily",
+  "login_registration": "/Users/yuangzhou/Library/LaunchAgents/local.tidestone.daily.plist",
+  "config_in_project": "/Users/yuangzhou/Desktop/tideStone-root/config/local.tidestone.daily.plist",
+  "checked_at": "2026-10-24T00:56:48+08:00",
+  "loaded": true
+}

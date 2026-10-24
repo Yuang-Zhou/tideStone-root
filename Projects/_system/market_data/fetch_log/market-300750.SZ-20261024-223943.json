@@ -1,0 +1,76 @@
+{
+  "ticker": "300750.SZ",
+  "started_at": "2026-10-24T22:39:43.821468+08:00",
+  "finished_at": "2026-10-24T22:40:13.456572+08:00",
+  "requested_start": "2018-06-11",
+  "requested_end": "2026-10-23",
+  "adjustment": "前复权（baostock adjustflag=2；腾讯/东财 adjust=qfq）",
+  "ok": true,
+  "message": "✅ CN 300750.SZ (300750) → 300750.SZ.csv (2030 行)",
+  "attempts": [
+    {
+      "source": "tencent_via_akshare",
+      "started_at": "2026-10-24T22:39:43.821758+08:00",
+      "status": "returned",
+      "rows": 2030,
+      "source_columns": [
+        "date",
+        "open",
+        "close",
+        "high",
+        "low",
+        "volume",
+        "turnover",
+        "amount"
+      ],
+      "finished_at": "2026-10-24T22:40:13.432817+08:00"
+    }
+  ],
+  "entry": {
+    "last_date": "2026-10-23",
+    "rows": 2030,
+    "last_row": {
+      "date": "2026-10-23",
+      "open": 220.0,
+      "high": 238.0,
+      "low": 216.51,
+      "close": 237.6,
+      "volume": 111479900
+    },
+    "status": "ok",
+    "mode": "full"
+  },
+  "engine": "Projects/_system/scripts/market_data_fetcher.py run_one + normalization; Tencent-only retry after baostock transport timeouts",
+  "actual_first_date": "2018-06-11",
+  "actual_last_date": "2026-10-23",
+  "actual_rows": 2030,
+  "covers_2026_10_23": true,
+  "csv_sha256": "8a0d8e353459fb493a205f46b52f3c567cdf2ddea93f5e45aa92e3c98e0b1d12",
+  "duplicate_dates": 0,
+  "incomplete_ohlc_rows": 0,
+  "successful_source": "tencent_via_akshare",
+  "source_details": {
+    "provider": "腾讯证券，经本项目 .venv 中 akshare.stock_zh_a_hist_tx 获取",
+    "historical_endpoint": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get",
+    "listing_range_endpoint": "https://web.ifzq.gtimg.cn/other/klineweb/klineWeb/weekTrends",
+    "symbol": "sz300750",
+    "adjust": "qfq",
+    "price_currency": "CNY",
+    "volume_unit": "股（当前本地 akshare 实现将创业板接口的手乘以 100）",
+    "amount_unit": "元（当前本地 akshare 实现将接口成交额乘以 10000）",
+    "last_date": "2026-10-23",
+    "data_rows_excluding_header": 2030,
+    "note": "保留来源返回的前复权值；未用未复权价格混填，未将 close×volume 冒充成交额。",
+    "checks": {
+      "date_monotonic": true,
+      "duplicate_dates": 0,
+      "null_cells": 0,
+      "nonpositive_ohlc_dates": [
+        "2018-06-11",
+        "2018-06-12"
+      ]
+    },
+    "limitation": "腾讯前复权序列最早 2 个交易日含非正价格（2018-06-11、2018-06-12），来源原样保留；不得直接对这些点取对数或当作当时未复权成交价。开展长期股性/收益研究时需另核后复权或总回报口径。",
+    "manifest_rows_convention": "初次 rebuild_manifest_from_csvs 报 2031（含表头）；最终清单按 run_one 的有效数据行数写 2030，并明确 rows_exclude_header=true。"
+  }
+}

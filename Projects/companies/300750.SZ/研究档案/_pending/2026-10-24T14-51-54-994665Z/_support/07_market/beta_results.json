@@ -1,0 +1,109 @@
+{
+  "cutoff": "2026-10-23",
+  "lookback_start": "2021-10-23",
+  "baseline_date": "2021-10-22",
+  "fetched_utc": "2026-10-24T16:14:20.106345+00:00",
+  "method": "OLS with intercept: R_CATL = alpha + beta*R_CSI300 + epsilon; beta=sample covariance/market sample variance; simple returns, not log or excess returns; no winsorization",
+  "sampling": "Calendar W-FRI, latest actual close in each week, stock/index actual sampling dates required equal; no forward fill; full-holiday week and next unpaired-week return excluded",
+  "primary_return_basis": "Yahoo split-adjusted stock Close (cash dividends excluded) against Tencent CSI300 price index Close (cash dividends excluded)",
+  "sensitivity_basis": "Yahoo Adj Close and Tencent hfq include vendor cash-dividend adjustments; still compared to price index, not full total-return-index CAPM",
+  "daily_rows": 1213,
+  "weekly_levels_complete": 256,
+  "weekly_grid_rows": 262,
+  "missing_or_mismatched_week_labels": [
+    "2022-02-04",
+    "2022-10-07",
+    "2023-01-27",
+    "2023-10-06",
+    "2024-02-16",
+    "2026-02-20"
+  ],
+  "benchmark_duplicate_date_close_conflicts": {},
+  "latest_csi300_close": 4105.33,
+  "source_hashes": {
+    "_support/05/yahoo_total_return_input.csv": "4ccacbbc94fa41f6c308d792186d2b091a9f62e8172cc7e15ffe8230e36ee5ca",
+    "_support/05/tx_hfq.csv": "8446fb0555a2f2bd13be8b1a01fc13d5be1efd0981b92626d84cc08db72761b9",
+    "_evidence/07_market/beta_tencent_csi300_daily.csv": "afd0ceaef5b5725e92222b6188fb938c293b0d26102033f92132f4e75a3f0837"
+  },
+  "regressions": {
+    "catl_split_only": {
+      "n_weekly_returns": 249,
+      "first_week": "2021-10-29",
+      "last_week": "2026-10-23",
+      "beta": 1.3008798243477853,
+      "alpha_weekly": 0.0017620438039189189,
+      "ols_beta_stderr": 0.11353512623151989,
+      "beta_95pct_ci_ols": [
+        1.0772593644906794,
+        1.5245002842048911
+      ],
+      "r_squared": 0.3470524973689666,
+      "newey_west_lag4_beta_stderr": 0.11048735755272998,
+      "covariance_sample": 0.0006884169091506671,
+      "market_variance_sample": 0.000529193316912125,
+      "max_abs_stock_weekly_return": 0.22203658458984044,
+      "max_abs_index_weekly_return": 0.15702035269677128
+    },
+    "catl_adj_dividend": {
+      "n_weekly_returns": 249,
+      "first_week": "2021-10-29",
+      "last_week": "2026-10-23",
+      "beta": 1.3050614918781784,
+      "alpha_weekly": 0.002118487518691531,
+      "ols_beta_stderr": 0.11411138009465642,
+      "beta_95pct_ci_ols": [
+        1.080306033909508,
+        1.5298169498468488
+      ],
+      "r_squared": 0.34621299530278393,
+      "newey_west_lag4_beta_stderr": 0.11024544657819518,
+      "covariance_sample": 0.0006906298196612997,
+      "market_variance_sample": 0.000529193316912125,
+      "max_abs_stock_weekly_return": 0.2220366160365297,
+      "max_abs_index_weekly_return": 0.15702035269677128
+    },
+    "catl_tencent_hfq": {
+      "n_weekly_returns": 249,
+      "first_week": "2021-10-29",
+      "last_week": "2026-10-23",
+      "beta": 1.2742779464407707,
+      "alpha_weekly": 0.002039120130443635,
+      "ols_beta_stderr": 0.11159882853544748,
+      "beta_95pct_ci_ols": [
+        1.054471247096275,
+        1.4940846457852666
+      ],
+      "r_squared": 0.3454863104667656,
+      "newey_west_lag4_beta_stderr": 0.10861660880388323,
+      "covariance_sample": 0.0006743393731449628,
+      "market_variance_sample": 0.000529193316912125,
+      "max_abs_stock_weekly_return": 0.21384916974169754,
+      "max_abs_index_weekly_return": 0.15702035269677128
+    },
+    "catl_split_only_recent_2y": {
+      "n_weekly_returns": 103,
+      "first_week": "2024-10-25",
+      "last_week": "2026-10-23",
+      "beta": 1.1956525960015743,
+      "alpha_weekly": 0.0005986402815153164,
+      "ols_beta_stderr": 0.2135212489195124,
+      "beta_95pct_ci_ols": [
+        0.7720838747451522,
+        1.6192213172579963
+      ],
+      "r_squared": 0.23690950712910416,
+      "newey_west_lag4_beta_stderr": 0.24305725391680313,
+      "covariance_sample": 0.0004190969745160887,
+      "market_variance_sample": 0.00035051734585581643,
+      "max_abs_stock_weekly_return": 0.14223824511366212,
+      "max_abs_index_weekly_return": 0.05502028267206849
+    }
+  },
+  "limits": [
+    "Historical diagnostic, not future beta or investment advice.",
+    "Tencent benchmark is price index 000300, not full-return H00300.",
+    "No time-varying risk-free rate deducted; OLS and Newey-West uncertainty do not cover data errors or future regime changes.",
+    "CATL constitutes part of CSI300; no leave-CATL-out index constructed.",
+    "Existing CATL Yahoo/Tencent source differences remain; sensitivity estimates do not validate either history."
+  ]
+}

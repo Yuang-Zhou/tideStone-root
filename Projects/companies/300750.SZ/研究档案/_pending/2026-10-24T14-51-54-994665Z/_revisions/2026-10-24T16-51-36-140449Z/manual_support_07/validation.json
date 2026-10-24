@@ -1,0 +1,12 @@
+{
+  "mode": "read_only_parser_and_arithmetic_only_no_sync_no_accept",
+  "ordinary_parser_warnings": [],
+  "ordinary_payload_matches_calculation": true,
+  "fifteen_signals": true,
+  "three_year_arithmetic": true,
+  "opportunity_price_pattern": "台阶（自身触发）",
+  "return_split_sum": 1.0,
+  "report_bytes": 51112,
+  "report_sha256": "2895cfef022571cc6fa80b59a7448eaa35b568dacbd3b0051a14e570e0c6c1bc",
+  "new_06_forecast_sha256": "d93d0bbae5f6b7de39f2731b7d6005a1d1bbdbd292c5ede79b92b59e722cfbc0"
+}

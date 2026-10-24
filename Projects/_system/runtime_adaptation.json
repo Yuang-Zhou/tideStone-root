@@ -1,0 +1,226 @@
+{
+  "upstream_commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+  "scope": "local runtime adaptation; no upstream company dossiers, positions or valuations imported",
+  "changes": [
+    "All mutable data paths honor TIDESTONE_PROJECTS; source scripts remain under project root",
+    "New dossiers require all seven modules; source six-module legacy transition disabled",
+    "Local lifecycle enforces material integrity, nonempty modules, original handoff lint, finalized hashes, stale-baseline rejection, revision snapshots and recoverable promotion",
+    "Old source-owner SEC contact removed; caller must set SEC_USER_AGENT",
+    "Source sync label changed from weighted target to scenario target, consistent with its existing ban on weighted valuations",
+    "Paper simulation starts on actual run date with a documented neutral 100000 USD nominal cash configuration, no source portfolio or trades",
+    "Empty company libraries are valid; fetcher does not issue requests for an empty library"
+  ],
+  "validation": {
+    "unit_tests": 17,
+    "result": "passed; final combined suite recorded in docs/evidence/final-checks.json",
+    "smoke": [
+      "empty rescan",
+      "valuation check",
+      "strict 3-year coverage",
+      "paper dry-run",
+      "empty market fetch skip"
+    ],
+    "core_tests": {
+      "command": "python3 -m unittest discover -s tests -p test_core.py -v",
+      "count": 17,
+      "result": "passed",
+      "isolation": "runs/tests/core; removed by test cleanup"
+    }
+  },
+  "files": [
+    {
+      "path": "Projects/_system/scripts/annotate_three_year_registry.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/annotate_three_year_registry.py",
+      "sha256": "4ef5040abff27e9edd6c3fb1da1c5f1e716a80ad2184d53f8d8330d6b2eba18b",
+      "upstream_sha256": "fb5eb61232a2b6e9be63ae978b9f87bee4efe272309aafa486db00fe0508fa38"
+    },
+    {
+      "path": "Projects/_system/scripts/archive_old.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/archive_old.py",
+      "sha256": "0f6dabee543697413636a488ae896b1dcfc1a29a6bfa831f7c313a525c45bf08",
+      "upstream_sha256": "f6dc8b73bd43bd7cfc900a6091cbc18382e012055d0c52882b61520d8ecb29f1"
+    },
+    {
+      "path": "Projects/_system/scripts/compute_signals.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/compute_signals.py",
+      "sha256": "95905ad5ed3dfbc9580569521f16a9eb40d16fd9545e05fa566433b97483659f",
+      "upstream_sha256": "193b81ee21b4a3145d3941988303554a91d5b78137f85a303de4149b6d48f5ff"
+    },
+    {
+      "path": "Projects/_system/scripts/dossier_orchestrator.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/dossier_orchestrator.py",
+      "sha256": "23b5342e9a974fed127ecef5368eb742122de0b06a2c7fa63fddfffe54924ebe",
+      "upstream_sha256": "d11d2f8c9a4794fcb8c57a65793cd084ddf9602e3ef1000fbc079bd3ec89dbb1"
+    },
+    {
+      "path": "Projects/_system/scripts/extract_valuation_levels.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/extract_valuation_levels.py",
+      "sha256": "a82763bc6343c45187bc13f651e19343e0f6bc923d31b4be11568929a3912605",
+      "upstream_sha256": "bf670dc0ae113cf9f93eada22011efb4d77b8b795519f8e80e4ea266ea0274eb"
+    },
+    {
+      "path": "Projects/_system/scripts/fetch_edgar_financials.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/fetch_edgar_financials.py",
+      "sha256": "28130abcba341cb698e14c4d97eb276237aaf890bbdee3dfa3a1a38efd6a31dd",
+      "upstream_sha256": "9c04ac33df304ca7abc3c2a7ff87733c61351b795c6641ff7997637c614de130"
+    },
+    {
+      "path": "Projects/_system/scripts/fetch_raw_filings.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/fetch_raw_filings.py",
+      "sha256": "ca47670d8f8e7a60a7dfd0bb92c9994802031084f67badc19c0b33b6e530655d",
+      "upstream_sha256": "9ca7dda7e4e36cd17f67b0082615c7333a201cb59803cb60a0c2e2a3414f91c3"
+    },
+    {
+      "path": "Projects/_system/scripts/fetch_transcripts.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/fetch_transcripts.py",
+      "sha256": "7a7b03f6c36163f4021ece3cf66d9ebc7d98abd96fd734c1a1983269353a3ddf",
+      "upstream_sha256": "83233889791ea877228aa0689bcdf7c17f162269b852150ad941d422aef372bf"
+    },
+    {
+      "path": "Projects/_system/scripts/gen_ta_report.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/gen_ta_report.py",
+      "sha256": "c73f4b07fddc0ca8f5fd6f19bee868af1f4d2e997ef0308bddf4cd173016dd7a",
+      "upstream_sha256": "0e43f7d45012f6217d28e91a59baa72c9039ef06f8423f93b2f8ad8421e23507"
+    },
+    {
+      "path": "Projects/_system/scripts/handoff_lint.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/handoff_lint.py",
+      "sha256": "40eb82db64e64cbaaa03997bd55ed832b94d0087e7fcae9c6e0b868a605e5518",
+      "upstream_sha256": "ac20e8dd215acdf64e96a68cf2d61083e1d45c62f22cfa6ccdf2fb5ab22e3bde"
+    },
+    {
+      "path": "Projects/_system/scripts/kelly_engine.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/kelly_engine.py",
+      "sha256": "aca56d44b0b407880805b2ee844cba641e1e999def87e500ab8e34daf63a2d47",
+      "upstream_sha256": "ddb36ca41dd82822a5a0b0193c97c8ce69b646362c2504d1829453b1a181707f"
+    },
+    {
+      "path": "Projects/_system/scripts/local_workflow.py",
+      "upstream": null,
+      "sha256": "a2e8a4aa719aa3c3ee7aecff96d71a900ec01aea4476fe14bf5b7266d1dd9112",
+      "upstream_sha256": null
+    },
+    {
+      "path": "Projects/_system/scripts/market_data_fetcher.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/market_data_fetcher.py",
+      "sha256": "7f954f0acdcdf898475b6b2f06f1ce542c900211922c8f9f35530dd1c66c7558",
+      "upstream_sha256": "aef8bffe3afb38a1cb890fea1c33a0487001154fcdb864adfe1f836112a41ec7"
+    },
+    {
+      "path": "Projects/_system/scripts/paper_portfolio.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/paper_portfolio.py",
+      "sha256": "5611476bc4fdd8467fcecb64118056a0ac196029e1f0822cd96e8f41f78ffe3a",
+      "upstream_sha256": "25f794e18d473e072359d716a667c9d2fcbfb29cd4bc3c52bc8f93a3ed14449d"
+    },
+    {
+      "path": "Projects/_system/scripts/position_guard.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/position_guard.py",
+      "sha256": "eddb25383e2de1f8318abc23a04fd4c0736541a1dd1b125078c7d6353c2c5712",
+      "upstream_sha256": "ec9f4fecc8b572035d97d25b66e053a8db5bcbba49f021cfdd4680dab3756a03"
+    },
+    {
+      "path": "Projects/_system/scripts/render_tables.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/render_tables.py",
+      "sha256": "2a94cc8f761fd296734003806f9e12ade4b0d3116e0f26c42aba42bcb186e307",
+      "upstream_sha256": "dceddb08b0056e1adb2f7c5851a87e113fffa31c8b5e7b83bbf68fec568dd09e"
+    },
+    {
+      "path": "Projects/_system/scripts/sync_valuations.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/sync_valuations.py",
+      "sha256": "5adb2a731b2e3b6eaa68517e118e838a6babce1da4134f9306a6c0927e56ea39",
+      "upstream_sha256": "9c0f6ad19031b02076d8603a8ec7d22e0807bd956dbf884e371f5864322d06ce"
+    },
+    {
+      "path": "Projects/_system/scripts/tidestone_paths.py",
+      "upstream": null,
+      "sha256": "47b4e4cb9a4e7074ee8164414ffa598d82cffcec9f8ee3637258bee8d91af67e",
+      "upstream_sha256": null
+    },
+    {
+      "path": "Projects/_system/scripts/validate_briefing.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/validate_briefing.py",
+      "sha256": "436447364dfe4477d68e959aa365d48832c52d25cd2cf3038f66cec0a5a58dad",
+      "upstream_sha256": "01c0937e659c498c4247af0abd58d853c863f2aabf69e5843739a90f5c1f6f79"
+    },
+    {
+      "path": "Projects/_system/scripts/validate_market_data.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/validate_market_data.py",
+      "sha256": "1328db6a0dc4ca04acc75c5172dbb45e31928be70f4c402c5baa13ddf05c48e8",
+      "upstream_sha256": "84d63d066d4b7a15d8c517dd8b1d4df7234f3f21fe82d1c3af88089630e8f895"
+    },
+    {
+      "path": "Projects/_system/scripts/validate_taxonomy.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/validate_taxonomy.py",
+      "sha256": "7d50c5dfdf9dac63bca768f31944df95fe6f09c724a88234a4d66b5475a86d9e",
+      "upstream_sha256": "dbf82b5210055a745df099097ea9d7882480e19cc98244b1cba11fd1c21bfc6a"
+    },
+    {
+      "path": "Projects/_system/scripts/validate_three_year_coverage.py",
+      "upstream": "reference/upstream/Projects/_system/scripts/validate_three_year_coverage.py",
+      "sha256": "184f3c9bcb002383771cfa374bce62602288d6a28bfe6b71b8d5503f72a82fc2",
+      "upstream_sha256": "c7b965de35d2287b208e234aaabe5b6235b9a60533803f83fbea0d5a519c4661"
+    }
+  ],
+  "render_tables_review": {
+    "confirmed_fixes": [
+      "Money display preserves nonzero sub-million amounts rather than rounding them to zero",
+      "Cash/current-obligations coverage includes both current lease liabilities; provenance distinguishes current total debt from short-term-only borrowings and avoids double-counting current long-term principal. Incomplete or ambiguous debt scope is n/a, with an explicit note."
+    ],
+    "not_a_bug": "The original allowance ratio already divides by net receivables plus allowance. The EDGAR accounts_receivable tags are NetCurrent; the formula remains unchanged.",
+    "method_sources": [
+      "financial-analysis/references/metrics.md: cash / liabilities due within one year includes short-term borrowings, current long-term principal and current lease liabilities",
+      "financial-analysis/references/data-contract.md: debt_due_1y represents long-term principal maturities excluding leases",
+      "fetch_edgar_financials.py METRICS: short_term_debt tag alternatives have different scopes; accounts_receivable uses net values"
+    ],
+    "tests": {
+      "command": "python3 -m unittest discover -s tests -p test_render_tables.py -v",
+      "count": 8,
+      "result": "passed",
+      "storage": "pure in-memory fixtures; formal library and runs/workflow-trial were not read or modified"
+    },
+    "adapter_sha256": "2a94cc8f761fd296734003806f9e12ade4b0d3116e0f26c42aba42bcb186e307",
+    "skill_script": ".agents/skills/financial-analysis/scripts/render_tables.py"
+  },
+  "formal_scanner_review": {
+    "change": "Legacy filename discovery is fully disabled. Only nonempty canonical Markdown with approved metadata, accepted batch/time and matching SHA256 counts as formal. Preparation/finalization dependencies use the same rule.",
+    "tests": {
+      "count": 9,
+      "command": "python3 -m unittest discover -s tests -p test_core.py -v",
+      "result": "passed",
+      "isolation": "runs/tests/core; cleaned after execution"
+    },
+    "read_only_trial_check": "TESTWAVE formal_count=0, 01 not accepted; existing trial files unchanged"
+  },
+  "three_year_sync_review": {
+    "change": "Ordinary valuation and independent three-year JSON blocks are extracted only from the same approved canonical 07; currency, anchor+3 target year, finite numbers, equity/EV arithmetic and per-share arithmetic are verified. Missing/failed fields retain a nonzero sync result and queue entry; old target goes to history rather than masquerading as current.",
+    "contract": "docs/runtime-adaptation.md",
+    "required_fields": [
+      "target_year",
+      "currency",
+      "scenario",
+      "valuation_method",
+      "valuation_type",
+      "metric_value_b",
+      "target_multiple",
+      "net_debt_b",
+      "share_equivalent_b",
+      "target_market_cap_b",
+      "target_price_3y",
+      "anchor_price",
+      "anchor_date",
+      "source"
+    ],
+    "provenance": [
+      "source_path",
+      "source_sha256",
+      "accepted_batch",
+      "source_approved_at"
+    ]
+  },
+  "tracking_and_currency_review": {
+    "change": "add accepts validated uppercase three-letter currency; US/HK/CN default USD/HKD/CNY, OTHER requires explicit currency. New entries retain upstream active tracking status while rating stays pending and dossier empty. track active|paused persists JSON/Markdown plus reasons; it does not require completed research or initiate simulation. Status/currency are included in apply/check.",
+    "accept_prompts": "04 only reminds about downstream modules absent from the same batch. Summary targets are company-root dated Markdown+HTML with register_summary and build instructions.",
+    "paper_fx": "Missing/nonpositive/nonfinite FX excludes new candidates. Existing holdings without valid currency FX stop the run with nonzero status before writing new NAV. No silent 1:1 fallback.",
+    "tests": "17 core tests passed, including two isolated FX regressions; formal data and workflow-trial data unchanged"
+  }
+}

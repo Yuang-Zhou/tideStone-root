@@ -1,0 +1,23 @@
+{
+  "ticker": "300750.SZ",
+  "started_at": "2026-10-24T22:38:41.724488+08:00",
+  "finished_at": "2026-10-24T22:38:41.916199+08:00",
+  "requested_start": "2018-06-11",
+  "requested_end": "2026-10-23",
+  "adjustment": "前复权（baostock adjustflag=2；腾讯/东财 adjust=qfq）",
+  "ok": false,
+  "message": "❌ CN 300750.SZ (300750): EOFError: ",
+  "attempts": [
+    {
+      "source": "tencent_via_akshare",
+      "started_at": "2026-10-24T22:38:41.724759+08:00",
+      "status": "error",
+      "error": "EOFError: ",
+      "finished_at": "2026-10-24T22:38:41.915259+08:00"
+    }
+  ],
+  "entry": {
+    "status": "fail"
+  },
+  "engine": "Projects/_system/scripts/market_data_fetcher.py run_one + normalization; Tencent-only retry after baostock transport timeouts"
+}

@@ -1,0 +1,158 @@
+{
+  "as_of": "2026-10-24",
+  "inputs": {
+    "price_cny": 237.6,
+    "price_date": "2026-10-23",
+    "price_evidence": "_support/05/tx_raw.csv; _evidence/05/web_read_snapshot.json",
+    "shares_q3": 4627249686,
+    "direct_shares": {
+      "李平": 197460277,
+      "谭立斌": 126128,
+      "蒋理": 50639,
+      "郑舒": 46166
+    },
+    "cash_salary_2025_cny": {
+      "谭立斌": 2642000,
+      "蒋理": 1942000,
+      "郑舒": 2829000
+    },
+    "zeng_indirect": 1019704949,
+    "sbc_million": {
+      "2023": 676.7224,
+      "2024": 688.995,
+      "2025": -82.524,
+      "2026H1": 184.816
+    },
+    "catl_h1_revenue_million": 276916.58,
+    "catl_h1_net_parent_million": 43284.002,
+    "eve_h1_cny": {
+      "sbc": 437458080.48,
+      "revenue": 45691465298.91,
+      "net_parent": 3301230562.92
+    },
+    "shares": [
+      4399041236,
+      4403466458,
+      4563803488,
+      4627249686
+    ],
+    "unrestricted_shares": [
+      3894854493,
+      3902556333,
+      4412488658,
+      4478377261
+    ],
+    "buyback_plans": [
+      {
+        "shares": 15991524,
+        "cny": 2710713907.1
+      },
+      {
+        "shares": 15990782,
+        "cny": 4385504687.9
+      },
+      {
+        "shares": 10945162,
+        "cny": 3303000000
+      }
+    ],
+    "related_purchases_kcny": [
+      13899432,
+      17066845,
+      199830,
+      1670,
+      4723,
+      3439
+    ],
+    "related_sales_kcny": [
+      87340,
+      4551,
+      6248366,
+      1760164,
+      905895
+    ]
+  },
+  "outputs": {
+    "management": {
+      "李平": {
+        "market_value_cny": 46916561815.2,
+        "pct_total": 4.267335683168924,
+        "value_to_cashsalary": null
+      },
+      "谭立斌": {
+        "market_value_cny": 29968012.8,
+        "pct_total": 0.002725766028611061,
+        "value_to_cashsalary": 11.342926873580621
+      },
+      "蒋理": {
+        "market_value_cny": 12031826.4,
+        "pct_total": 0.0010943649778228112,
+        "value_to_cashsalary": 6.195585169927909
+      },
+      "郑舒": {
+        "market_value_cny": 10969041.6,
+        "pct_total": 0.0009976984846890322,
+        "value_to_cashsalary": 3.8773565217391304
+      }
+    },
+    "zeng_indirect_value_cny": 242281895882.4,
+    "sbc_ratios_pct": {
+      "2023": {
+        "revenue": 0.16879362163312361,
+        "net_parent": 1.5337789175863747
+      },
+      "2024": {
+        "revenue": 0.19032351016202603,
+        "net_parent": 1.3577678937863873
+      },
+      "2025": {
+        "revenue": -0.01947690412876523,
+        "net_parent": -0.11429713948846504
+      },
+      "2026H1": {
+        "revenue": 0.066740676921548,
+        "net_parent": 0.42698454731611923
+      },
+      "EVE2026H1": {
+        "revenue": 0.9574174905930097,
+        "net_parent": 13.251364063861695
+      }
+    },
+    "capital_yi_cny": {
+      "2023": {
+        "cash_paid_for_long_lived_assets": 336.24897,
+        "research_and_development_expenses": 183.56108,
+        "acquisitions": 3.21445,
+        "buyback": 18.231054999999998,
+        "net_debt_repay": -228.00423999999998
+      },
+      "2024": {
+        "cash_paid_for_long_lived_assets": 311.79943,
+        "research_and_development_expenses": 186.06756000000001,
+        "acquisitions": 2.44022,
+        "buyback": 12.09018,
+        "net_debt_repay": -105.67889
+      },
+      "2025": {
+        "cash_paid_for_long_lived_assets": 423.44557999999995,
+        "research_and_development_expenses": 221.46580999999998,
+        "acquisitions": 20.53675,
+        "buyback": 44.133370000000006,
+        "net_debt_repay": 119.11960000000006
+      }
+    },
+    "2023plan_2023_2025_cumulative_revenue_yi": 11866.31433,
+    "share_increase_2023_Q32026_pct": 5.187686083331822,
+    "share_increase_2024_2025_pct": 3.6411547931450183,
+    "share_increase_2025_Q32026_pct": 1.3902044241568268,
+    "buyback_average_cny": [
+      169.50941680730367,
+      274.2520464540133,
+      301.7771687618694
+    ],
+    "first_two_buyback_total_yi": 70.96218595,
+    "related_purchases_yi": 311.75939,
+    "related_sales_yi": 90.06316,
+    "li_pledge_pct_of_own": 12.432880361045983
+  }
+}

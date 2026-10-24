@@ -1,0 +1,28 @@
+{
+  "unit": "CNY million",
+  "research_cutoff": "2026-10-24",
+  "supplemental_calculation_at_utc": "2026-10-24T16:35:10.523539+00:00",
+  "2024_Q4_revenue": 102967.805,
+  "2025_9M_revenue": 283071.987,
+  "2025Q3_TTM_revenue": 386039.792,
+  "2026Q3_TTM_revenue": 582767.271,
+  "TTM_revenue_growth_percent": 50.960414723257315,
+  "formula": "previous TTM=2024Q4+2025_9M; growth_percent=(2026Q3_TTM / previous_TTM -1)*100. EFG denominator is 50.9604, not .509604.",
+  "sources": [
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+      "physical_page": 9,
+      "table": "六、分季度主要财务指标，营业收入第四季度；原单位千元",
+      "sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+      "visual_confirmation": "annual2024_p9_quarters.png，102,967,805千元"
+    },
+    {
+      "path": "_support/02/analysis_inputs_results.json",
+      "items": [
+        "2025_9M_revenue",
+        "TTM_revenue"
+      ]
+    }
+  ],
+  "boundary": "使用已冻结原件补计算，不新增截止后经营事实；只作EFG历史诊断，不将高增速永续。"
+}

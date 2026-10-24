@@ -1,0 +1,8 @@
+{
+  "archive": "backups/tidestone-20261024-004523-842f37.tar.gz",
+  "restored_to": "runs/restore-verified-20261024",
+  "files_verified": 307,
+  "all_files_match_before_state_rescan": true,
+  "restart_check": "另一独立恢复目录已在新进程读出七份approved完整档案，status会更新dossier_registry的扫描时间，因此校验先于状态扫描。",
+  "purpose": "隔离研究库带实质成果的备份恢复；未覆盖正式数据"
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "300750.SZ",
+  "started_at": "2026-10-24T22:34:57.944660+08:00",
+  "finished_at": "2026-10-24T22:35:44.057369+08:00",
+  "requested_start": "2018-06-11",
+  "requested_end": "2026-10-23",
+  "adjustment": "前复权（baostock adjustflag=2；腾讯/东财 adjust=qfq）",
+  "ok": false,
+  "message": "❌ CN 300750.SZ (300750): RuntimeError: 所有 A 股数据源都失败。详情：[baostock] RuntimeError: baostock login 失败: 网络接收错误。 | [tencent] ConnectionError: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /other/kline | [eastmoney] ConnectionError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt",
+  "attempts": [
+    {
+      "source": "baostock",
+      "started_at": "2026-10-24T22:34:57.944934+08:00",
+      "status": "error",
+      "error": "RuntimeError: baostock login 失败: 网络接收错误。",
+      "finished_at": "2026-10-24T22:35:17.965702+08:00"
+    },
+    {
+      "source": "baostock",
+      "started_at": "2026-10-24T22:35:19.973650+08:00",
+      "status": "error",
+      "error": "RuntimeError: baostock login 失败: 网络接收错误。",
+      "finished_at": "2026-10-24T22:35:39.991356+08:00"
+    },
+    {
+      "source": "tencent_via_akshare",
+      "started_at": "2026-10-24T22:35:39.992553+08:00",
+      "status": "error",
+      "error": "ConnectionError: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /other/klineweb/klineWeb/weekTrends?code=sz300750&type=qfq&_var=trend_qfq&r=0.3506048543943414 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x11d1ffa60>: Failed to resolve 'web.ifzq.gtimg.cn' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "finished_at": "2026-10-24T22:35:40.018031+08:00"
+    },
+    {
+      "source": "tencent_via_akshare",
+      "started_at": "2026-10-24T22:35:42.032248+08:00",
+      "status": "error",
+      "error": "ConnectionError: HTTPSConnectionPool(host='web.ifzq.gtimg.cn', port=443): Max retries exceeded with url: /other/klineweb/klineWeb/weekTrends?code=sz300750&type=qfq&_var=trend_qfq&r=0.3506048543943414 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x11d400dc0>: Failed to resolve 'web.ifzq.gtimg.cn' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "finished_at": "2026-10-24T22:35:42.034132+08:00"
+    },
+    {
+      "source": "eastmoney_via_akshare",
+      "started_at": "2026-10-24T22:35:42.034763+08:00",
+      "status": "error",
+      "error": "ConnectionError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.300750&beg=20180611&end=20261023 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x11d401900>: Failed to resolve 'push2his.eastmoney.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "finished_at": "2026-10-24T22:35:42.036273+08:00"
+    },
+    {
+      "source": "eastmoney_via_akshare",
+      "started_at": "2026-10-24T22:35:44.050432+08:00",
+      "status": "error",
+      "error": "ConnectionError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.300750&beg=20180611&end=20261023 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x11d1ff610>: Failed to resolve 'push2his.eastmoney.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "finished_at": "2026-10-24T22:35:44.056423+08:00"
+    }
+  ],
+  "entry": {
+    "status": "fail"
+  },
+  "engine": "Projects/_system/scripts/market_data_fetcher.py run_one + fetch_akshare_stock"
+}

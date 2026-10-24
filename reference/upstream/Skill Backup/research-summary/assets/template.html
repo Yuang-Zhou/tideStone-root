@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+    background: transparent;
+    color: var(--text-primary, #1a1a1a);
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 8px 0;
+  }
+  .header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--border-color, #e0e0e0);
+  }
+  .header h1 { font-size: 18px; font-weight: 700; color: var(--text-primary, #111); }
+  .header .meta { font-size: 12px; color: var(--text-secondary, #666); }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+  .badge-buy    { background: #dcfce7; color: #16a34a; }
+  .badge-hold   { background: #fef3c7; color: #d97706; }
+  .badge-sell   { background: #fee2e2; color: #dc2626; }
+  .badge-a      { background: #dbeafe; color: #2563eb; }
+  .badge-b      { background: #ede9fe; color: #7c3aed; }
+  .badge-c      { background: #fef3c7; color: #d97706; }
+
+  .section {
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color, #e5e7eb);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    background: var(--bg-secondary, #f8f9fa);
+    border-bottom: 1px solid var(--border-color, #e5e7eb);
+    cursor: pointer;
+    user-select: none;
+  }
+  .section-header:hover { background: var(--bg-hover, #f0f0f0); }
+  .section-icon { font-size: 15px; }
+  .section-title { font-size: 14px; font-weight: 700; flex: 1; }
+  .section-rating { font-size: 12px; color: var(--text-secondary, #666); }
+  .toggle { font-size: 12px; color: var(--text-secondary, #888); transition: transform 0.2s; }
+  .toggle.open { transform: rotate(90deg); }
+  .section-body { padding: 12px 14px; display: none; }
+  .section-body.open { display: block; }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .card {
+    background: var(--bg-card, #f9fafb);
+    border: 1px solid var(--border-color, #e5e7eb);
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .card-title {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-secondary, #666);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+  .card-body { font-size: 12.5px; color: var(--text-primary, #222); }
+
+  .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  .pros { border-left: 3px solid #22c55e; padding: 8px 10px; background: #f0fdf4; border-radius: 0 4px 4px 0; }
+  .cons { border-left: 3px solid #ef4444; padding: 8px 10px; background: #fef2f2; border-radius: 0 4px 4px 0; }
+  .pros-title { font-size: 11px; font-weight: 700; color: #16a34a; margin-bottom: 4px; }
+  .cons-title { font-size: 11px; font-weight: 700; color: #dc2626; margin-bottom: 4px; }
+  ul { padding-left: 14px; }
+  li { margin-bottom: 3px; font-size: 12.5px; }
+
+  .data-table { width: 100%; border-collapse: collapse; font-size: 12px; margin: 8px 0; }
+  .data-table th {
+    background: var(--bg-secondary, #f3f4f6);
+    padding: 5px 8px;
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-secondary, #555);
+    border-bottom: 1px solid var(--border-color, #e5e7eb);
+  }
+  .data-table td {
+    padding: 5px 8px;
+    border-bottom: 1px solid var(--border-color, #f0f0f0);
+    color: var(--text-primary, #333);
+  }
+  .data-table tr:last-child td { border-bottom: none; }
+  .num { font-variant-numeric: tabular-nums; font-family: "SF Mono", monospace; }
+  .pos { color: #16a34a; }
+  .neg { color: #dc2626; }
+  .neutral { color: #d97706; }
+
+  .valuation-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+    font-size: 12px;
+  }
+  .val-label { width: 150px; color: var(--text-secondary, #555); flex-shrink: 0; }
+  .val-track { flex: 1; height: 8px; background: var(--bg-secondary, #e5e7eb); border-radius: 4px; overflow: hidden; }
+  .val-fill { height: 100%; border-radius: 4px; }
+  .val-price { width: 70px; text-align: right; font-weight: 600; font-family: monospace; }
+
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin: 10px 0; }
+  .scenario-card { border-radius: 6px; padding: 10px; text-align: center; }
+  .scenario-bull { background: #f0fdf4; border: 1px solid #86efac; }
+  .scenario-base { background: #eff6ff; border: 1px solid #93c5fd; }
+  .scenario-bear { background: #fef2f2; border: 1px solid #fca5a5; }
+  .scenario-label { font-size: 11px; font-weight: 700; margin-bottom: 4px; }
+  .scenario-prob { font-size: 10px; color: var(--text-secondary, #666); margin-bottom: 6px; }
+  .scenario-price { font-size: 18px; font-weight: 800; font-family: monospace; }
+  .scenario-return { font-size: 11px; margin-top: 3px; }
+
+  .highlight-box {
+    background: #fffbeb;
+    border: 1px solid #fcd34d;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin: 10px 0;
+    font-size: 12.5px;
+  }
+  .highlight-box .icon { margin-right: 6px; }
+
+  .kpi-row { display: flex; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+  .kpi {
+    flex: 1;
+    min-width: 90px;
+    text-align: center;
+    padding: 10px 8px;
+    background: var(--bg-card, #f9fafb);
+    border: 1px solid var(--border-color, #e5e7eb);
+    border-radius: 6px;
+  }
+  .kpi-value { font-size: 18px; font-weight: 800; font-family: monospace; }
+  .kpi-label { font-size: 10px; color: var(--text-secondary, #666); margin-top: 2px; }
+
+  p { margin-bottom: 6px; }
+  .divider { border: none; border-top: 1px solid var(--border-color, #e5e7eb); margin: 10px 0; }
+
+  .summary-banner {
+    background: linear-gradient(135deg, #0f2d4a 0%, #1a4d7a 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+  }
+  .summary-banner h2 { font-size: 14px; font-weight: 700; margin-bottom: 8px; opacity: 0.85; }
+  .summary-banner p { font-size: 13px; line-height: 1.7; }
+
+  .rating-A      { color: #16a34a; font-weight: 700; }
+  .rating-Aminus { color: #2563eb; font-weight: 700; }
+  .rating-B      { color: #7c3aed; font-weight: 700; }
+  .rating-Bplus  { color: #0891b2; font-weight: 700; }
+  .rating-C      { color: #d97706; font-weight: 700; }
+
+  /* 买入推荐框（绿色） */
+  .buy-box {
+    background: linear-gradient(135deg, #052e16 0%, #14532d 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .buy-rating { font-size: 22px; font-weight: 900; color: #86efac; }
+  .buy-details { flex: 1; }
+  .buy-target { font-size: 11px; opacity: 0.8; }
+  .buy-price { font-size: 16px; font-weight: 800; color: #86efac; }
+
+  /* 持有推荐框（黄色） */
+  .hold-box {
+    background: linear-gradient(135deg, #431407 0%, #78350f 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .hold-rating { font-size: 22px; font-weight: 900; color: #fde68a; }
+  .hold-details { flex: 1; }
+  .hold-target { font-size: 11px; opacity: 0.8; }
+  .hold-price { font-size: 16px; font-weight: 800; color: #fde68a; }
+
+  /* 卖出推荐框（红色） */
+  .sell-box {
+    background: linear-gradient(135deg, #450a0a 0%, #7f1d1d 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .sell-rating { font-size: 22px; font-weight: 900; color: #fca5a5; }
+  .sell-details { flex: 1; }
+  .sell-target { font-size: 11px; opacity: 0.8; }
+  .sell-price { font-size: 16px; font-weight: 800; color: #fca5a5; }
+</style>
+</head>
+<body>
+
+<!-- ===== 页眉 ===== -->
+<div class="header">
+  <h1>【公司名称】（【股票代码】）综合研究总结</h1>
+  <div class="meta">分析基准日：【YYYY年MM月DD日】 | 当时股价：【XXX】 </div>
+</div>
+
+<!-- ===== 一句话画像 ===== -->
+<div class="summary-banner">
+  <h2>一句话画像</h2>
+  <p>【用1-2句话描述：公司是什么、核心竞争力是什么、当前最大的机会与风险是什么、当前估值是否合理。】</p>
+</div>
+
+<!-- ===== 1. 企业文化与公司治理 ===== -->
+<div class="section">
+  <div class="section-header" onclick="toggle(this)">
+    <span class="section-icon">🏛️</span>
+    <span class="section-title">一、企业文化与公司治理</span>
+    <span class="section-rating">
+      <!-- 从以下三种中选一个，删除其余两个 -->
+      <span class="badge badge-a">文化 A</span>
+      <span class="badge badge-b">管理层 B+</span>
+      <span class="badge badge-c">治理 C</span>
+    </span>
+    <span class="toggle">▶</span>
+  </div>
+  <div class="section-body open">
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">创始人 / 核心管理层</div>
+        <div class="card-body">【姓名、背景、在任时长。核心价值观或文化关键词。最能体现文化真实性的一个具体事件。】</div>
+      </div>
+      <div class="card">
+        <div class="card-title">近期重大人事 / 治理变化</div>
+        <div class="card-body">【如有重要高管变动、股权结构调整、董事会改革等，在此列出。如无，填"暂无重大变化"。】</div>
+      </div>
+    </div>
+
+    <table class="data-table">
+      <tr><th>评估维度</th><th>评级</th><th>趋势</th><th>核心依据</th></tr>
+      <tr><td>企业文化质量</td><td><span class="rating-B">B</span></td><td>【稳定 / 改善中 / 待观察】</td><td>【一句话依据】</td></tr>
+      <tr><td>管理层领导力</td><td><span class="rating-Bplus">B+</span></td><td>【稳定 / 改善中 / 待观察】</td><td>【一句话依据】</td></tr>
+      <tr><td>CEO承诺兑现</td><td><span class="rating-A">A</span></td><td>【稳定 / 改善中 / 待观察】</td><td>【一句话依据】</td></tr>
+      <tr><td>公司治理结构</td><td><span class="rating-Aminus">A-</span></td><td>【稳定 / 改善中 / 待观察】</td><td>【一句话依据】</td></tr>
+      <tr><td>资本配置</td><td><span class="rating-A">A</span></td><td>【稳定 / 改善中 / 待观察】</td><td>【一句话依据】</td></tr>
+    </table>
+
+    <div class="pros-cons">
+      <div class="pros">
+        <div class="pros-title">✅ 关键优势</div>
+        <ul>
+          <li>【优势1】</li>
+          <li>【优势2】</li>
+          <li>【优势3】</li>
+          <li>【优势4】</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <div class="cons-title">⚠️ 关键风险</div>
+        <ul>
+          <li>【风险1】</li>
+          <li>【风险2】</li>
+          <li>【风险3】</li>
+          <li>【风险4】</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 2. 商业模式 ===== -->
+<div class="section">
+  <div class="section-header" onclick="toggle(this)">
+    <span class="section-icon">⚙️</span>
+    <span class="section-title">二、商业模式</span>
+    <span class="section-rating">壁垒：【弱 / 中等 / 强】 | 【模式关键词，如：订阅制 / 平台双边 / 项目制】 | 【转型中 / 成熟期】</span>
+    <span class="toggle">▶</span>
+  </div>
+  <div class="section-body open">
+    <div class="card" style="margin-bottom:10px">
+      <div class="card-title">核心定位</div>
+      <div class="card-body">采用<strong>【自家方案/技术】</strong>替代<strong>【行业旧方式】</strong>，解决【目标客户】在【场景】中面临的【核心痛点】。本质：<strong>【一句话本质提炼，如"将X从劳动密集型变为算法密集型"】</strong>。</div>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">市场格局（【年份】）</div>
+        <div class="card-body">
+          目标市场规模：<strong>【XXX亿/B】</strong>，CAGR【XX%】<br>
+          公司当前市占率：<strong>【XX%，排名第X】</strong><br>
+          主要竞争对手：【A、B、C】<br>
+          核心客群覆盖：【如"前10大XX企业100%覆盖"】
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">核心护城河</div>
+        <div class="card-body">
+          【护城河1，如数据飞轮 / 网络效应 / 转换成本 / 规模壁垒】<br>
+          【护城河2】<br>
+          【护城河3】<br>
+          <span class="neutral">⚠️ 【当前最大护城河质疑点】</span>
+        </div>
+      </div>
+    </div>
+    <div class="highlight-box">
+      <span class="icon">⚡</span><strong>关键战略转折 / 核心质疑：</strong>【本段用于写最重要的一个战略拐点，或市场最大分歧点。例如：剥离某业务、新产品线扩张、商业模式转型的关键证据，或与市场主流叙事的核心矛盾。】
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <div class="pros-title">✅ 商业模式优势</div>
+        <ul>
+          <li>【优势1】</li>
+          <li>【优势2】</li>
+          <li>【优势3】</li>
+          <li>【优势4】</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <div class="cons-title">⚠️ 商业模式风险</div>
+        <ul>
+          <li>【风险1】</li>
+          <li>【风险2】</li>
+          <li>【风险3】</li>
+          <li>【风险4】</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 3. 财务状况 ===== -->
+<div class="section">
+  <div class="section-header" onclick="toggle(this)">
+    <span class="section-icon">📊</span>
+    <span class="section-title">三、财务状况</span>
+    <span class="section-rating">【最新财年最核心的2-3个财务指标，如：毛利率88%·FCF利润率72%·净现金/EBITDA 0.2x】</span>
+    <span class="toggle">▶</span>
+  </div>
+  <div class="section-body open">
+    <!-- KPI大数字行：选择最重要的5-6个填写 -->
+    <div class="kpi-row">
+      <div class="kpi"><div class="kpi-value pos">【营收】</div><div class="kpi-label">【最新财年】营收</div></div>
+      <div class="kpi"><div class="kpi-value neutral">【增速】</div><div class="kpi-label">同比增速</div></div>
+      <div class="kpi"><div class="kpi-value pos">【毛利率】</div><div class="kpi-label">毛利率</div></div>
+      <div class="kpi"><div class="kpi-value pos">【净利润/亏损】</div><div class="kpi-label">GAAP净利润</div></div>
+      <div class="kpi"><div class="kpi-value pos">【FCF】</div><div class="kpi-label">自由现金流</div></div>
+      <div class="kpi"><div class="kpi-value pos">【FCF利润率】</div><div class="kpi-label">FCF利润率</div></div>
+    </div>
+
+    <!-- 历史财务数据表：建议填写最近5年 -->
+    <table class="data-table">
+      <tr><th>指标</th><th class="num">【Y-4】A</th><th class="num">【Y-3】A</th><th class="num">【Y-2】A</th><th class="num">【Y-1】A</th><th class="num">【最新年】A</th></tr>
+      <tr><td>营收</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num pos">【】</td></tr>
+      <tr><td>YoY增速</td><td class="num">—</td><td class="num neutral">【】</td><td class="num">【】</td><td class="num pos">【】</td><td class="num">【】</td></tr>
+      <tr><td>毛利率</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num pos">【】</td></tr>
+      <tr><td>营业利润率</td><td class="num">【】</td><td class="num neg">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num pos">【】</td></tr>
+      <tr><td>净利润率</td><td class="num">【】</td><td class="num neg">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num pos">【】</td></tr>
+      <tr><td>自由现金流</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num pos">【】</td></tr>
+      <tr><td>【其他关键指标，如净负债/EBITDA】</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num pos">【】</td></tr>
+    </table>
+
+    <div class="pros-cons" style="margin-top:10px">
+      <div class="pros">
+        <div class="pros-title">✅ 财务优势</div>
+        <ul>
+          <li>【优势1】</li>
+          <li>【优势2】</li>
+          <li>【优势3】</li>
+          <li>【优势4】</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <div class="cons-title">⚠️ 财务风险</div>
+        <ul>
+          <li>【风险1】</li>
+          <li>【风险2】</li>
+          <li>【风险3】</li>
+          <li>【风险4】</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 4. 股性分析 ===== -->
+<div class="section">
+  <div class="section-header" onclick="toggle(this)">
+    <span class="section-icon">📈</span>
+    <span class="section-title">四、股性分析</span>
+    <span class="section-rating">IPO【价格】→ 低点【价格】→ 峰值【价格】→ 当前【价格】 | 【形态关键词，如：台阶形 / V型反转 / 震荡筑底】</span>
+    <span class="toggle">▶</span>
+  </div>
+  <div class="section-body open">
+    <div class="card" style="margin-bottom:10px">
+      <div class="card-title">一句话股性定性</div>
+      <div class="card-body"><strong>【总结该股的核心驱动类型：是业绩驱动型、叙事驱动型、周期驱动型还是双驱动型？波动幅度特征？估值对哪个因素最敏感？】</strong></div>
+    </div>
+
+    <!-- 历史股价阶段复盘表 -->
+    <table class="data-table">
+      <tr><th>阶段</th><th>时间</th><th>价格区间</th><th>涨跌幅</th><th>核心驱动</th></tr>
+      <tr><td><strong>Ⅰ 【阶段名】</strong></td><td>【开始→结束】</td><td class="num">【起点→终点】</td><td class="num neg">【±XX%】</td><td>【驱动因素描述】</td></tr>
+      <tr><td><strong>Ⅱ 【阶段名】</strong></td><td>【开始→结束】</td><td class="num">【起点→终点】</td><td class="num pos">【±XX%】</td><td>【驱动因素描述】</td></tr>
+      <tr><td><strong>Ⅲ 【阶段名】</strong></td><td>【开始→结束】</td><td class="num">【起点→终点】</td><td class="num pos">【±XX%】</td><td>【驱动因素描述】</td></tr>
+      <tr><td><strong>Ⅳ 【阶段名】</strong></td><td>【开始→结束】</td><td class="num">【起点→终点】</td><td class="num neg">【±XX%】</td><td>【驱动因素描述】</td></tr>
+    </table>
+
+    <div class="grid-2" style="margin-top:10px">
+      <div class="card">
+        <div class="card-title">驱动因素优先级</div>
+        <div class="card-body">
+          <strong>1位</strong> 【最重要驱动因素，如：收入增速 / EPS轨迹】<br>
+          <strong>2位</strong> 【第二重要，如：利润率 / 现金流质量】<br>
+          <strong>3位</strong> 【第三重要，如：新业务扩张进度】<br>
+          <strong>4位</strong> 【第四重要，如：宏观利率 / 行业景气】<br>
+          <strong>5位</strong> 【第五重要，如：叙事情绪 / 主题热度】
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">估值工具建议</div>
+        <div class="card-body">
+          <strong>主锚：【建议用P/E / P/S / EV/EBITDA / EV/FCF】</strong><br>
+          保守区间：【XX倍（对应情景：增速低于XX%）】<br>
+          中性区间：【XX倍（对应情景：增速维持XX%）】<br>
+          乐观区间：【XX倍（对应情景：新业务超预期）】<br>
+          <strong>校验：【备用估值方法】</strong><br>
+          当前主锚倍数：<span class="neutral">【XXx（当前价/预测值）】</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 5. 财务预测核心结论 ===== -->
+<div class="section">
+  <div class="section-header" onclick="toggle(this)">
+    <span class="section-icon">🔭</span>
+    <span class="section-title">五、财务预测核心结论</span>
+    <span class="section-rating">基准【E年份】：收入【增速】 | 【EPS / 利润 / FCF 关键预测值】</span>
+    <span class="toggle">▶</span>
+  </div>
+  <div class="section-body open">
+    <!-- 三情景卡片 -->
+    <div class="scenario-grid">
+      <div class="scenario-card scenario-bull">
+        <div class="scenario-label">🌟 乐观情景</div>
+        <div class="scenario-prob">概率 【XX%】</div>
+        <div class="scenario-price pos">【收入预测值】</div>
+        <div class="scenario-return" style="color:#16a34a">【E年】收入 +【XX%】</div>
+        <div style="font-size:11px;color:#555;margin-top:4px">【触发条件1】<br>【触发条件2】</div>
+      </div>
+      <div class="scenario-card scenario-base">
+        <div class="scenario-label">📌 基准情景</div>
+        <div class="scenario-prob">概率 【XX%】</div>
+        <div class="scenario-price" style="color:#2563eb">【收入预测值】</div>
+        <div class="scenario-return" style="color:#2563eb">【E年】收入 +【XX%】</div>
+        <div style="font-size:11px;color:#555;margin-top:4px">【假设描述1】<br>【假设描述2】</div>
+      </div>
+      <div class="scenario-card scenario-bear">
+        <div class="scenario-label">⛈️ 悲观情景</div>
+        <div class="scenario-prob">概率 【XX%】</div>
+        <div class="scenario-price neg">【收入预测值】</div>
+        <div class="scenario-return" style="color:#dc2626">【E年】收入 +【XX%】</div>
+        <div style="font-size:11px;color:#555;margin-top:4px">【风险情景描述1】<br>【风险情景描述2】</div>
+      </div>
+    </div>
+
+    <!-- 基准情景预测表 -->
+    <table class="data-table">
+      <tr><th>指标（基准情景）</th><th class="num">【E年+0】E</th><th class="num">【E年+1】E</th><th class="num">【E年+2】E</th><th class="num">【E年+3】E</th><th class="num">【E年+4】E</th></tr>
+      <tr><td>营业收入</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td></tr>
+      <tr><td>YoY增速</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td></tr>
+      <tr><td>毛利率 / EBITDA利润率</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td><td class="num">【】</td></tr>
+      <tr><td>GAAP净利润 / 调整后净利润</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td></tr>
+      <tr><td>自由现金流（FCF）</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td><td class="num pos">【】</td></tr>
+    </table>
+
+    <div class="highlight-box" style="margin-top:10px">
+      <span class="icon">📡</span><strong>最新管理层信号 / 与卖方共识的核心分歧：</strong><br>
+      【写两件事：①最近一次业绩会或投资者会议上管理层的关键表述；②如果自己预测与卖方共识有明显差距，解释核心分歧在哪里（如对某指标的不同判断）。】
+    </div>
+
+    <div class="card" style="margin-top:10px">
+      <div class="card-title">🔑 五大关键监测指标</div>
+      <div class="card-body">
+        ① 【指标1：量化门槛 + 时间节点】&nbsp;|&nbsp;
+        ② 【指标2：量化门槛 + 时间节点】&nbsp;|&nbsp;
+        ③ 【指标3：量化门槛 + 时间节点】&nbsp;|&nbsp;
+        ④ 【指标4：关注事件，如诉讼进展 / 政策风险】&nbsp;|&nbsp;
+        ⑤ 【指标5：财务质量指标，如DSO / 现金流转化率】
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 6. 估值分析核心结论 ===== -->
+<div class="section">
+  <div class="section-header" onclick="toggle(this)">
+    <span class="section-icon">💰</span>
+    <span class="section-title">六、估值分析核心结论</span>
+    <span class="section-rating">
+      <!-- 三选一：删除不用的两个 -->
+      <span class="badge badge-buy">投资评级：买入（BUY）</span>
+      <!-- <span class="badge badge-hold">投资评级：持有（HOLD）</span> -->
+      <!-- <span class="badge badge-sell">投资评级：卖出（SELL）</span> -->
+    </span>
+    <span class="toggle">▶</span>
+  </div>
+  <div class="section-body open">
+
+    <!-- 推荐框：三选一，删除不用的两个 -->
+    <div class="buy-box">
+      <div class="buy-rating">BUY</div>
+      <div class="buy-details">
+        <div class="buy-target">12个月目标价（主导情景：【基准/乐观/悲观】·置信【高/中/低】）</div>
+        <div class="buy-price">【目标价】 &nbsp;<span style="font-size:13px;font-weight:400;opacity:0.8">vs. 当前 【当前价】，上行空间 +【XX%】</span></div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:11px;opacity:0.7">最优买入区间</div>
+        <div style="font-size:15px;font-weight:800;color:#86efac">【XX–XX】</div>
+      </div>
+    </div>
+    <!--
+    <div class="hold-box">
+      <div class="hold-rating">HOLD</div>
+      <div class="hold-details">
+        <div class="hold-target">12个月目标价（主导情景：【基准/乐观/悲观】·置信【高/中/低】）</div>
+        <div class="hold-price">【目标价】 &nbsp;<span style="font-size:13px;font-weight:400;opacity:0.8">vs. 当前 【当前价】，上行/下行空间 【±XX%】</span></div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:11px;opacity:0.7">合理持有区间</div>
+        <div style="font-size:15px;font-weight:800;color:#fde68a">【XX–XX】</div>
+      </div>
+    </div>
+    <div class="sell-box">
+      <div class="sell-rating">SELL</div>
+      <div class="sell-details">
+        <div class="sell-target">12个月目标价（主导情景：【基准/乐观/悲观】·置信【高/中/低】）</div>
+        <div class="sell-price">【目标价】 &nbsp;<span style="font-size:13px;font-weight:400;opacity:0.8">vs. 当前 【当前价】，下行空间 -【XX%】</span></div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:11px;opacity:0.7">悲观情景地板价</div>
+        <div style="font-size:15px;font-weight:800;color:#fca5a5">【XX】</div>
+      </div>
+    </div>
+    -->
+
+    <!-- 估值方法对比进度条 -->
+    <!-- 注意：val-fill 的 width 百分比 = 该方法目标价 ÷ 最高目标价 × 100% -->
+    <p style="margin-bottom:10px;font-size:12.5px">各估值方法目标价 vs 当前股价（【当前价】）：</p>
+    <div class="valuation-bar">
+      <span class="val-label">DCF悲观（WACC XX%）</span>
+      <div class="val-track"><div class="val-fill" style="width:30%;background:#dc2626"></div></div>
+      <span class="val-price neg">【目标价】</span>
+    </div>
+    <div class="valuation-bar">
+      <span class="val-label">DCF基准（WACC XX%）</span>
+      <div class="val-track"><div class="val-fill" style="width:60%;background:#3b82f6"></div></div>
+      <span class="val-price" style="color:#3b82f6">【目标价】</span>
+    </div>
+    <div class="valuation-bar">
+      <span class="val-label">P/E基准（XXx × EPS）</span>
+      <div class="val-track"><div class="val-fill" style="width:65%;background:#10b981"></div></div>
+      <span class="val-price" style="color:#10b981">【目标价】</span>
+    </div>
+    <div class="valuation-bar">
+      <span class="val-label">P/S / EV/EBITDA 基准</span>
+      <div class="val-track"><div class="val-fill" style="width:60%;background:#8b5cf6"></div></div>
+      <span class="val-price" style="color:#8b5cf6">【目标价】</span>
+    </div>
+    <div class="valuation-bar">
+      <span class="val-label">主导情景目标价（主锚方法）</span>
+      <div class="val-track"><div class="val-fill" style="width:62%;background:#6366f1"></div></div>
+      <span class="val-price" style="color:#6366f1;font-weight:800">【目标价】</span>
+    </div>
+    <div class="valuation-bar">
+      <span class="val-label">▶ 当前股价</span>
+      <div class="val-track"><div class="val-fill" style="width:55%;background:#374151"></div></div>
+      <span class="val-price" style="color:#374151">【当前价】</span>
+    </div>
+    <div class="valuation-bar">
+      <span class="val-label">DCF乐观（WACC XX%）</span>
+      <div class="val-track"><div class="val-fill" style="width:90%;background:#22c55e"></div></div>
+      <span class="val-price pos">【目标价】</span>
+    </div>
+
+    <!-- 三情景目标价 -->
+    <div class="scenario-grid" style="margin-top:14px">
+      <div class="scenario-card scenario-bull">
+        <div class="scenario-label">乐观情景目标价【若为主导情景，标题前加 ★主导】</div>
+        <div class="scenario-prob">【一句话情景叙事】</div>
+        <div class="scenario-price" style="color:#15803d">【目标价】</div>
+        <div class="scenario-return pos">上行空间 +【XX%】</div>
+      </div>
+      <div class="scenario-card scenario-base">
+        <div class="scenario-label">基准情景目标价【若为主导情景，标题前加 ★主导】</div>
+        <div class="scenario-prob">【一句话情景叙事】</div>
+        <div class="scenario-price" style="color:#1d4ed8">【目标价】</div>
+        <div class="scenario-return" style="color:#2563eb">上行/下行空间 【±XX%】</div>
+      </div>
+      <div class="scenario-card scenario-bear">
+        <div class="scenario-label">悲观情景目标价【若为主导情景，标题前加 ★主导】</div>
+        <div class="scenario-prob">【一句话情景叙事】</div>
+        <div class="scenario-price neg">【目标价】</div>
+        <div class="scenario-return neg">下行空间 -【XX%】</div>
+      </div>
+    </div>
+
+    <!-- 主导情景判定 -->
+    <div class="highlight-box" style="margin-top:10px">
+      <span class="icon">🧭</span>
+      <strong>主导情景判定：【乐观/基准/悲观】（置信【高/中/低】，判定日 【YYYY-MM-DD】）→ 目标价 【XXX】，较当前【上行/下行XX%】。</strong><br>
+      【判定依据：2-3条已发生的事实（财报数字、订单、管理层资本配置行为），逐条对照该情景的驱动假设。不输出概率加权价——三情景是互斥路径，跟着现实走，不做平均。】
+    </div>
+
+    <!-- 情景切换路标 -->
+    <div class="card" style="margin-top:10px">
+      <div class="card-title">🚦 情景切换路标（财报/催化剂落地后对照更新判定）</div>
+      <div class="card-body">
+        <table style="width:100%;border-collapse:collapse;font-size:12.5px">
+          <thead><tr style="text-align:left;opacity:0.7"><th style="padding:4px 8px">情景</th><th style="padding:4px 8px">验证信号（含阈值与观察时点）</th><th style="padding:4px 8px">当前状态</th><th style="padding:4px 8px">触发后动作</th></tr></thead>
+          <tbody>
+            <tr><td style="padding:4px 8px;color:#15803d;font-weight:700">乐观</td><td style="padding:4px 8px">【如：X业务增速连续两季>30%】</td><td style="padding:4px 8px">【未触发/部分触发】</td><td style="padding:4px 8px">切换乐观，目标价改锚【$AAA】</td></tr>
+            <tr><td style="padding:4px 8px;color:#1d4ed8;font-weight:700">基准</td><td style="padding:4px 8px">【信号】</td><td style="padding:4px 8px">【状态】</td><td style="padding:4px 8px">【动作】</td></tr>
+            <tr><td style="padding:4px 8px;color:#dc2626;font-weight:700">悲观</td><td style="padding:4px 8px">【如：毛利率连续两季<40%】</td><td style="padding:4px 8px">【未触发】</td><td style="padding:4px 8px">切换悲观，目标价改锚【$CCC】，评级下调</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 买入/卖出逻辑 -->
+    <div class="pros-cons" style="margin-top:10px">
+      <div class="pros">
+        <div class="pros-title">📌 【三大】买入理由</div>
+        <ul>
+          <li><strong>【理由1标题】</strong>：【具体支撑论据】</li>
+          <li><strong>【理由2标题】</strong>：【具体支撑论据】</li>
+          <li><strong>【理由3标题】</strong>：【具体支撑论据】</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <div class="cons-title">❌ 【三大】不买入理由</div>
+        <ul>
+          <li><strong>【风险1标题】</strong>：【具体风险描述】</li>
+          <li><strong>【风险2标题】</strong>：【具体风险描述】</li>
+          <li><strong>【风险3标题】</strong>：【具体风险描述】</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 分区间操作建议表 -->
+    <table class="data-table" style="margin-top:10px">
+      <tr><th>区间</th><th>股价范围</th><th>对应倍数</th><th>操作建议</th></tr>
+      <tr><td>🟢 强烈买入区间</td><td class="num">【价格范围】</td><td class="num">【XXx–XXx】</td><td>【理由：安全边际充足 / 显著低于DCF基准等】</td></tr>
+      <tr><td>🟡 买入区间</td><td class="num">【价格范围】</td><td class="num">【XXx–XXx】</td><td>【理由：合理估值，基准情景正回报】</td></tr>
+      <tr><td>🔵 持有区间</td><td class="num">【价格范围】</td><td class="num">【XXx–XXx】</td><td>【理由：已定价基准情景，持有等待催化剂】</td></tr>
+      <tr><td>🟠 减持区间</td><td class="num">【价格范围】</td><td class="num">【XXx–XXx】</td><td>【理由：接近乐观情景，逐步兑现仓位】</td></tr>
+      <tr><td>🔴 卖出区间</td><td class="num">&gt;【价格】</td><td class="num">&gt;【XXx】</td><td>【理由：超越乐观情景，定价过于激进】</td></tr>
+    </table>
+  </div>
+</div>
+
+<script>
+function toggle(header) {
+  const body = header.nextElementSibling;
+  const t = header.querySelector('.toggle');
+  const isOpen = body.classList.contains('open');
+  body.classList.toggle('open', !isOpen);
+  t.classList.toggle('open', !isOpen);
+}
+// Default: all open
+document.querySelectorAll('.section-body').forEach(b => b.classList.add('open'));
+document.querySelectorAll('.toggle').forEach(t => t.classList.add('open'));
+</script>
+</body>
+</html>

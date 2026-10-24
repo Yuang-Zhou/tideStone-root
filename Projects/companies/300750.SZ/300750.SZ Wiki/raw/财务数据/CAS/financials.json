@@ -1,0 +1,2369 @@
+{
+  "schema_version": 1,
+  "company": {
+    "name": "宁德时代新能源科技股份有限公司",
+    "primary_ticker": "300750.SZ",
+    "other_listing": "03750.HK"
+  },
+  "as_of": "2026-10-24",
+  "purpose": "入库材料准备：有限三表基础摘录，非研究结论、预测或估值",
+  "extraction_method": "pypdf读取本地PDF；固定合并报表范围与行名匹配；保留原值、币种、原单位、换算值及逐指标物理页码",
+  "currency": "CNY",
+  "normalized_unit": "CNY元（十进制字符串）",
+  "scope": "合并",
+  "accounting_basis_source": {
+    "relative_path_from_raw": "OFFICIAL/accounting_basis_2026.pdf",
+    "sha256": "4051451f83bce44259e3a570bb613a0bd03ed67cb4d541dd88f671a2e2480bb7",
+    "pdf_pages": [
+      1,
+      2
+    ],
+    "note": "公告称自2025年年度财务报告开始统一采用中国企业会计准则；本数据包只使用A股CAS报表，不混用H股招股书IFRS历史数据。"
+  },
+  "coverage_notes": [
+    "最近三份年度报告为2023、2024、2025年报；2022年流量取自2023年报比较期。",
+    "2023年报期初资产负债表日期保留为2023-01-01。",
+    "2026年中期及前三季均为累计期间，未经审计。",
+    "2023年原报以万元披露，2024年起所选报告以千元披露；原值不覆盖。",
+    "2024年报执行准则解释18号追溯重分类2023年质保费用，成本及销售费用不可直接拼接。",
+    "购建长期资产支付的现金仅为该报表行，不等同完整资本开支或自由现金流。",
+    "货币资金与现金及现金等价物是不同定义，未将二者强行相等。"
+  ],
+  "reports": {
+    "annual_2023": {
+      "source_id": "annual_2023",
+      "title": "宁德时代新能源科技股份有限公司2023年年度报告",
+      "relative_path_from_raw": "OFFICIAL/annual_2023.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2024-03-16/1219313047.PDF",
+      "sha256": "6081f0377617dddb82f900569d6458c278a7ab26697b34c87684188eac083471",
+      "pdf_pages": 231,
+      "announcement_date": "2024-03-16",
+      "currency": "CNY",
+      "accounting_basis": "CAS",
+      "scope": "合并",
+      "raw_unit": "万元",
+      "raw_unit_cny_multiplier": 10000,
+      "amount_precision_cny": 100,
+      "current_period": [
+        "2023-01-01",
+        "2023-12-31"
+      ],
+      "comparative_period": [
+        "2022-01-01",
+        "2022-12-31"
+      ],
+      "balance_dates": [
+        "2023-12-31",
+        "2023-01-01"
+      ],
+      "balance_date_note": "原表第二列为2023年1月1日；代表期初余额，未改写成2022年12月31日。",
+      "statements": {
+        "balance_sheet": {
+          "monetary_funds": {
+            "label": "货币资金",
+            "raw_current": "26,430,651.47",
+            "raw_comparative": "19,104,340.95",
+            "current_cny": "264306514700.00",
+            "comparative_cny": "191043409500.00",
+            "pdf_page": 115,
+            "printed_page": 114,
+            "source_excerpt": "货币资金 26,430,651.47 19,104,340.95"
+          },
+          "trade_receivables": {
+            "label": "应收账款",
+            "raw_current": "6,402,053.34",
+            "raw_comparative": "5,796,651.69",
+            "current_cny": "64020533400.00",
+            "comparative_cny": "57966516900.00",
+            "pdf_page": 115,
+            "printed_page": 114,
+            "source_excerpt": "应收账款 6,402,053.34 5,796,651.69"
+          },
+          "inventories": {
+            "label": "存货",
+            "raw_current": "4,543,389.01",
+            "raw_comparative": "7,666,889.88",
+            "current_cny": "45433890100.00",
+            "comparative_cny": "76668898800.00",
+            "pdf_page": 115,
+            "printed_page": 114,
+            "source_excerpt": "存货 4,543,389.01 7,666,889.88"
+          },
+          "current_assets": {
+            "label": "流动资产合计",
+            "raw_current": "44,978,800.17",
+            "raw_comparative": "38,773,485.70",
+            "current_cny": "449788001700.00",
+            "comparative_cny": "387734857000.00",
+            "pdf_page": 115,
+            "printed_page": 114,
+            "source_excerpt": "流动资产合计 44,978,800.17 38,773,485.70"
+          },
+          "noncurrent_assets": {
+            "label": "非流动资产合计",
+            "raw_current": "26,738,003.94",
+            "raw_comparative": "21,321,749.49",
+            "current_cny": "267380039400.00",
+            "comparative_cny": "213217494900.00",
+            "pdf_page": 116,
+            "printed_page": 115,
+            "source_excerpt": "非流动资产合计 26,738,003.94 21,321,749.49"
+          },
+          "total_assets": {
+            "label": "资产总计",
+            "raw_current": "71,716,804.11",
+            "raw_comparative": "60,095,235.19",
+            "current_cny": "717168041100.00",
+            "comparative_cny": "600952351900.00",
+            "pdf_page": 116,
+            "printed_page": 115,
+            "source_excerpt": "资产总计 71,716,804.11 60,095,235.19"
+          },
+          "short_term_borrowings": {
+            "label": "短期借款",
+            "raw_current": "1,518,101.21",
+            "raw_comparative": "1,441,540.25",
+            "current_cny": "15181012100.00",
+            "comparative_cny": "14415402500.00",
+            "pdf_page": 116,
+            "printed_page": 115,
+            "source_excerpt": "短期借款 1,518,101.21 1,441,540.25"
+          },
+          "long_term_borrowings": {
+            "label": "长期借款",
+            "raw_current": "8,344,898.17",
+            "raw_comparative": "5,909,935.84",
+            "current_cny": "83448981700.00",
+            "comparative_cny": "59099358400.00",
+            "pdf_page": 117,
+            "printed_page": 116,
+            "source_excerpt": "长期借款 8,344,898.17 5,909,935.84"
+          },
+          "bonds_payable": {
+            "label": "应付债券",
+            "raw_current": "1,923,701.44",
+            "raw_comparative": "1,917,788.86",
+            "current_cny": "19237014400.00",
+            "comparative_cny": "19177888600.00",
+            "pdf_page": 117,
+            "printed_page": 116,
+            "source_excerpt": "应付债券 1,923,701.44 1,917,788.86"
+          },
+          "current_portion_of_noncurrent_liabilities": {
+            "label": "一年内到期的非流动负债",
+            "raw_current": "700,887.42",
+            "raw_comparative": "723,222.44",
+            "current_cny": "7008874200.00",
+            "comparative_cny": "7232224400.00",
+            "pdf_page": 116,
+            "printed_page": 115,
+            "source_excerpt": "一年内到期的非流动负债 700,887.42 723,222.44"
+          },
+          "current_liabilities": {
+            "label": "流动负债合计",
+            "raw_current": "28,700,106.91",
+            "raw_comparative": "29,576,141.93",
+            "current_cny": "287001069100.00",
+            "comparative_cny": "295761419300.00",
+            "pdf_page": 116,
+            "printed_page": 115,
+            "source_excerpt": "流动负债合计 28,700,106.91 29,576,141.93"
+          },
+          "noncurrent_liabilities": {
+            "label": "非流动负债合计",
+            "raw_current": "21,028,382.14",
+            "raw_comparative": "12,828,177.06",
+            "current_cny": "210283821400.00",
+            "comparative_cny": "128281770600.00",
+            "pdf_page": 117,
+            "printed_page": 116,
+            "source_excerpt": "非流动负债合计 21,028,382.14 12,828,177.06"
+          },
+          "total_liabilities": {
+            "label": "负债合计",
+            "raw_current": "49,728,489.05",
+            "raw_comparative": "42,404,318.99",
+            "current_cny": "497284890500.00",
+            "comparative_cny": "424043189900.00",
+            "pdf_page": 117,
+            "printed_page": 116,
+            "source_excerpt": "负债合计 49,728,489.05 42,404,318.99"
+          },
+          "parent_equity": {
+            "label": "归属于母公司所有者权益合计",
+            "raw_current": "19,770,805.24",
+            "raw_comparative": "16,448,125.16",
+            "current_cny": "197708052400.00",
+            "comparative_cny": "164481251600.00",
+            "pdf_page": 117,
+            "printed_page": 116,
+            "source_excerpt": "归属于母公司所有者权益合计 19,770,805.24 16,448,125.16"
+          },
+          "minority_equity": {
+            "label": "少数股东权益",
+            "raw_current": "2,217,509.82",
+            "raw_comparative": "1,242,791.04",
+            "current_cny": "22175098200.00",
+            "comparative_cny": "12427910400.00",
+            "pdf_page": 117,
+            "printed_page": 116,
+            "source_excerpt": "少数股东权益 2,217,509.82 1,242,791.04"
+          },
+          "total_equity": {
+            "label": "所有者权益合计",
+            "raw_current": "21,988,315.06",
+            "raw_comparative": "17,690,916.20",
+            "current_cny": "219883150600.00",
+            "comparative_cny": "176909162000.00",
+            "pdf_page": 117,
+            "printed_page": 116,
+            "source_excerpt": "所有者权益合计 21,988,315.06 17,690,916.20"
+          }
+        },
+        "income_statement": {
+          "revenue": {
+            "label": "其中：营业收入",
+            "raw_current": "40,091,704.49",
+            "raw_comparative": "32,859,398.75",
+            "current_cny": "400917044900.00",
+            "comparative_cny": "328593987500.00",
+            "pdf_page": 120,
+            "printed_page": 119,
+            "source_excerpt": "其中：营业收入 40,091,704.49 32,859,398.75"
+          },
+          "cost_of_sales": {
+            "label": "其中：营业成本",
+            "raw_current": "30,907,043.40",
+            "raw_comparative": "26,204,960.92",
+            "current_cny": "309070434000.00",
+            "comparative_cny": "262049609200.00",
+            "pdf_page": 120,
+            "printed_page": 119,
+            "source_excerpt": "其中：营业成本 30,907,043.40 26,204,960.92"
+          },
+          "selling_expenses": {
+            "label": "销售费用",
+            "raw_current": "1,795,444.05",
+            "raw_comparative": "1,109,940.12",
+            "current_cny": "17954440500.00",
+            "comparative_cny": "11099401200.00",
+            "pdf_page": 120,
+            "printed_page": 119,
+            "source_excerpt": "销售费用 1,795,444.05 1,109,940.12"
+          },
+          "research_and_development_expenses": {
+            "label": "研发费用",
+            "raw_current": "1,835,610.84",
+            "raw_comparative": "1,551,045.35",
+            "current_cny": "18356108400.00",
+            "comparative_cny": "15510453500.00",
+            "pdf_page": 120,
+            "printed_page": 119,
+            "source_excerpt": "研发费用 1,835,610.84 1,551,045.35"
+          },
+          "operating_profit": {
+            "label": "三、营业利润",
+            "raw_current": "5,371,830.21",
+            "raw_comparative": "3,682,198.31",
+            "current_cny": "53718302100.00",
+            "comparative_cny": "36821983100.00",
+            "pdf_page": 120,
+            "printed_page": 119,
+            "source_excerpt": "三、营业利润（亏损以“－”号填列） 5,371,830.21 3,682,198.31"
+          },
+          "profit_before_tax": {
+            "label": "四、利润总额",
+            "raw_current": "5,391,405.33",
+            "raw_comparative": "3,667,285.62",
+            "current_cny": "53914053300.00",
+            "comparative_cny": "36672856200.00",
+            "pdf_page": 121,
+            "printed_page": 120,
+            "source_excerpt": "四、利润总额（亏损总额以“－”号填 列） 5,391,405.33 3,667,285.62"
+          },
+          "income_tax_expense": {
+            "label": "减：所得税费用",
+            "raw_current": "715,301.88",
+            "raw_comparative": "321,571.27",
+            "current_cny": "7153018800.00",
+            "comparative_cny": "3215712700.00",
+            "pdf_page": 121,
+            "printed_page": 120,
+            "source_excerpt": "减：所得税费用 715,301.88 321,571.27"
+          },
+          "net_profit": {
+            "label": "五、净利润",
+            "raw_current": "4,676,103.45",
+            "raw_comparative": "3,345,714.35",
+            "current_cny": "46761034500.00",
+            "comparative_cny": "33457143500.00",
+            "pdf_page": 121,
+            "printed_page": 120,
+            "source_excerpt": "五、净利润（净亏损以“－”号填列） 4,676,103.45 3,345,714.35"
+          },
+          "net_profit_parent": {
+            "label": "1.归属于母公司股东的净利润",
+            "raw_current": "4,412,124.83",
+            "raw_comparative": "3,072,916.35",
+            "current_cny": "44121248300.00",
+            "comparative_cny": "30729163500.00",
+            "pdf_page": 121,
+            "printed_page": 120,
+            "source_excerpt": "1.归属于母公司股东的净利润 4,412,124.83 3,072,916.35"
+          },
+          "net_profit_minority": {
+            "label": "2.少数股东损益",
+            "raw_current": "263,978.61",
+            "raw_comparative": "272,798.01",
+            "current_cny": "2639786100.00",
+            "comparative_cny": "2727980100.00",
+            "pdf_page": 121,
+            "printed_page": 120,
+            "source_excerpt": "2.少数股东损益 263,978.61 272,798.01"
+          }
+        },
+        "cash_flow_statement": {
+          "operating_inflows": {
+            "label": "经营活动现金流入小计",
+            "raw_current": "44,640,749.71",
+            "raw_comparative": "32,981,115.28",
+            "current_cny": "446407497100.00",
+            "comparative_cny": "329811152800.00",
+            "pdf_page": 123,
+            "printed_page": 122,
+            "source_excerpt": "经营活动现金流入小计 44,640,749.71 32,981,115.28"
+          },
+          "operating_outflows": {
+            "label": "经营活动现金流出小计",
+            "raw_current": "35,358,137.27",
+            "raw_comparative": "26,860,230.96",
+            "current_cny": "353581372700.00",
+            "comparative_cny": "268602309600.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "经营活动现金流出小计 35,358,137.27 26,860,230.96"
+          },
+          "operating_cash_flow": {
+            "label": "经营活动产生的现金流量净额",
+            "raw_current": "9,282,612.44",
+            "raw_comparative": "6,120,884.33",
+            "current_cny": "92826124400.00",
+            "comparative_cny": "61208843300.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "经营活动产生的现金流量净额 9,282,612.44 6,120,884.33"
+          },
+          "investing_inflows": {
+            "label": "投资活动现金流入小计",
+            "raw_current": "1,061,851.04",
+            "raw_comparative": "358,026.99",
+            "current_cny": "10618510400.00",
+            "comparative_cny": "3580269900.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "投资活动现金流入小计 1,061,851.04 358,026.99"
+          },
+          "investing_outflows": {
+            "label": "投资活动现金流出小计",
+            "raw_current": "3,980,627.46",
+            "raw_comparative": "6,772,011.12",
+            "current_cny": "39806274600.00",
+            "comparative_cny": "67720111200.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "投资活动现金流出小计 3,980,627.46 6,772,011.12"
+          },
+          "investing_cash_flow": {
+            "label": "投资活动产生的现金流量净额",
+            "raw_current": "-2,918,776.42",
+            "raw_comparative": "-6,413,984.13",
+            "current_cny": "-29187764200.00",
+            "comparative_cny": "-64139841300.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "投资活动产生的现金流量净额 -2,918,776.42 -6,413,984.13"
+          },
+          "cash_paid_for_long_lived_assets": {
+            "label": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "raw_current": "3,362,489.65",
+            "raw_comparative": "4,821,526.81",
+            "current_cny": "33624896500.00",
+            "comparative_cny": "48215268100.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 3,362,489.65 4,821,526.81"
+          },
+          "financing_inflows": {
+            "label": "筹资活动现金流入小计",
+            "raw_current": "5,028,650.08",
+            "raw_comparative": "10,362,111.15",
+            "current_cny": "50286500800.00",
+            "comparative_cny": "103621111500.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "筹资活动现金流入小计 5,028,650.08 10,362,111.15"
+          },
+          "financing_outflows": {
+            "label": "筹资活动现金流出小计",
+            "raw_current": "3,557,013.81",
+            "raw_comparative": "2,135,468.04",
+            "current_cny": "35570138100.00",
+            "comparative_cny": "21354680400.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "筹资活动现金流出小计 3,557,013.81 2,135,468.04"
+          },
+          "financing_cash_flow": {
+            "label": "筹资活动产生的现金流量净额",
+            "raw_current": "1,471,636.27",
+            "raw_comparative": "8,226,643.12",
+            "current_cny": "14716362700.00",
+            "comparative_cny": "82266431200.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "筹资活动产生的现金流量净额 1,471,636.27 8,226,643.12"
+          },
+          "fx_effect_on_cash": {
+            "label": "四、汇率变动对现金及现金等价物的",
+            "raw_current": "218,144.68",
+            "raw_comparative": "278,814.89",
+            "current_cny": "2181446800.00",
+            "comparative_cny": "2788148900.00",
+            "pdf_page": 124,
+            "printed_page": 123,
+            "source_excerpt": "四、汇率变动对现金及现金等价物的 218,144.68 278,814.89"
+          },
+          "net_change_in_cash": {
+            "label": "五、现金及现金等价物净增加额",
+            "raw_current": "8,053,616.97",
+            "raw_comparative": "8,212,358.20",
+            "current_cny": "80536169700.00",
+            "comparative_cny": "82123582000.00",
+            "pdf_page": 125,
+            "printed_page": 124,
+            "source_excerpt": "五、现金及现金等价物净增加额 8,053,616.97 8,212,358.20"
+          },
+          "opening_cash_equivalents": {
+            "label": "加：期初现金及现金等价物余额",
+            "raw_current": "15,762,931.72",
+            "raw_comparative": "7,550,573.52",
+            "current_cny": "157629317200.00",
+            "comparative_cny": "75505735200.00",
+            "pdf_page": 125,
+            "printed_page": 124,
+            "source_excerpt": "加：期初现金及现金等价物余额 15,762,931.72 7,550,573.52"
+          },
+          "ending_cash_equivalents": {
+            "label": "六、期末现金及现金等价物余额",
+            "raw_current": "23,816,548.69",
+            "raw_comparative": "15,762,931.72",
+            "current_cny": "238165486900.00",
+            "comparative_cny": "157629317200.00",
+            "pdf_page": 125,
+            "printed_page": 124,
+            "source_excerpt": "六、期末现金及现金等价物余额 23,816,548.69 15,762,931.72"
+          }
+        }
+      },
+      "summary_checks_input": {
+        "revenue": {
+          "raw_current": "40,091,704.49",
+          "raw_comparative": "32,859,398.75",
+          "reported_yoy_percent": "22.01",
+          "pdf_page": 7,
+          "printed_page": 6,
+          "source_excerpt": "营业收入（万 元） 40,091,704.49 32,859,398.75 32,859,398.75 22.01% 13,035,579.64 13,035,579.64",
+          "period_note": "报告期累计"
+        },
+        "net_profit_parent": {
+          "raw_current": "4,412,124.83",
+          "raw_comparative": "3,072,916.35",
+          "reported_yoy_percent": "43.58",
+          "pdf_page": 7,
+          "printed_page": 6,
+          "source_excerpt": "归属于上市公司 股东的净利润 （万元） 4,412,124.83 3,072,916.35 3,072,916.35 43.58% 1,593,131.79 1,593,131.79",
+          "period_note": "报告期累计"
+        },
+        "operating_cash_flow": {
+          "raw_current": "9,282,612.44",
+          "raw_comparative": "6,120,884.33",
+          "reported_yoy_percent": "51.65",
+          "pdf_page": 7,
+          "printed_page": 6,
+          "source_excerpt": "经营活动产生的 现金流量净额 （万元） 9,282,612.44 6,120,884.33 6,120,884.33 51.65% 4,290,800.87 4,290,800.87",
+          "period_note": "报告期累计"
+        }
+      }
+    },
+    "annual_2024": {
+      "source_id": "annual_2024",
+      "title": "宁德时代新能源科技股份有限公司2024年年度报告",
+      "relative_path_from_raw": "OFFICIAL/annual_2024.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+      "sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+      "pdf_pages": 229,
+      "announcement_date": "2025-03-15",
+      "currency": "CNY",
+      "accounting_basis": "CAS",
+      "scope": "合并",
+      "raw_unit": "千元",
+      "raw_unit_cny_multiplier": 1000,
+      "amount_precision_cny": 1000,
+      "current_period": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "comparative_period": [
+        "2023-01-01",
+        "2023-12-31"
+      ],
+      "balance_dates": [
+        "2024-12-31",
+        "2023-12-31"
+      ],
+      "balance_date_note": null,
+      "statements": {
+        "balance_sheet": {
+          "monetary_funds": {
+            "label": "货币资金",
+            "raw_current": "303,511,993",
+            "raw_comparative": "264,306,515",
+            "current_cny": "303511993000",
+            "comparative_cny": "264306515000",
+            "pdf_page": 114,
+            "printed_page": 114,
+            "source_excerpt": "货币资金 303,511,993 264,306,515"
+          },
+          "trade_receivables": {
+            "label": "应收账款",
+            "raw_current": "64,135,510",
+            "raw_comparative": "64,020,533",
+            "current_cny": "64135510000",
+            "comparative_cny": "64020533000",
+            "pdf_page": 114,
+            "printed_page": 114,
+            "source_excerpt": "应收账款 64,135,510 64,020,533"
+          },
+          "inventories": {
+            "label": "存货",
+            "raw_current": "59,835,533",
+            "raw_comparative": "45,433,890",
+            "current_cny": "59835533000",
+            "comparative_cny": "45433890000",
+            "pdf_page": 114,
+            "printed_page": 114,
+            "source_excerpt": "存货 59,835,533 45,433,890"
+          },
+          "current_assets": {
+            "label": "流动资产合计",
+            "raw_current": "510,142,089",
+            "raw_comparative": "449,788,002",
+            "current_cny": "510142089000",
+            "comparative_cny": "449788002000",
+            "pdf_page": 114,
+            "printed_page": 114,
+            "source_excerpt": "流动资产合计 510,142,089 449,788,002"
+          },
+          "noncurrent_assets": {
+            "label": "非流动资产合计",
+            "raw_current": "276,516,035",
+            "raw_comparative": "267,380,039",
+            "current_cny": "276516035000",
+            "comparative_cny": "267380039000",
+            "pdf_page": 115,
+            "printed_page": 115,
+            "source_excerpt": "非流动资产合计 276,516,035 267,380,039"
+          },
+          "total_assets": {
+            "label": "资产总计",
+            "raw_current": "786,658,123",
+            "raw_comparative": "717,168,041",
+            "current_cny": "786658123000",
+            "comparative_cny": "717168041000",
+            "pdf_page": 115,
+            "printed_page": 115,
+            "source_excerpt": "资产总计 786,658,123 717,168,041"
+          },
+          "short_term_borrowings": {
+            "label": "短期借款",
+            "raw_current": "19,696,282",
+            "raw_comparative": "15,181,012",
+            "current_cny": "19696282000",
+            "comparative_cny": "15181012000",
+            "pdf_page": 115,
+            "printed_page": 115,
+            "source_excerpt": "短期借款 19,696,282 15,181,012"
+          },
+          "long_term_borrowings": {
+            "label": "长期借款",
+            "raw_current": "81,238,456",
+            "raw_comparative": "83,448,982",
+            "current_cny": "81238456000",
+            "comparative_cny": "83448982000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "长期借款 81,238,456 83,448,982"
+          },
+          "bonds_payable": {
+            "label": "应付债券",
+            "raw_current": "11,922,623",
+            "raw_comparative": "19,237,014",
+            "current_cny": "11922623000",
+            "comparative_cny": "19237014000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "应付债券 11,922,623 19,237,014"
+          },
+          "current_portion_of_noncurrent_liabilities": {
+            "label": "一年内到期的非流动负债",
+            "raw_current": "22,881,417",
+            "raw_comparative": "7,008,874",
+            "current_cny": "22881417000",
+            "comparative_cny": "7008874000",
+            "pdf_page": 115,
+            "printed_page": 115,
+            "source_excerpt": "一年内到期的非流动负债 22,881,417 7,008,874"
+          },
+          "current_liabilities": {
+            "label": "流动负债合计",
+            "raw_current": "317,171,534",
+            "raw_comparative": "287,001,069",
+            "current_cny": "317171534000",
+            "comparative_cny": "287001069000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "流动负债合计 317,171,534 287,001,069"
+          },
+          "noncurrent_liabilities": {
+            "label": "非流动负债合计",
+            "raw_current": "196,030,416",
+            "raw_comparative": "210,283,821",
+            "current_cny": "196030416000",
+            "comparative_cny": "210283821000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "非流动负债合计 196,030,416 210,283,821"
+          },
+          "total_liabilities": {
+            "label": "负债合计",
+            "raw_current": "513,201,949",
+            "raw_comparative": "497,284,890",
+            "current_cny": "513201949000",
+            "comparative_cny": "497284890000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "负债合计 513,201,949 497,284,890"
+          },
+          "parent_equity": {
+            "label": "归属于母公司所有者权益合计",
+            "raw_current": "246,930,033",
+            "raw_comparative": "197,708,052",
+            "current_cny": "246930033000",
+            "comparative_cny": "197708052000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "归属于母公司所有者权益合计 246,930,033 197,708,052"
+          },
+          "minority_equity": {
+            "label": "少数股东权益",
+            "raw_current": "26,526,141",
+            "raw_comparative": "22,175,098",
+            "current_cny": "26526141000",
+            "comparative_cny": "22175098000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "少数股东权益 26,526,141 22,175,098"
+          },
+          "total_equity": {
+            "label": "所有者权益合计",
+            "raw_current": "273,456,174",
+            "raw_comparative": "219,883,151",
+            "current_cny": "273456174000",
+            "comparative_cny": "219883151000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "所有者权益合计 273,456,174 219,883,151"
+          }
+        },
+        "income_statement": {
+          "revenue": {
+            "label": "其中：营业收入",
+            "raw_current": "362,012,554",
+            "raw_comparative": "400,917,045",
+            "current_cny": "362012554000",
+            "comparative_cny": "400917045000",
+            "pdf_page": 119,
+            "printed_page": 119,
+            "source_excerpt": "其中：营业收入 362,012,554 400,917,045"
+          },
+          "cost_of_sales": {
+            "label": "其中：营业成本",
+            "raw_current": "273,518,959",
+            "raw_comparative": "323,982,130",
+            "current_cny": "273518959000",
+            "comparative_cny": "323982130000",
+            "pdf_page": 119,
+            "printed_page": 119,
+            "source_excerpt": "其中：营业成本 273,518,959 323,982,130"
+          },
+          "selling_expenses": {
+            "label": "销售费用",
+            "raw_current": "3,562,797",
+            "raw_comparative": "3,042,744",
+            "current_cny": "3562797000",
+            "comparative_cny": "3042744000",
+            "pdf_page": 119,
+            "printed_page": 119,
+            "source_excerpt": "销售费用 3,562,797 3,042,744"
+          },
+          "research_and_development_expenses": {
+            "label": "研发费用",
+            "raw_current": "18,606,756",
+            "raw_comparative": "18,356,108",
+            "current_cny": "18606756000",
+            "comparative_cny": "18356108000",
+            "pdf_page": 119,
+            "printed_page": 119,
+            "source_excerpt": "研发费用 18,606,756 18,356,108"
+          },
+          "operating_profit": {
+            "label": "三、营业利润",
+            "raw_current": "64,051,799",
+            "raw_comparative": "53,718,302",
+            "current_cny": "64051799000",
+            "comparative_cny": "53718302000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "三、营业利润（亏损以“－”号填列） 64,051,799 53,718,302"
+          },
+          "profit_before_tax": {
+            "label": "四、利润总额",
+            "raw_current": "63,182,039",
+            "raw_comparative": "53,914,053",
+            "current_cny": "63182039000",
+            "comparative_cny": "53914053000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "四、利润总额（亏损总额以“－”号填 列） 63,182,039 53,914,053"
+          },
+          "income_tax_expense": {
+            "label": "减：所得税费用",
+            "raw_current": "9,175,245",
+            "raw_comparative": "7,153,019",
+            "current_cny": "9175245000",
+            "comparative_cny": "7153019000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "减：所得税费用 9,175,245 7,153,019"
+          },
+          "net_profit": {
+            "label": "五、净利润",
+            "raw_current": "54,006,794",
+            "raw_comparative": "46,761,034",
+            "current_cny": "54006794000",
+            "comparative_cny": "46761034000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "五、净利润（净亏损以“－”号填列） 54,006,794 46,761,034"
+          },
+          "net_profit_parent": {
+            "label": "1.归属于母公司股东的净利润",
+            "raw_current": "50,744,682",
+            "raw_comparative": "44,121,248",
+            "current_cny": "50744682000",
+            "comparative_cny": "44121248000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "1.归属于母公司股东的净利润 50,744,682 44,121,248"
+          },
+          "net_profit_minority": {
+            "label": "2.少数股东损益",
+            "raw_current": "3,262,113",
+            "raw_comparative": "2,639,786",
+            "current_cny": "3262113000",
+            "comparative_cny": "2639786000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "2.少数股东损益 3,262,113 2,639,786"
+          }
+        },
+        "cash_flow_statement": {
+          "operating_inflows": {
+            "label": "经营活动现金流入小计",
+            "raw_current": "444,879,417",
+            "raw_comparative": "446,407,497",
+            "current_cny": "444879417000",
+            "comparative_cny": "446407497000",
+            "pdf_page": 123,
+            "printed_page": 123,
+            "source_excerpt": "经营活动现金流入小计 444,879,417 446,407,497"
+          },
+          "operating_outflows": {
+            "label": "经营活动现金流出小计",
+            "raw_current": "347,889,072",
+            "raw_comparative": "353,581,373",
+            "current_cny": "347889072000",
+            "comparative_cny": "353581373000",
+            "pdf_page": 123,
+            "printed_page": 123,
+            "source_excerpt": "经营活动现金流出小计 347,889,072 353,581,373"
+          },
+          "operating_cash_flow": {
+            "label": "经营活动产生的现金流量净额",
+            "raw_current": "96,990,345",
+            "raw_comparative": "92,826,124",
+            "current_cny": "96990345000",
+            "comparative_cny": "92826124000",
+            "pdf_page": 123,
+            "printed_page": 123,
+            "source_excerpt": "经营活动产生的现金流量净额 96,990,345 92,826,124"
+          },
+          "investing_inflows": {
+            "label": "投资活动现金流入小计",
+            "raw_current": "4,906,012",
+            "raw_comparative": "10,618,510",
+            "current_cny": "4906012000",
+            "comparative_cny": "10618510000",
+            "pdf_page": 123,
+            "printed_page": 123,
+            "source_excerpt": "投资活动现金流入小计 4,906,012 10,618,510"
+          },
+          "investing_outflows": {
+            "label": "投资活动现金流出小计",
+            "raw_current": "53,781,323",
+            "raw_comparative": "39,806,275",
+            "current_cny": "53781323000",
+            "comparative_cny": "39806275000",
+            "pdf_page": 123,
+            "printed_page": 123,
+            "source_excerpt": "投资活动现金流出小计 53,781,323 39,806,275"
+          },
+          "investing_cash_flow": {
+            "label": "投资活动产生的现金流量净额",
+            "raw_current": "-48,875,311",
+            "raw_comparative": "-29,187,764",
+            "current_cny": "-48875311000",
+            "comparative_cny": "-29187764000",
+            "pdf_page": 123,
+            "printed_page": 123,
+            "source_excerpt": "投资活动产生的现金流量净额 -48,875,311 -29,187,764"
+          },
+          "cash_paid_for_long_lived_assets": {
+            "label": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "raw_current": "31,179,943",
+            "raw_comparative": "33,624,897",
+            "current_cny": "31179943000",
+            "comparative_cny": "33624897000",
+            "pdf_page": 123,
+            "printed_page": 123,
+            "source_excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 31,179,943 33,624,897"
+          },
+          "financing_inflows": {
+            "label": "筹资活动现金流入小计",
+            "raw_current": "33,392,735",
+            "raw_comparative": "50,286,501",
+            "current_cny": "33392735000",
+            "comparative_cny": "50286501000",
+            "pdf_page": 123,
+            "printed_page": 123,
+            "source_excerpt": "筹资活动现金流入小计 33,392,735 50,286,501"
+          },
+          "financing_outflows": {
+            "label": "筹资活动现金流出小计",
+            "raw_current": "47,916,971",
+            "raw_comparative": "35,570,138",
+            "current_cny": "47916971000",
+            "comparative_cny": "35570138000",
+            "pdf_page": 124,
+            "printed_page": 124,
+            "source_excerpt": "筹资活动现金流出小计 47,916,971 35,570,138"
+          },
+          "financing_cash_flow": {
+            "label": "筹资活动产生的现金流量净额",
+            "raw_current": "-14,524,236",
+            "raw_comparative": "14,716,363",
+            "current_cny": "-14524236000",
+            "comparative_cny": "14716363000",
+            "pdf_page": 124,
+            "printed_page": 124,
+            "source_excerpt": "筹资活动产生的现金流量净额 -14,524,236 14,716,363"
+          },
+          "fx_effect_on_cash": {
+            "label": "四、汇率变动对现金及现金等价物的",
+            "raw_current": "-1,596,552",
+            "raw_comparative": "2,181,447",
+            "current_cny": "-1596552000",
+            "comparative_cny": "2181447000",
+            "pdf_page": 124,
+            "printed_page": 124,
+            "source_excerpt": "四、汇率变动对现金及现金等价物的 影响 -1,596,552 2,181,447"
+          },
+          "net_change_in_cash": {
+            "label": "五、现金及现金等价物净增加额",
+            "raw_current": "31,994,247",
+            "raw_comparative": "80,536,170",
+            "current_cny": "31994247000",
+            "comparative_cny": "80536170000",
+            "pdf_page": 124,
+            "printed_page": 124,
+            "source_excerpt": "五、现金及现金等价物净增加额 31,994,247 80,536,170"
+          },
+          "opening_cash_equivalents": {
+            "label": "加：期初现金及现金等价物余额",
+            "raw_current": "238,165,487",
+            "raw_comparative": "157,629,317",
+            "current_cny": "238165487000",
+            "comparative_cny": "157629317000",
+            "pdf_page": 124,
+            "printed_page": 124,
+            "source_excerpt": "加：期初现金及现金等价物余额 238,165,487 157,629,317"
+          },
+          "ending_cash_equivalents": {
+            "label": "六、期末现金及现金等价物余额",
+            "raw_current": "270,159,734",
+            "raw_comparative": "238,165,487",
+            "current_cny": "270159734000",
+            "comparative_cny": "238165487000",
+            "pdf_page": 124,
+            "printed_page": 124,
+            "source_excerpt": "六、期末现金及现金等价物余额 270,159,734 238,165,487"
+          }
+        }
+      },
+      "summary_checks_input": {
+        "revenue": {
+          "raw_current": "362,012,554",
+          "raw_comparative": "400,917,045",
+          "reported_yoy_percent": "-9.70",
+          "pdf_page": 9,
+          "printed_page": 9,
+          "source_excerpt": "营业收入（千元） 362,012,554 400,917,045 -9.70% 328,593,988 328,593,988",
+          "period_note": "报告期累计"
+        },
+        "net_profit_parent": {
+          "raw_current": "50,744,682",
+          "raw_comparative": "44,121,248",
+          "reported_yoy_percent": "15.01",
+          "pdf_page": 9,
+          "printed_page": 9,
+          "source_excerpt": "归属于上市公司股东的净利润（千元） 50,744,682 44,121,248 15.01% 30,729,163 30,729,163",
+          "period_note": "报告期累计"
+        },
+        "operating_cash_flow": {
+          "raw_current": "96,990,345",
+          "raw_comparative": "92,826,124",
+          "reported_yoy_percent": "4.49",
+          "pdf_page": 9,
+          "printed_page": 9,
+          "source_excerpt": "经营活动产生的现金流量净额（千元） 96,990,345 92,826,124 4.49% 61,208,843 61,208,843",
+          "period_note": "报告期累计"
+        }
+      }
+    },
+    "annual_2025": {
+      "source_id": "annual_2025",
+      "title": "宁德时代新能源科技股份有限公司2025年年度报告",
+      "relative_path_from_raw": "OFFICIAL/annual_2025.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+      "sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+      "pdf_pages": 232,
+      "announcement_date": "2026-03-10",
+      "currency": "CNY",
+      "accounting_basis": "CAS",
+      "scope": "合并",
+      "raw_unit": "千元",
+      "raw_unit_cny_multiplier": 1000,
+      "amount_precision_cny": 1000,
+      "current_period": [
+        "2025-01-01",
+        "2025-12-31"
+      ],
+      "comparative_period": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "balance_dates": [
+        "2025-12-31",
+        "2024-12-31"
+      ],
+      "balance_date_note": null,
+      "statements": {
+        "balance_sheet": {
+          "monetary_funds": {
+            "label": "货币资金",
+            "raw_current": "333,512,927",
+            "raw_comparative": "303,511,993",
+            "current_cny": "333512927000",
+            "comparative_cny": "303511993000",
+            "pdf_page": 111,
+            "printed_page": 111,
+            "source_excerpt": "货币资金 333,512,927 303,511,993"
+          },
+          "trade_receivables": {
+            "label": "应收账款",
+            "raw_current": "76,403,264",
+            "raw_comparative": "64,135,510",
+            "current_cny": "76403264000",
+            "comparative_cny": "64135510000",
+            "pdf_page": 111,
+            "printed_page": 111,
+            "source_excerpt": "应收账款 76,403,264 64,135,510"
+          },
+          "inventories": {
+            "label": "存货",
+            "raw_current": "94,526,239",
+            "raw_comparative": "59,835,533",
+            "current_cny": "94526239000",
+            "comparative_cny": "59835533000",
+            "pdf_page": 111,
+            "printed_page": 111,
+            "source_excerpt": "存货 94,526,239 59,835,533"
+          },
+          "current_assets": {
+            "label": "流动资产合计",
+            "raw_current": "638,481,543",
+            "raw_comparative": "510,142,089",
+            "current_cny": "638481543000",
+            "comparative_cny": "510142089000",
+            "pdf_page": 111,
+            "printed_page": 111,
+            "source_excerpt": "流动资产合计 638,481,543 510,142,089"
+          },
+          "noncurrent_assets": {
+            "label": "非流动资产合计",
+            "raw_current": "336,346,001",
+            "raw_comparative": "276,516,035",
+            "current_cny": "336346001000",
+            "comparative_cny": "276516035000",
+            "pdf_page": 112,
+            "printed_page": 112,
+            "source_excerpt": "非流动资产合计 336,346,001 276,516,035"
+          },
+          "total_assets": {
+            "label": "资产总计",
+            "raw_current": "974,827,544",
+            "raw_comparative": "786,658,123",
+            "current_cny": "974827544000",
+            "comparative_cny": "786658123000",
+            "pdf_page": 112,
+            "printed_page": 112,
+            "source_excerpt": "资产总计 974,827,544 786,658,123"
+          },
+          "short_term_borrowings": {
+            "label": "短期借款",
+            "raw_current": "12,935,498",
+            "raw_comparative": "19,696,282",
+            "current_cny": "12935498000",
+            "comparative_cny": "19696282000",
+            "pdf_page": 112,
+            "printed_page": 112,
+            "source_excerpt": "短期借款 12,935,498 19,696,282"
+          },
+          "long_term_borrowings": {
+            "label": "长期借款",
+            "raw_current": "78,234,935",
+            "raw_comparative": "81,238,456",
+            "current_cny": "78234935000",
+            "comparative_cny": "81238456000",
+            "pdf_page": 113,
+            "printed_page": 113,
+            "source_excerpt": "长期借款 78,234,935 81,238,456"
+          },
+          "bonds_payable": {
+            "label": "应付债券",
+            "raw_current": "3,443,434",
+            "raw_comparative": "11,922,623",
+            "current_cny": "3443434000",
+            "comparative_cny": "11922623000",
+            "pdf_page": 113,
+            "printed_page": 113,
+            "source_excerpt": "应付债券 3,443,434 11,922,623"
+          },
+          "current_portion_of_noncurrent_liabilities": {
+            "label": "一年内到期的非流动负债",
+            "raw_current": "22,237,540",
+            "raw_comparative": "22,881,417",
+            "current_cny": "22237540000",
+            "comparative_cny": "22881417000",
+            "pdf_page": 112,
+            "printed_page": 112,
+            "source_excerpt": "一年内到期的非流动负债 22,237,540 22,881,417"
+          },
+          "current_liabilities": {
+            "label": "流动负债合计",
+            "raw_current": "399,625,988",
+            "raw_comparative": "317,171,534",
+            "current_cny": "399625988000",
+            "comparative_cny": "317171534000",
+            "pdf_page": 113,
+            "printed_page": 113,
+            "source_excerpt": "流动负债合计 399,625,988 317,171,534"
+          },
+          "noncurrent_liabilities": {
+            "label": "非流动负债合计",
+            "raw_current": "204,175,232",
+            "raw_comparative": "196,030,416",
+            "current_cny": "204175232000",
+            "comparative_cny": "196030416000",
+            "pdf_page": 113,
+            "printed_page": 113,
+            "source_excerpt": "非流动负债合计 204,175,232 196,030,416"
+          },
+          "total_liabilities": {
+            "label": "负债合计",
+            "raw_current": "603,801,220",
+            "raw_comparative": "513,201,949",
+            "current_cny": "603801220000",
+            "comparative_cny": "513201949000",
+            "pdf_page": 113,
+            "printed_page": 113,
+            "source_excerpt": "负债合计 603,801,220 513,201,949"
+          },
+          "parent_equity": {
+            "label": "归属于母公司所有者权益合计",
+            "raw_current": "337,107,747",
+            "raw_comparative": "246,930,033",
+            "current_cny": "337107747000",
+            "comparative_cny": "246930033000",
+            "pdf_page": 113,
+            "printed_page": 113,
+            "source_excerpt": "归属于母公司所有者权益合计 337,107,747 246,930,033"
+          },
+          "minority_equity": {
+            "label": "少数股东权益",
+            "raw_current": "33,918,577",
+            "raw_comparative": "26,526,141",
+            "current_cny": "33918577000",
+            "comparative_cny": "26526141000",
+            "pdf_page": 113,
+            "printed_page": 113,
+            "source_excerpt": "少数股东权益 33,918,577 26,526,141"
+          },
+          "total_equity": {
+            "label": "所有者权益合计",
+            "raw_current": "371,026,324",
+            "raw_comparative": "273,456,174",
+            "current_cny": "371026324000",
+            "comparative_cny": "273456174000",
+            "pdf_page": 113,
+            "printed_page": 113,
+            "source_excerpt": "所有者权益合计 371,026,324 273,456,174"
+          }
+        },
+        "income_statement": {
+          "revenue": {
+            "label": "其中：营业收入",
+            "raw_current": "423,701,834",
+            "raw_comparative": "362,012,554",
+            "current_cny": "423701834000",
+            "comparative_cny": "362012554000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "其中：营业收入 423,701,834 362,012,554"
+          },
+          "cost_of_sales": {
+            "label": "其中：营业成本",
+            "raw_current": "312,383,297",
+            "raw_comparative": "273,518,959",
+            "current_cny": "312383297000",
+            "comparative_cny": "273518959000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "其中：营业成本 312,383,297 273,518,959"
+          },
+          "selling_expenses": {
+            "label": "销售费用",
+            "raw_current": "3,735,118",
+            "raw_comparative": "3,562,797",
+            "current_cny": "3735118000",
+            "comparative_cny": "3562797000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "销售费用 3,735,118 3,562,797"
+          },
+          "research_and_development_expenses": {
+            "label": "研发费用",
+            "raw_current": "22,146,581",
+            "raw_comparative": "18,606,756",
+            "current_cny": "22146581000",
+            "comparative_cny": "18606756000",
+            "pdf_page": 116,
+            "printed_page": 116,
+            "source_excerpt": "研发费用 22,146,581 18,606,756"
+          },
+          "operating_profit": {
+            "label": "三、营业利润",
+            "raw_current": "89,518,636",
+            "raw_comparative": "64,051,799",
+            "current_cny": "89518636000",
+            "comparative_cny": "64051799000",
+            "pdf_page": 117,
+            "printed_page": 117,
+            "source_excerpt": "三、营业利润（亏损以“－”号填列） 89,518,636 64,051,799"
+          },
+          "profit_before_tax": {
+            "label": "四、利润总额",
+            "raw_current": "89,526,545",
+            "raw_comparative": "63,182,039",
+            "current_cny": "89526545000",
+            "comparative_cny": "63182039000",
+            "pdf_page": 117,
+            "printed_page": 117,
+            "source_excerpt": "四、利润总额（亏损总额以“－”号填 列） 89,526,545 63,182,039"
+          },
+          "income_tax_expense": {
+            "label": "减：所得税费用",
+            "raw_current": "12,740,236",
+            "raw_comparative": "9,175,245",
+            "current_cny": "12740236000",
+            "comparative_cny": "9175245000",
+            "pdf_page": 117,
+            "printed_page": 117,
+            "source_excerpt": "减：所得税费用 12,740,236 9,175,245"
+          },
+          "net_profit": {
+            "label": "五、净利润",
+            "raw_current": "76,786,309",
+            "raw_comparative": "54,006,794",
+            "current_cny": "76786309000",
+            "comparative_cny": "54006794000",
+            "pdf_page": 117,
+            "printed_page": 117,
+            "source_excerpt": "五、净利润（净亏损以“－”号填列） 76,786,309 54,006,794"
+          },
+          "net_profit_parent": {
+            "label": "1.归属于母公司股东的净利润",
+            "raw_current": "72,201,282",
+            "raw_comparative": "50,744,682",
+            "current_cny": "72201282000",
+            "comparative_cny": "50744682000",
+            "pdf_page": 117,
+            "printed_page": 117,
+            "source_excerpt": "1.归属于母公司股东的净利润 72,201,282 50,744,682"
+          },
+          "net_profit_minority": {
+            "label": "2.少数股东损益",
+            "raw_current": "4,585,027",
+            "raw_comparative": "3,262,113",
+            "current_cny": "4585027000",
+            "comparative_cny": "3262113000",
+            "pdf_page": 117,
+            "printed_page": 117,
+            "source_excerpt": "2.少数股东损益 4,585,027 3,262,113"
+          }
+        },
+        "cash_flow_statement": {
+          "operating_inflows": {
+            "label": "经营活动现金流入小计",
+            "raw_current": "511,868,353",
+            "raw_comparative": "444,879,417",
+            "current_cny": "511868353000",
+            "comparative_cny": "444879417000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "经营活动现金流入小计 511,868,353 444,879,417"
+          },
+          "operating_outflows": {
+            "label": "经营活动现金流出小计",
+            "raw_current": "378,648,372",
+            "raw_comparative": "347,889,072",
+            "current_cny": "378648372000",
+            "comparative_cny": "347889072000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "经营活动现金流出小计 378,648,372 347,889,072"
+          },
+          "operating_cash_flow": {
+            "label": "经营活动产生的现金流量净额",
+            "raw_current": "133,219,982",
+            "raw_comparative": "96,990,345",
+            "current_cny": "133219982000",
+            "comparative_cny": "96990345000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "经营活动产生的现金流量净额 133,219,982 96,990,345"
+          },
+          "investing_inflows": {
+            "label": "投资活动现金流入小计",
+            "raw_current": "8,303,785",
+            "raw_comparative": "4,906,012",
+            "current_cny": "8303785000",
+            "comparative_cny": "4906012000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "投资活动现金流入小计 8,303,785 4,906,012"
+          },
+          "investing_outflows": {
+            "label": "投资活动现金流出小计",
+            "raw_current": "102,779,575",
+            "raw_comparative": "53,781,323",
+            "current_cny": "102779575000",
+            "comparative_cny": "53781323000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "投资活动现金流出小计 102,779,575 53,781,323"
+          },
+          "investing_cash_flow": {
+            "label": "投资活动产生的现金流量净额",
+            "raw_current": "-94,475,790",
+            "raw_comparative": "-48,875,311",
+            "current_cny": "-94475790000",
+            "comparative_cny": "-48875311000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "投资活动产生的现金流量净额 -94,475,790 -48,875,311"
+          },
+          "cash_paid_for_long_lived_assets": {
+            "label": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "raw_current": "42,344,558",
+            "raw_comparative": "31,179,943",
+            "current_cny": "42344558000",
+            "comparative_cny": "31179943000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 42,344,558 31,179,943"
+          },
+          "financing_inflows": {
+            "label": "筹资活动现金流入小计",
+            "raw_current": "85,607,537",
+            "raw_comparative": "33,392,735",
+            "current_cny": "85607537000",
+            "comparative_cny": "33392735000",
+            "pdf_page": 120,
+            "printed_page": 120,
+            "source_excerpt": "筹资活动现金流入小计 85,607,537 33,392,735"
+          },
+          "financing_outflows": {
+            "label": "筹资活动现金流出小计",
+            "raw_current": "91,917,080",
+            "raw_comparative": "47,916,971",
+            "current_cny": "91917080000",
+            "comparative_cny": "47916971000",
+            "pdf_page": 121,
+            "printed_page": 121,
+            "source_excerpt": "筹资活动现金流出小计 91,917,080 47,916,971"
+          },
+          "financing_cash_flow": {
+            "label": "筹资活动产生的现金流量净额",
+            "raw_current": "-6,309,543",
+            "raw_comparative": "-14,524,236",
+            "current_cny": "-6309543000",
+            "comparative_cny": "-14524236000",
+            "pdf_page": 121,
+            "printed_page": 121,
+            "source_excerpt": "筹资活动产生的现金流量净额 -6,309,543 -14,524,236"
+          },
+          "fx_effect_on_cash": {
+            "label": "四、汇率变动对现金及现金等价物的",
+            "raw_current": "-2,664,640",
+            "raw_comparative": "-1,596,552",
+            "current_cny": "-2664640000",
+            "comparative_cny": "-1596552000",
+            "pdf_page": 121,
+            "printed_page": 121,
+            "source_excerpt": "四、汇率变动对现金及现金等价物的 影响 -2,664,640 -1,596,552"
+          },
+          "net_change_in_cash": {
+            "label": "五、现金及现金等价物净增加额",
+            "raw_current": "29,770,008",
+            "raw_comparative": "31,994,247",
+            "current_cny": "29770008000",
+            "comparative_cny": "31994247000",
+            "pdf_page": 121,
+            "printed_page": 121,
+            "source_excerpt": "五、现金及现金等价物净增加额 29,770,008 31,994,247"
+          },
+          "opening_cash_equivalents": {
+            "label": "加：期初现金及现金等价物余额",
+            "raw_current": "270,159,734",
+            "raw_comparative": "238,165,487",
+            "current_cny": "270159734000",
+            "comparative_cny": "238165487000",
+            "pdf_page": 121,
+            "printed_page": 121,
+            "source_excerpt": "加：期初现金及现金等价物余额 270,159,734 238,165,487"
+          },
+          "ending_cash_equivalents": {
+            "label": "六、期末现金及现金等价物余额",
+            "raw_current": "299,929,741",
+            "raw_comparative": "270,159,734",
+            "current_cny": "299929741000",
+            "comparative_cny": "270159734000",
+            "pdf_page": 121,
+            "printed_page": 121,
+            "source_excerpt": "六、期末现金及现金等价物余额 299,929,741 270,159,734"
+          }
+        }
+      },
+      "summary_checks_input": {
+        "revenue": {
+          "raw_current": "423,701,834",
+          "raw_comparative": "362,012,554",
+          "reported_yoy_percent": "17.04",
+          "pdf_page": 11,
+          "printed_page": 11,
+          "source_excerpt": "营业收入 423,701,834 362,012,554 17.04% 400,917,045",
+          "period_note": "报告期累计"
+        },
+        "net_profit_parent": {
+          "raw_current": "72,201,282",
+          "raw_comparative": "50,744,682",
+          "reported_yoy_percent": "42.28",
+          "pdf_page": 11,
+          "printed_page": 11,
+          "source_excerpt": "归属于上市公司股东 的净利润 72,201,282 50,744,682 42.28% 44,121,248",
+          "period_note": "报告期累计"
+        },
+        "operating_cash_flow": {
+          "raw_current": "133,219,982",
+          "raw_comparative": "96,990,345",
+          "reported_yoy_percent": "37.35",
+          "pdf_page": 11,
+          "printed_page": 11,
+          "source_excerpt": "经营活动产生的现金 流量净额 133,219,982 96,990,345 37.35% 92,826,124",
+          "period_note": "报告期累计"
+        }
+      }
+    },
+    "interim_2026": {
+      "source_id": "interim_2026",
+      "title": "宁德时代新能源科技股份有限公司2026年半年度报告",
+      "relative_path_from_raw": "OFFICIAL/interim_2026.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+      "sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9",
+      "pdf_pages": 182,
+      "announcement_date": "2026-07-25",
+      "currency": "CNY",
+      "accounting_basis": "CAS",
+      "scope": "合并",
+      "raw_unit": "千元",
+      "raw_unit_cny_multiplier": 1000,
+      "amount_precision_cny": 1000,
+      "current_period": [
+        "2026-01-01",
+        "2026-06-30"
+      ],
+      "comparative_period": [
+        "2025-01-01",
+        "2025-06-30"
+      ],
+      "balance_dates": [
+        "2026-06-30",
+        "2025-12-31"
+      ],
+      "balance_date_note": null,
+      "statements": {
+        "balance_sheet": {
+          "monetary_funds": {
+            "label": "货币资金",
+            "raw_current": "372,053,275",
+            "raw_comparative": "333,512,927",
+            "current_cny": "372053275000",
+            "comparative_cny": "333512927000",
+            "pdf_page": 72,
+            "printed_page": 72,
+            "source_excerpt": "货币资金 372,053,275 333,512,927"
+          },
+          "trade_receivables": {
+            "label": "应收账款",
+            "raw_current": "88,417,984",
+            "raw_comparative": "76,403,264",
+            "current_cny": "88417984000",
+            "comparative_cny": "76403264000",
+            "pdf_page": 72,
+            "printed_page": 72,
+            "source_excerpt": "应收账款 88,417,984 76,403,264"
+          },
+          "inventories": {
+            "label": "存货",
+            "raw_current": "130,819,205",
+            "raw_comparative": "94,526,239",
+            "current_cny": "130819205000",
+            "comparative_cny": "94526239000",
+            "pdf_page": 72,
+            "printed_page": 72,
+            "source_excerpt": "存货 130,819,205 94,526,239"
+          },
+          "current_assets": {
+            "label": "流动资产合计",
+            "raw_current": "758,879,539",
+            "raw_comparative": "638,481,543",
+            "current_cny": "758879539000",
+            "comparative_cny": "638481543000",
+            "pdf_page": 73,
+            "printed_page": 73,
+            "source_excerpt": "流动资产合计 758,879,539 638,481,543"
+          },
+          "noncurrent_assets": {
+            "label": "非流动资产合计",
+            "raw_current": "380,001,250",
+            "raw_comparative": "336,346,001",
+            "current_cny": "380001250000",
+            "comparative_cny": "336346001000",
+            "pdf_page": 73,
+            "printed_page": 73,
+            "source_excerpt": "非流动资产合计 380,001,250 336,346,001"
+          },
+          "total_assets": {
+            "label": "资产总计",
+            "raw_current": "1,138,880,789",
+            "raw_comparative": "974,827,544",
+            "current_cny": "1138880789000",
+            "comparative_cny": "974827544000",
+            "pdf_page": 73,
+            "printed_page": 73,
+            "source_excerpt": "资产总计 1,138,880,789 974,827,544"
+          },
+          "short_term_borrowings": {
+            "label": "短期借款",
+            "raw_current": "20,885,906",
+            "raw_comparative": "12,935,498",
+            "current_cny": "20885906000",
+            "comparative_cny": "12935498000",
+            "pdf_page": 73,
+            "printed_page": 73,
+            "source_excerpt": "短期借款 20,885,906 12,935,498"
+          },
+          "long_term_borrowings": {
+            "label": "长期借款",
+            "raw_current": "74,262,746",
+            "raw_comparative": "78,234,935",
+            "current_cny": "74262746000",
+            "comparative_cny": "78234935000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "长期借款 74,262,746 78,234,935"
+          },
+          "bonds_payable": {
+            "label": "应付债券",
+            "raw_current": "28,512,039",
+            "raw_comparative": "3,443,434",
+            "current_cny": "28512039000",
+            "comparative_cny": "3443434000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "应付债券 28,512,039 3,443,434"
+          },
+          "current_portion_of_noncurrent_liabilities": {
+            "label": "一年内到期的非流动负债",
+            "raw_current": "22,010,724",
+            "raw_comparative": "22,237,540",
+            "current_cny": "22010724000",
+            "comparative_cny": "22237540000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "一年内到期的非流动负债 22,010,724 22,237,540"
+          },
+          "current_liabilities": {
+            "label": "流动负债合计",
+            "raw_current": "486,607,002",
+            "raw_comparative": "399,625,988",
+            "current_cny": "486607002000",
+            "comparative_cny": "399625988000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "流动负债合计 486,607,002 399,625,988"
+          },
+          "noncurrent_liabilities": {
+            "label": "非流动负债合计",
+            "raw_current": "238,318,556",
+            "raw_comparative": "204,175,232",
+            "current_cny": "238318556000",
+            "comparative_cny": "204175232000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "非流动负债合计 238,318,556 204,175,232"
+          },
+          "total_liabilities": {
+            "label": "负债合计",
+            "raw_current": "724,925,558",
+            "raw_comparative": "603,801,220",
+            "current_cny": "724925558000",
+            "comparative_cny": "603801220000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "负债合计 724,925,558 603,801,220"
+          },
+          "parent_equity": {
+            "label": "归属于母公司所有者权益合计",
+            "raw_current": "379,353,710",
+            "raw_comparative": "337,107,747",
+            "current_cny": "379353710000",
+            "comparative_cny": "337107747000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "归属于母公司所有者权益合计 379,353,710 337,107,747"
+          },
+          "minority_equity": {
+            "label": "少数股东权益",
+            "raw_current": "34,601,522",
+            "raw_comparative": "33,918,577",
+            "current_cny": "34601522000",
+            "comparative_cny": "33918577000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "少数股东权益 34,601,522 33,918,577"
+          },
+          "total_equity": {
+            "label": "所有者权益合计",
+            "raw_current": "413,955,232",
+            "raw_comparative": "371,026,324",
+            "current_cny": "413955232000",
+            "comparative_cny": "371026324000",
+            "pdf_page": 74,
+            "printed_page": 74,
+            "source_excerpt": "所有者权益合计 413,955,232 371,026,324"
+          }
+        },
+        "income_statement": {
+          "revenue": {
+            "label": "其中：营业收入",
+            "raw_current": "276,916,580",
+            "raw_comparative": "178,886,253",
+            "current_cny": "276916580000",
+            "comparative_cny": "178886253000",
+            "pdf_page": 77,
+            "printed_page": 77,
+            "source_excerpt": "其中：营业收入 276,916,580 178,886,253"
+          },
+          "cost_of_sales": {
+            "label": "其中：营业成本",
+            "raw_current": "210,654,890",
+            "raw_comparative": "134,123,603",
+            "current_cny": "210654890000",
+            "comparative_cny": "134123603000",
+            "pdf_page": 77,
+            "printed_page": 77,
+            "source_excerpt": "其中：营业成本 210,654,890 134,123,603"
+          },
+          "selling_expenses": {
+            "label": "销售费用",
+            "raw_current": "2,163,577",
+            "raw_comparative": "1,621,425",
+            "current_cny": "2163577000",
+            "comparative_cny": "1621425000",
+            "pdf_page": 77,
+            "printed_page": 77,
+            "source_excerpt": "销售费用 2,163,577 1,621,425"
+          },
+          "research_and_development_expenses": {
+            "label": "研发费用",
+            "raw_current": "11,376,545",
+            "raw_comparative": "10,094,566",
+            "current_cny": "11376545000",
+            "comparative_cny": "10094566000",
+            "pdf_page": 77,
+            "printed_page": 77,
+            "source_excerpt": "研发费用 11,376,545 10,094,566"
+          },
+          "operating_profit": {
+            "label": "三、营业利润",
+            "raw_current": "55,664,757",
+            "raw_comparative": "38,820,520",
+            "current_cny": "55664757000",
+            "comparative_cny": "38820520000",
+            "pdf_page": 78,
+            "printed_page": 78,
+            "source_excerpt": "三、营业利润（亏损以“—”号填列） 55,664,757 38,820,520"
+          },
+          "profit_before_tax": {
+            "label": "四、利润总额",
+            "raw_current": "55,766,857",
+            "raw_comparative": "38,812,500",
+            "current_cny": "55766857000",
+            "comparative_cny": "38812500000",
+            "pdf_page": 78,
+            "printed_page": 78,
+            "source_excerpt": "四、利润总额（亏损总额以“—”号填 列） 55,766,857 38,812,500"
+          },
+          "income_tax_expense": {
+            "label": "减：所得税费用",
+            "raw_current": "8,736,218",
+            "raw_comparative": "6,447,053",
+            "current_cny": "8736218000",
+            "comparative_cny": "6447053000",
+            "pdf_page": 78,
+            "printed_page": 78,
+            "source_excerpt": "减：所得税费用 8,736,218 6,447,053"
+          },
+          "net_profit": {
+            "label": "五、净利润",
+            "raw_current": "47,030,638",
+            "raw_comparative": "32,365,447",
+            "current_cny": "47030638000",
+            "comparative_cny": "32365447000",
+            "pdf_page": 78,
+            "printed_page": 78,
+            "source_excerpt": "五、净利润（净亏损以“—”号填列） 47,030,638 32,365,447"
+          },
+          "net_profit_parent": {
+            "label": "1.归属于母公司股东的净利润",
+            "raw_current": "43,284,002",
+            "raw_comparative": "30,485,139",
+            "current_cny": "43284002000",
+            "comparative_cny": "30485139000",
+            "pdf_page": 78,
+            "printed_page": 78,
+            "source_excerpt": "1.归属于母公司股东的净利润 （净亏损以“—”号填列） 43,284,002 30,485,139"
+          },
+          "net_profit_minority": {
+            "label": "2.少数股东损益",
+            "raw_current": "3,746,636",
+            "raw_comparative": "1,880,308",
+            "current_cny": "3746636000",
+            "comparative_cny": "1880308000",
+            "pdf_page": 78,
+            "printed_page": 78,
+            "source_excerpt": "2.少数股东损益（净亏损以“—”号 填列） 3,746,636 1,880,308"
+          }
+        },
+        "cash_flow_statement": {
+          "operating_inflows": {
+            "label": "经营活动现金流入小计",
+            "raw_current": "278,491,344",
+            "raw_comparative": "238,437,020",
+            "current_cny": "278491344000",
+            "comparative_cny": "238437020000",
+            "pdf_page": 81,
+            "printed_page": 81,
+            "source_excerpt": "经营活动现金流入小计 278,491,344 238,437,020"
+          },
+          "operating_outflows": {
+            "label": "经营活动现金流出小计",
+            "raw_current": "218,274,494",
+            "raw_comparative": "179,749,954",
+            "current_cny": "218274494000",
+            "comparative_cny": "179749954000",
+            "pdf_page": 81,
+            "printed_page": 81,
+            "source_excerpt": "经营活动现金流出小计 218,274,494 179,749,954"
+          },
+          "operating_cash_flow": {
+            "label": "经营活动产生的现金流量净额",
+            "raw_current": "60,216,851",
+            "raw_comparative": "58,687,066",
+            "current_cny": "60216851000",
+            "comparative_cny": "58687066000",
+            "pdf_page": 81,
+            "printed_page": 81,
+            "source_excerpt": "经营活动产生的现金流量净额 60,216,851 58,687,066"
+          },
+          "investing_inflows": {
+            "label": "投资活动现金流入小计",
+            "raw_current": "18,894,160",
+            "raw_comparative": "3,875,825",
+            "current_cny": "18894160000",
+            "comparative_cny": "3875825000",
+            "pdf_page": 81,
+            "printed_page": 81,
+            "source_excerpt": "投资活动现金流入小计 18,894,160 3,875,825"
+          },
+          "investing_outflows": {
+            "label": "投资活动现金流出小计",
+            "raw_current": "55,823,251",
+            "raw_comparative": "30,145,345",
+            "current_cny": "55823251000",
+            "comparative_cny": "30145345000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "投资活动现金流出小计 55,823,251 30,145,345"
+          },
+          "investing_cash_flow": {
+            "label": "投资活动产生的现金流量净额",
+            "raw_current": "-36,929,091",
+            "raw_comparative": "-26,269,519",
+            "current_cny": "-36929091000",
+            "comparative_cny": "-26269519000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "投资活动产生的现金流量净额 -36,929,091 -26,269,519"
+          },
+          "cash_paid_for_long_lived_assets": {
+            "label": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "raw_current": "25,072,772",
+            "raw_comparative": "20,212,919",
+            "current_cny": "25072772000",
+            "comparative_cny": "20212919000",
+            "pdf_page": 81,
+            "printed_page": 81,
+            "source_excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 25,072,772 20,212,919"
+          },
+          "financing_inflows": {
+            "label": "筹资活动现金流入小计",
+            "raw_current": "83,426,607",
+            "raw_comparative": "64,659,939",
+            "current_cny": "83426607000",
+            "comparative_cny": "64659939000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "筹资活动现金流入小计 83,426,607 64,659,939"
+          },
+          "financing_outflows": {
+            "label": "筹资活动现金流出小计",
+            "raw_current": "59,116,346",
+            "raw_comparative": "44,052,368",
+            "current_cny": "59116346000",
+            "comparative_cny": "44052368000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "筹资活动现金流出小计 59,116,346 44,052,368"
+          },
+          "financing_cash_flow": {
+            "label": "筹资活动产生的现金流量净额",
+            "raw_current": "24,310,261",
+            "raw_comparative": "20,607,571",
+            "current_cny": "24310261000",
+            "comparative_cny": "20607571000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "筹资活动产生的现金流量净额 24,310,261 20,607,571"
+          },
+          "fx_effect_on_cash": {
+            "label": "四、汇率变动对现金及现金等价物的",
+            "raw_current": "-6,941,546",
+            "raw_comparative": "600,381",
+            "current_cny": "-6941546000",
+            "comparative_cny": "600381000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "四、汇率变动对现金及现金等价物的 影响 -6,941,546 600,381"
+          },
+          "net_change_in_cash": {
+            "label": "五、现金及现金等价物净增加额",
+            "raw_current": "40,656,475",
+            "raw_comparative": "53,625,499",
+            "current_cny": "40656475000",
+            "comparative_cny": "53625499000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "五、现金及现金等价物净增加额 40,656,475 53,625,499"
+          },
+          "opening_cash_equivalents": {
+            "label": "加：期初现金及现金等价物余额",
+            "raw_current": "299,929,741",
+            "raw_comparative": "270,159,734",
+            "current_cny": "299929741000",
+            "comparative_cny": "270159734000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "加：期初现金及现金等价物余额 299,929,741 270,159,734"
+          },
+          "ending_cash_equivalents": {
+            "label": "六、期末现金及现金等价物余额",
+            "raw_current": "340,586,216",
+            "raw_comparative": "323,785,232",
+            "current_cny": "340586216000",
+            "comparative_cny": "323785232000",
+            "pdf_page": 82,
+            "printed_page": 82,
+            "source_excerpt": "六、期末现金及现金等价物余额 340,586,216 323,785,232"
+          }
+        }
+      },
+      "summary_checks_input": {
+        "revenue": {
+          "raw_current": "276,916,580",
+          "raw_comparative": "178,886,253",
+          "reported_yoy_percent": "54.80",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "source_excerpt": "营业收入（千元） 276,916,580 178,886,253 54.80%",
+          "period_note": "报告期累计"
+        },
+        "net_profit_parent": {
+          "raw_current": "43,284,002",
+          "raw_comparative": "30,485,139",
+          "reported_yoy_percent": "41.98",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "source_excerpt": "归属于上市公司股东的净利润 （千元） 43,284,002 30,485,139 41.98%",
+          "period_note": "报告期累计"
+        },
+        "operating_cash_flow": {
+          "raw_current": "60,216,851",
+          "raw_comparative": "58,687,066",
+          "reported_yoy_percent": "2.61",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "source_excerpt": "经营活动产生的现金流量净额 （千元） 60,216,851 58,687,066 2.61%",
+          "period_note": "报告期累计"
+        }
+      }
+    },
+    "q3_2026": {
+      "source_id": "q3_2026",
+      "title": "宁德时代新能源科技股份有限公司2026年第三季度报告",
+      "relative_path_from_raw": "OFFICIAL/q3_2026.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF",
+      "sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3",
+      "pdf_pages": 13,
+      "announcement_date": "2026-10-21",
+      "currency": "CNY",
+      "accounting_basis": "CAS",
+      "scope": "合并",
+      "raw_unit": "千元",
+      "raw_unit_cny_multiplier": 1000,
+      "amount_precision_cny": 1000,
+      "current_period": [
+        "2026-01-01",
+        "2026-09-30"
+      ],
+      "comparative_period": [
+        "2025-01-01",
+        "2025-09-30"
+      ],
+      "balance_dates": [
+        "2026-09-30",
+        "2025-12-31"
+      ],
+      "balance_date_note": null,
+      "statements": {
+        "balance_sheet": {
+          "monetary_funds": {
+            "label": "货币资金",
+            "raw_current": "369,813,786",
+            "raw_comparative": "333,512,927",
+            "current_cny": "369813786000",
+            "comparative_cny": "333512927000",
+            "pdf_page": 5,
+            "printed_page": 5,
+            "source_excerpt": "货币资金 369,813,786 333,512,927"
+          },
+          "trade_receivables": {
+            "label": "应收账款",
+            "raw_current": "112,911,650",
+            "raw_comparative": "76,403,264",
+            "current_cny": "112911650000",
+            "comparative_cny": "76403264000",
+            "pdf_page": 6,
+            "printed_page": 6,
+            "source_excerpt": "应收账款 112,911,650 76,403,264"
+          },
+          "inventories": {
+            "label": "存货",
+            "raw_current": "144,769,537",
+            "raw_comparative": "94,526,239",
+            "current_cny": "144769537000",
+            "comparative_cny": "94526239000",
+            "pdf_page": 6,
+            "printed_page": 6,
+            "source_excerpt": "存货 144,769,537 94,526,239"
+          },
+          "current_assets": {
+            "label": "流动资产合计",
+            "raw_current": "767,131,309",
+            "raw_comparative": "638,481,543",
+            "current_cny": "767131309000",
+            "comparative_cny": "638481543000",
+            "pdf_page": 6,
+            "printed_page": 6,
+            "source_excerpt": "流动资产合计 767,131,309 638,481,543"
+          },
+          "noncurrent_assets": {
+            "label": "非流动资产合计",
+            "raw_current": "416,042,258",
+            "raw_comparative": "336,346,001",
+            "current_cny": "416042258000",
+            "comparative_cny": "336346001000",
+            "pdf_page": 7,
+            "printed_page": 7,
+            "source_excerpt": "非流动资产合计 416,042,258 336,346,001"
+          },
+          "total_assets": {
+            "label": "资产总计",
+            "raw_current": "1,183,173,567",
+            "raw_comparative": "974,827,544",
+            "current_cny": "1183173567000",
+            "comparative_cny": "974827544000",
+            "pdf_page": 7,
+            "printed_page": 7,
+            "source_excerpt": "资产总计 1,183,173,567 974,827,544"
+          },
+          "short_term_borrowings": {
+            "label": "短期借款",
+            "raw_current": "39,897,579",
+            "raw_comparative": "12,935,498",
+            "current_cny": "39897579000",
+            "comparative_cny": "12935498000",
+            "pdf_page": 7,
+            "printed_page": 7,
+            "source_excerpt": "短期借款 39,897,579 12,935,498"
+          },
+          "long_term_borrowings": {
+            "label": "长期借款",
+            "raw_current": "76,354,823",
+            "raw_comparative": "78,234,935",
+            "current_cny": "76354823000",
+            "comparative_cny": "78234935000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "长期借款 76,354,823 78,234,935"
+          },
+          "bonds_payable": {
+            "label": "应付债券",
+            "raw_current": "52,737,747",
+            "raw_comparative": "3,443,434",
+            "current_cny": "52737747000",
+            "comparative_cny": "3443434000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "应付债券 52,737,747 3,443,434"
+          },
+          "current_portion_of_noncurrent_liabilities": {
+            "label": "一年内到期的非流动负债",
+            "raw_current": "16,871,100",
+            "raw_comparative": "22,237,540",
+            "current_cny": "16871100000",
+            "comparative_cny": "22237540000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "一年内到期的非流动负债 16,871,100 22,237,540"
+          },
+          "current_liabilities": {
+            "label": "流动负债合计",
+            "raw_current": "489,179,703",
+            "raw_comparative": "399,625,988",
+            "current_cny": "489179703000",
+            "comparative_cny": "399625988000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "流动负债合计 489,179,703 399,625,988"
+          },
+          "noncurrent_liabilities": {
+            "label": "非流动负债合计",
+            "raw_current": "270,777,098",
+            "raw_comparative": "204,175,232",
+            "current_cny": "270777098000",
+            "comparative_cny": "204175232000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "非流动负债合计 270,777,098 204,175,232"
+          },
+          "total_liabilities": {
+            "label": "负债合计",
+            "raw_current": "759,956,800",
+            "raw_comparative": "603,801,220",
+            "current_cny": "759956800000",
+            "comparative_cny": "603801220000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "负债合计 759,956,800 603,801,220"
+          },
+          "parent_equity": {
+            "label": "归属于母公司所有者权益合计",
+            "raw_current": "386,880,990",
+            "raw_comparative": "337,107,747",
+            "current_cny": "386880990000",
+            "comparative_cny": "337107747000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "归属于母公司所有者权益合计 386,880,990 337,107,747"
+          },
+          "minority_equity": {
+            "label": "少数股东权益",
+            "raw_current": "36,335,776",
+            "raw_comparative": "33,918,577",
+            "current_cny": "36335776000",
+            "comparative_cny": "33918577000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "少数股东权益 36,335,776 33,918,577"
+          },
+          "total_equity": {
+            "label": "所有者权益合计",
+            "raw_current": "423,216,766",
+            "raw_comparative": "371,026,324",
+            "current_cny": "423216766000",
+            "comparative_cny": "371026324000",
+            "pdf_page": 8,
+            "printed_page": 8,
+            "source_excerpt": "所有者权益合计 423,216,766 371,026,324"
+          }
+        },
+        "income_statement": {
+          "revenue": {
+            "label": "其中：营业收入",
+            "raw_current": "442,137,424",
+            "raw_comparative": "283,071,987",
+            "current_cny": "442137424000",
+            "comparative_cny": "283071987000",
+            "pdf_page": 9,
+            "printed_page": 9,
+            "source_excerpt": "其中：营业收入 442,137,424 283,071,987"
+          },
+          "cost_of_sales": {
+            "label": "其中：营业成本",
+            "raw_current": "341,695,013",
+            "raw_comparative": "211,427,147",
+            "current_cny": "341695013000",
+            "comparative_cny": "211427147000",
+            "pdf_page": 9,
+            "printed_page": 9,
+            "source_excerpt": "其中：营业成本 341,695,013 211,427,147"
+          },
+          "selling_expenses": {
+            "label": "销售费用",
+            "raw_current": "3,371,025",
+            "raw_comparative": "2,408,522",
+            "current_cny": "3371025000",
+            "comparative_cny": "2408522000",
+            "pdf_page": 9,
+            "printed_page": 9,
+            "source_excerpt": "销售费用 3,371,025 2,408,522"
+          },
+          "research_and_development_expenses": {
+            "label": "研发费用",
+            "raw_current": "18,516,986",
+            "raw_comparative": "15,067,826",
+            "current_cny": "18516986000",
+            "comparative_cny": "15067826000",
+            "pdf_page": 9,
+            "printed_page": 9,
+            "source_excerpt": "研发费用 18,516,986 15,067,826"
+          },
+          "operating_profit": {
+            "label": "三、营业利润",
+            "raw_current": "80,933,059",
+            "raw_comparative": "60,552,312",
+            "current_cny": "80933059000",
+            "comparative_cny": "60552312000",
+            "pdf_page": 10,
+            "printed_page": 10,
+            "source_excerpt": "三、营业利润（亏损以“－”号填列） 80,933,059 60,552,312"
+          },
+          "profit_before_tax": {
+            "label": "四、利润总额",
+            "raw_current": "81,028,004",
+            "raw_comparative": "60,712,402",
+            "current_cny": "81028004000",
+            "comparative_cny": "60712402000",
+            "pdf_page": 10,
+            "printed_page": 10,
+            "source_excerpt": "四、利润总额（亏损总额以“－”号填列） 81,028,004 60,712,402"
+          },
+          "income_tax_expense": {
+            "label": "减：所得税费用",
+            "raw_current": "11,529,551",
+            "raw_comparative": "8,415,535",
+            "current_cny": "11529551000",
+            "comparative_cny": "8415535000",
+            "pdf_page": 10,
+            "printed_page": 10,
+            "source_excerpt": "减：所得税费用 11,529,551 8,415,535"
+          },
+          "net_profit": {
+            "label": "五、净利润",
+            "raw_current": "69,498,453",
+            "raw_comparative": "52,296,866",
+            "current_cny": "69498453000",
+            "comparative_cny": "52296866000",
+            "pdf_page": 10,
+            "printed_page": 10,
+            "source_excerpt": "五、净利润（净亏损以“－”号填列） 69,498,453 52,296,866"
+          },
+          "net_profit_parent": {
+            "label": "1.归属于母公司股东的净利润",
+            "raw_current": "64,530,063",
+            "raw_comparative": "49,034,109",
+            "current_cny": "64530063000",
+            "comparative_cny": "49034109000",
+            "pdf_page": 10,
+            "printed_page": 10,
+            "source_excerpt": "1.归属于母公司股东的净利润（净亏损以“-” 号填列） 64,530,063 49,034,109"
+          },
+          "net_profit_minority": {
+            "label": "2.少数股东损益",
+            "raw_current": "4,968,389",
+            "raw_comparative": "3,262,757",
+            "current_cny": "4968389000",
+            "comparative_cny": "3262757000",
+            "pdf_page": 10,
+            "printed_page": 10,
+            "source_excerpt": "2.少数股东损益（净亏损以“-”号填列） 4,968,389 3,262,757"
+          }
+        },
+        "cash_flow_statement": {
+          "operating_inflows": {
+            "label": "经营活动现金流入小计",
+            "raw_current": "428,766,629",
+            "raw_comparative": "363,056,644",
+            "current_cny": "428766629000",
+            "comparative_cny": "363056644000",
+            "pdf_page": 11,
+            "printed_page": 11,
+            "source_excerpt": "经营活动现金流入小计 428,766,629 363,056,644"
+          },
+          "operating_outflows": {
+            "label": "经营活动现金流出小计",
+            "raw_current": "367,141,142",
+            "raw_comparative": "282,396,214",
+            "current_cny": "367141142000",
+            "comparative_cny": "282396214000",
+            "pdf_page": 11,
+            "printed_page": 11,
+            "source_excerpt": "经营活动现金流出小计 367,141,142 282,396,214"
+          },
+          "operating_cash_flow": {
+            "label": "经营活动产生的现金流量净额",
+            "raw_current": "61,625,487",
+            "raw_comparative": "80,660,430",
+            "current_cny": "61625487000",
+            "comparative_cny": "80660430000",
+            "pdf_page": 11,
+            "printed_page": 11,
+            "source_excerpt": "经营活动产生的现金流量净额 61,625,487 80,660,430"
+          },
+          "investing_inflows": {
+            "label": "投资活动现金流入小计",
+            "raw_current": "24,000,330",
+            "raw_comparative": "6,501,309",
+            "current_cny": "24000330000",
+            "comparative_cny": "6501309000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "投资活动现金流入小计 24,000,330 6,501,309"
+          },
+          "investing_outflows": {
+            "label": "投资活动现金流出小计",
+            "raw_current": "81,426,154",
+            "raw_comparative": "63,792,799",
+            "current_cny": "81426154000",
+            "comparative_cny": "63792799000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "投资活动现金流出小计 81,426,154 63,792,799"
+          },
+          "investing_cash_flow": {
+            "label": "投资活动产生的现金流量净额",
+            "raw_current": "-57,425,825",
+            "raw_comparative": "-57,291,490",
+            "current_cny": "-57425825000",
+            "comparative_cny": "-57291490000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "投资活动产生的现金流量净额 -57,425,825 -57,291,490"
+          },
+          "cash_paid_for_long_lived_assets": {
+            "label": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "raw_current": "42,167,472",
+            "raw_comparative": "30,087,780",
+            "current_cny": "42167472000",
+            "comparative_cny": "30087780000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "购建固定资产、无形资产和其他长期资产支 付的现金 42,167,472 30,087,780"
+          },
+          "financing_inflows": {
+            "label": "筹资活动现金流入小计",
+            "raw_current": "120,673,827",
+            "raw_comparative": "74,995,566",
+            "current_cny": "120673827000",
+            "comparative_cny": "74995566000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "筹资活动现金流入小计 120,673,827 74,995,566"
+          },
+          "financing_outflows": {
+            "label": "筹资活动现金流出小计",
+            "raw_current": "85,433,875",
+            "raw_comparative": "70,719,026",
+            "current_cny": "85433875000",
+            "comparative_cny": "70719026000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "筹资活动现金流出小计 85,433,875 70,719,026"
+          },
+          "financing_cash_flow": {
+            "label": "筹资活动产生的现金流量净额",
+            "raw_current": "35,239,952",
+            "raw_comparative": "4,276,539",
+            "current_cny": "35239952000",
+            "comparative_cny": "4276539000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "筹资活动产生的现金流量净额 35,239,952 4,276,539"
+          },
+          "fx_effect_on_cash": {
+            "label": "四、汇率变动对现金及现金等价物的",
+            "raw_current": "-5,971,785",
+            "raw_comparative": "-621,254",
+            "current_cny": "-5971785000",
+            "comparative_cny": "-621254000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "四、汇率变动对现金及现金等价物的影响 -5,971,785 -621,254"
+          },
+          "net_change_in_cash": {
+            "label": "五、现金及现金等价物净增加额",
+            "raw_current": "33,467,829",
+            "raw_comparative": "27,024,225",
+            "current_cny": "33467829000",
+            "comparative_cny": "27024225000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "五、现金及现金等价物净增加额 33,467,829 27,024,225"
+          },
+          "opening_cash_equivalents": {
+            "label": "加：期初现金及现金等价物余额",
+            "raw_current": "299,929,741",
+            "raw_comparative": "270,159,734",
+            "current_cny": "299929741000",
+            "comparative_cny": "270159734000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "加：期初现金及现金等价物余额 299,929,741 270,159,734"
+          },
+          "ending_cash_equivalents": {
+            "label": "六、期末现金及现金等价物余额",
+            "raw_current": "333,397,571",
+            "raw_comparative": "297,183,959",
+            "current_cny": "333397571000",
+            "comparative_cny": "297183959000",
+            "pdf_page": 12,
+            "printed_page": 12,
+            "source_excerpt": "六、期末现金及现金等价物余额 333,397,571 297,183,959"
+          }
+        }
+      },
+      "summary_checks_input": {
+        "revenue": {
+          "raw_current": "442,137,424",
+          "raw_comparative": null,
+          "reported_yoy_percent": "56.19",
+          "pdf_page": 1,
+          "printed_page": 1,
+          "source_excerpt": "营业收入（千元） 165,220,844 58.58% 442,137,424 56.19%",
+          "period_note": "前三季累计，不是单独第三季"
+        },
+        "net_profit_parent": {
+          "raw_current": "64,530,063",
+          "raw_comparative": null,
+          "reported_yoy_percent": "31.60",
+          "pdf_page": 1,
+          "printed_page": 1,
+          "source_excerpt": "归属于上市公司股东的净利润 （千元） 21,246,061 14.54% 64,530,063 31.60%",
+          "period_note": "前三季累计，不是单独第三季"
+        },
+        "operating_cash_flow": {
+          "raw_current": "61,625,487",
+          "raw_comparative": null,
+          "reported_yoy_percent": "-23.60",
+          "pdf_page": 1,
+          "printed_page": 1,
+          "source_excerpt": "经营活动产生的现金流量净额 （千元） -- -- 61,625,487 -23.60%",
+          "period_note": "前三季累计，不是单独第三季"
+        }
+      }
+    }
+  },
+  "missing_fields": [],
+  "preferred_observation_map": {
+    "2022_flows": "annual_2023/comparative",
+    "2022_closing_balance_proxy": "annual_2023/comparative (原表2023-01-01)",
+    "2023": "annual_2024/comparative (营业成本/销售费用为追溯调整后)",
+    "2024": "annual_2025/comparative",
+    "2025": "annual_2025/current",
+    "2026H1": "interim_2026/current",
+    "2026_9M": "q3_2026/current"
+  }
+}

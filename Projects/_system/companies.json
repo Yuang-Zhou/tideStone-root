@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "gics_sector_names": {
+    "10": "能源",
+    "15": "原材料",
+    "20": "工业",
+    "25": "可选消费",
+    "30": "日常消费",
+    "35": "医疗保健",
+    "40": "金融",
+    "45": "信息技术",
+    "50": "通信服务",
+    "55": "公用事业",
+    "60": "房地产",
+    "unknown": "待分类"
+  },
+  "gics_sub_industry_names": {
+    "20104010": "电气部件与设备"
+  },
+  "vocab": {
+    "confidence": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "companies": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name_cn": "宁德时代",
+      "name_en": "Contemporary Amperex Technology Co., Limited",
+      "market": "CN",
+      "currency": "CNY",
+      "folder": "companies/300750.SZ",
+      "gics": {
+        "sector": "20",
+        "industry_group": "2010",
+        "industry": "201040",
+        "sub_industry": "20104010",
+        "as_of": "2026-10-24",
+        "confidence": "high"
+      },
+      "created_at": "2026-10-24T14:31:58.527658+00:00",
+      "note": "2026-10-24 建库；A股300750.SZ为主档，同一主体H股3750.HK不另建公司。GICS依据Cambria Global EW ETF 2026-05-31持仓报告（2026-08-04申报）PDF第10–11页Electrical Components & Equipment分组、第17页GICS声明，来源https://www.cambriafunds.com/assets/docs/GEW_Q2_Schedule_of_Investments_Annual.pdf 。代码20/2010/201040/20104010依据MSCI GICS Methodology 2023第7页，第16页§3.2公司层面分类适用于同主体A/H股。四级均有来源，无业务推断；核验记录见公司_identity_evidence.json。"
+    }
+  }
+}

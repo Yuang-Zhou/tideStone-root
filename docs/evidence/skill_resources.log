@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "entrypoints": 22,
+  "preserved_upstream_skills": 21,
+  "errors": [],
+  "known_missing_upstream_references": [
+    "strategic-decision-analysis/references/research-protocol.md",
+    "strategic-decision-analysis/references/decision-framework.md",
+    "strategic-decision-analysis/references/output-template.md"
+  ],
+  "excluded_upstream_placeholders": [
+    "research-summary/assets/example_asset.txt",
+    "research-summary/references/api_reference.md",
+    "research-summary/scripts/example.py"
+  ]
+}

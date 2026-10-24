@@ -1,0 +1,1434 @@
+{
+  "unit": "CNY million except per-share, ratios and explicitly _b fields",
+  "cutoff": "2026-10-24",
+  "as_of": "2026-10-23",
+  "inputs_sha256": {
+    "_support/06/model.py": {
+      "bytes": 25527,
+      "sha256": "2859cda74ef3f97030b50d589c96af5fd24e0a013576251bcd0c58a042f80a9f"
+    },
+    "_support/06/forecast_model.json": {
+      "bytes": 186284,
+      "sha256": "d93d0bbae5f6b7de39f2731b7d6005a1d1bbdbd292c5ede79b92b59e722cfbc0"
+    },
+    "_support/06/valuation_handoff.json": {
+      "bytes": 11901,
+      "sha256": "e82c3ef43065318aca36e8dd3d7a5f61698541dd22844998bfad2424b48743e9"
+    },
+    "06_财务预测.md": {
+      "bytes": 31852,
+      "sha256": "7cf511c691104e97d69490b66105713607ce9e6c043761997c991f63829d96eb"
+    }
+  },
+  "parameters": {
+    "wacc": 0.07371603893033084,
+    "terminal_growth": 0.025,
+    "terminal_incremental_roic": 0.1,
+    "exit_ebitda_multiple": 8.0,
+    "tax_rate": 0.15,
+    "cash_reserve_scale": 1.0,
+    "cash_gap_recovery": 0.0,
+    "associate_value_to_book": 0.75,
+    "financial_value_to_book": 0.9,
+    "nci_equity_fraction": 0.07,
+    "supplier_finance_scale": 1.0,
+    "equipment_ap_claim_fraction": 1.0,
+    "long_payables_debt_fraction": 0.0
+  },
+  "capital_cost": {
+    "rf": 0.0164,
+    "erp": 0.0514,
+    "beta_forward_assumption": 1.3,
+    "kd": 0.022,
+    "tax": 0.15,
+    "ke": 0.08322,
+    "equity_weight": 0.8526974415736337,
+    "debt_weight": 0.14730255842636625,
+    "wacc": 0.07371603893033084
+  },
+  "score": {
+    "counts": {
+      "bull": 1,
+      "base": 1,
+      "bear": 2
+    },
+    "denominator": 4,
+    "potential": 5,
+    "rates": {
+      "bull": 0.25,
+      "base": 0.25,
+      "bear": 0.5
+    },
+    "dominant": "bear",
+    "forced_low_confidence": false,
+    "excluded": [
+      "D5"
+    ]
+  },
+  "current": {
+    "price": 237.6,
+    "shares_million": 4627.25,
+    "market_cap": 1099434.5999999999,
+    "financial_period": "TTM 2026-09-30",
+    "revenue": 582767.271,
+    "net_parent": 87697.236,
+    "eps": 18.952344481063268,
+    "core_parent": 78764.421,
+    "core_eps": 17.02186417418553,
+    "pe": 12.536707542299279,
+    "core_pe": 13.958518148695587,
+    "ps": 1.8865757476623974,
+    "ocf": 114185.03899999999,
+    "capex": 54424.25,
+    "fcf": 59760.789000000004,
+    "cash_equivalents_proxy": 333397.571,
+    "explicit_debt": 189926.135,
+    "net_debt": -143471.436,
+    "net_debt_with_sf": -85707.212,
+    "ev": 955963.1639999999,
+    "ev_with_sf": 1013727.3879999999,
+    "ev_fcf": 15.996495026195182,
+    "ev_fcf_with_sf": 16.963085745069392,
+    "revenue_prior_ttm": 386039.792,
+    "revenue_growth_pct": 50.960414723257315,
+    "efg": 0.3139004090344402,
+    "efg_with_sf": 0.3328678904437522,
+    "ttm_da": null,
+    "ttm_operating_ebitda": null,
+    "ev_ebitda": null
+  },
+  "scenarios": {
+    "bear": {
+      "dcf": {
+        "config": {
+          "wacc": 0.07371603893033084,
+          "terminal_growth": 0.025,
+          "terminal_incremental_roic": 0.1,
+          "exit_ebitda_multiple": 8.0,
+          "tax_rate": 0.15,
+          "cash_reserve_scale": 1.0,
+          "cash_gap_recovery": 0.0,
+          "associate_value_to_book": 0.75,
+          "financial_value_to_book": 0.9,
+          "nci_equity_fraction": 0.07,
+          "supplier_finance_scale": 1.0,
+          "equipment_ap_claim_fraction": 1.0,
+          "long_payables_debt_fraction": 0.0
+        },
+        "cashflows": [
+          {
+            "period": "2026_Q4_remaining",
+            "t": 0.18904109589041096,
+            "economic_fcff": -24474.445297434526,
+            "required_cash_delta": 600.0490373626344,
+            "distributable_fcff": -25074.49433479716,
+            "discount_factor": 0.9866443342258485,
+            "pv": -24739.607769005754
+          },
+          {
+            "period": "2027",
+            "t": 1.189041095890411,
+            "economic_fcff": -55490.60424445348,
+            "required_cash_delta": 1214.274848000001,
+            "distributable_fcff": -56704.879092453484,
+            "discount_factor": 0.9189062083945156,
+            "pv": -52106.46544431587
+          },
+          {
+            "period": "2028",
+            "t": 2.1890410958904107,
+            "economic_fcff": 21623.960027656613,
+            "required_cash_delta": 947.1343814400025,
+            "distributable_fcff": 20676.82564621661,
+            "discount_factor": 0.855818647647248,
+            "pv": 17695.612962183033
+          },
+          {
+            "period": "2029",
+            "t": 3.1890410958904107,
+            "economic_fcff": 29405.322947206747,
+            "required_cash_delta": 975.5484128832031,
+            "distributable_fcff": 28429.774534323544,
+            "discount_factor": 0.797062367159795,
+            "pv": 22660.303388147182
+          },
+          {
+            "period": "2030",
+            "t": 4.189041095890411,
+            "economic_fcff": 38985.15535848635,
+            "required_cash_delta": 669.8765768464655,
+            "distributable_fcff": 38315.278781639885,
+            "discount_factor": 0.7423400026266285,
+            "pv": 28442.964151402553
+          },
+          {
+            "period": "2031",
+            "t": 5.189041095890411,
+            "economic_fcff": 38383.74980182508,
+            "required_cash_delta": 683.2741083833898,
+            "distributable_fcff": 37700.47569344169,
+            "discount_factor": 0.6913746053064185,
+            "pv": 26065.15150241747
+          }
+        ],
+        "explicit_pv": 18017.958790828612,
+        "terminal_nopat_next": 47969.48084314131,
+        "terminal_reinvestment_rate": 0.25,
+        "terminal_reinvestment": 11992.370210785328,
+        "terminal_cash_reinvestment_delta": 0.0,
+        "terminal_fcff_next": 35977.11063235598,
+        "gordon_terminal_ev": 738506.4841541635,
+        "gordon_terminal_pv": 510584.62899831554,
+        "gordon_terminal_pv_share": 0.965913979221729,
+        "terminal_ebitda": 104860.16459641162,
+        "exit_terminal_ev": 838881.316771293,
+        "exit_terminal_pv": 579981.2392816812,
+        "gordon": {
+          "operating_ev": 528602.5877891441,
+          "ce_proxy": 324291.1107619477,
+          "cash_gap_conditional_add": 0.0,
+          "required_operating_cash": 29756.822162637363,
+          "surplus_cash_proxy": 294534.2885993103,
+          "associate_assumed_value": 54836.94605708219,
+          "financial_assumed_value": 79544.6118,
+          "derivative_liability_deduction": 1646.355,
+          "explicit_debt": 189926.135,
+          "supplier_finance_claim": 57764.224,
+          "equipment_ap_claim": 20379.454698894104,
+          "long_payables_debt_claim": 0.0,
+          "consolidated_equity_before_nci": 687802.2655466425,
+          "nci_equity_fraction_assumption": 0.07,
+          "nci_assumed_claim": 48146.15858826498,
+          "parent_equity": 639656.1069583775,
+          "shares": 4627.25,
+          "per_share": 138.23677280423092
+        },
+        "exit": {
+          "operating_ev": 597999.1980725098,
+          "ce_proxy": 324291.1107619477,
+          "cash_gap_conditional_add": 0.0,
+          "required_operating_cash": 29756.822162637363,
+          "surplus_cash_proxy": 294534.2885993103,
+          "associate_assumed_value": 54836.94605708219,
+          "financial_assumed_value": 79544.6118,
+          "derivative_liability_deduction": 1646.355,
+          "explicit_debt": 189926.135,
+          "supplier_finance_claim": 57764.224,
+          "equipment_ap_claim": 20379.454698894104,
+          "long_payables_debt_claim": 0.0,
+          "consolidated_equity_before_nci": 757198.8758300082,
+          "nci_equity_fraction_assumption": 0.07,
+          "nci_assumed_claim": 53003.92130810058,
+          "parent_equity": 704194.9545219076,
+          "shares": 4627.25,
+          "per_share": 152.1843329238549
+        }
+      },
+      "pe_multiple": 14.0,
+      "eps_fy2027": 8.216750565063213,
+      "price_pe": 115.03450791088498,
+      "current_price_forward_pe": 28.916540439994733,
+      "implied_ps_at_target": 0.8430061834330572,
+      "current_price_forward_ps": 1.7412015996005439,
+      "price_change": -0.5158480306780935,
+      "margin_of_safety": -1.0654671742853383,
+      "dcf_gordon_deviation_from_pe": 0.20169830179410408,
+      "dcf_exit_deviation_from_pe": 0.32294505090376147
+    },
+    "base": {
+      "dcf": {
+        "config": {
+          "wacc": 0.07371603893033084,
+          "terminal_growth": 0.025,
+          "terminal_incremental_roic": 0.1,
+          "exit_ebitda_multiple": 8.0,
+          "tax_rate": 0.15,
+          "cash_reserve_scale": 1.0,
+          "cash_gap_recovery": 0.0,
+          "associate_value_to_book": 0.75,
+          "financial_value_to_book": 0.9,
+          "nci_equity_fraction": 0.07,
+          "supplier_finance_scale": 1.0,
+          "equipment_ap_claim_fraction": 1.0,
+          "long_payables_debt_fraction": 0.0
+        },
+        "cashflows": [
+          {
+            "period": "2026_Q4_remaining",
+            "t": 0.18904109589041096,
+            "economic_fcff": 13513.96350937889,
+            "required_cash_delta": 1537.549037362638,
+            "distributable_fcff": 11976.414472016251,
+            "discount_factor": 0.9866443342258485,
+            "pv": 11816.461483155292
+          },
+          {
+            "period": "2027",
+            "t": 1.189041095890411,
+            "economic_fcff": 52838.613225063535,
+            "required_cash_delta": 4741.030679999996,
+            "distributable_fcff": 48097.58254506354,
+            "discount_factor": 0.9189062083945156,
+            "pv": 44197.167209426574
+          },
+          {
+            "period": "2028",
+            "t": 2.1890410958904107,
+            "economic_fcff": 81354.5171852908,
+            "required_cash_delta": 5088.706263200002,
+            "distributable_fcff": 76265.8109220908,
+            "discount_factor": 0.855818647647248,
+            "pv": 65269.703165064464
+          },
+          {
+            "period": "2029",
+            "t": 3.1890410958904107,
+            "economic_fcff": 94535.80917268369,
+            "required_cash_delta": 5386.759058616,
+            "distributable_fcff": 89149.05011406768,
+            "discount_factor": 0.797062367159795,
+            "pv": 71057.35291396597
+          },
+          {
+            "period": "2030",
+            "t": 4.189041095890411,
+            "economic_fcff": 104759.12317141135,
+            "required_cash_delta": 5618.804064217926,
+            "distributable_fcff": 99140.31910719343,
+            "discount_factor": 0.7423400026266285,
+            "pv": 73595.82474643875
+          },
+          {
+            "period": "2031",
+            "t": 5.189041095890411,
+            "economic_fcff": 114976.84513238474,
+            "required_cash_delta": 5244.217126603398,
+            "distributable_fcff": 109732.62800578134,
+            "discount_factor": 0.6913746053064185,
+            "pv": 75866.35237673312
+          }
+        ],
+        "explicit_pv": 341802.86189478415,
+        "terminal_nopat_next": 135700.01789513018,
+        "terminal_reinvestment_rate": 0.25,
+        "terminal_reinvestment": 33925.004473782545,
+        "terminal_cash_reinvestment_delta": 0.0,
+        "terminal_fcff_next": 101775.01342134763,
+        "gordon_terminal_ev": 2089147.9614526299,
+        "gordon_terminal_pv": 1444383.8472760206,
+        "gordon_terminal_pv_share": 0.8086410227218306,
+        "terminal_ebitda": 215077.95087055728,
+        "exit_terminal_ev": 1720623.6069644582,
+        "exit_terminal_pv": 1189595.4671459582,
+        "gordon": {
+          "operating_ev": 1786186.7091708048,
+          "ce_proxy": 335697.7755725521,
+          "cash_gap_conditional_add": 0.0,
+          "required_operating_cash": 30069.322162637363,
+          "surplus_cash_proxy": 305628.45340991474,
+          "associate_assumed_value": 54836.94605708219,
+          "financial_assumed_value": 79544.6118,
+          "derivative_liability_deduction": 1646.355,
+          "explicit_debt": 189926.135,
+          "supplier_finance_claim": 57764.224,
+          "equipment_ap_claim": 20379.454698894104,
+          "long_payables_debt_claim": 0.0,
+          "consolidated_equity_before_nci": 1956480.5517389078,
+          "nci_equity_fraction_assumption": 0.07,
+          "nci_assumed_claim": 136953.63862172357,
+          "parent_equity": 1819526.9131171843,
+          "shares": 4627.25,
+          "per_share": 393.2199282764459
+        },
+        "exit": {
+          "operating_ev": 1531398.3290407425,
+          "ce_proxy": 335697.7755725521,
+          "cash_gap_conditional_add": 0.0,
+          "required_operating_cash": 30069.322162637363,
+          "surplus_cash_proxy": 305628.45340991474,
+          "associate_assumed_value": 54836.94605708219,
+          "financial_assumed_value": 79544.6118,
+          "derivative_liability_deduction": 1646.355,
+          "explicit_debt": 189926.135,
+          "supplier_finance_claim": 57764.224,
+          "equipment_ap_claim": 20379.454698894104,
+          "long_payables_debt_claim": 0.0,
+          "consolidated_equity_before_nci": 1701692.1716088455,
+          "nci_equity_fraction_assumption": 0.07,
+          "nci_assumed_claim": 119118.4520126192,
+          "parent_equity": 1582573.7195962262,
+          "shares": 4627.25,
+          "per_share": 342.011717455557
+        }
+      },
+      "pe_multiple": 18.0,
+      "eps_fy2027": 17.932339192947275,
+      "price_pe": 322.78210547305093,
+      "current_price_forward_pe": 13.249805139390137,
+      "implied_ps_at_target": 2.0545800724360475,
+      "current_price_forward_ps": 1.5123769779473168,
+      "price_change": 0.35851054492024814,
+      "margin_of_safety": 0.26389971447832566,
+      "dcf_gordon_deviation_from_pe": 0.21822096581272787,
+      "dcf_exit_deviation_from_pe": 0.059574591207044225
+    },
+    "bull": {
+      "dcf": {
+        "config": {
+          "wacc": 0.07371603893033084,
+          "terminal_growth": 0.025,
+          "terminal_incremental_roic": 0.1,
+          "exit_ebitda_multiple": 8.0,
+          "tax_rate": 0.15,
+          "cash_reserve_scale": 1.0,
+          "cash_gap_recovery": 0.0,
+          "associate_value_to_book": 0.75,
+          "financial_value_to_book": 0.9,
+          "nci_equity_fraction": 0.07,
+          "supplier_finance_scale": 1.0,
+          "equipment_ap_claim_fraction": 1.0,
+          "long_payables_debt_fraction": 0.0
+        },
+        "cashflows": [
+          {
+            "period": "2026_Q4_remaining",
+            "t": 0.18904109589041096,
+            "economic_fcff": 49879.847945199916,
+            "required_cash_delta": 2287.549037362638,
+            "distributable_fcff": 47592.29890783728,
+            "discount_factor": 0.9866443342258485,
+            "pv": 46956.672070200686
+          },
+          {
+            "period": "2027",
+            "t": 1.189041095890411,
+            "economic_fcff": 121168.54305484616,
+            "required_cash_delta": 7825.649087999998,
+            "distributable_fcff": 113342.89396684617,
+            "discount_factor": 0.9189062083945156,
+            "pv": 104151.48894353624
+          },
+          {
+            "period": "2028",
+            "t": 2.1890410958904107,
+            "economic_fcff": 147395.33088228953,
+            "required_cash_delta": 8490.82926048,
+            "distributable_fcff": 138904.50162180953,
+            "discount_factor": 0.855818647647248,
+            "pv": 118877.062730092
+          },
+          {
+            "period": "2029",
+            "t": 3.1890410958904107,
+            "economic_fcff": 175928.66109897222,
+            "required_cash_delta": 9295.436414211195,
+            "distributable_fcff": 166633.22468476102,
+            "discount_factor": 0.797062367159795,
+            "pv": 132817.0725147056
+          },
+          {
+            "period": "2030",
+            "t": 4.189041095890411,
+            "economic_fcff": 196932.78851380033,
+            "required_cash_delta": 9897.193613657495,
+            "distributable_fcff": 187035.59490014284,
+            "discount_factor": 0.7423400026266285,
+            "pv": 138844.00400944505
+          },
+          {
+            "period": "2031",
+            "t": 5.189041095890411,
+            "economic_fcff": 220898.9822990845,
+            "required_cash_delta": 10898.556732215788,
+            "distributable_fcff": 210000.42556686874,
+            "discount_factor": 0.6913746053064185,
+            "pv": 145188.9613404738
+          }
+        ],
+        "explicit_pv": 686835.2616084535,
+        "terminal_nopat_next": 233234.7132029391,
+        "terminal_reinvestment_rate": 0.25,
+        "terminal_reinvestment": 58308.67830073478,
+        "terminal_cash_reinvestment_delta": 0.0,
+        "terminal_fcff_next": 174926.03490220432,
+        "gordon_terminal_ev": 3590727.791977655,
+        "gordon_terminal_pv": 2482538.0099413386,
+        "gordon_terminal_pv_share": 0.7832898801242816,
+        "terminal_ebitda": 333786.45506295114,
+        "exit_terminal_ev": 2670291.640503609,
+        "exit_terminal_pv": 1846171.8290062111,
+        "gordon": {
+          "operating_ev": 3169373.271549792,
+          "ce_proxy": 346640.39698865917,
+          "cash_gap_conditional_add": 0.0,
+          "required_operating_cash": 30319.322162637363,
+          "surplus_cash_proxy": 316321.0748260218,
+          "associate_assumed_value": 54836.94605708219,
+          "financial_assumed_value": 79544.6118,
+          "derivative_liability_deduction": 1646.355,
+          "explicit_debt": 189926.135,
+          "supplier_finance_claim": 57764.224,
+          "equipment_ap_claim": 20379.454698894104,
+          "long_payables_debt_claim": 0.0,
+          "consolidated_equity_before_nci": 3350359.7355340016,
+          "nci_equity_fraction_assumption": 0.07,
+          "nci_assumed_claim": 234525.18148738015,
+          "parent_equity": 3115834.5540466215,
+          "shares": 4627.25,
+          "per_share": 673.3663739903012
+        },
+        "exit": {
+          "operating_ev": 2533007.0906146644,
+          "ce_proxy": 346640.39698865917,
+          "cash_gap_conditional_add": 0.0,
+          "required_operating_cash": 30319.322162637363,
+          "surplus_cash_proxy": 316321.0748260218,
+          "associate_assumed_value": 54836.94605708219,
+          "financial_assumed_value": 79544.6118,
+          "derivative_liability_deduction": 1646.355,
+          "explicit_debt": 189926.135,
+          "supplier_finance_claim": 57764.224,
+          "equipment_ap_claim": 20379.454698894104,
+          "long_payables_debt_claim": 0.0,
+          "consolidated_equity_before_nci": 2713993.554598874,
+          "nci_equity_fraction_assumption": 0.07,
+          "nci_assumed_claim": 189979.5488219212,
+          "parent_equity": 2524014.005776953,
+          "shares": 4627.25,
+          "per_share": 545.4673954891032
+        }
+      },
+      "pe_multiple": 22.0,
+      "eps_fy2027": 26.41177632256068,
+      "price_pe": 581.0590790963349,
+      "current_price_forward_pe": 8.995987134611783,
+      "implied_ps_at_target": 3.324929542601997,
+      "current_price_forward_ps": 1.3595919722153729,
+      "price_change": 1.4455348446815441,
+      "margin_of_safety": 0.5910914938812825,
+      "dcf_gordon_deviation_from_pe": 0.1588604295410423,
+      "dcf_exit_deviation_from_pe": -0.06125312362829616
+    }
+  },
+  "sensitivity_wacc_g_base": {
+    "wacc": [
+      0.06371603893033084,
+      0.06871603893033083,
+      0.07371603893033084,
+      0.07871603893033084,
+      0.08371603893033083
+    ],
+    "terminal_growth": [
+      0.015000000000000001,
+      0.02,
+      0.025,
+      0.030000000000000002,
+      0.035
+    ],
+    "values": [
+      [
+        447.08297699688023,
+        465.54758190065536,
+        488.53202656197107,
+        518.0471520675641,
+        557.5042998249947
+      ],
+      [
+        406.700895824136,
+        419.6832547973736,
+        435.4197507571776,
+        454.9774364274293,
+        480.0563289950579
+      ],
+      [
+        373.2301206432314,
+        382.3802962193593,
+        393.2199282764459,
+        406.32870902436366,
+        422.5857891020434
+      ],
+      [
+        345.04283170539594,
+        351.45114123751637,
+        358.88529079529366,
+        367.66114350558956,
+        378.2390692413437
+      ],
+      [
+        320.9850124106482,
+        325.39489493238017,
+        330.40653283116933,
+        336.1879640121855,
+        342.9762130670607
+      ]
+    ]
+  },
+  "sensitivity_growth_margin_base": {
+    "annual_growth_pp_shifts": [
+      -0.02,
+      -0.01,
+      0,
+      0.01,
+      0.02
+    ],
+    "operating_margin_pp_shifts": [
+      -0.02,
+      -0.01,
+      0,
+      0.01,
+      0.02
+    ],
+    "values": [
+      [
+        314.61680190170307,
+        339.7874423207482,
+        364.95808273979344,
+        390.1287231588384,
+        415.2993635778837
+      ],
+      [
+        326.40461550499043,
+        352.6275165758895,
+        378.85041764678897,
+        405.07331871768804,
+        431.2962197885872
+      ],
+      [
+        338.5965628567567,
+        365.9082455666012,
+        393.2199282764459,
+        420.53161098629045,
+        447.84329369613533
+      ],
+      [
+        351.20275224174156,
+        379.640705057658,
+        408.07865787357457,
+        436.5166106894913,
+        464.9545635054077
+      ],
+      [
+        364.2334457374699,
+        393.83614180742205,
+        423.43883787737394,
+        453.041533947326,
+        482.644230017278
+      ]
+    ]
+  },
+  "claim_and_terminal_sensitivity": [
+    {
+      "parameter": "terminal_incremental_roic",
+      "value": 0.08,
+      "prices": {
+        "bear": {
+          "gordon": 129.68519060154694,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 369.0285082831687,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 631.7873160681114,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "terminal_incremental_roic",
+      "value": 0.1,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "terminal_incremental_roic",
+      "value": 0.12,
+      "prices": {
+        "bear": {
+          "gordon": 143.93782760602022,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 409.3475416052973,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 701.085745938428,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "exit_ebitda_multiple",
+      "value": 6,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 123.04269628589695
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 282.23951018094783
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 452.7049663478327
+        }
+      }
+    },
+    {
+      "parameter": "exit_ebitda_multiple",
+      "value": 8,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "exit_ebitda_multiple",
+      "value": 10,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 181.32596956181285
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 401.7839247301661
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 638.2298246303739
+        }
+      }
+    },
+    {
+      "parameter": "supplier_finance_scale",
+      "value": 0,
+      "prices": {
+        "bear": {
+          "gordon": 149.8464174787136,
+          "exit": 163.7939775983376
+        },
+        "base": {
+          "gordon": 404.82957295092854,
+          "exit": 353.6213621300397
+        },
+        "bull": {
+          "gordon": 684.9760186647839,
+          "exit": 557.0770401635858
+        }
+      }
+    },
+    {
+      "parameter": "supplier_finance_scale",
+      "value": 0.5,
+      "prices": {
+        "bear": {
+          "gordon": 144.04159514147227,
+          "exit": 157.98915526109627
+        },
+        "base": {
+          "gordon": 399.0247506136872,
+          "exit": 347.8165397927984
+        },
+        "bull": {
+          "gordon": 679.1711963275426,
+          "exit": 551.2722178263444
+        }
+      }
+    },
+    {
+      "parameter": "supplier_finance_scale",
+      "value": 1,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "supplier_finance_scale",
+      "value": 1.5,
+      "prices": {
+        "bear": {
+          "gordon": 132.43195046698958,
+          "exit": 146.37951058661358
+        },
+        "base": {
+          "gordon": 387.4151059392045,
+          "exit": 336.2068951183157
+        },
+        "bull": {
+          "gordon": 667.5615516530598,
+          "exit": 539.6625731518618
+        }
+      }
+    },
+    {
+      "parameter": "equipment_ap_claim_fraction",
+      "value": 0,
+      "prices": {
+        "bear": {
+          "gordon": 142.33270297225113,
+          "exit": 156.2802630918751
+        },
+        "base": {
+          "gordon": 397.3158584444661,
+          "exit": 346.1076476235773
+        },
+        "bull": {
+          "gordon": 677.4623041583216,
+          "exit": 549.5633256571234
+        }
+      }
+    },
+    {
+      "parameter": "equipment_ap_claim_fraction",
+      "value": 1,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "long_payables_debt_fraction",
+      "value": 0,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "long_payables_debt_fraction",
+      "value": 1,
+      "prices": {
+        "bear": {
+          "gordon": 137.90873850524125,
+          "exit": 151.85629862486522
+        },
+        "base": {
+          "gordon": 392.89189397745616,
+          "exit": 341.6836831565673
+        },
+        "bull": {
+          "gordon": 673.0383396913115,
+          "exit": 545.1393611901135
+        }
+      }
+    },
+    {
+      "parameter": "nci_equity_fraction",
+      "value": 0,
+      "prices": {
+        "bear": {
+          "gordon": 148.64169118734506,
+          "exit": 163.63906766005903
+        },
+        "base": {
+          "gordon": 422.8171271789741,
+          "exit": 367.7545348984484
+        },
+        "bull": {
+          "gordon": 724.0498645057003,
+          "exit": 586.5240811710787
+        }
+      }
+    },
+    {
+      "parameter": "nci_equity_fraction",
+      "value": 0.07,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "nci_equity_fraction",
+      "value": 0.15,
+      "prices": {
+        "bear": {
+          "gordon": 126.34543750924331,
+          "exit": 139.0932075110502
+        },
+        "base": {
+          "gordon": 359.394558102128,
+          "exit": 312.59135466368116
+        },
+        "bull": {
+          "gordon": 615.4423848298452,
+          "exit": 498.54546899541697
+        }
+      }
+    },
+    {
+      "parameter": "associate_value_to_book",
+      "value": 0,
+      "prices": {
+        "bear": {
+          "gordon": 127.21546212659595,
+          "exit": 141.16302224621995
+        },
+        "base": {
+          "gordon": 382.1986175988109,
+          "exit": 330.9904067779221
+        },
+        "bull": {
+          "gordon": 662.3450633126663,
+          "exit": 534.4460848114682
+        }
+      }
+    },
+    {
+      "parameter": "associate_value_to_book",
+      "value": 0.75,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "associate_value_to_book",
+      "value": 1,
+      "prices": {
+        "bear": {
+          "gordon": 141.91054303010927,
+          "exit": 155.85810314973324
+        },
+        "base": {
+          "gordon": 396.8936985023242,
+          "exit": 345.68548768143535
+        },
+        "bull": {
+          "gordon": 677.0401442161797,
+          "exit": 549.1411657149815
+        }
+      }
+    },
+    {
+      "parameter": "financial_value_to_book",
+      "value": 0,
+      "prices": {
+        "bear": {
+          "gordon": 122.24963379639689,
+          "exit": 136.1971939160209
+        },
+        "base": {
+          "gordon": 377.23278926861184,
+          "exit": 326.024578447723
+        },
+        "bull": {
+          "gordon": 657.3792349824672,
+          "exit": 529.4802564812692
+        }
+      }
+    },
+    {
+      "parameter": "financial_value_to_book",
+      "value": 0.9,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "financial_value_to_book",
+      "value": 1,
+      "prices": {
+        "bear": {
+          "gordon": 140.01312158287917,
+          "exit": 153.96068170250314
+        },
+        "base": {
+          "gordon": 394.99627705509414,
+          "exit": 343.78806623420525
+        },
+        "bull": {
+          "gordon": 675.1427227689494,
+          "exit": 547.2437442677514
+        }
+      }
+    },
+    {
+      "parameter": "cash_reserve_scale",
+      "value": 0,
+      "prices": {
+        "bear": {
+          "gordon": 147.55961089369535,
+          "exit": 159.02228433364434
+        },
+        "base": {
+          "gordon": 407.86262775519896,
+          "exit": 352.5408857170038
+        },
+        "bull": {
+          "gordon": 692.9339672121007,
+          "exit": 559.4005787437891
+        }
+      }
+    },
+    {
+      "parameter": "cash_reserve_scale",
+      "value": 1,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "cash_reserve_scale",
+      "value": 1.5,
+      "prices": {
+        "bear": {
+          "gordon": 133.5753537594987,
+          "exit": 148.76535721896022
+        },
+        "base": {
+          "gordon": 385.8985785370694,
+          "exit": 336.74713332483367
+        },
+        "bull": {
+          "gordon": 663.5825773794015,
+          "exit": 538.5008038617603
+        }
+      }
+    },
+    {
+      "parameter": "cash_gap_recovery",
+      "value": 0,
+      "prices": {
+        "bear": {
+          "gordon": 138.23677280423092,
+          "exit": 152.1843329238549
+        },
+        "base": {
+          "gordon": 393.2199282764459,
+          "exit": 342.011717455557
+        },
+        "bull": {
+          "gordon": 673.3663739903012,
+          "exit": 545.4673954891032
+        }
+      }
+    },
+    {
+      "parameter": "cash_gap_recovery",
+      "value": 1,
+      "prices": {
+        "bear": {
+          "gordon": 145.55582406577935,
+          "exit": 159.50338418540335
+        },
+        "base": {
+          "gordon": 400.5389795379943,
+          "exit": 349.33076871710546
+        },
+        "bull": {
+          "gordon": 680.6854252518497,
+          "exit": 552.7864467506516
+        }
+      }
+    }
+  ],
+  "forward_beta_sensitivity": [
+    {
+      "beta_forward_assumption": 1.0,
+      "wacc": 0.06056744438126541,
+      "bear_gordon_price": 186.2154493686323
+    },
+    {
+      "beta_forward_assumption": 1.3,
+      "wacc": 0.07371603893033084,
+      "bear_gordon_price": 138.23677280423092
+    },
+    {
+      "beta_forward_assumption": 1.6,
+      "wacc": 0.08686463347939628,
+      "bear_gordon_price": 110.7706163066984
+    }
+  ],
+  "return_bridge": {
+    "earnings_factor": 0.4335479746726425,
+    "multiple_factor": 1.116720634406085,
+    "current_pe": 12.536707542299279,
+    "earnings_contribution": -0.5664520253273575,
+    "multiple_contribution": 0.05060399464926407,
+    "yield_price_contribution": 0.0,
+    "total_price_change": -0.5158480306780935,
+    "return_split": {
+      "earnings": 1.0980986485161996,
+      "multiple": -0.09809864851619966,
+      "yield": 0.0
+    },
+    "label": "下行／价格变动贡献"
+  },
+  "three_year": {
+    "target_year": 2029,
+    "target_date": "2029-10-23",
+    "currency": "CNY",
+    "scenario": "base",
+    "valuation_method": "FY2029年度归母利润参考PE 18x",
+    "valuation_type": "equity",
+    "metric_value_b": 112.60928871432111,
+    "target_multiple": 18.0,
+    "net_debt_b": -254.8750731277566,
+    "share_equivalent_b": 4.62725,
+    "target_market_cap_b": 2026.96719685778,
+    "target_price_3y": 438.05007225842127,
+    "anchor_price": 237.6,
+    "anchor_date": "2026-10-23",
+    "financial_period": "FY2029",
+    "balance_date": "2029-12-31 forecast",
+    "source": "本批06 _support/06/forecast_model.json model.base.2029；本批07 _support/07/valuation_results.json three_year。净债为FY2029年末显性债务减CE代理，不参与equity法价格公式，非目标日现金事实。",
+    "note": "条件化基准情景2029-10-23价格；当前主导为悲观，二者不是同一收益路径；无回购缩股假设，非摊薄EPS。"
+  },
+  "three_year_growth": {
+    "price_change": 0.8436450852627158,
+    "cagr": 0.22619377400134977
+  },
+  "registry": {
+    "rating": "强烈卖出",
+    "target_year": 2026,
+    "target_date": "2026-10-23",
+    "horizon": "2026-10-23当前公允价值，采用FY2027下一完整年度归母利润的估值日forward PE；12个月仅复核窗口，不是未来一年目标价",
+    "target_price": "CNY 115.03（当前公允价值；主导=悲观，主锚=FY2027情景归母PE 14x；乐观581.06/基准322.78/悲观115.03；估值日2026-10-23，资料截止2026-10-24）",
+    "zones": [
+      {
+        "label": "买入观察区",
+        "range": "≤ CNY 86.28，需信号与假设仍成立"
+      },
+      {
+        "label": "价值复核区",
+        "range": "CNY 97.78–132.29"
+      },
+      {
+        "label": "减持／卖出观察区",
+        "range": "≥ CNY 115.03；> CNY 149.54为强烈卖出估值档"
+      }
+    ],
+    "opportunity_type": {
+      "business_track": "周期型",
+      "price_pattern": "台阶（自身触发）",
+      "label": "周期型业务 · 自身触发台阶型股价 · 当前价格下行主要来自盈利下修",
+      "return_split": {
+        "earnings": 1.0980986485161996,
+        "multiple": -0.09809864851619966,
+        "yield": 0.0
+      },
+      "holding_style": "按周期进出",
+      "regime_switch": "04 H4：连续两年独立许可/服务收入≥5%或经营利润≥10%，且支持成本后现金为正；达成后撤销本业务类型判定并重新核对新引擎与定价锚，不自动升为相变型。"
+    },
+    "scenario_valuation": {
+      "anchor_method": "估值日/FY2027情景归母EPS的PE；排除偶发收益但非跨周期中枢，05确认盈利兑现主导，04 H4新锚条件未确认。",
+      "scenarios": {
+        "bull": {
+          "price": 581.059079,
+          "thesis": "产品/区域结构及规模降本实现，现金同步兑现；FY2027 EPS×22"
+        },
+        "base": {
+          "price": 322.782105,
+          "thesis": "量增长、周转修复且税费压力部分吸收；FY2027 EPS×18"
+        },
+        "bear": {
+          "price": 115.034508,
+          "thesis": "利润率与现金承压延续；FY2027 EPS×14"
+        }
+      },
+      "dominant": "bear",
+      "confidence": "中",
+      "judged_at": "2026-10-24",
+      "as_of": "2026-10-23",
+      "financial_period": "FY2027",
+      "rationale": "D1–D5：乐观1/4、基准1/4、悲观2/4；D5未到期不计分母。毛利率与现金拖累领先，存货基准及应收乐观是反例；未达到未来连续两季强确认。",
+      "signals": [
+        {
+          "scenario": "bull",
+          "driver_id": "D1",
+          "signal": "D1 同口径合并毛利率：x>=25%",
+          "current_value": 0.20687898798047555,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D1；2026H1 p77–78; Q3 p9–10; quarter bridges",
+          "status": "未命中",
+          "frequency": "每季；Q4/H1后另检查连续两季联合强确认",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 581.06，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bull",
+          "driver_id": "D2",
+          "signal": "D2 单季经营现金流/合并净利润：x>=1.4",
+          "applicability": "仅当当期合并净利润>0时评分；若≤0则无数据/不可评分，剔除分母并单列亏损风险，不把负分母比率机械归入某情景。",
+          "current_value": 0.06269572719910681,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D2；2026H1 p77–78,80–81; Q3 p9–13; quarter bridges",
+          "status": "未命中",
+          "frequency": "每季；H1目前仅半年累计作前期参照，不冒称Q2",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 581.06，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bull",
+          "driver_id": "D3",
+          "signal": "D3 净存货平均周转天数：x<=90日",
+          "current_value": 96.7419889555507,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D3；H1 p72–74,77–78; Q3 p5–10",
+          "status": "未命中",
+          "frequency": "每季；平均期初期末净存货/同期间成本×天数",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 581.06，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bull",
+          "driver_id": "D4",
+          "signal": "D4 净应收账款平均周转天数：x<=60日",
+          "current_value": 56.05323722955925,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D4；H1 p72–74,77–78; Q3 p5–10",
+          "status": "命中",
+          "frequency": "每季；平均净应收/同期间收入×天数",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 581.06，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bull",
+          "driver_id": "D5",
+          "signal": "D5 FY2027全年收入同比：x>=20%",
+          "current_value": null,
+          "observation_period": "2027_FY_not_due",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D5；未来2027年报；截止日无数据",
+          "status": "无数据",
+          "frequency": "2027年报后；季度/2026高增长不可代替",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 581.06，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "base",
+          "driver_id": "D1",
+          "signal": "D1 同口径合并毛利率：21%<=x<25%",
+          "current_value": 0.20687898798047555,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D1；2026H1 p77–78; Q3 p9–10; quarter bridges",
+          "status": "未命中",
+          "frequency": "每季；Q4/H1后另检查连续两季联合强确认",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 322.78，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "base",
+          "driver_id": "D2",
+          "signal": "D2 单季经营现金流/合并净利润：1.0<=x<1.4",
+          "applicability": "仅当当期合并净利润>0时评分；若≤0则无数据/不可评分，剔除分母并单列亏损风险，不把负分母比率机械归入某情景。",
+          "current_value": 0.06269572719910681,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D2；2026H1 p77–78,80–81; Q3 p9–13; quarter bridges",
+          "status": "未命中",
+          "frequency": "每季；H1目前仅半年累计作前期参照，不冒称Q2",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 322.78，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "base",
+          "driver_id": "D3",
+          "signal": "D3 净存货平均周转天数：90日<x<=120日",
+          "current_value": 96.7419889555507,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D3；H1 p72–74,77–78; Q3 p5–10",
+          "status": "命中",
+          "frequency": "每季；平均期初期末净存货/同期间成本×天数",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 322.78，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "base",
+          "driver_id": "D4",
+          "signal": "D4 净应收账款平均周转天数：60日<x<=80日",
+          "current_value": 56.05323722955925,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D4；H1 p72–74,77–78; Q3 p5–10",
+          "status": "未命中",
+          "frequency": "每季；平均净应收/同期间收入×天数",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 322.78，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "base",
+          "driver_id": "D5",
+          "signal": "D5 FY2027全年收入同比：12%<=x<20%",
+          "current_value": null,
+          "observation_period": "2027_FY_not_due",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D5；未来2027年报；截止日无数据",
+          "status": "无数据",
+          "frequency": "2027年报后；季度/2026高增长不可代替",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 322.78，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bear",
+          "driver_id": "D1",
+          "signal": "D1 同口径合并毛利率：x<21%",
+          "current_value": 0.20687898798047555,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D1；2026H1 p77–78; Q3 p9–10; quarter bridges",
+          "status": "命中",
+          "frequency": "每季；Q4/H1后另检查连续两季联合强确认",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 115.03，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bear",
+          "driver_id": "D2",
+          "signal": "D2 单季经营现金流/合并净利润：x<1.0",
+          "applicability": "仅当当期合并净利润>0时评分；若≤0则无数据/不可评分，剔除分母并单列亏损风险，不把负分母比率机械归入某情景。",
+          "current_value": 0.06269572719910681,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D2；2026H1 p77–78,80–81; Q3 p9–13; quarter bridges",
+          "status": "命中",
+          "frequency": "每季；H1目前仅半年累计作前期参照，不冒称Q2",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 115.03，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bear",
+          "driver_id": "D3",
+          "signal": "D3 净存货平均周转天数：x>120日",
+          "current_value": 96.7419889555507,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D3；H1 p72–74,77–78; Q3 p5–10",
+          "status": "未命中",
+          "frequency": "每季；平均期初期末净存货/同期间成本×天数",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 115.03，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bear",
+          "driver_id": "D4",
+          "signal": "D4 净应收账款平均周转天数：x>80日",
+          "current_value": 56.05323722955925,
+          "observation_period": "2026_Q3",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D4；H1 p72–74,77–78; Q3 p5–10",
+          "status": "未命中",
+          "frequency": "每季；平均净应收/同期间收入×天数",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 115.03，驱动假设被推翻则重跑06/07"
+        },
+        {
+          "scenario": "bear",
+          "driver_id": "D5",
+          "signal": "D5 FY2027全年收入同比：x<12%",
+          "current_value": null,
+          "observation_period": "2027_FY_not_due",
+          "as_of": "2026-10-24",
+          "source": "本批06分歧驱动表及_support/06/valuation_handoff.json D5；未来2027年报；截止日无数据",
+          "status": "无数据",
+          "frequency": "2027年报后；季度/2026高增长不可代替",
+          "action": "未来相应财报后逐项核验，D5未到期排除分母；全表重评分反超后才改锚CNY 115.03，驱动假设被推翻则重跑06/07"
+        }
+      ]
+    }
+  },
+  "validation": {
+    "zero_shock_IS_CF_max_error_million": 0.0,
+    "both_matrix_centers_match_base": true,
+    "upstream_hashes_verified": true,
+    "return_bridge_exact": true
+  },
+  "conditional_peer_median": {
+    "pe_n": 2,
+    "pe": 12.596228416546072,
+    "ps_n": 3,
+    "ps": 1.072160387949822
+  }
+}

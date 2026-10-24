@@ -1,0 +1,20 @@
+{
+  "ticker": "300750.SZ",
+  "status": "interrupted",
+  "attempts": [
+    {
+      "source": "baostock",
+      "started_at": "2026-10-24T22:35:53.082341+08:00",
+      "status": "error",
+      "error": "RuntimeError: baostock query 失败: 网络接收错误。",
+      "finished_at": "2026-10-24T22:37:12.687817+08:00"
+    },
+    {
+      "source": "baostock",
+      "started_at": "2026-10-24T22:37:14.690588+08:00",
+      "finished_at": "2026-10-24T22:37:23.513159+08:00"
+    }
+  ],
+  "ok": false,
+  "reason": "Stopped stalled baostock retrieval (exit 130); no CSV produced. Retrying the existing Tencent source separately."
+}

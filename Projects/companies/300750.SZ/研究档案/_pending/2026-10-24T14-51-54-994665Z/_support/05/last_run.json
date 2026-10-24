@@ -1,0 +1,260 @@
+{
+  "as_of": "2026-10-24 Asia/Shanghai",
+  "source_hashes": {
+    "yahoo_total_return_input.csv": "4ccacbbc94fa41f6c308d792186d2b091a9f62e8172cc7e15ffe8230e36ee5ca",
+    "tx_raw.csv": "ee4b7cda824ff8191bd50eb69e6e14d718a57d2a0c82edb57bbb2b0543705c5c",
+    "tx_hfq.csv": "8446fb0555a2f2bd13be8b1a01fc13d5be1efd0981b92626d84cc08db72761b9",
+    "daily_log_series.csv": "c03f9516bdaeb670b610f9821d5790423b00723524d8cae0ec00ab22a7285054"
+  },
+  "fills": [
+    {
+      "date": "2019-04-29",
+      "raw_close": 79.78,
+      "factor": 0.9147221733546749,
+      "next_factor": 0.9147220704657969,
+      "adjusted_close": 40.542519439019976
+    },
+    {
+      "date": "2019-04-30",
+      "raw_close": 79.76,
+      "factor": 0.9147221733546749,
+      "next_factor": 0.9147220704657969,
+      "adjusted_close": 40.532355859316034
+    }
+  ],
+  "validation": {
+    "rows": 2030,
+    "yahoo_rows": 2028,
+    "nonpositive": 0,
+    "raw_source_difference_over_002": 120,
+    "max_raw_relative_difference_pct": 0.75555419921875
+  },
+  "segments": [
+    {
+      "start": "2018-06-11",
+      "end": "2019-12-31",
+      "start_adjusted": 18.39607810974121,
+      "end_adjusted": 54.17638397216797,
+      "return_pct": 194.49964089617632,
+      "annualized_pct": 100.28248857755875,
+      "log_slope_per_year": 0.6945586268885616,
+      "annualized_daily_vol_pct": 48.24337925891668,
+      "tencent_hfq_change_pct": 194.30939226519337
+    },
+    {
+      "start": "2019-12-31",
+      "end": "2021-12-02",
+      "start_adjusted": 54.17638397216797,
+      "end_adjusted": 350.9967956542969,
+      "return_pct": 547.8778573236161,
+      "annualized_pct": 164.37427010778367,
+      "log_slope_per_year": 0.972195602987018,
+      "annualized_daily_vol_pct": 53.96745528069987,
+      "tencent_hfq_change_pct": 546.3300168950628
+    },
+    {
+      "start": "2021-12-02",
+      "end": "2024-01-30",
+      "start_adjusted": 350.9967956542969,
+      "end_adjusted": 130.98793029785156,
+      "return_pct": -62.68116064886702,
+      "annualized_pct": -36.63730383526941,
+      "log_slope_per_year": -0.45629488628231357,
+      "annualized_daily_vol_pct": 40.4131388603283,
+      "tencent_hfq_change_pct": -62.65901829799594
+    },
+    {
+      "start": "2024-01-30",
+      "end": "2024-10-08",
+      "start_adjusted": 130.98793029785156,
+      "end_adjusted": 285.1002502441406,
+      "return_pct": 117.6538323766589,
+      "annualized_pct": 208.71669088136414,
+      "log_slope_per_year": 1.1272538123491662,
+      "annualized_daily_vol_pct": 45.20321811878613,
+      "tencent_hfq_change_pct": 114.2884922023879
+    },
+    {
+      "start": "2024-10-08",
+      "end": "2025-04-09",
+      "start_adjusted": 285.1002502441406,
+      "end_adjusted": 202.5304412841797,
+      "return_pct": -28.96167537182227,
+      "annualized_pct": -49.46479202409413,
+      "log_slope_per_year": -0.6824999049874789,
+      "annualized_daily_vol_pct": 43.224030552841434,
+      "tencent_hfq_change_pct": -28.21960072595281
+    },
+    {
+      "start": "2025-04-09",
+      "end": "2026-05-06",
+      "start_adjusted": 202.5304412841797,
+      "end_adjusted": 458.3274536132813,
+      "return_pct": 126.30052584054816,
+      "annualized_pct": 114.03356864066919,
+      "log_slope_per_year": 0.7609626795389418,
+      "annualized_daily_vol_pct": 35.711090804364126,
+      "tencent_hfq_change_pct": 118.80862683623677
+    },
+    {
+      "start": "2026-05-06",
+      "end": "2026-10-23",
+      "start_adjusted": 458.3274536132813,
+      "end_adjusted": 237.6000061035156,
+      "return_pct": -48.15933363136629,
+      "annualized_pct": -75.62406185420019,
+      "log_slope_per_year": -1.411573681812013,
+      "annualized_daily_vol_pct": 41.07543062856128,
+      "tencent_hfq_change_pct": -45.96665164488508
+    }
+  ],
+  "annual_cross_sections": [
+    {
+      "year": "2018",
+      "revenue": 29611.26543422,
+      "profit": 3387.03520764,
+      "shares": 2195.0174,
+      "yearend_raw_close": 73.8,
+      "pe_ex_post": 47.82716275124642,
+      "ps_ex_post": 5.4706302396923245,
+      "earnings_per_yearend_share_split_adjusted": 0.8572534443083077
+    },
+    {
+      "year": "2019",
+      "revenue": 45788.02064241,
+      "profit": 4560.30743271,
+      "shares": 2208.3997,
+      "yearend_raw_close": 106.4,
+      "pe_ex_post": 51.52585248849439,
+      "ps_ex_post": 5.13177300052061,
+      "earnings_per_yearend_share_split_adjusted": 1.1472126758952799
+    },
+    {
+      "year": "2020",
+      "revenue": 50319.4876972,
+      "profit": 5583.33871038,
+      "shares": 2329.474028,
+      "yearend_raw_close": 351.11,
+      "pe_ex_post": 146.48970238013985,
+      "ps_ex_post": 16.25417235749385,
+      "earnings_per_yearend_share_split_adjusted": 1.3315687583617908
+    },
+    {
+      "year": "2021",
+      "revenue": 130355.7964,
+      "profit": 15931.3179,
+      "shares": 2330.8512,
+      "yearend_raw_close": 588.0,
+      "pe_ex_post": 86.0280683746823,
+      "ps_ex_post": 10.51384398277513,
+      "earnings_per_yearend_share_split_adjusted": 3.797210292388749
+    },
+    {
+      "year": "2022",
+      "revenue": 328593.9875,
+      "profit": 30729.1635,
+      "shares": 2442.5145,
+      "yearend_raw_close": 393.42,
+      "pe_ex_post": 31.271077541372062,
+      "ps_ex_post": 2.924381124259007,
+      "earnings_per_yearend_share_split_adjusted": 6.989419100684969
+    },
+    {
+      "year": "2023",
+      "revenue": 400917.045,
+      "profit": 44121.248,
+      "shares": 4399.041,
+      "yearend_raw_close": 163.26,
+      "pe_ex_post": 16.277586564641144,
+      "ps_ex_post": 1.7913616859567545,
+      "earnings_per_yearend_share_split_adjusted": 10.029742391580346
+    },
+    {
+      "year": "2024",
+      "revenue": 362012.554,
+      "profit": 50744.682,
+      "shares": 4403.466,
+      "yearend_raw_close": 266.0,
+      "pe_ex_post": 23.08265437548707,
+      "ps_ex_post": 3.2355838024335477,
+      "earnings_per_yearend_share_split_adjusted": 11.523804657512967
+    },
+    {
+      "year": "2025",
+      "revenue": 423701.834,
+      "profit": 72201.282,
+      "shares": 4563.803,
+      "yearend_raw_close": 367.26,
+      "pe_ex_post": 23.214300956318198,
+      "ps_ex_post": 3.955853280021441,
+      "earnings_per_yearend_share_split_adjusted": 15.820420381861357
+    }
+  ],
+  "current": {
+    "as_of": "2026-10-23",
+    "close_cny": 237.6,
+    "shares_mn": 4627.25,
+    "a_price_equivalent_equity_mn": 1099434.5999999999,
+    "profit_ttm_mn": 87697.236,
+    "core_profit_ttm_mn": 78764.421,
+    "revenue_ttm_mn": 582767.271,
+    "pe_ttm": 12.536707542299279,
+    "core_pe_ttm": 13.958518148695587,
+    "ps_ttm": 1.8865757476623974,
+    "pe_fy2025": 15.227355658310884
+  },
+  "events": [
+    {
+      "date": "2020-02-03",
+      "close": 135.36,
+      "one_day_pct": 3.66853029026577
+    },
+    {
+      "date": "2020-02-04",
+      "close": 148.9,
+      "one_day_pct": 10.002955082742314
+    },
+    {
+      "date": "2024-09-24",
+      "close": 197.52,
+      "one_day_pct": 4.952178533475049
+    },
+    {
+      "date": "2024-09-30",
+      "close": 251.89,
+      "one_day_pct": 11.057713504695554
+    },
+    {
+      "date": "2025-05-20",
+      "close": 263.0,
+      "one_day_pct": 1.1538461538461497
+    },
+    {
+      "date": "2026-10-21",
+      "close": 227.9,
+      "one_day_pct": -12.034892697236366
+    },
+    {
+      "date": "2026-10-22",
+      "close": 220.41,
+      "one_day_pct": -3.286529179464681
+    },
+    {
+      "date": "2026-10-23",
+      "close": 237.6,
+      "one_day_pct": 7.79910167415272
+    }
+  ],
+  "full_period": {
+    "return_pct": 1191.57967630992,
+    "annualized_pct": 35.7688288404185,
+    "max_drawdown_pct": -62.68116064886702,
+    "max_drawdown_date": "2024-01-30"
+  },
+  "notes": [
+    "Returns are vendor-adjusted-price changes, not independently audited tax-adjusted dividend reinvestment returns.",
+    "Annual P/E uses full-year realized profit: ex-post research statistic, NOT point-in-time tradable trailing P/E.",
+    "A-price-equivalent equity values all A/H shares at the A price, NOT combined exchange market capitalization.",
+    "2023 reported EPS conflict deliberately bypassed via profit / year-end total shares."
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+  "source_skill_count": 21,
+  "skills": [
+    {
+      "name": "daily-portfolio-scanner",
+      "source": "reference/upstream/Skill Backup/Scheduled/daily-portfolio-scanner/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "55df3d44c5c3dd2d3cb4c8cbfe168847860e3e6df687ccc86c3765d063c19f26",
+      "resources": []
+    },
+    {
+      "name": "daily-position-advisor",
+      "source": "reference/upstream/Skill Backup/Scheduled/daily-position-advisor/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "8d08bff8b85525f5e05bb396036034919e4d8065aa04a0bf22a1e6c2bd067456",
+      "resources": []
+    },
+    {
+      "name": "value-growth-paper-monitor",
+      "source": "reference/upstream/Skill Backup/Scheduled/value-growth-paper-monitor/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "5a0800248e5e05bf2fd9454b97823453c5cc577090b04f2ffb17b4d038f3f9f4",
+      "resources": []
+    },
+    {
+      "name": "business-model-analysis",
+      "source": "reference/upstream/Skill Backup/business-model-analysis/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "840e85b89c84837d88aec88e8b93576f8a50e09f3f85bc8b9382d99b76aaef99",
+      "resources": []
+    },
+    {
+      "name": "company-dossier-build",
+      "source": "reference/upstream/Skill Backup/company-dossier-build/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "11ce43f2f3eb1578c26d634b106688298692ba381a32b723fbad0e2a25d1f255",
+      "resources": []
+    },
+    {
+      "name": "corporate-culture-analysis",
+      "source": "reference/upstream/Skill Backup/corporate-culture-analysis/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "4e4fcc20e94219a0e50abdf17a5d228fc8b3317304a70f92c22ccb80e816ba53",
+      "resources": []
+    },
+    {
+      "name": "corporate-governance-assessment",
+      "source": "reference/upstream/Skill Backup/corporate-governance-assessment/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "d5d5c9e20a5939d7b549d6d6671541264ac87a826aaa826189259c755e2f1ea3",
+      "resources": []
+    },
+    {
+      "name": "financial-analysis",
+      "source": "reference/upstream/Skill Backup/financial-analysis/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "c8379829795a36185212c9740b76e3d1d5478a6997f6e9531451c9f5a5c7e824",
+      "resources": [
+        {
+          "path": "references/data-contract.md",
+          "sha256": "21abebbe32fcff76da1b32450f3310134d779202b9551ea269cab6bdd1e58a0c"
+        },
+        {
+          "path": "references/data-tables.md",
+          "sha256": "268cda10da82896d1cf464cb2ab5fc979054450a7ecbbf5e7c31bfbf625ca3bc"
+        },
+        {
+          "path": "references/handoff.md",
+          "sha256": "e6183707b9a15ee16cfbdba2969fae809804816aa636410d535accfef4a39f83"
+        },
+        {
+          "path": "references/health-check.md",
+          "sha256": "e271ff02a9b43a97806afb38f6f57511c378fb834cdf1a0026874af7a1eefa35"
+        },
+        {
+          "path": "references/metrics.md",
+          "sha256": "6b5395e02a73f25c81f4e156afbc34afa11afb0732f663b491dbce6a06952257"
+        },
+        {
+          "path": "references/seven-questions.md",
+          "sha256": "8c6c21d70d4c8d71e81c54b407a6f0f83231ee95b6894732712523ce01efb4f2"
+        },
+        {
+          "path": "scripts/render_tables.py",
+          "sha256": "dceddb08b0056e1adb2f7c5851a87e113fffa31c8b5e7b83bbf68fec568dd09e",
+          "preserved_original": "references/upstream-render_tables.py.txt",
+          "adapter_sha256": "2a94cc8f761fd296734003806f9e12ade4b0d3116e0f26c42aba42bcb186e307",
+          "local_adapter_reason": "保留小额金额精度；偿债覆盖按实际债务标签去重并纳入流动租赁，口径未知显示n/a；原件另存。"
+        }
+      ]
+    },
+    {
+      "name": "financial-forecast",
+      "source": "reference/upstream/Skill Backup/financial-forecast/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "52582e3ad1f5bbddad755678f622edb16d1e461fcf89ee98473a304f9cc278e6",
+      "resources": []
+    },
+    {
+      "name": "financial-forecast-feedback",
+      "source": "reference/upstream/Skill Backup/financial-forecast-feedback/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "765dfef9c3a0bbb9ec178db50eddf3dad7b3404a3042b20c97682ccd56181732",
+      "resources": []
+    },
+    {
+      "name": "leadership-assessment",
+      "source": "reference/upstream/Skill Backup/leadership-assessment/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "9043b88e3bb61c1486336836122f86648ba91e07032c81aef97838d3bc15e9ae",
+      "resources": []
+    },
+    {
+      "name": "mission-vision-assessment",
+      "source": "reference/upstream/Skill Backup/mission-vision-assessment/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "1608f88893673edc093c185449656c4634a88edde5271ec2c2e17d124e9c2773",
+      "resources": []
+    },
+    {
+      "name": "new-company-onboarding",
+      "source": "reference/upstream/Skill Backup/new-company-onboarding/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "11f80b137811f57328b4a1ed562d31aa7a8ef97e62a9385d33fb4fcb81192ae0",
+      "resources": [
+        {
+          "path": "scripts/fetch_raw_filings.py",
+          "sha256": "6f6eaa71ee9f4c1a8b469f7a36a0587209ab2800c717bc2d7a13cf26a4a667f0",
+          "preserved_original": "references/upstream-fetch_raw_filings.py.txt",
+          "local_adapter_reason": "原脚本含原作者 SEC 身份；活动入口转交本地适配后的 Projects 引擎，使用用户自己的 SEC_USER_AGENT。",
+          "adapter_sha256": "fda4d40e0a7f9e04a8087d64f4235e0d66eb23419c5c76f20d1f6b9098365785"
+        }
+      ]
+    },
+    {
+      "name": "research-event-update",
+      "source": "reference/upstream/Skill Backup/research-event-update/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "8b008c189ca4d2dd5ddea0abe77dbea6b88416cec42415f7eaeddc5df16c32ea",
+      "resources": []
+    },
+    {
+      "name": "research-summary",
+      "source": "reference/upstream/Skill Backup/research-summary/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "52e6de2e5df8f4be1a2d701f6774cd7312ba3c794208e379738e754d89bb530e",
+      "resources": [
+        {
+          "path": "assets/template.html",
+          "sha256": "cf7b2a1cd4fdd77508ef02eab62b52b9a5e9d978ad76f241a1e82c635e706594"
+        }
+      ]
+    },
+    {
+      "name": "reverse-dcf",
+      "source": "reference/upstream/Skill Backup/reverse-dcf/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "ded8a58dbaffdca49f9413d5caa403fff79a96d1cfd986c747e66128ac7ce930",
+      "resources": [
+        {
+          "path": "references/advanced.md",
+          "sha256": "6c19c05a96ffe56c9169a2e6925915e220d8542765d91b9e09b94ad2f5edb4e0"
+        },
+        {
+          "path": "references/methodology.md",
+          "sha256": "aff41bacbfabdfd480478465deb524da6f9bb37b895b4306f0aadb7cb5867661",
+          "preserved_original": "references/upstream-methodology.raw.txt",
+          "adaptation_note": "上游末尾是截断的UTF-8字符，原始字节与Git blob指纹一致；活动文本仅解码替换并标缺损，不补写语义。",
+          "adapter_sha256": "b78d87366d3809ca813094962de3028d9742c3d9c5f5cd67026d76e4a4b7e1a1"
+        }
+      ]
+    },
+    {
+      "name": "stock-character-analysis",
+      "source": "reference/upstream/Skill Backup/stock-character-analysis/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "4169aae088e82e82f250481ab0888292e7745df31ed2b4c82be4de47f3b9861d",
+      "resources": []
+    },
+    {
+      "name": "strategic-decision-analysis",
+      "source": "reference/upstream/Skill Backup/strategic-decision-analysis/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "6b8e9e386df45d67524eff276214502a10b71eddf133cf068af64be2ed5c61a3",
+      "resources": []
+    },
+    {
+      "name": "technical-analysis",
+      "source": "reference/upstream/Skill Backup/technical-analysis/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "46f70a71fc2399c0524c2567f6b695baff03f7a4573f93033bc09b244995ffba",
+      "resources": []
+    },
+    {
+      "name": "valuation-analysis",
+      "source": "reference/upstream/Skill Backup/valuation-analysis/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "a456ff47e02b86713240eb0d39bf6a07d24c420db6b028a931ba931875d72ac4",
+      "resources": []
+    },
+    {
+      "name": "vc-style-valuation",
+      "source": "reference/upstream/Skill Backup/vc-style-valuation/SKILL.md",
+      "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+      "original_sha256": "1ea27f301365dd105a50f3670b4899d401e4d841125108db113f0a1d8c5bfbd2",
+      "resources": [
+        {
+          "path": "reference.md",
+          "sha256": "ba2d1e6598ffd3b0000784031346ee9f1f33640288058ab42d0b2cd2b2a43e8c"
+        },
+        {
+          "path": "scripts/valuation_engine.py",
+          "sha256": "a15903ff804b496bd6cd61910f2a9cd5386195de1369d416b865959e47277798"
+        }
+      ]
+    }
+  ],
+  "excluded_placeholders": [
+    "research-summary/assets/example_asset.txt",
+    "research-summary/references/api_reference.md",
+    "research-summary/scripts/example.py"
+  ],
+  "missing_upstream_references": [
+    "strategic-decision-analysis/references/research-protocol.md",
+    "strategic-decision-analysis/references/decision-framework.md",
+    "strategic-decision-analysis/references/output-template.md"
+  ],
+  "transport_note": "已按固定Git blob SHA-1校验原始字节；还原连接器新增换行与BAT换行规范化；reverse-dcf methodology源末尾截断，仅保留原字节和显式缺损可读适配。"
+}

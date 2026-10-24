@@ -1,0 +1,32 @@
+{
+  "source": "02 analysis_inputs_results.json; CAS; same batch",
+  "annual": {
+    "2023": {
+      "sga_rnd_rate": 0.07448093407951763,
+      "rnd_rate": 0.04578530204421716,
+      "ar_days_average_net": 55.52928438537703,
+      "inventory_days_average_net": 68.78082737464564,
+      "ppe_turnover_average_net": 3.9217392980161194,
+      "note": "2022COGS未作质保重分类；本年天数只用2023可比COGS和前后存量"
+    },
+    "2024": {
+      "sga_rnd_rate": 0.0880063181455304,
+      "rnd_rate": 0.05139809598978714,
+      "ar_days_average_net": 64.60681429158393,
+      "inventory_days_average_net": 70.23889593518088,
+      "ppe_turnover_average_net": 3.1758689109590184
+    },
+    "2025": {
+      "sga_rnd_rate": 0.0886199609888873,
+      "rnd_rate": 0.052269259235729434,
+      "ar_days_average_net": 60.533904262024045,
+      "inventory_days_average_net": 90.18095288878393,
+      "ppe_turnover_average_net": 3.2719596491975573
+    }
+  },
+  "notes": [
+    "应收天数只用应收账款净额，不含应收票据/融资；不是完整回款周期",
+    "存货天数以净额平均，不能排除减值或结构影响；未将年末余额/收入称平均周转",
+    "固定资产净额周转不含在建工程/无形资产，不等于ROIC"
+  ]
+}

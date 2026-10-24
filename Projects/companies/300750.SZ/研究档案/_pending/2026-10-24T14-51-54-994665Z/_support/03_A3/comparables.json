@@ -1,0 +1,90 @@
+{
+  "as_of": "2026-10-24",
+  "notes": [
+    "Do not sum revenues across currencies or product scopes",
+    "market_usage_shares are rounded-input approximations",
+    "FY2025 SNE peer rows from secondary CnEVPost; CALB 62.8 versus other reprint62.6 unresolved",
+    "LGES FY2025 inputs are pre-audit statements in 2026-02-13 AGM notice, not final audited annual report."
+  ],
+  "usage_2026_1_8_GWh": {
+    "denominator": 844.2,
+    "CATL": 333,
+    "BYD": 127.9,
+    "LGES": 68.3,
+    "CALB": 44.4,
+    "EVE": 29.5,
+    "Gotion": 41.5,
+    "Panasonic": 29.7
+  },
+  "gross_margin_inputs": [
+    {
+      "company": "CATL",
+      "segment": "Power",
+      "currency": "CNY",
+      "unit": "million",
+      "revenue": 316506.369,
+      "cost": 241064.397,
+      "gross_profit": 75441.97200000001,
+      "gross_margin_percent": 23.83584641230395
+    },
+    {
+      "company": "CATL",
+      "segment": "ESS",
+      "currency": "CNY",
+      "unit": "million",
+      "revenue": 62439.82,
+      "cost": 45763.689,
+      "gross_profit": 16676.131,
+      "gross_margin_percent": 26.70752574238683
+    },
+    {
+      "company": "EVE",
+      "segment": "Power",
+      "currency": "CNY",
+      "unit": "million",
+      "revenue": 25858.36930245,
+      "cost": 21850.11287329,
+      "gross_profit": 4008.2564291599992,
+      "gross_margin_percent": 15.500808973210193
+    },
+    {
+      "company": "EVE",
+      "segment": "ESS",
+      "currency": "CNY",
+      "unit": "million",
+      "revenue": 24441.02838651,
+      "cost": 21440.85751393,
+      "gross_profit": 3000.170872579998,
+      "gross_margin_percent": 12.275141721270266
+    },
+    {
+      "company": "CALB",
+      "segment": "Consolidated",
+      "currency": "CNY",
+      "unit": "million",
+      "revenue": 44400.067,
+      "cost": 36988.116,
+      "gross_profit": 7411.951000000001,
+      "gross_margin_percent": 16.693558142603706
+    },
+    {
+      "company": "LGES",
+      "segment": "Consolidated",
+      "currency": "KRW",
+      "unit": "million",
+      "revenue": 23671759,
+      "cost": 19439651,
+      "gross_profit": 4232108,
+      "gross_margin_percent": 17.8782996227699
+    }
+  ],
+  "usage_share_percent_calculated": {
+    "CATL": 39.44562899786781,
+    "BYD": 15.150438284766643,
+    "LGES": 8.090499881544657,
+    "CALB": 5.259417199715707,
+    "EVE": 3.4944325989102105,
+    "Gotion": 4.915896706941482,
+    "Panasonic": 3.518123667377399
+  }
+}

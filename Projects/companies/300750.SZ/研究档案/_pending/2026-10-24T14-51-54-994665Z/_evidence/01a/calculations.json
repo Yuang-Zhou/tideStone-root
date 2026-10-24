@@ -1,0 +1,24 @@
+{
+  "period": "FY2025",
+  "unit": "CNY thousand",
+  "formula": "((begin+end)/2)/COGS*365",
+  "COGS": 312383297,
+  "accounts_payable": {
+    "begin": 130977408,
+    "end": 160328962,
+    "DPO_proxy": 170.18647615144417
+  },
+  "trade_payable_only": {
+    "begin": 112120161,
+    "end": 134821193,
+    "DPO_proxy": 144.26762742375436
+  },
+  "source": "annual_2025 PDF physical p116,p187",
+  "limit": "DPO proxy uses COGS, includes VAT/stock-purchase timing mismatch; total accounts payable includes capex; neither value is invoice-to-cash maturity. No comparable peer ranking inferred.",
+  "supplier_financing_CNY_thousand": {
+    "2024_end": 44362409,
+    "2025_end": 37222781,
+    "supplier_received": 30728127,
+    "source": "annual_2025 physical p202-203"
+  }
+}

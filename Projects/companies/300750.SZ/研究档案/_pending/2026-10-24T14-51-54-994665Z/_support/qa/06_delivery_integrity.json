@@ -1,0 +1,240 @@
+{
+  "verified_at": "2026-10-24T16:34:07.455256+00:00",
+  "scope": "Read-only integrity bridge from independently reviewed model to final source-pointer revision; wrote only this QA evidence file. No model rerun or report mutation.",
+  "old_forecast_model": {
+    "path": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_revisions/2026-10-24T16-31-10-000575Z/manual_support_06/forecast_model.json",
+    "sha256": "c44ce919044278367e3c989a2337af3d212d994c364ff9181a16246c9f5e2a08"
+  },
+  "current_forecast_model": {
+    "path": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_support/06/forecast_model.json",
+    "sha256": "86dc292e2b15cad1feeefc56b3017b6bd7417e11686b0eb009a5ad0f7827500d"
+  },
+  "checks": {
+    "model_equal": true,
+    "valuation_bridge_equal": true,
+    "common_assumptions_equal": true,
+    "scenario_assumptions_equal": true,
+    "only_driver_page_pointer_changes": true,
+    "driver_change_count_is_four": true,
+    "delivery_four_hashes_match": true,
+    "required_heading_present": true,
+    "material_registry_equals_frozen_context": true,
+    "all_frozen_material_hashes_match": true,
+    "all_raw_forecast_sources_match": true,
+    "current_internal_model_checks_pass": true
+  },
+  "all_pass": true,
+  "exact_json_differences": [
+    {
+      "path": "/divergence_drivers/0/actual_source",
+      "old": "2026H1 p73–74; Q3 p9–10; quarter bridges",
+      "new": "2026H1 p77–78; Q3 p9–10; quarter bridges"
+    },
+    {
+      "path": "/divergence_drivers/1/actual_source",
+      "old": "2026H1 p73–78; Q3 p9–13; quarter bridges",
+      "new": "2026H1 p77–78,80–81; Q3 p9–13; quarter bridges"
+    },
+    {
+      "path": "/divergence_drivers/2/actual_source",
+      "old": "H1 p68–74; Q3 p5–10",
+      "new": "H1 p72–74,77–78; Q3 p5–10"
+    },
+    {
+      "path": "/divergence_drivers/3/actual_source",
+      "old": "H1 p68–74; Q3 p5–10",
+      "new": "H1 p72–74,77–78; Q3 p5–10"
+    }
+  ],
+  "locked_delivery_files": {
+    "_support/06/model.py": {
+      "expected": {
+        "bytes": 25527,
+        "sha256": "2859cda74ef3f97030b50d589c96af5fd24e0a013576251bcd0c58a042f80a9f"
+      },
+      "actual_sha256": "2859cda74ef3f97030b50d589c96af5fd24e0a013576251bcd0c58a042f80a9f",
+      "actual_bytes": 25527,
+      "match": true
+    },
+    "_support/06/forecast_model.json": {
+      "expected": {
+        "bytes": 186284,
+        "sha256": "86dc292e2b15cad1feeefc56b3017b6bd7417e11686b0eb009a5ad0f7827500d"
+      },
+      "actual_sha256": "86dc292e2b15cad1feeefc56b3017b6bd7417e11686b0eb009a5ad0f7827500d",
+      "actual_bytes": 186284,
+      "match": true
+    },
+    "_support/06/valuation_handoff.json": {
+      "expected": {
+        "bytes": 11901,
+        "sha256": "e82c3ef43065318aca36e8dd3d7a5f61698541dd22844998bfad2424b48743e9"
+      },
+      "actual_sha256": "e82c3ef43065318aca36e8dd3d7a5f61698541dd22844998bfad2424b48743e9",
+      "actual_bytes": 11901,
+      "match": true
+    },
+    "06_财务预测.md": {
+      "expected": {
+        "bytes": 31852,
+        "sha256": "7cf511c691104e97d69490b66105713607ce9e6c043761997c991f63829d96eb"
+      },
+      "actual_sha256": "7cf511c691104e97d69490b66105713607ce9e6c043761997c991f63829d96eb",
+      "actual_bytes": 31852,
+      "match": true
+    }
+  },
+  "frozen_material_count": 21,
+  "frozen_materials": [
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-27-986630Z_annual_2025.pdf",
+      "expected_sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+      "actual_sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-101489Z_annual_2024.pdf",
+      "expected_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+      "actual_sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-225064Z_annual_2023.pdf",
+      "expected_sha256": "6081f0377617dddb82f900569d6458c278a7ab26697b34c87684188eac083471",
+      "actual_sha256": "6081f0377617dddb82f900569d6458c278a7ab26697b34c87684188eac083471",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-331125Z_interim_2026.pdf",
+      "expected_sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9",
+      "actual_sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-420783Z_interim_2025.pdf",
+      "expected_sha256": "94da19aaaf50205fa69d8afa9598262e1c785159c34c42f459bd1104fa14c46f",
+      "actual_sha256": "94da19aaaf50205fa69d8afa9598262e1c785159c34c42f459bd1104fa14c46f",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-499033Z_q1_2026.pdf",
+      "expected_sha256": "32e4936e6dd68a89741a8167b4c4ae3f8b4bc7ef61d70f35b294e1cb0e46fbe8",
+      "actual_sha256": "32e4936e6dd68a89741a8167b4c4ae3f8b4bc7ef61d70f35b294e1cb0e46fbe8",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-580273Z_q3_2026.pdf",
+      "expected_sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3",
+      "actual_sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-743192Z_ir_20260309.pdf",
+      "expected_sha256": "3d41391972aa85460edc4808fbb48a45836779470685e1175692fd62ff470b0b",
+      "actual_sha256": "3d41391972aa85460edc4808fbb48a45836779470685e1175692fd62ff470b0b",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-969561Z_ir_20260415.pdf",
+      "expected_sha256": "3dbc9a1d1c8a7bb22e0987d0313ab1fa7b64ef2ed91f0f6e4729c97625153f37",
+      "actual_sha256": "3dbc9a1d1c8a7bb22e0987d0313ab1fa7b64ef2ed91f0f6e4729c97625153f37",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-241497Z_ir_20260724.pdf",
+      "expected_sha256": "e3e0d885ef439c1ed49f3c0d91c7d3ce34a7124232432b89d5d6dcea226e5437",
+      "actual_sha256": "e3e0d885ef439c1ed49f3c0d91c7d3ce34a7124232432b89d5d6dcea226e5437",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-351122Z_ir_20261020.pdf",
+      "expected_sha256": "42d041299a85b939e9b5dff4c687be929629e2b572f702f462a4b1c29de85cd2",
+      "actual_sha256": "42d041299a85b939e9b5dff4c687be929629e2b572f702f462a4b1c29de85cd2",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-504376Z_hk_prospectus_2025.pdf",
+      "expected_sha256": "70469df49d5ab82965210e9d26f6bb30095b1563014a9dd5fe1b21ad26f09b5b",
+      "actual_sha256": "70469df49d5ab82965210e9d26f6bb30095b1563014a9dd5fe1b21ad26f09b5b",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-612290Z_accounting_basis_2026.pdf",
+      "expected_sha256": "4051451f83bce44259e3a570bb613a0bd03ed67cb4d541dd88f671a2e2480bb7",
+      "actual_sha256": "4051451f83bce44259e3a570bb613a0bd03ed67cb4d541dd88f671a2e2480bb7",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-734753Z_gics_cambria_20260531.pdf",
+      "expected_sha256": "95236b31567bdafbe6e9cdf516bee343012d4ae479a0de44e7342decc0e1d069",
+      "actual_sha256": "95236b31567bdafbe6e9cdf516bee343012d4ae479a0de44e7342decc0e1d069",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-40-43-896882Z_300750.SZ.csv",
+      "expected_sha256": "8a0d8e353459fb493a205f46b52f3c567cdf2ddea93f5e45aa92e3c98e0b1d12",
+      "actual_sha256": "8a0d8e353459fb493a205f46b52f3c567cdf2ddea93f5e45aa92e3c98e0b1d12",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-40-44-054847Z_gics_msci_methodology_2023.pdf",
+      "expected_sha256": "2a949a81b7e92f7005685160383d55ca31e5e8b906c3a868992e10aa77c0491f",
+      "actual_sha256": "2a949a81b7e92f7005685160383d55ca31e5e8b906c3a868992e10aa77c0491f",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-42-40-851957Z__identity_evidence.json",
+      "expected_sha256": "93005fdc33c30995ae1fa6f50fd7ff398bd9db6c844479039fbf935afd8aec89",
+      "actual_sha256": "93005fdc33c30995ae1fa6f50fd7ff398bd9db6c844479039fbf935afd8aec89",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-47-04-488777Z_financials.json",
+      "expected_sha256": "b4799780c4b588b2665171d14acaa2d09b73c8ce759b73787008397c9f0a9a9f",
+      "actual_sha256": "b4799780c4b588b2665171d14acaa2d09b73c8ce759b73787008397c9f0a9a9f",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-47-04-582198Z_validation.json",
+      "expected_sha256": "c425f237a453080e0b0e02c427d7804080c860f2ec70f0d40013f82137b43eb9",
+      "actual_sha256": "c425f237a453080e0b0e02c427d7804080c860f2ec70f0d40013f82137b43eb9",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-47-04-657683Z_rebuild_financials.py",
+      "expected_sha256": "6c1acbaa51f9d965d88ecb71c7a568a49fb502485624fd8cd9b69f2573de668a",
+      "actual_sha256": "6c1acbaa51f9d965d88ecb71c7a568a49fb502485624fd8cd9b69f2573de668a",
+      "match": true
+    },
+    {
+      "file": "companies/300750.SZ/materials/2026-10-24T14-47-04-731501Z_README.md",
+      "expected_sha256": "15dc977ff94bd4aafdc3e9ef8137b79f51e2db6972ddac199c1a2d04eca7318f",
+      "actual_sha256": "15dc977ff94bd4aafdc3e9ef8137b79f51e2db6972ddac199c1a2d04eca7318f",
+      "match": true
+    }
+  ],
+  "raw_source_checks": [
+    {
+      "id": "annual_2025",
+      "file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/OFFICIAL/annual_2025.pdf",
+      "expected_sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+      "actual_sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+      "match": true
+    },
+    {
+      "id": "q3_2026",
+      "file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/OFFICIAL/q3_2026.pdf",
+      "expected_sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3",
+      "actual_sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3",
+      "match": true
+    },
+    {
+      "id": "interim_2026",
+      "file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/OFFICIAL/interim_2026.pdf",
+      "expected_sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9",
+      "actual_sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9",
+      "match": true
+    }
+  ],
+  "frozen_scope_note": "Material registry JSON content equals batch _context_bundle materials and every frozen material byte hash matches. This verifies frozen registered materials and three raw forecast originals; it does not infer unrecorded unrelated filesystem history."
+}

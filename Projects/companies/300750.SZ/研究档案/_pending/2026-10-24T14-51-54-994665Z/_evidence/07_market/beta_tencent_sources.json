@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_dayqfq&param=sh000300%2Cday%2C2021-01-01%2C2022-12-31%2C640%2Cqfq&r=0.8205512681390605",
+    "file": "beta_tencent_sh000300_2021.json",
+    "fetched_utc": "2026-10-24T16:13:19.302555+00:00",
+    "sha256": "5f6fa4686f655c6219b2b617c2accede283e45b12874210b69b1d4710ca99bca",
+    "response_key": "day",
+    "rows": 640
+  },
+  {
+    "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_dayqfq&param=sh000300%2Cday%2C2022-01-01%2C2023-12-31%2C640%2Cqfq&r=0.8205512681390605",
+    "file": "beta_tencent_sh000300_2022.json",
+    "fetched_utc": "2026-10-24T16:13:19.307185+00:00",
+    "sha256": "ebbfae3f96c3069a98d5954ee976f0cd8fbb77d2466a5444cec081422d013cea",
+    "response_key": "day",
+    "rows": 640
+  },
+  {
+    "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_dayqfq&param=sh000300%2Cday%2C2023-01-01%2C2024-12-31%2C640%2Cqfq&r=0.8205512681390605",
+    "file": "beta_tencent_sh000300_2023.json",
+    "fetched_utc": "2026-10-24T16:13:19.312230+00:00",
+    "sha256": "eef90958a21fa9503a46c6a9b01bfa883da1cf34b3adac98dc75192de2781a3c",
+    "response_key": "day",
+    "rows": 640
+  },
+  {
+    "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_dayqfq&param=sh000300%2Cday%2C2024-01-01%2C2025-12-31%2C640%2Cqfq&r=0.8205512681390605",
+    "file": "beta_tencent_sh000300_2024.json",
+    "fetched_utc": "2026-10-24T16:13:19.317780+00:00",
+    "sha256": "a63cc9f5229a0a50f057799c63285dd40a03f113e1f1105df99e7121eb48c247",
+    "response_key": "day",
+    "rows": 640
+  },
+  {
+    "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_dayqfq&param=sh000300%2Cday%2C2025-01-01%2C2026-12-31%2C640%2Cqfq&r=0.8205512681390605",
+    "file": "beta_tencent_sh000300_2025.json",
+    "fetched_utc": "2026-10-24T16:13:19.318764+00:00",
+    "sha256": "6f797e8b5c8e160ad61bcd32793cc1bcd6cc3d578213ba948d04ad8de6e97cd0",
+    "response_key": "day",
+    "rows": 640
+  },
+  {
+    "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get?_var=kline_dayqfq&param=sh000300%2Cday%2C2026-01-01%2C2027-12-31%2C640%2Cqfq&r=0.8205512681390605",
+    "file": "beta_tencent_sh000300_2026.json",
+    "fetched_utc": "2026-10-24T16:13:19.328143+00:00",
+    "sha256": "6f797e8b5c8e160ad61bcd32793cc1bcd6cc3d578213ba948d04ad8de6e97cd0",
+    "response_key": "day",
+    "rows": 640
+  }
+]

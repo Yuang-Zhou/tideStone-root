@@ -1,0 +1,420 @@
+{
+  "repository": "https://github.com/flyfish0108/AI-Investment-System",
+  "branch": "main",
+  "commit": "e5b147afa1b2c49bb9a6651094958538d5802a59",
+  "commit_date": "2026-10-21T23:14:18Z",
+  "retrieved_at": "2026-10-24",
+  "method": "GitHub connector fetch_file at pinned ref; method/spec/engine files only",
+  "excluded": "Company archives, valuation/holdings registries, daily outputs and old TideStone artifacts",
+  "files": [
+    {
+      "path": "Projects/_system/README.md",
+      "sha": "66368d347187b48783bc351f5da39a76555c859f",
+      "size": 19111
+    },
+    {
+      "path": "Projects/_system/catalyst_tracker_template.md",
+      "sha": "fd8e8a66356dcef70f9b6819f819b2084eb0a632",
+      "size": 1541
+    },
+    {
+      "path": "Projects/_system/daily_briefing/SCHEMA.md",
+      "sha": "b197f75f4bbc68a3989246c021817e97e8a8a611",
+      "size": 13877
+    },
+    {
+      "path": "Projects/_system/daily_pipeline.bat",
+      "sha": "4471469de3346cd634af7b458cc18e43d6c6302d",
+      "size": 6296
+    },
+    {
+      "path": "Projects/_system/dossier_schema.md",
+      "sha": "96c1766bb77f748d2b862b55c3f331a3115da916",
+      "size": 21365
+    },
+    {
+      "path": "Projects/_system/host_pipeline/README_部署与对账.md",
+      "sha": "aa1542e3efd9870d325f93ec8edfb3f8713c8680",
+      "size": 8164
+    },
+    {
+      "path": "Projects/_system/host_pipeline/host_signals.py",
+      "sha": "6f66a9039838f56ce3a7a33da9013dd98fabefa4",
+      "size": 8456
+    },
+    {
+      "path": "Projects/_system/host_pipeline/跑信号.bat",
+      "sha": "22d31a0ed0a0c25d375dae622b1bf7d8b3de12db",
+      "size": 504
+    },
+    {
+      "path": "Projects/_system/scanner/任务说明_精简版_草稿.md",
+      "sha": "8bb0eee6899229c76b61858a3e8087077c39fbfc",
+      "size": 12868
+    },
+    {
+      "path": "Projects/_system/scanner/简报模板.md",
+      "sha": "3c2ff748c0110927c16bbfe2c606275ca2785afc",
+      "size": 5642
+    },
+    {
+      "path": "Projects/_system/scripts/SETUP_MARKET_DATA_FETCHER.md",
+      "sha": "fc14ca2cd4b4b639d4b426e1e0b97fff7e2de535",
+      "size": 9685
+    },
+    {
+      "path": "Projects/_system/scripts/annotate_three_year_registry.py",
+      "sha": "78f2b07c9449aecda3f679a9971390e7993ef6c1",
+      "size": 7574
+    },
+    {
+      "path": "Projects/_system/scripts/archive_old.py",
+      "sha": "5c0b0f9e33b15d7f000d80971a718fda8de2a26e",
+      "size": 8848
+    },
+    {
+      "path": "Projects/_system/scripts/audit_core_conclusions.py",
+      "sha": "329a58d7c1b15ef5b853ab6aa2916854efba35c4",
+      "size": 14771
+    },
+    {
+      "path": "Projects/_system/scripts/build_briefing.py",
+      "sha": "fdf488073d3bfb3e47febadb3a12011626a87e7f",
+      "size": 12748
+    },
+    {
+      "path": "Projects/_system/scripts/build_site.py",
+      "sha": "acb021865a5e6a55b31281070e62ac55f4e0f53d",
+      "size": 34038
+    },
+    {
+      "path": "Projects/_system/scripts/build_valuation_comparison.py",
+      "sha": "47cde452f4b3e76898729dd7474ce79c80364172",
+      "size": 32884
+    },
+    {
+      "path": "Projects/_system/scripts/compute_signals.py",
+      "sha": "209beca09978ab0ca88fb42790c90ce6d01490aa",
+      "size": 25416
+    },
+    {
+      "path": "Projects/_system/scripts/dossier_orchestrator.py",
+      "sha": "26dd1ea72b261f82e364993f1a3fa10e58bd62f0",
+      "size": 67277
+    },
+    {
+      "path": "Projects/_system/scripts/extract_valuation_levels.py",
+      "sha": "d718f399f5b875d6629aa1f28b7b554dcd5bc8be",
+      "size": 7700
+    },
+    {
+      "path": "Projects/_system/scripts/fetch_edgar_financials.py",
+      "sha": "8906afbdef9b050bace4aae9ce4474c1130888b9",
+      "size": 46340
+    },
+    {
+      "path": "Projects/_system/scripts/fetch_raw_filings.py",
+      "sha": "a8d6e917cbcbd4c0424f5e906c46733aca456ea0",
+      "size": 17483
+    },
+    {
+      "path": "Projects/_system/scripts/fetch_transcripts.py",
+      "sha": "1d7d07bcb470a6f3df55c176e6bf10a30b60f080",
+      "size": 7685
+    },
+    {
+      "path": "Projects/_system/scripts/gen_ta_report.py",
+      "sha": "c64a3b0a75bf7a77accbbd7fbc4a9d9418e1f771",
+      "size": 12422
+    },
+    {
+      "path": "Projects/_system/scripts/handoff_lint.py",
+      "sha": "f11e7753aff3cb6bcdeb6acf8da61da60d0cbb3a",
+      "size": 6699
+    },
+    {
+      "path": "Projects/_system/scripts/kelly_engine.py",
+      "sha": "8883ed52156ff058455addb83d710d4d4f4b97d7",
+      "size": 35521
+    },
+    {
+      "path": "Projects/_system/scripts/market_data_fetcher.py",
+      "sha": "3acbe46a9248517bb5a222e8d6f79ca1cdec94be",
+      "size": 40123
+    },
+    {
+      "path": "Projects/_system/scripts/paper_portfolio.py",
+      "sha": "c08d66cbdd89f0103a06000d789aebba575310ee",
+      "size": 30201
+    },
+    {
+      "path": "Projects/_system/scripts/position_guard.py",
+      "sha": "9c807b0d2d12d45c702674213d539bebc4e223a3",
+      "size": 49734
+    },
+    {
+      "path": "Projects/_system/scripts/render_tables.py",
+      "sha": "27bb39053c371c9e3fb65eb0083aa6c66cffbb7a",
+      "size": 15375
+    },
+    {
+      "path": "Projects/_system/scripts/site_chrome.py",
+      "sha": "ad613b0eb2d70fb7bbff22102e2135432c505645",
+      "size": 2856
+    },
+    {
+      "path": "Projects/_system/scripts/sync_valuations.py",
+      "sha": "df4f764888bd48a75224b17d2bc90726d2091484",
+      "size": 23445
+    },
+    {
+      "path": "Projects/_system/scripts/validate_briefing.py",
+      "sha": "068ee6a98bd2a97f014da6fabde63c2e62ddd1aa",
+      "size": 10280
+    },
+    {
+      "path": "Projects/_system/scripts/validate_market_data.py",
+      "sha": "246f41cbf4cb56882aca0a4f0282012f9ed48172",
+      "size": 8082
+    },
+    {
+      "path": "Projects/_system/scripts/validate_taxonomy.py",
+      "sha": "fbea70c2cb43dde5bf2f8fb1aba66ab693897dad",
+      "size": 23238
+    },
+    {
+      "path": "Projects/_system/scripts/validate_three_year_coverage.py",
+      "sha": "cedbafd3a78f6ab0a3c256e9e0b7685303b1d850",
+      "size": 3845
+    },
+    {
+      "path": "Projects/_system/数据校验流程_MANDATORY.md",
+      "sha": "37779429c3d8a4718412c48ea4113c7a29ff1a7a",
+      "size": 10610
+    },
+    {
+      "path": "README.md",
+      "sha": "3b111ac70cb13234e1678042f12bc6d44f5b3fde",
+      "size": 6538
+    },
+    {
+      "path": "Skill Backup/Scheduled/daily-portfolio-scanner/SKILL.md",
+      "sha": "a30304a36fe8a975bae48ffebc7b95d91c6e58a0",
+      "size": 13620
+    },
+    {
+      "path": "Skill Backup/Scheduled/daily-position-advisor/SKILL.md",
+      "sha": "a5cf1506f7601912f6347171cdaade186a99fdb4",
+      "size": 9467
+    },
+    {
+      "path": "Skill Backup/Scheduled/value-growth-paper-monitor/SKILL.md",
+      "sha": "3db696b525fd9f94be73f53dcdf5e8d0fdfe4bb5",
+      "size": 5880
+    },
+    {
+      "path": "Skill Backup/business-model-analysis/SKILL.md",
+      "sha": "bf207f875adb03dc65beca64f03797d1679c9ee9",
+      "size": 15342
+    },
+    {
+      "path": "Skill Backup/company-dossier-build/SKILL.md",
+      "sha": "16a705c6e9b0c13ac65d37f89746ffa09db32b00",
+      "size": 29561
+    },
+    {
+      "path": "Skill Backup/corporate-culture-analysis/SKILL.md",
+      "sha": "ae2d9301d6ffd57d02e3b0ee6843905cca45f17a",
+      "size": 21245
+    },
+    {
+      "path": "Skill Backup/corporate-governance-assessment/SKILL.md",
+      "sha": "984e8357a9a047eff3b7bf312ea634c684cd2026",
+      "size": 9905
+    },
+    {
+      "path": "Skill Backup/financial-analysis/SKILL.md",
+      "sha": "5c3ed91c7fdecaa8e0cd2e9c1042948bc7e1644c",
+      "size": 19188
+    },
+    {
+      "path": "Skill Backup/financial-analysis/references/data-contract.md",
+      "sha": "e67410b168afd3e6a3accbeeff22fe834ad71b16",
+      "size": 6721
+    },
+    {
+      "path": "Skill Backup/financial-analysis/references/data-tables.md",
+      "sha": "0fa8813e0f840accbde4fefe52900d74530c42c7",
+      "size": 4450
+    },
+    {
+      "path": "Skill Backup/financial-analysis/references/handoff.md",
+      "sha": "74bdd38a2d8c478e5e86aab9ff01e13743b97d1c",
+      "size": 9603
+    },
+    {
+      "path": "Skill Backup/financial-analysis/references/health-check.md",
+      "sha": "86ff19877c5e7585688e3aa6508255bfdc318b7f",
+      "size": 7261
+    },
+    {
+      "path": "Skill Backup/financial-analysis/references/metrics.md",
+      "sha": "80bae2ae523ee3351decd6121c4e36ecd8b61192",
+      "size": 6905
+    },
+    {
+      "path": "Skill Backup/financial-analysis/references/seven-questions.md",
+      "sha": "f2b9630eaf6b9de115e004cb8400bdfce4b696c1",
+      "size": 7403
+    },
+    {
+      "path": "Skill Backup/financial-analysis/scripts/render_tables.py",
+      "sha": "27bb39053c371c9e3fb65eb0083aa6c66cffbb7a",
+      "size": 15375
+    },
+    {
+      "path": "Skill Backup/financial-forecast-feedback/SKILL.md",
+      "sha": "5628992dcd6d30a90be336938c5c5d02d009d939",
+      "size": 12964
+    },
+    {
+      "path": "Skill Backup/financial-forecast/SKILL.md",
+      "sha": "5e28e7844211c95d398aa77d3d58904fb2f301b7",
+      "size": 12256
+    },
+    {
+      "path": "Skill Backup/leadership-assessment/SKILL.md",
+      "sha": "14fe4c0afd3f4c4fdc8fd4dcaa18a652a5c4bea5",
+      "size": 7885
+    },
+    {
+      "path": "Skill Backup/mission-vision-assessment/SKILL.md",
+      "sha": "d8cbfa1a8047ecddbf9e785747a7d3c9fa22f0f4",
+      "size": 10086
+    },
+    {
+      "path": "Skill Backup/new-company-onboarding/SKILL.md",
+      "sha": "924a081008370a8ef73da6228000d3d83e489391",
+      "size": 26956
+    },
+    {
+      "path": "Skill Backup/new-company-onboarding/scripts/fetch_raw_filings.py",
+      "sha": "225c93862c9a2f8f952a8ce391f15bd41faaf993",
+      "size": 15734
+    },
+    {
+      "path": "Skill Backup/research-event-update/SKILL.md",
+      "sha": "f0e4e9b998131f67ef1fbca05ad08b8ea35d4078",
+      "size": 13696
+    },
+    {
+      "path": "Skill Backup/research-summary/SKILL.md",
+      "sha": "209c249d20b370b5b2661ce10707187a68eb71a6",
+      "size": 8800
+    },
+    {
+      "path": "Skill Backup/research-summary/assets/example_asset.txt",
+      "sha": "d0ac20404fd641da1fa01160917f42bdccf4c512",
+      "size": 865
+    },
+    {
+      "path": "Skill Backup/research-summary/assets/template.html",
+      "sha": "fe7cd5787d55ea780d55e26a2f1aabb15b147451",
+      "size": 35093
+    },
+    {
+      "path": "Skill Backup/research-summary/references/api_reference.md",
+      "sha": "97615a4a6a9f4decac3eeb656f6ca6a7838305ba",
+      "size": 967
+    },
+    {
+      "path": "Skill Backup/research-summary/scripts/example.py",
+      "sha": "23b5566500e784f55b030d2258e53d0b6872c16e",
+      "size": 591
+    },
+    {
+      "path": "Skill Backup/reverse-dcf/SKILL.md",
+      "sha": "a87409c3bd64f2b0347295cd66ee8b890dcf61d7",
+      "size": 3323
+    },
+    {
+      "path": "Skill Backup/reverse-dcf/references/advanced.md",
+      "sha": "834bd1cc0ec7b8f0068b4ef4fce624657c6c6b67",
+      "size": 5233
+    },
+    {
+      "path": "Skill Backup/reverse-dcf/references/methodology.md",
+      "sha": "9df43acd518300c8a5c263f2c54ab692da227966",
+      "size": 5876
+    },
+    {
+      "path": "Skill Backup/stock-character-analysis/SKILL.md",
+      "sha": "ed83c1afbac3a7764e3ef6f412fa831ae98c27e8",
+      "size": 8074
+    },
+    {
+      "path": "Skill Backup/strategic-decision-analysis/SKILL.md",
+      "sha": "d21cdecdae31ad828ee083cc9cb780609412c319",
+      "size": 13881
+    },
+    {
+      "path": "Skill Backup/technical-analysis/SKILL.md",
+      "sha": "bbcda415b814f5d7f8ac918c44645ad78283d2ad",
+      "size": 16167
+    },
+    {
+      "path": "Skill Backup/valuation-analysis/SKILL.md",
+      "sha": "03a4a353cbb29ee9c4ca70205a173b00ab047318",
+      "size": 23094
+    },
+    {
+      "path": "Skill Backup/vc-style-valuation/SKILL.md",
+      "sha": "9f7032f9659e4ad02a4b10acbb61fd3a18712913",
+      "size": 7273
+    },
+    {
+      "path": "Skill Backup/vc-style-valuation/reference.md",
+      "sha": "7cce97b1b8bf93a12355835be06704981c05f5e8",
+      "size": 4553
+    },
+    {
+      "path": "Skill Backup/vc-style-valuation/scripts/valuation_engine.py",
+      "sha": "d0a0da40108aad846f566d4d1f4fbb6f7bf3dd2a",
+      "size": 9918
+    },
+    {
+      "path": "Projects/投资研究系统设计/README.md",
+      "sha": "8e94d93703f0b9272fb053caacbe24e4b274b25c",
+      "size": 2158
+    },
+    {
+      "path": "Projects/投资研究系统设计/现有机制核对_2026-10-10.md",
+      "sha": "930fcfa91db3d20be56749e1392e7235c24ab29c",
+      "size": 14449
+    },
+    {
+      "path": "Projects/投资研究系统设计/研究来源与证据边界.md",
+      "sha": "fb28a73aeafd375836af37302401eb34136838ef",
+      "size": 5357
+    },
+    {
+      "path": "Projects/投资研究系统设计/记录契约与模板.md",
+      "sha": "7b9e8bf44e8fc3aff56e95975d1230d56e1f58ba",
+      "size": 10681
+    },
+    {
+      "path": "Projects/投资研究系统设计/研究报告.md",
+      "sha": "64e847479bc41a22e63b240bb9802bd8c6a82f57",
+      "size": 29166
+    },
+    {
+      "path": "Projects/market_rotation_mvp/README.md",
+      "sha": "053ef14ad4dbc82fa9d48e2ec5e1ad5be3811702",
+      "size": 4639
+    }
+  ],
+  "notes": [
+    "设计目录README明确标注2026-10-09文档为未核验提案；10月10日现有机制核对优先。仅作为边界校核，不以提案取代现存Skills。",
+    "market_rotation_mvp是独立周线资金压力工具，此次仅查阅其README并列入后续阶段，不假称已经迁入。"
+  ]
+}

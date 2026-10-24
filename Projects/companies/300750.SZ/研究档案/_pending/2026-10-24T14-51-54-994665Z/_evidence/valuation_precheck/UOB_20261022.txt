@@ -1,0 +1,374 @@
+=== PDF PAGE 1 ===
+ 
+4 
+ 
+Contemporary Amperex Technology Co 
+(300750 CH) 
+3Q26: Earnings Miss Due To Delayed Pass-through Of Tax Hikes  
+Highlights 
+• 3Q26 net profit missed expectations at Rmb21.25b (+14.5% yoy/- 5.8% qoq), 
+as CATL bore all the export VAT hikes and 2% consumption tax. 
+• We expect margins to recover in 4 Q26, as the tax rate hikes will be partly 
+passed through to customers via higher battery prices. Having said that, the 
+further roll-back of tax concession in 2027 will remain a drag on margins. 
+• We cut our 2026- 28 net profit forecasts by 5%/10%/16% to 
+Rmb89,121m/Rmb104,895m/Rmb116,370m respectively, as we now expect 
+CATL to bear part of the tax hikes. 
+• Maintain BUY and cut target prices for A- share from Rmb585 to Rmb343, 
+and H-share from HK$675.00 to HK$400.00. 
+3Q26 Results 
+Year to 31 Dec (Rmbm) 2Q26  
+yoy 
+% 
+qoq 
+% 1H26 
+yoy 
+% 
+Prev. 
+2026F 
+yoy 
+% 
+1H26 / 
+2026 
+Total shipment (GWh) 260 44.4 12.1 692.0 53.8 1,000 51.3 0.69 
+NP per GWh 81.7 (20.7) (15.9) 93.3 (14.4) 93.6 (14.3) 1.00 
+Revenue 165,221 58.6 11.8 442,137 56.2 639,243 50.9 0.69 
+Gross profit 34,181 27.2 (0.1) 100,442 40.2 149,864 34.6 0.67 
+Gross margin (%) 20.7 (5.1) (2.5) 22.7 (2.6) 23.4 (2.8) 0.97 
+EBIT 21,944 15.3 (10.0) 71,446 39.0 108,633 33.9 0.66 
+EBIT margin (%) 13.3 (5.0) (3.2) 16.2 (2.0) 17.0 (2.2) 0.95 
+Net profit 21,246 14.5 (5.8) 64,530 31.6 93,637 29.7 0.69 
+Net profit – adj 18,862 14.9 (9.8) 57,876 32.7 83,659 29.7 0.69 
+Net margin (%) 12.9 (4.9) (2.4) 14.6 (2.7) 14.6 (2.4) 1.00 
+Core net margin (%) 11.4 (4.3) (2.7) 13.1 (2.3) 13.1 (2.1) 1.00 
+Source: CATL, UOB Kay Hian 
+Analysis 
+• 3Q26 results came in below estimates with GAAP net profit of 
+Rmb21,246m (+14.5% yoy/- 5.8% qoq) and adjusted net profit of 
+Rmb18,862m (+14.9% yoy/-9.8% qoq), vs our estimate of Rmb23.92b. This 
+brings 9M26 net profit and adjusted net profit to Rmb64,530m (+31.6% yoy) 
+and Rmb57,876m (+32.7% yoy) respectively, representing 69% of our full-
+year estimates of Rmb93,637m (+29.7% yoy) and Rmb83,659m (+29.7% 
+yoy). The earnings miss stemmed from margin contraction. 
+- Battery shipment grew 44.4% yoy and 12.1% qoq to Rmb260 GWh in 
+3Q26, in line with estimates,  including 195 GWh EV battery (+35.4% 
+yoy/+12.1% qoq) and 65 GWh energy storage system (ESS) battery 
+(+80.6% yoy/+12.1% qoq). 
+Key Financials 
+Year to 31 Dec (Rmbm) 2024 2025 2026F 2027F 2028F 
+Net turnover 362,013 423,702 639,243 795,789 944,352 
+EBITDA 88,610 108,056 132,505 155,477 173,013 
+Operating profit 63,672 81,120 103,675 124,447 139,783 
+Net profit (rep./act.) 50,744 72,201 89,121 104,895 116,370 
+Net profit (adj.) 44,993 64,508 79,625 93,718 103,970 
+EPS (US cents) 1,156.6 1,582.0 1,952.8 2,298.4 2,549.9 
+PE (x) 20.1 14.7 11.9 10.1 9.1 
+P/B (x) 4.1 3.1 2.7 2.4 2.1 
+EV/EBITDA (x) 6.0 5.0 4.1 3.7 3.3 
+Dividend yield (%) 2.0 3.4 4.2 4.9 5.5 
+Net margin (%) 12.4 15.2 12.5 11.8 11.0 
+Net debt/(cash) to equity (67.9) (64.3) (56.9) (57.2) (50.6) 
+Interest cover (x) (15.4) (10.2) (14.3) (15.7) (16.4) 
+ROE (%) 20.2 22.1 21.9 22.3 21.6 
+Consensus net profit - - 95,894 119,341 143,213 
+UOBKH/Consensus (x) - - 0.93 0.88 0.81 
+ 
+Source: EVE Energy, Bloomberg, UOB Kay Hian 
+ 
+ 
+ 
+Analyst(s) 
+Ken Lee 
+ken.lee@uobkh.com 
++852 2236 6760 
+ 
+ 
+BUY (Maintained) 
+Share Price 
+Target Price 
+Upside 
+Previous TP 
+Rmb227.90 
+Rmb343.00 
+50.5% 
+Rmb585.00 
+ 
+Stock Data 
+Sector Industrial
+Bloomberg ticker 300750 CH
+Shares issued (m) 4,564
+Market cap (Rmbm) 1,040,091
+Market cap (US$m) 150,738
+3-mth avg daily t’over (US$m) 1,674
+ 
+Price Performance (%) 
+52-week high/low Rmb467.35/Rmb227.08
+ 
+1mth 3mth 6mth 1yr YTD
+(23.3) (40.4) (49.1) (39.4) (37.9)
+ 
+Major Shareholders (%) 
+Zeng Yuqun (Ruiting Investment) 23.32 
+Huang Shilin 10.60 
+ 
+Balance Sheet Metrics 
+FY26 NAV/Share (Rmb) 20.59
+FY26 Net Debt/Share (Rmb) 9.76
+ 
+Price Chart 
+ 
+Source: Bloomberg 
+ 
+Company Description  
+Contemporary Amperex Technology (CATL) is a Chinese 
+battery manufacturer and technology company that 
+specialises in the manufacturing of lithium- ion batteries for 
+electric vehicles and energy storage systems, as well as 
+battery management systems. 
+ 
+50
+60
+70
+80
+90
+100
+110
+120
+130
+200
+250
+300
+350
+400
+450
+500
+(%)(lcy)
+CONTEMPORARY AMPEREX TECHN-A
+CONTEMPORARY AMPEREX TECHN-A/HSI INDEX
+0
+50
+100
+150
+Oct 25 Dec 25 Feb 26 Apr 26 Jun 26 Aug 26 Oct 26
+Volume (m)
+Thursday, 22 October 2026 
+ 
+Company – Results | Greater China 
+1
+
+=== PDF PAGE 2 ===
+UOB Kay Hian Company Results 
+G
+reater China 
+Thursday, 22 October 2026 
+ 5
+- Revenue grew 58.6% yoy and 11.8% qoq to Rmb165.22b in 3Q26, in 
+line with estimates.  This takes 9M26 revenue to Rmb442.14b (+56.2% 
+yoy), representing 69% of our full- year estimate of Rmb639.24b (+50.9% 
+yoy). By comparison, 9M23/9M24/9M25 revenue constituted 
+74%/72%/67% of full-year 2023/24/25 revenue.  
+- Gross margin plunged 5.1ppt yoy and 2.5ppt qoq to 20.7% in 3Q26,  
+and dropped 2.6ppt yoy to 22.7% in 9M26, vs our full-year 2026 assumption 
+of 23.4%. The gross margin contraction in 3Q26 was due to China's cut to 
+the lithium-ion battery (LIB) export VAT rebate and the imposition of the LIB 
+consumption tax, as well as the time lag in the company's passing the 
+relevant cost increases through to customers. 
+- EBIT margin plummeted 5.0ppt yoy and 3.2ppt qoq to 13.3% in 3Q26,  
+and dropped 2.0ppt yoy to 16.2% in 9M26, vs our full-year 2026 assumption 
+of 17.0%. Other income/revenue ratio fell 0.5ppt yoy and hiked 0.2ppt qoq 
+to 1.1%; taxes/revenue ratio soared 0.8ppt yoy and 0.9ppt qoq to 1.3%; 
+SG&A/revenue ratio dropped 1.0ppt yoy and 0.1ppt qoq to 2.7%; 
+R&D/revenue ratio fell 0.5ppt yoy and edged up 0.2ppt qoq to 4.3%. 
+- Provision for asset write- down surged to Rmb1,712m (+8.4% 
+yoy/+226.1% qoq) in 3Q26,  bigger than expected, due to the decline in 
+lithium carbonate prices.  
+- Operating cash flow plummeted 93.6% yoy and 94.7% qoq to 
+Rmb1,409m, due to payable days shortening.  Trade payable days 
+decreased to 134 days as of 30 Sep 26, from 158 days as of 30 Sep 25 and 
+162 as of 30 Jun 26. CATL’s free cash flow turned negative at Rmb15.89b 
+in 3Q26, from positive Rmb10.05b/Rmb13.88b in 3Q25/2Q26.   
+• VAT cut and cons umption tax as the drag and overhang on earnings. 
+Note that China cut the VAT rebate on LIB exports from 9% to 6% (ie VAT 
+rate up from 4% to 7%) on 1 Apr 26, and began imposing a 2% consumption 
+tax on LIBs on 1 Sep 26. It appears that CATL bore the additional costs and 
+did not pass them on to customers in 2Q- 3Q26. Going forward, we expect 
+CATL's margins to recover in 4Q26, as the tax rate hikes will be partly passed 
+through to customers via higher battery prices. China's VAT rebate on the 
+LIB exports will be cancelled by 1 Jan 27, and the consumption tax on LIBs 
+will also rise to 4% by 1 Sep 27. That will probably weigh on CATL's margins, 
+based on 2Q-3Q26 experiences. 
+• The worry of market share loss is overdone, as CATL has formidable 
+moats in technology, reliability and brand. CATL’s R&D expense reached 
+Rmb22.1b in 2025, exceeding the combined R&D expense of Rmb13.3b for 
+the second- to fifth-largest non- BYD players. This scale, patent lead, and 
+quality gap make substitution costly. 
+• Trim 2026-28 gross margin e stimates to 22.7%/22.1%/21.3%, from 
+23.4%/23.7%/23.9% respectively,  to factor in the increased VAT and 
+consumption tax. That is based on the assumption of a 50:50 split of the tax 
+burden between CATL and its customers. 
+Earnings Revision/Risk 
+• We cut our 2026- 28 net profit forecasts by 5%/10%/16% to 
+Rmb89,121m/Rmb104,895m/Rmb116,370m respectively.  
+• Risks: a) slower-than-expected recovery of global EV sales, b) commodity 
+cost hikes, and c) delay of battery price increases following cost hikes.  
+Valuation/Recommendation 
+• Maintain BUY and cut target prices for A-share from Rmb585 to Rmb343, 
+and H-share from HK$675.00 to HK$400.00, based on a lower 2027F PE of 
+15x (1SD below historical mean) and lower 2027F EPS. 
+Share Price Catalyst 
+• Catalysts: Margin recovery in 4Q26; the mass production of new products 
+like the third-generation Shenxing Battery and third-generation Qilin Battery. 
+  
+2
+
+=== PDF PAGE 3 ===
+UOB Kay Hian Company Results 
+G
+reater China 
+Thursday, 22 October 2026 
+ 6
+Profit & Loss 
+Year to 31 Dec (Rmbm) 2025 2026F 2027F 2028F 
+Net turnover 423,702 639,243 795,789 944,352 
+EBITDA 108,056 132,505 155,477 173,013 
+Deprec. & amort. (26,937) (28,830) (31,030) (33,230) 
+EBIT 8,660 4,000 4,000 4,000 
+Total other non-operating 
+income/(expense) 
+8 - - - 
+Associate contributions 7,353 8,000 8,000 8,000 
+Net interest income/(expense) 7,940 7,240 7,916 8,544 
+Pre-tax profit 89,527 114,021 134,201 148,882 
+Tax (12,740) (17,673) (20,801) (23,077) 
+Minorities (4,585) (7,226) (8,505) (9,435) 
+Net profit 72,201 89,121 104,895 116,370 
+Net profit (adj.) 64,508 79,625 93,718 103,970 
+ 
+ Balance Sheet 
+Year to 31 Dec (Rmbm) 2025 2026F 2027F 2028F 
+Fixed assets 146,401 167,901 187,401 204,901 
+Other LT assets 189,945 205,575 221,005 236,235 
+Cash/ST investment 299,930 305,388 340,894 343,441 
+Other current assets 338,552 433,803 510,183 587,071 
+Total assets 974,828 1,112,667 1,259,482 1,371,648 
+ST debt 12,935 12,935 12,935 12,935 
+Other current liabilities 386,690 464,279 542,255 581,062 
+LT debt 78,235 78,235 78,235 78,235 
+Other LT liabilities 125,940 125,940 125,940 125,940 
+Shareholders' equity 337,108 390,133 450,467 514,390 
+Minority interest 33,919 41,145 49,650 59,085 
+Total liabilities & equity 974,828 1,112,667 1,259,482 1,371,648 
+ 
+ 
+Cash Flow 
+Year to 31 Dec (Rmbm) 2025 2026F 2027F 2028F 
+Operating 133,220 96,275 134,110 108,411 
+Pre-tax profit 76,786 96,347 113,400 125,806 
+Tax (12,740) (17,673) (20,801) (23,077) 
+Deprec. & amort. 26,937 28,830 31,030 33,230 
+Associates (7,353) (8,000) (8,000) (8,000) 
+Working capital changes 33,216 (17,663) 1,596 (38,081) 
+Non-cash items 16,374 14,433 16,885 18,533 
+Other operating cashflows - - - - 
+Investing (94,476) (50,864) (50,188) (49,560) 
+Capex (growth) (42,345) (61,960) (61,960) (61,960) 
+Investments 57,534 - - - 
+Others (109,665) 11,096 11,772 12,400 
+Financing (6,310) (39,952) (48,417) (56,304) 
+Dividend payments (34,923) (39,952) (48,417) (56,304) 
+Proceeds from borrowings 39,790 60,000 60,000 60,000 
+Loan repayment (51,702) (60,000) (60,000) (60,000) 
+Others/interest paid 40,525 - - - 
+Net cash inflow (outflow) 29,770 5,458 35,506 2,547 
+Beginning cash & cash equivalent 270,160 299,930 305,388 340,894 
+Changes due to forex impact (2,665) - - - 
+Ending cash & cash equivalent 299,930 305,388 340,894 343,441 
+ 
+ Key Metric 
+Year to 31 Dec (%) 2025 2026F 2027F 2028F 
+Profitability     
+EBITDA margin 25.5 20.7 19.5 18.3 
+Pre-tax margin 20.6 16.3 15.2 14.0 
+Net margin 15.2 12.5 11.8 11.0 
+ROA 7.3 7.6 7.9 7.9 
+ROE 22.1 21.9 22.3 21.6 
+         
+Growth         
+Turnover 17.0 50.9 24.5 18.7 
+EBITDA 21.9 22.6 17.3 11.3 
+Pre-tax profit 41.7 27.4 17.7 10.9 
+Net profit 42.3 23.4 17.7 10.9 
+Net profit (adj.) 43.4 23.4 17.7 10.9 
+EPS 36.8 23.4 17.7 10.9 
+         
+Leverage         
+Debt to total capital 12.0 10.5 9.3 8.5 
+Debt to equity 34.7 30.0 25.9 22.7 
+Net debt/(cash) to equity 34.7 30.0 25.9 22.7 
+Interest cover (x) (10.2) (14.3) (15.7) (16.4) 
+ 
+ 
+ 
+3
+
+=== PDF PAGE 4 ===
+UOB Kay Hian Regional Morning Notes 
+Thursday, 22 October 2026 
+45 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IMPORTANT NOTICE - DISCLOSURES AND DISCLAIMERS 
+ 
+This report is provided subject to various disclosures and disclaimers (the "Disclosures / Disclaimers") which form an integral part of this report and are 
+available at this link or by scanning the QR code below:  
+ 
+The Disclosures / Disclaimers contain important information, including without limitation, (a) exclusions of liability, (b) confidentiality obligations, (c) restrictions 
+on publication, circulation, reproduction, distribution and use of the report, (d) potential conflicts of interest, and (e) disclosures and requirements specific to 
+recipients in the United States and other applicable jurisdictions. 
+ 
+Specifically, this report is intended for general circulation and informational purposes only and does not take into account the specific investment objectives, 
+financial situation, or particular needs of any individual person. It is not intended to constitute personal investment advice or a recommendation to buy or sell 
+any investment product or security. You should independently evaluate the information and, where necessary, seek advice from a qualified financial adviser 
+regarding the suitability of any investment, taking into account your specific objectives, financial situation and needs, before making any investment decision. 
+Analyst certifications required under applicable regulations, including SEC Regulation AC (where relevant), are included in this report. 
+ 
+Recipients of this report must carefully read, review and understand the full Disclosures / Disclaimers before using or relying on any information in this report. 
+By accessing, receiving or using this report, you acknowledge and confirm that you have read, understood, accepted and agreed to be bound by the 
+Disclosures / Disclaimers (as may be amended or updated from time to time) in full." 
+ 
+4

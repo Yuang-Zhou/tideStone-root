@@ -1,0 +1,28 @@
+# Local dependencies and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+_runtime/
+_site/
+/tmp/
+/backups/
+
+# Machine credentials stay local; keep the configuration example
+.env
+.env.*
+!*.env.example
+!.env.example
+/config/local.env
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Keep real operation logs, exclude trial/restore trees and provider cookies
+/runs/*
+!/runs/20??????-*/
+!/runs/scheduled.*.log
+
+# Process locks are recreated locally
+/Projects/_system/.*.lock

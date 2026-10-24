@@ -1,0 +1,15 @@
+{
+  "capex_2021_2025_CNY_100m": 1991.324369,
+  "rnd_2021_2025_CNY_100m": 823.1132610000001,
+  "subjective_scenario_points_percent": {
+    "failure": 30,
+    "base_success": 50,
+    "upside": 20
+  },
+  "scenario_point_sum": 100,
+  "supplier_finance_H1_CNY_million": 57764.224,
+  "supplier_finance_delta_from_2025_CNY_million": 20541.443,
+  "supplier_finance_not_a_Q3_observation": true,
+  "EV_computed": false,
+  "tax_impact_is_explanatory_embedded_parameter_not_extra_deduction": true
+}

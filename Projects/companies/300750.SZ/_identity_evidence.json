@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "purpose": "宁德时代入库身份与 GICS 分类证据；不含研究结论、估值或评级。",
+  "ticker": "300750.SZ",
+  "verified_at": "2026-10-24T22:40:44+08:00",
+  "timezone": "Asia/Shanghai",
+  "entity": {
+    "name_cn": "宁德时代",
+    "legal_name_cn": "宁德时代新能源科技股份有限公司",
+    "name_en": "Contemporary Amperex Technology Co., Limited",
+    "english_name_basis": "采用 H 股招股书封面正式拼写；中文年报公司信息使用 Co.,Ltd. 缩写，指向同一主体。",
+    "identity_confidence": "high",
+    "source_ids": [
+      "annual_2025",
+      "hk_prospectus_2025"
+    ]
+  },
+  "securities": [
+    {
+      "ticker": "300750.SZ",
+      "exchange_symbol": "300750",
+      "share_class": "A",
+      "exchange": "SZSE",
+      "board": "ChiNext",
+      "currency": "CNY",
+      "listing_date": "2018-06-11",
+      "source_ids": [
+        "annual_2025"
+      ],
+      "pdf_physical_pages": [
+        10,
+        133
+      ]
+    },
+    {
+      "ticker": "3750.HK",
+      "exchange_symbol": "03750",
+      "share_class": "H",
+      "exchange": "HKEX",
+      "board": "Main Board",
+      "currency": "HKD",
+      "listing_date": "2025-05-20",
+      "source_ids": [
+        "annual_2025",
+        "hk_prospectus_2025"
+      ],
+      "pdf_physical_pages": [
+        10,
+        133,
+        1
+      ]
+    }
+  ],
+  "gics": {
+    "sector": "20",
+    "industry_group": "2010",
+    "industry": "201040",
+    "sub_industry": "20104010",
+    "as_of": "2026-10-24",
+    "evidence_as_of": "2026-05-31",
+    "confidence": "high",
+    "names": {
+      "sector": "Industrials",
+      "industry_group": "Capital Goods",
+      "industry": "Electrical Equipment",
+      "sub_industry": "Electrical Components & Equipment"
+    },
+    "directly_observed_level": 4,
+    "directly_observed_security_class": "H",
+    "source_ids": [
+      "gics_cambria_20260531",
+      "cambria_sec_index",
+      "gics_msci_methodology_2023"
+    ],
+    "derivation": {
+      "sub_industry": "基金披露直接将 CATL H 股列于第四级子行业，原表有 GICS 声明。",
+      "parents": "二至一级代码由已核证的四级子行业按 MSCI 官方结构逐级归属，不是业务猜测。",
+      "a_h_mapping": "2025 年报第 10、133 物理页确认同一发行人的 A/H 股；MSCI 方法第 16 物理页 §3.2 规定同一公司权益证券沿用公司分类。",
+      "inferred_levels": [],
+      "adjacent_subindustry_check": "201040 下另一个子行业为 20104020 Heavy Electrical Equipment；基金表将该组另列，CATL 不在该组。"
+    },
+    "limitations": [
+      "分类证据代表 2026-05-31 的持仓表分组；核验日 2026-10-24 不表示拥有截至该日的付费 GICS 实时数据库。",
+      "未按基金名称、下游客户、A 股申万行业或没有 GICS 声明的标签推断分类。"
+    ]
+  },
+  "sources": [
+    {
+      "id": "annual_2025",
+      "title": "宁德时代2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+      "published_at": "2026-03-10",
+      "basis_date": "2025-12-31",
+      "retrieved_at": "2026-10-24T22:35:25.666359+08:00",
+      "local_file": "300750.SZ Wiki/raw/OFFICIAL/annual_2025.pdf",
+      "sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+      "pdf_physical_pages": [
+        10,
+        133
+      ],
+      "page_count": 232,
+      "locations": {
+        "10": "第二节／一、公司信息：中文名称、A/H 股票代码及上市交易所。",
+        "133": "三、公司基本情况：2018-06-11 A 股上市、2025-05-20 H 股上市，同一公司主体。"
+      },
+      "verification": "已读取本地 PDF 正文；页码从 PDF 第一张物理页面计数，起始值为 1。"
+    },
+    {
+      "id": "hk_prospectus_2025",
+      "title": "宁德时代H股全球发售招股章程",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0512/2025051200006_c.pdf",
+      "published_at": "2025-05-12",
+      "basis_date": null,
+      "retrieved_at": "2026-10-24T22:36:34.184741+08:00",
+      "local_file": "300750.SZ Wiki/raw/OFFICIAL/hk_prospectus_2025.pdf",
+      "sha256": "70469df49d5ab82965210e9d26f6bb30095b1563014a9dd5fe1b21ad26f09b5b",
+      "pdf_physical_pages": [
+        1
+      ],
+      "page_count": 626,
+      "locations": {
+        "1": "封面：正式英文全称、中文全称和 H 股代码 3750。"
+      },
+      "verification": "已读取本地 PDF 正文；页码从 PDF 第一张物理页面计数，起始值为 1。"
+    },
+    {
+      "id": "gics_cambria_20260531",
+      "title": "Cambria Global EW ETF投资明细及GICS声明",
+      "url": "https://www.cambriafunds.com/assets/docs/GEW_Q2_Schedule_of_Investments_Annual.pdf",
+      "published_at": null,
+      "basis_date": "2026-05-31",
+      "retrieved_at": "2026-10-24T22:36:35.115387+08:00",
+      "local_file": "300750.SZ Wiki/raw/OFFICIAL/gics_cambria_20260531.pdf",
+      "sha256": "95236b31567bdafbe6e9cdf516bee343012d4ae479a0de44e7342decc0e1d069",
+      "pdf_physical_pages": [
+        10,
+        11,
+        17
+      ],
+      "page_count": 17,
+      "locations": {
+        "10": "Electrical Components & Equipment 分组标题开始。",
+        "11": "上述分组跨页续表内列 Contemporary Amperex Technology Co. Ltd. - Class H。",
+        "17": "GICS 所有权及授权使用声明。"
+      },
+      "verification": "已读取本地 PDF 正文；页码从 PDF 第一张物理页面计数，起始值为 1。",
+      "associated_sec_filed_at": "2026-08-04",
+      "publication_note": "官网 PDF 未标首次发布日期；2026-08-04 为对应 N-CSRS 的 SEC 申报日，不冒充官网 PDF 发布时刻。文件名含 Annual，但正文为 2026-05-31 未经审计持仓表。"
+    },
+    {
+      "id": "cambria_sec_index",
+      "title": "EA Series Trust N-CSRS filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1592900/000159290026003844/0001592900-26-003844-index.htm",
+      "published_at": "2026-08-04",
+      "basis_date": "2026-05-31",
+      "retrieved_at": "2026-10-24",
+      "accession": "0001592900-26-003844",
+      "document_url": "https://www.sec.gov/Archives/edgar/data/1592900/000159290026003844/ck0001592900-20260531.htm",
+      "local_file": null,
+      "locations": {
+        "html": "Filing Date、Period of Report 及 Series and Classes 中 Cambria Global EW ETF。"
+      },
+      "verification": "SEC 索引已在线读取；SEC 正文直连超时。分类正文使用已落地的基金官方 PDF，不依赖第三方镜像。"
+    },
+    {
+      "id": "gics_msci_methodology_2023",
+      "title": "MSCI Global Industry Classification Standard (GICS) Methodology, March 2023",
+      "url": "https://www.msci.com/documents/1296102/11185224/GICS%20Methodology%202023.pdf",
+      "edition": "2023-03",
+      "published_at": null,
+      "retrieved_at": "2026-10-24T22:40:44+08:00",
+      "local_file": "300750.SZ Wiki/raw/OFFICIAL/gics_msci_methodology_2023.pdf",
+      "sha256": "2a949a81b7e92f7005685160383d55ca31e5e8b906c3a868992e10aa77c0491f",
+      "bytes": 1007257,
+      "page_count": 52,
+      "pdf_physical_pages": [
+        7,
+        16,
+        23
+      ],
+      "locations": {
+        "7": "GICS Structure：20／2010／201040／20104010 的代码与名称对应。",
+        "16": "§3.2：GICS 在公司层面分类，同公司发行的权益证券沿用公司分类。",
+        "23": "201040 下子行业定义：20104010 Electrical Components & Equipment 与 20104020 Heavy Electrical Equipment。"
+      },
+      "verification": "52 页 PDF 已落地；通过本地 pypdf 按物理页码读取并核证。初次 Python 下载遇本机 CA 错误，改用系统 curl 正常 TLS 校验成功，未关闭证书验证。"
+    }
+  ],
+  "additional_online_identity_sources": [
+    {
+      "url": "https://www.szse.cn/disclosure/notice/company/t20180607_539221.html",
+      "published_at": "2018-06-07",
+      "retrieved_at": "2026-10-24",
+      "location": "正文首段",
+      "fact": "证券简称宁德时代、300750、2018-06-11 创业板上市；搜索服务能读索引内容，直接打开曾超时。",
+      "local_file": null
+    },
+    {
+      "url": "https://www.catl.com/en/news/6451.html",
+      "published_at": "2025-05-20",
+      "retrieved_at": "2026-10-24",
+      "location": "标题下日期与正文首段",
+      "fact": "公司确认 H 股当日在港交所主板挂牌，代码 3750。",
+      "local_file": null
+    }
+  ],
+  "write_scope": "仅本证据 JSON、主体与分类核验.md 和新下载 MSCI PDF；未修改 companies.json、_source_catalog.json 或其他注册表。"
+}

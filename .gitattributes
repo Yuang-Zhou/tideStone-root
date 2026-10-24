@@ -1,0 +1,2 @@
+# Preserve exact bytes for source evidence and recorded SHA-256 hashes across OSes.
+* -text

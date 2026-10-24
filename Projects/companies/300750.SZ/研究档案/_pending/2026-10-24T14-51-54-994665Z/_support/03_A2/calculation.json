@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "2025_EV_battery_TWh_approx": 1.2,
+    "2030_EV_battery_TWh_approx": 3.0,
+    "years": 5
+  },
+  "implied_CAGR_percent": 20.11244339814313,
+  "caution": "近似情景端点的算术映射；不是公司预测。不同母集数量/价格未相乘。"
+}

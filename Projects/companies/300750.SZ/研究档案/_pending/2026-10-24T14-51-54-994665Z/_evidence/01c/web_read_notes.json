@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2023_assessment",
+    "url": "https://www.catl.com/uploads/1/file/public/202307/20230726090908_p2p5n1w8m8.pdf",
+    "published": "2023-07-26",
+    "position": "physical pages 2–3; signed 2023-07-25",
+    "facts": "2023plan: 2023 revenue>=3800亿元; 2023–24>=8100; 2023–25>=12900; 2023–26>=18300; 2023–27>=24300. A/B+/B vest100%, B-50%, C/D0; company target failed cancels annual vesting.",
+    "retrieved": "2026-10-24",
+    "type": "manual structured research notes from web/PDF, not complete original archive"
+  },
+  {
+    "id": "pay_policy",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12415524&stockid=300750",
+    "published": "2026-06-26",
+    "position": "issuer PDF physical pp2–4, Articles7,9,12,14,15",
+    "facts": "performance pay ordinarily at least50% of base+performance pay; special scarce talent exception; deferral discretionary; restatement and duty breach clawback provisions. Web PDF read succeeded but binary download failed SSL, see manifest.",
+    "retrieved": "2026-10-24",
+    "type": "manual structured research notes from web/PDF, not complete original archive"
+  },
+  {
+    "id": "donation_recipient",
+    "url": "https://news.sjtu.edu.cn/jdyw/20260409/221369.html",
+    "published": "2026-04-09",
+    "position": "致远 section first paragraph and donation certificate paragraph",
+    "facts": "University acknowledges 5million CATL A-share gift by Zeng; issuer Ruiting legal transfer structure per issuer filing.",
+    "retrieved": "2026-10-24",
+    "type": "manual structured research notes from web/PDF, not complete original archive"
+  },
+  {
+    "id": "donation_transfer",
+    "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12310574",
+    "published": "2026-05-11",
+    "position": "关于控股股东向上海交通大学教育发展基金会捐赠股份完成过户的公告",
+    "facts": "Ruiting completed transfer of5million shares; holdings1,024,704,949→1,019,704,949. Nonmarket donation.",
+    "retrieved": "2026-10-24",
+    "type": "manual structured research notes from web/PDF, not complete original archive"
+  },
+  {
+    "id": "buybacks_esop_transfer",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-06-04/1225352616.PDF",
+    "published": "2026-06-04",
+    "position": "physical pp2–4",
+    "facts": "2023program completed2024-10-30:15,991,524shares2,710,713,907.10CNY. 2025program completed2026-04-07:15,990,782shares4,385,504,687.90CNY. Both for incentives.2026-06-03 transferred3,663,262shares to4974employees at176.68CNY, funding647,225,130.16CNY, noissuerfinance; waived votes.",
+    "retrieved": "2026-10-24",
+    "type": "manual structured research notes from web/PDF, not complete original archive"
+  },
+  {
+    "id": "lac_millennial",
+    "url": "https://www.lithiumamericas.com/news/news-details/2021/Lithium-Americas-Enters-into-Definitive-Agreement-to-Acquire-Millennial-Lithium-11-17-2021/default.aspx",
+    "published": "2021-11-17",
+    "position": "Transaction Conditions and Timing paragraphs1–3",
+    "facts": "Millennial terminated CATL arrangement after CATL did not match LAC offer; US$20million termination payment toCBC reimbursed byLAC. NotcompletedCATLacquisition; cannot infer portfolio-wide discipline.",
+    "retrieved": "2026-10-24",
+    "type": "manual structured research notes from web/PDF, not complete original archive"
+  },
+  {
+    "id": "lawyer_visual",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225470689.PDF",
+    "published": "2026-08-12",
+    "position": "physical p2,p3,p5 visually verified",
+    "facts": "Linkslaw legalproceduralopinion. Attendees5544, votes2,979,883,265=64.8035%. Buyback99.1247%yes, minority98.2158%yes. Concludes convocations, participants,votingprocedures&resultsvalid. Doesnotdemonstrateinvestmentmerits.",
+    "retrieved": "2026-10-24",
+    "type": "manual structured research notes from web/PDF, not complete original archive"
+  }
+]

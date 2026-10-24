@@ -1,0 +1,446 @@
+{
+  "projects_root": "/Users/yuangzhou/Desktop/tideStone-root/Projects",
+  "companies": [
+    {
+      "ticker": "300750.SZ",
+      "company_name": "宁德时代",
+      "sector": "工业",
+      "folder": "companies/300750.SZ",
+      "folder_exists": true,
+      "dossier_path": "companies/300750.SZ/研究档案",
+      "dossier_status": "empty",
+      "exists_count": 0,
+      "documents": {
+        "01_企业文化.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "02_财务分析.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "03_商业模式.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "04_战略决策.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "05_股性分析.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "06_财务预测.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "07_估值分析.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        }
+      },
+      "pending_reviews": [],
+      "stale_threshold_days": 120,
+      "dossier_initialized": false,
+      "materials": [
+        {
+          "id": "2026-10-24T14-38-27-986630Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-27-986630Z_annual_2025.pdf",
+          "sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+          "kind": "年报",
+          "period": "2025",
+          "added_at": "2026-10-24T14:38:27.988952+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-28-101489Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-101489Z_annual_2024.pdf",
+          "sha256": "b4f1713d7b821eb076c102711d177fe942ccc2bc8dd171ae5d7a95799a65b0ad",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-03-15/1222806982.PDF",
+          "kind": "年报",
+          "period": "2024",
+          "added_at": "2026-10-24T14:38:28.103693+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-28-225064Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-225064Z_annual_2023.pdf",
+          "sha256": "6081f0377617dddb82f900569d6458c278a7ab26697b34c87684188eac083471",
+          "source": "https://static.cninfo.com.cn/finalpage/2024-03-16/1219313047.PDF",
+          "kind": "年报",
+          "period": "2023",
+          "added_at": "2026-10-24T14:38:28.228840+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-28-331125Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-331125Z_interim_2026.pdf",
+          "sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+          "kind": "半年报",
+          "period": "2026H1",
+          "added_at": "2026-10-24T14:38:28.332818+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-28-420783Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-420783Z_interim_2025.pdf",
+          "sha256": "94da19aaaf50205fa69d8afa9598262e1c785159c34c42f459bd1104fa14c46f",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-07-31/1224342874.PDF",
+          "kind": "半年报",
+          "period": "2025H1",
+          "added_at": "2026-10-24T14:38:28.422487+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-28-499033Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-499033Z_q1_2026.pdf",
+          "sha256": "32e4936e6dd68a89741a8167b4c4ae3f8b4bc7ef61d70f35b294e1cb0e46fbe8",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-16/1225107946.PDF",
+          "kind": "季报",
+          "period": "2026Q1",
+          "added_at": "2026-10-24T14:38:28.501064+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-28-580273Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-580273Z_q3_2026.pdf",
+          "sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613175.PDF",
+          "kind": "季报",
+          "period": "2026Q3",
+          "added_at": "2026-10-24T14:38:28.581962+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-28-743192Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-743192Z_ir_20260309.pdf",
+          "sha256": "3d41391972aa85460edc4808fbb48a45836779470685e1175692fd62ff470b0b",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002708.PDF",
+          "kind": "业绩交流",
+          "period": "FY2025",
+          "added_at": "2026-10-24T14:38:28.744966+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-28-969561Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-28-969561Z_ir_20260415.pdf",
+          "sha256": "3dbc9a1d1c8a7bb22e0987d0313ab1fa7b64ef2ed91f0f6e4729c97625153f37",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-16/1225109217.PDF",
+          "kind": "业绩交流",
+          "period": "2026Q1",
+          "added_at": "2026-10-24T14:38:28.971809+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-29-241497Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-241497Z_ir_20260724.pdf",
+          "sha256": "e3e0d885ef439c1ed49f3c0d91c7d3ce34a7124232432b89d5d6dcea226e5437",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-07-26/1225442224.PDF",
+          "kind": "业绩交流",
+          "period": "2026H1",
+          "added_at": "2026-10-24T14:38:29.243077+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-29-351122Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-351122Z_ir_20261020.pdf",
+          "sha256": "42d041299a85b939e9b5dff4c687be929629e2b572f702f462a4b1c29de85cd2",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613436.PDF",
+          "kind": "业绩交流",
+          "period": "2026Q3",
+          "added_at": "2026-10-24T14:38:29.353401+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-29-504376Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-504376Z_hk_prospectus_2025.pdf",
+          "sha256": "70469df49d5ab82965210e9d26f6bb30095b1563014a9dd5fe1b21ad26f09b5b",
+          "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0512/2025051200006_c.pdf",
+          "kind": "招股书",
+          "period": "2025 IPO",
+          "added_at": "2026-10-24T14:38:29.511810+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-29-612290Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-612290Z_accounting_basis_2026.pdf",
+          "sha256": "4051451f83bce44259e3a570bb613a0bd03ed67cb4d541dd88f671a2e2480bb7",
+          "source": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-01-09/2f8167c5-682f-4153-871a-9633214a4a98.PDF",
+          "kind": "会计口径公告",
+          "period": "2025起",
+          "added_at": "2026-10-24T14:38:29.614255+00:00"
+        },
+        {
+          "id": "2026-10-24T14-38-29-734753Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-38-29-734753Z_gics_cambria_20260531.pdf",
+          "sha256": "95236b31567bdafbe6e9cdf516bee343012d4ae479a0de44e7342decc0e1d069",
+          "source": "https://www.cambriafunds.com/assets/docs/GEW_Q2_Schedule_of_Investments_Annual.pdf",
+          "kind": "分类证据",
+          "period": "2026-05-31",
+          "added_at": "2026-10-24T14:38:29.736224+00:00"
+        },
+        {
+          "id": "2026-10-24T14-40-43-896882Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-40-43-896882Z_300750.SZ.csv",
+          "sha256": "8a0d8e353459fb493a205f46b52f3c567cdf2ddea93f5e45aa92e3c98e0b1d12",
+          "source": "腾讯证券前复权日线，经akshare既有接口及market_data_fetcher.run_one规范化；实际抓取与字段验证见公司_fetch_runs/market-20261024-223943.json；https://web.ifzq.gtimg.cn/",
+          "kind": "历史行情",
+          "period": "2018-06-11至2026-10-23",
+          "added_at": "2026-10-24T14:40:43.897915+00:00"
+        },
+        {
+          "id": "2026-10-24T14-40-44-054847Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-40-44-054847Z_gics_msci_methodology_2023.pdf",
+          "sha256": "2a949a81b7e92f7005685160383d55ca31e5e8b906c3a868992e10aa77c0491f",
+          "source": "https://www.msci.com/documents/1296102/11185224/GICS%20Methodology%202023.pdf",
+          "kind": "分类代码依据",
+          "period": "2023-03",
+          "added_at": "2026-10-24T14:40:44.056320+00:00"
+        },
+        {
+          "id": "2026-10-24T14-42-40-851957Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-42-40-851957Z__identity_evidence.json",
+          "sha256": "93005fdc33c30995ae1fa6f50fd7ff398bd9db6c844479039fbf935afd8aec89",
+          "source": "本地入库事实核验；来源、原件哈希及页码逐项见文件，包含CATL年报、HKEX招股书、Cambria和MSCI官方原文",
+          "kind": "身份分类核验",
+          "period": "2026-10-24",
+          "added_at": "2026-10-24T14:42:40.853415+00:00"
+        },
+        {
+          "id": "2026-10-24T14-47-04-488777Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-47-04-488777Z_financials.json",
+          "sha256": "b4799780c4b588b2665171d14acaa2d09b73c8ce759b73787008397c9f0a9a9f",
+          "source": "本地对已登记宁德时代A股官方CAS合并报表的有限摘录及校验；原URL/原件哈希/页码见financials.json；不含研究结论",
+          "kind": "CAS基础财务底稿",
+          "period": "2022比较期至2026-09-30",
+          "added_at": "2026-10-24T14:47:04.490373+00:00"
+        },
+        {
+          "id": "2026-10-24T14-47-04-582198Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-47-04-582198Z_validation.json",
+          "sha256": "c425f237a453080e0b0e02c427d7804080c860f2ec70f0d40013f82137b43eb9",
+          "source": "本地对已登记宁德时代A股官方CAS合并报表的有限摘录及校验；原URL/原件哈希/页码见financials.json；不含研究结论",
+          "kind": "财务底稿机械校验",
+          "period": "2022比较期至2026-09-30",
+          "added_at": "2026-10-24T14:47:04.583355+00:00"
+        },
+        {
+          "id": "2026-10-24T14-47-04-657683Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-47-04-657683Z_rebuild_financials.py",
+          "sha256": "6c1acbaa51f9d965d88ecb71c7a568a49fb502485624fd8cd9b69f2573de668a",
+          "source": "本地对已登记宁德时代A股官方CAS合并报表的有限摘录及校验；原URL/原件哈希/页码见financials.json；不含研究结论",
+          "kind": "财务底稿复算脚本",
+          "period": "2022比较期至2026-09-30",
+          "added_at": "2026-10-24T14:47:04.658634+00:00"
+        },
+        {
+          "id": "2026-10-24T14-47-04-731501Z",
+          "file": "companies/300750.SZ/materials/2026-10-24T14-47-04-731501Z_README.md",
+          "sha256": "15dc977ff94bd4aafdc3e9ef8137b79f51e2db6972ddac199c1a2d04eca7318f",
+          "source": "本地对已登记宁德时代A股官方CAS合并报表的有限摘录及校验；原URL/原件哈希/页码见financials.json；不含研究结论",
+          "kind": "财务底稿口径说明",
+          "period": "2022比较期至2026-09-30",
+          "added_at": "2026-10-24T14:47:04.732435+00:00"
+        }
+      ],
+      "events": [],
+      "workflow": {
+        "state": "registered",
+        "updated_at": "2026-10-24T14:47:04.733779+00:00",
+        "history": [
+          {
+            "action": "add",
+            "at": "2026-10-24T14:31:58.535681+00:00",
+            "batch": null,
+            "reason": "首次入库，尚无研究结论"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:27.990342+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-27-986630Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:28.105083+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-28-101489Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:28.230898+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-28-225064Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:28.334231+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-28-331125Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:28.423798+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-28-420783Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:28.502326+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-28-499033Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:28.583397+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-28-580273Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:28.748172+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-28-743192Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:28.974654+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-28-969561Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:29.245055+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-29-241497Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:29.355616+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-29-351122Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:29.514676+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-29-504376Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:29.616732+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-29-612290Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:38:29.737800+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-38-29-734753Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:40:43.899681+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-40-43-896882Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:40:44.057688+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-40-44-054847Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:42:40.856218+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-42-40-851957Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:47:04.492318+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-47-04-488777Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:47:04.584833+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-47-04-582198Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:47:04.659994+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-47-04-657683Z"
+          },
+          {
+            "action": "material",
+            "at": "2026-10-24T14:47:04.733779+00:00",
+            "batch": null,
+            "reason": "登记研究依据",
+            "material_id": "2026-10-24T14-47-04-731501Z"
+          }
+        ]
+      },
+      "tracking_status": "active",
+      "daily_research_tracking": true,
+      "missing_modules": [
+        "01_企业文化.md",
+        "02_财务分析.md",
+        "03_商业模式.md",
+        "04_战略决策.md",
+        "05_股性分析.md",
+        "06_财务预测.md",
+        "07_估值分析.md"
+      ],
+      "pending_valuation_sync": false
+    }
+  ]
+}

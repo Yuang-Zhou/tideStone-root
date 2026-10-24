@@ -1,0 +1,115 @@
+{
+  "official_quick_validate": [
+    {
+      "skill": "business-model-analysis",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "company-dossier-build",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "corporate-culture-analysis",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "corporate-governance-assessment",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "daily-portfolio-scanner",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "daily-position-advisor",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "financial-analysis",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "financial-forecast",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "financial-forecast-feedback",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "leadership-assessment",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "mission-vision-assessment",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "new-company-onboarding",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "research-event-update",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "research-summary",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "reverse-dcf",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "stock-character-analysis",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "strategic-decision-analysis",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "technical-analysis",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "tidestone-research",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "valuation-analysis",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "value-growth-paper-monitor",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "skill": "vc-style-valuation",
+      "returncode": 0,
+      "output": "Skill is valid!"
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "last_updated": null,
+  "companies": {
+    "300750.SZ": {
+      "name": "宁德时代",
+      "sector": "工业",
+      "currency": "CNY",
+      "rating": "待研究",
+      "target_price": "待研究",
+      "zones": [],
+      "status": "active"
+    }
+  }
+}

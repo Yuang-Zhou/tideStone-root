@@ -1,0 +1,51 @@
+{
+  "started_at": "2026-10-24T00:14:55+08:00",
+  "status": "empty_library",
+  "mode": "offline",
+  "steps": [
+    {
+      "name": "行情获取",
+      "status": "skipped",
+      "detail": "公司库为空，无需执行"
+    },
+    {
+      "name": "技术信号",
+      "status": "skipped",
+      "detail": "公司库为空，无需执行"
+    },
+    {
+      "name": "模拟盘记账",
+      "status": "skipped",
+      "detail": "公司库为空，无需执行"
+    },
+    {
+      "name": "行情时效校验",
+      "status": "skipped",
+      "detail": "公司库为空，无需执行"
+    },
+    {
+      "name": "档案状态扫描",
+      "status": "passed",
+      "returncode": 0,
+      "detail": "完成，详细记录已保存"
+    },
+    {
+      "name": "三年目标覆盖检查",
+      "status": "skipped",
+      "detail": "公司库为空，无需执行"
+    },
+    {
+      "name": "历史成果归档",
+      "status": "passed",
+      "returncode": 0,
+      "detail": "完成，详细记录已保存"
+    },
+    {
+      "name": "AI 每日研究扫描",
+      "status": "not_run",
+      "detail": "在 Codex 调用 daily-portfolio-scanner；宿主任务不生成新闻判断或自动批准研究。"
+    }
+  ],
+  "finished_at": "2026-10-24T00:14:55+08:00",
+  "run_dir": "runs/20261024-001455-86197c"
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "300750.SZ",
+  "completed_at": "2026-10-24T22:47:28.442268+08:00",
+  "scope": "用户明确选择：先完成建库与资料准备",
+  "status": "onboarding_materials_prepared",
+  "registered_material_count": 21,
+  "original_pdf_count": 15,
+  "raw_blocks": {
+    "periodic_reports": 7,
+    "official_ir_records": 4,
+    "edgar": 0,
+    "edgar_status": "not_applicable",
+    "cas_reports": 5,
+    "cas_core_fields_per_report": 40,
+    "cas_amount_observations": 400
+  },
+  "financial_checks": {
+    "pass_exact": 147,
+    "pass_with_rounding": 83,
+    "explained_difference": 2
+  },
+  "suspect_metrics_count": 1,
+  "not_performed_count": 8,
+  "market": {
+    "rows": 2030,
+    "start": "2018-06-11",
+    "end": "2026-10-23",
+    "source": "tencent_via_akshare",
+    "adjustment": "qfq",
+    "limitation": "最早2日非正前复权价，05对数序列前须处理口径"
+  },
+  "checks": {
+    "taxonomy": {
+      "returncode": 0,
+      "output": {
+        "layout": "flat",
+        "companies_collapsed": true,
+        "counts": {
+          "N1": 1,
+          "N2": 1,
+          "N3": 1,
+          "N5": 1
+        },
+        "errors": 0,
+        "warnings": 0,
+        "items": [
+          {
+            "level": "INFO",
+            "check": "C6",
+            "message": "companies.json 已无 legacy_sector 字段，跳过旧标签比对（第 3 步已完成）"
+          },
+          {
+            "level": "INFO",
+            "check": "C7",
+            "message": "gics.confidence 分布：high 1"
+          },
+          {
+            "level": "INFO",
+            "check": "C7",
+            "message": "无 confidence=low 条目 —— GICS 全部有据"
+          },
+          {
+            "level": "INFO",
+            "check": "C1",
+            "message": "COMPANIES 已收口到 companies.json（第 3a 步），N4 与 N1 同源，已跳过两者比对"
+          }
+        ]
+      }
+    },
+    "sync": {
+      "returncode": 0,
+      "output": "✅ 一致：1 家公司的 rating / target / zones / status / currency 与 md 完全一致"
+    }
+  },
+  "material_hashes_verified": true,
+  "formal_reports": 0,
+  "pending_batches": 0,
+  "user_accepted_research": false,
+  "handoff": "入库与资料准备.md",
+  "website_check": {
+    "material_count": 21,
+    "status": "empty",
+    "formal_document_urls": 0,
+    "built_at": "2026-10-24T22:48:17+08:00",
+    "browser_verified": true,
+    "visible_label": "宁德时代；材料21份；待研究；待审0批"
+  },
+  "local_view_tests": {
+    "count": 2,
+    "result": "passed",
+    "log": "_fetch_runs/local-views-test.log",
+    "isolation": "runs/tests/core/tidestone-test-*/Projects"
+  }
+}

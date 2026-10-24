@@ -1,0 +1,48 @@
+[
+  {
+    "id": "esop2_20260930",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225591990.PDF",
+    "published": "2026-09-30",
+    "retrieved": "2026-10-24",
+    "file": "esop2_20260930.pdf",
+    "sha256": "eb3f28091ac53fd95d3eff67d87bacb194ea16ad05f98648ce1e192606f555f9",
+    "pages": 35
+  },
+  {
+    "id": "incentive2022",
+    "url": "https://static.cninfo.com.cn/finalpage/2022-07-21/1214110995.PDF",
+    "published": "2022-07-21",
+    "retrieved": "2026-10-24",
+    "file": "incentive2022.pdf",
+    "sha256": "6a1245f121fb1a3e134e252bff8c43ae5d8dc158e60771aa327e516683b28990",
+    "pages": 9
+  },
+  {
+    "id": "eve2026h1",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-20/1225483571.PDF",
+    "published": "2026-08-20",
+    "retrieved": "2026-10-24",
+    "file": "eve2026h1.pdf",
+    "sha256": "e7c873e533141ede8bb9ebff7ac1285484b78fcd4fedd13f12778ebb420c1a7d",
+    "pages": 185
+  },
+  {
+    "id": "lawyer20260812",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-12/1225470689.PDF",
+    "published": "2026-08-12",
+    "retrieved": "2026-10-24",
+    "file": "lawyer20260812.pdf",
+    "sha256": "679240888b8136a28f04a58a3fb92b782ff5393a59f0c1b4d312bd5a9d9d0283",
+    "pages": 6
+  },
+  {
+    "id": "incentive2023",
+    "url": "https://www.catl.com/uploads/1/file/public/202309/20230927221247_o4a09v4jqf.pdf",
+    "error": "403 Client Error: Forbidden for url: https://www.catl.com/uploads/1/file/public/202309/20230927221247_o4a09v4jqf.pdf"
+  },
+  {
+    "id": "pay_policy20260626",
+    "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-6/2026-06-26/12415524.PDF",
+    "error": "HTTPSConnectionPool(host='file.finance.sina.com.cn', port=443): Max retries exceeded with url: /211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-6/2026-06-26/12415524.PDF (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))"
+  }
+]

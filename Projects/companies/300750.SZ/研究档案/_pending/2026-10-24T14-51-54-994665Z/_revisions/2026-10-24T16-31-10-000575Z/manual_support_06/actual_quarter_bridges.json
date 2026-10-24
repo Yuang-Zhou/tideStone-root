@@ -1,0 +1,1162 @@
+{
+  "2025_Q4": {
+    "revenue": {
+      "value_million": 140629.84699999995,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 423701.834,
+      "subtrahend": 283071.987,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "revenue",
+          "value_million": 423701.834,
+          "source": "annual_2025",
+          "page": 116,
+          "column": "current",
+          "excerpt": "其中：营业收入 423,701,834 362,012,554"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "revenue",
+          "value_million": 283071.987,
+          "source": "q3_2026",
+          "page": 9,
+          "column": "comparative",
+          "excerpt": "其中：营业收入 442,137,424 283,071,987"
+        }
+      ]
+    },
+    "cost_of_sales": {
+      "value_million": 100956.15000000002,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 312383.297,
+      "subtrahend": 211427.147,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "cost_of_sales",
+          "value_million": 312383.297,
+          "source": "annual_2025",
+          "page": 116,
+          "column": "current",
+          "excerpt": "其中：营业成本 312,383,297 273,518,959"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "cost_of_sales",
+          "value_million": 211427.147,
+          "source": "q3_2026",
+          "page": 9,
+          "column": "comparative",
+          "excerpt": "其中：营业成本 341,695,013 211,427,147"
+        }
+      ]
+    },
+    "selling_expenses": {
+      "value_million": 1326.596,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 3735.118,
+      "subtrahend": 2408.522,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "selling_expenses",
+          "value_million": 3735.118,
+          "source": "annual_2025",
+          "page": 116,
+          "column": "current",
+          "excerpt": "销售费用 3,735,118 3,562,797"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "selling_expenses",
+          "value_million": 2408.522,
+          "source": "q3_2026",
+          "page": 9,
+          "column": "comparative",
+          "excerpt": "销售费用 3,371,025 2,408,522"
+        }
+      ]
+    },
+    "research_and_development_expenses": {
+      "value_million": 7078.754999999999,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 22146.581,
+      "subtrahend": 15067.826,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "research_and_development_expenses",
+          "value_million": 22146.581,
+          "source": "annual_2025",
+          "page": 116,
+          "column": "current",
+          "excerpt": "研发费用 22,146,581 18,606,756"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "research_and_development_expenses",
+          "value_million": 15067.826,
+          "source": "q3_2026",
+          "page": 9,
+          "column": "comparative",
+          "excerpt": "研发费用 18,516,986 15,067,826"
+        }
+      ]
+    },
+    "operating_profit": {
+      "value_million": 28966.324,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 89518.636,
+      "subtrahend": 60552.312,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "operating_profit",
+          "value_million": 89518.636,
+          "source": "annual_2025",
+          "page": 117,
+          "column": "current",
+          "excerpt": "三、营业利润（亏损以“－”号填列） 89,518,636 64,051,799"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "operating_profit",
+          "value_million": 60552.312,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "comparative",
+          "excerpt": "三、营业利润（亏损以“－”号填列） 80,933,059 60,552,312"
+        }
+      ]
+    },
+    "profit_before_tax": {
+      "value_million": 28814.142999999996,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 89526.545,
+      "subtrahend": 60712.402,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "profit_before_tax",
+          "value_million": 89526.545,
+          "source": "annual_2025",
+          "page": 117,
+          "column": "current",
+          "excerpt": "四、利润总额（亏损总额以“－”号填 列） 89,526,545 63,182,039"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "profit_before_tax",
+          "value_million": 60712.402,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "comparative",
+          "excerpt": "四、利润总额（亏损总额以“－”号填列） 81,028,004 60,712,402"
+        }
+      ]
+    },
+    "income_tax_expense": {
+      "value_million": 4324.701000000001,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 12740.236,
+      "subtrahend": 8415.535,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "income_tax_expense",
+          "value_million": 12740.236,
+          "source": "annual_2025",
+          "page": 117,
+          "column": "current",
+          "excerpt": "减：所得税费用 12,740,236 9,175,245"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "income_tax_expense",
+          "value_million": 8415.535,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "comparative",
+          "excerpt": "减：所得税费用 11,529,551 8,415,535"
+        }
+      ]
+    },
+    "net_profit": {
+      "value_million": 24489.442999999992,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 76786.309,
+      "subtrahend": 52296.866,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "net_profit",
+          "value_million": 76786.309,
+          "source": "annual_2025",
+          "page": 117,
+          "column": "current",
+          "excerpt": "五、净利润（净亏损以“－”号填列） 76,786,309 54,006,794"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "net_profit",
+          "value_million": 52296.866,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "comparative",
+          "excerpt": "五、净利润（净亏损以“－”号填列） 69,498,453 52,296,866"
+        }
+      ]
+    },
+    "net_profit_parent": {
+      "value_million": 23167.17300000001,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 72201.282,
+      "subtrahend": 49034.109,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "net_profit_parent",
+          "value_million": 72201.282,
+          "source": "annual_2025",
+          "page": 117,
+          "column": "current",
+          "excerpt": "1.归属于母公司股东的净利润 72,201,282 50,744,682"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "net_profit_parent",
+          "value_million": 49034.109,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "comparative",
+          "excerpt": "1.归属于母公司股东的净利润（净亏损以“-” 号填列） 64,530,063 49,034,109"
+        }
+      ]
+    },
+    "net_profit_minority": {
+      "value_million": 1322.27,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 4585.027,
+      "subtrahend": 3262.757,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "net_profit_minority",
+          "value_million": 4585.027,
+          "source": "annual_2025",
+          "page": 117,
+          "column": "current",
+          "excerpt": "2.少数股东损益 4,585,027 3,262,113"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "net_profit_minority",
+          "value_million": 3262.757,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "comparative",
+          "excerpt": "2.少数股东损益（净亏损以“-”号填列） 4,968,389 3,262,757"
+        }
+      ]
+    },
+    "operating_inflows": {
+      "value_million": 148811.70900000003,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 511868.353,
+      "subtrahend": 363056.644,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "operating_inflows",
+          "value_million": 511868.353,
+          "source": "annual_2025",
+          "page": 120,
+          "column": "current",
+          "excerpt": "经营活动现金流入小计 511,868,353 444,879,417"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "operating_inflows",
+          "value_million": 363056.644,
+          "source": "q3_2026",
+          "page": 11,
+          "column": "comparative",
+          "excerpt": "经营活动现金流入小计 428,766,629 363,056,644"
+        }
+      ]
+    },
+    "operating_outflows": {
+      "value_million": 96252.158,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 378648.372,
+      "subtrahend": 282396.214,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "operating_outflows",
+          "value_million": 378648.372,
+          "source": "annual_2025",
+          "page": 120,
+          "column": "current",
+          "excerpt": "经营活动现金流出小计 378,648,372 347,889,072"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "operating_outflows",
+          "value_million": 282396.214,
+          "source": "q3_2026",
+          "page": 11,
+          "column": "comparative",
+          "excerpt": "经营活动现金流出小计 367,141,142 282,396,214"
+        }
+      ]
+    },
+    "operating_cash_flow": {
+      "value_million": 52559.551999999996,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 133219.982,
+      "subtrahend": 80660.43,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "operating_cash_flow",
+          "value_million": 133219.982,
+          "source": "annual_2025",
+          "page": 120,
+          "column": "current",
+          "excerpt": "经营活动产生的现金流量净额 133,219,982 96,990,345"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "operating_cash_flow",
+          "value_million": 80660.43,
+          "source": "q3_2026",
+          "page": 11,
+          "column": "comparative",
+          "excerpt": "经营活动产生的现金流量净额 61,625,487 80,660,430"
+        }
+      ]
+    },
+    "investing_inflows": {
+      "value_million": 1802.4759999999997,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 8303.785,
+      "subtrahend": 6501.309,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "investing_inflows",
+          "value_million": 8303.785,
+          "source": "annual_2025",
+          "page": 120,
+          "column": "current",
+          "excerpt": "投资活动现金流入小计 8,303,785 4,906,012"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "investing_inflows",
+          "value_million": 6501.309,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "投资活动现金流入小计 24,000,330 6,501,309"
+        }
+      ]
+    },
+    "investing_outflows": {
+      "value_million": 38986.776,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 102779.575,
+      "subtrahend": 63792.799,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "investing_outflows",
+          "value_million": 102779.575,
+          "source": "annual_2025",
+          "page": 120,
+          "column": "current",
+          "excerpt": "投资活动现金流出小计 102,779,575 53,781,323"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "investing_outflows",
+          "value_million": 63792.799,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "投资活动现金流出小计 81,426,154 63,792,799"
+        }
+      ]
+    },
+    "investing_cash_flow": {
+      "value_million": -37184.299999999996,
+      "formula": "FY2025 - 9M2025",
+      "minuend": -94475.79,
+      "subtrahend": -57291.49,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "investing_cash_flow",
+          "value_million": -94475.79,
+          "source": "annual_2025",
+          "page": 120,
+          "column": "current",
+          "excerpt": "投资活动产生的现金流量净额 -94,475,790 -48,875,311"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "investing_cash_flow",
+          "value_million": -57291.49,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "投资活动产生的现金流量净额 -57,425,825 -57,291,490"
+        }
+      ]
+    },
+    "cash_paid_for_long_lived_assets": {
+      "value_million": 12256.777999999998,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 42344.558,
+      "subtrahend": 30087.78,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "cash_paid_for_long_lived_assets",
+          "value_million": 42344.558,
+          "source": "annual_2025",
+          "page": 120,
+          "column": "current",
+          "excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 42,344,558 31,179,943"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "cash_paid_for_long_lived_assets",
+          "value_million": 30087.78,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "购建固定资产、无形资产和其他长期资产支 付的现金 42,167,472 30,087,780"
+        }
+      ]
+    },
+    "financing_inflows": {
+      "value_million": 10611.97099999999,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 85607.537,
+      "subtrahend": 74995.566,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "financing_inflows",
+          "value_million": 85607.537,
+          "source": "annual_2025",
+          "page": 120,
+          "column": "current",
+          "excerpt": "筹资活动现金流入小计 85,607,537 33,392,735"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "financing_inflows",
+          "value_million": 74995.566,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "筹资活动现金流入小计 120,673,827 74,995,566"
+        }
+      ]
+    },
+    "financing_outflows": {
+      "value_million": 21198.054000000004,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 91917.08,
+      "subtrahend": 70719.026,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "financing_outflows",
+          "value_million": 91917.08,
+          "source": "annual_2025",
+          "page": 121,
+          "column": "current",
+          "excerpt": "筹资活动现金流出小计 91,917,080 47,916,971"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "financing_outflows",
+          "value_million": 70719.026,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "筹资活动现金流出小计 85,433,875 70,719,026"
+        }
+      ]
+    },
+    "financing_cash_flow": {
+      "value_million": -10586.081999999999,
+      "formula": "FY2025 - 9M2025",
+      "minuend": -6309.543,
+      "subtrahend": 4276.539,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "financing_cash_flow",
+          "value_million": -6309.543,
+          "source": "annual_2025",
+          "page": 121,
+          "column": "current",
+          "excerpt": "筹资活动产生的现金流量净额 -6,309,543 -14,524,236"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "financing_cash_flow",
+          "value_million": 4276.539,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "筹资活动产生的现金流量净额 35,239,952 4,276,539"
+        }
+      ]
+    },
+    "fx_effect_on_cash": {
+      "value_million": -2043.386,
+      "formula": "FY2025 - 9M2025",
+      "minuend": -2664.64,
+      "subtrahend": -621.254,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "fx_effect_on_cash",
+          "value_million": -2664.64,
+          "source": "annual_2025",
+          "page": 121,
+          "column": "current",
+          "excerpt": "四、汇率变动对现金及现金等价物的 影响 -2,664,640 -1,596,552"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "fx_effect_on_cash",
+          "value_million": -621.254,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "四、汇率变动对现金及现金等价物的影响 -5,971,785 -621,254"
+        }
+      ]
+    },
+    "net_change_in_cash": {
+      "value_million": 2745.783000000003,
+      "formula": "FY2025 - 9M2025",
+      "minuend": 29770.008,
+      "subtrahend": 27024.225,
+      "source_minuend": [
+        {
+          "year": "2025",
+          "field": "net_change_in_cash",
+          "value_million": 29770.008,
+          "source": "annual_2025",
+          "page": 121,
+          "column": "current",
+          "excerpt": "五、现金及现金等价物净增加额 29,770,008 31,994,247"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "year": "2025_9M",
+          "field": "net_change_in_cash",
+          "value_million": 27024.225,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "comparative",
+          "excerpt": "五、现金及现金等价物净增加额 33,467,829 27,024,225"
+        }
+      ]
+    },
+    "derived": {
+      "gross_margin": 0.28211434376373845,
+      "FCF_proxy_million": 40302.774,
+      "OCF_to_consolidated_profit": 2.1462126353792534,
+      "FCF_proxy_is_unlevered_FCFF": false
+    }
+  },
+  "2026_Q3": {
+    "revenue": {
+      "value_million": 165220.84399999998,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 442137.424,
+      "subtrahend": 276916.58,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "revenue",
+          "value_million": 442137.424,
+          "source": "q3_2026",
+          "page": 9,
+          "column": "current",
+          "excerpt": "其中：营业收入 442,137,424 283,071,987"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 77,
+          "value_million": 276916.58
+        }
+      ]
+    },
+    "cost_of_sales": {
+      "value_million": 131040.12299999996,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 341695.013,
+      "subtrahend": 210654.89,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "cost_of_sales",
+          "value_million": 341695.013,
+          "source": "q3_2026",
+          "page": 9,
+          "column": "current",
+          "excerpt": "其中：营业成本 341,695,013 211,427,147"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 77,
+          "value_million": 210654.89
+        }
+      ]
+    },
+    "selling_expenses": {
+      "value_million": 1207.4479999999999,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 3371.025,
+      "subtrahend": 2163.577,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "selling_expenses",
+          "value_million": 3371.025,
+          "source": "q3_2026",
+          "page": 9,
+          "column": "current",
+          "excerpt": "销售费用 3,371,025 2,408,522"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 77,
+          "value_million": 2163.577
+        }
+      ]
+    },
+    "research_and_development_expenses": {
+      "value_million": 7140.441000000001,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 18516.986,
+      "subtrahend": 11376.545,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "research_and_development_expenses",
+          "value_million": 18516.986,
+          "source": "q3_2026",
+          "page": 9,
+          "column": "current",
+          "excerpt": "研发费用 18,516,986 15,067,826"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 77,
+          "value_million": 11376.545
+        }
+      ]
+    },
+    "operating_profit": {
+      "value_million": 25268.301999999996,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 80933.059,
+      "subtrahend": 55664.757,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "operating_profit",
+          "value_million": 80933.059,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "current",
+          "excerpt": "三、营业利润（亏损以“－”号填列） 80,933,059 60,552,312"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 78,
+          "value_million": 55664.757
+        }
+      ]
+    },
+    "profit_before_tax": {
+      "value_million": 25261.146999999997,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 81028.004,
+      "subtrahend": 55766.857,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "profit_before_tax",
+          "value_million": 81028.004,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "current",
+          "excerpt": "四、利润总额（亏损总额以“－”号填列） 81,028,004 60,712,402"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 78,
+          "value_million": 55766.857
+        }
+      ]
+    },
+    "income_tax_expense": {
+      "value_million": 2793.3329999999987,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 11529.551,
+      "subtrahend": 8736.218,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "income_tax_expense",
+          "value_million": 11529.551,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "current",
+          "excerpt": "减：所得税费用 11,529,551 8,415,535"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 78,
+          "value_million": 8736.218
+        }
+      ]
+    },
+    "net_profit": {
+      "value_million": 22467.814999999995,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 69498.453,
+      "subtrahend": 47030.638,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "net_profit",
+          "value_million": 69498.453,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "current",
+          "excerpt": "五、净利润（净亏损以“－”号填列） 69,498,453 52,296,866"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 78,
+          "value_million": 47030.638
+        }
+      ]
+    },
+    "net_profit_parent": {
+      "value_million": 21246.061,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 64530.063,
+      "subtrahend": 43284.002,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "net_profit_parent",
+          "value_million": 64530.063,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "current",
+          "excerpt": "1.归属于母公司股东的净利润（净亏损以“-” 号填列） 64,530,063 49,034,109"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 78,
+          "value_million": 43284.002
+        }
+      ]
+    },
+    "net_profit_minority": {
+      "value_million": 1221.7530000000002,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 4968.389,
+      "subtrahend": 3746.636,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "net_profit_minority",
+          "value_million": 4968.389,
+          "source": "q3_2026",
+          "page": 10,
+          "column": "current",
+          "excerpt": "2.少数股东损益（净亏损以“-”号填列） 4,968,389 3,262,757"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 78,
+          "value_million": 3746.636
+        }
+      ]
+    },
+    "operating_inflows": {
+      "value_million": 150275.28500000003,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 428766.629,
+      "subtrahend": 278491.344,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "operating_inflows",
+          "value_million": 428766.629,
+          "source": "q3_2026",
+          "page": 11,
+          "column": "current",
+          "excerpt": "经营活动现金流入小计 428,766,629 363,056,644"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 81,
+          "value_million": 278491.344
+        }
+      ]
+    },
+    "operating_outflows": {
+      "value_million": 148866.648,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 367141.142,
+      "subtrahend": 218274.494,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "operating_outflows",
+          "value_million": 367141.142,
+          "source": "q3_2026",
+          "page": 11,
+          "column": "current",
+          "excerpt": "经营活动现金流出小计 367,141,142 282,396,214"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 81,
+          "value_million": 218274.494
+        }
+      ]
+    },
+    "operating_cash_flow": {
+      "value_million": 1408.6359999999986,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 61625.487,
+      "subtrahend": 60216.851,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "operating_cash_flow",
+          "value_million": 61625.487,
+          "source": "q3_2026",
+          "page": 11,
+          "column": "current",
+          "excerpt": "经营活动产生的现金流量净额 61,625,487 80,660,430"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 81,
+          "value_million": 60216.851
+        }
+      ]
+    },
+    "investing_inflows": {
+      "value_million": 5106.170000000002,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 24000.33,
+      "subtrahend": 18894.16,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "investing_inflows",
+          "value_million": 24000.33,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "投资活动现金流入小计 24,000,330 6,501,309"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 81,
+          "value_million": 18894.16
+        }
+      ]
+    },
+    "investing_outflows": {
+      "value_million": 25602.903,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 81426.154,
+      "subtrahend": 55823.251,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "investing_outflows",
+          "value_million": 81426.154,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "投资活动现金流出小计 81,426,154 63,792,799"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 82,
+          "value_million": 55823.251
+        }
+      ]
+    },
+    "investing_cash_flow": {
+      "value_million": -20496.733999999997,
+      "formula": "9M2026 - H1_2026",
+      "minuend": -57425.825,
+      "subtrahend": -36929.091,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "investing_cash_flow",
+          "value_million": -57425.825,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "投资活动产生的现金流量净额 -57,425,825 -57,291,490"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 82,
+          "value_million": -36929.091
+        }
+      ]
+    },
+    "cash_paid_for_long_lived_assets": {
+      "value_million": 17094.7,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 42167.472,
+      "subtrahend": 25072.772,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "cash_paid_for_long_lived_assets",
+          "value_million": 42167.472,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "购建固定资产、无形资产和其他长期资产支 付的现金 42,167,472 30,087,780"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 81,
+          "value_million": 25072.772
+        }
+      ]
+    },
+    "financing_inflows": {
+      "value_million": 37247.22,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 120673.827,
+      "subtrahend": 83426.607,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "financing_inflows",
+          "value_million": 120673.827,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "筹资活动现金流入小计 120,673,827 74,995,566"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 82,
+          "value_million": 83426.607
+        }
+      ]
+    },
+    "financing_outflows": {
+      "value_million": 26317.529000000002,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 85433.875,
+      "subtrahend": 59116.346,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "financing_outflows",
+          "value_million": 85433.875,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "筹资活动现金流出小计 85,433,875 70,719,026"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 82,
+          "value_million": 59116.346
+        }
+      ]
+    },
+    "financing_cash_flow": {
+      "value_million": 10929.690999999999,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 35239.952,
+      "subtrahend": 24310.261,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "financing_cash_flow",
+          "value_million": 35239.952,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "筹资活动产生的现金流量净额 35,239,952 4,276,539"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 82,
+          "value_million": 24310.261
+        }
+      ]
+    },
+    "fx_effect_on_cash": {
+      "value_million": 969.7610000000004,
+      "formula": "9M2026 - H1_2026",
+      "minuend": -5971.785,
+      "subtrahend": -6941.546,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "fx_effect_on_cash",
+          "value_million": -5971.785,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "四、汇率变动对现金及现金等价物的影响 -5,971,785 -621,254"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 82,
+          "value_million": -6941.546
+        }
+      ]
+    },
+    "net_change_in_cash": {
+      "value_million": -7188.646000000001,
+      "formula": "9M2026 - H1_2026",
+      "minuend": 33467.829,
+      "subtrahend": 40656.475,
+      "source_minuend": [
+        {
+          "year": "2026_9M",
+          "field": "net_change_in_cash",
+          "value_million": 33467.829,
+          "source": "q3_2026",
+          "page": 12,
+          "column": "current",
+          "excerpt": "五、现金及现金等价物净增加额 33,467,829 27,024,225"
+        }
+      ],
+      "source_subtrahend": [
+        {
+          "source": "interim_2026",
+          "page": 82,
+          "value_million": 40656.475
+        }
+      ]
+    },
+    "derived": {
+      "gross_margin": 0.20687898798047555,
+      "FCF_proxy_million": -15686.064000000002,
+      "OCF_to_consolidated_profit": 0.06269572719910677,
+      "FCF_proxy_is_unlevered_FCFF": false
+    }
+  }
+}

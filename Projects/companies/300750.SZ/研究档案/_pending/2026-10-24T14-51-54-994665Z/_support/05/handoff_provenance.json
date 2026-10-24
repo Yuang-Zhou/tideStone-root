@@ -1,0 +1,50 @@
+{
+  "as_of": "2026-10-24 Asia/Shanghai",
+  "ticker": "300750.SZ",
+  "price_pattern": "台阶（自身触发）",
+  "secondary_description": "深度回撤/反转和外部政策脉冲；不是登记主分类",
+  "main_anchor": "PE on next full-year normalized consolidated attributable earnings",
+  "conditional_multiple_range": [
+    16,
+    22
+  ],
+  "range_type": "analyst judgment, not historical daily percentile",
+  "current_price": {
+    "as_of": "2026-10-23",
+    "close_cny": 237.6,
+    "shares_mn": 4627.25,
+    "a_price_equivalent_equity_mn": 1099434.5999999999,
+    "profit_ttm_mn": 87697.236,
+    "core_profit_ttm_mn": 78764.421,
+    "revenue_ttm_mn": 582767.271,
+    "pe_ttm": 12.536707542299279,
+    "core_pe_ttm": 13.958518148695587,
+    "ps_ttm": 1.8865757476623974,
+    "pe_fy2025": 15.227355658310884
+  },
+  "return_method": "Yahoo dividend/split adjusted close; two missing dates explicitly reconstructed from Tencent raw and constant neighboring Yahoo factor",
+  "yahoo_fetch": {
+    "source": "https://finance.yahoo.com/quote/300750.SZ/history/",
+    "client": "yfinance.Ticker.history",
+    "start": "2018-06-11",
+    "end_exclusive": "2026-10-24",
+    "auto_adjust": false,
+    "actions": true,
+    "file": "yahoo_total_return_input.csv",
+    "saved_at_utc": "2026-10-24T14:56:04.716517+00:00"
+  },
+  "independent_quote_check": {
+    "source": "https://cn.investing.com/equities/amperex-tech-a-historical-data",
+    "date": "2026-10-23",
+    "close_cny": 237.6,
+    "evidence": "../../_evidence/05/web_read_snapshot.json"
+  },
+  "limitations": [
+    "Returns are vendor-adjusted-price changes, not independently audited tax-adjusted dividend reinvestment returns.",
+    "Annual P/E uses full-year realized profit: ex-post research statistic, NOT point-in-time tradable trailing P/E.",
+    "A-price-equivalent equity values all A/H shares at the A price, NOT combined exchange market capitalization.",
+    "2023 reported EPS conflict deliberately bypassed via profit / year-end total shares."
+  ],
+  "not_a_target_price": true,
+  "no_scenario_or_method_weighting": true
+}

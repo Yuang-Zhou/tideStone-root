@@ -1,0 +1,28 @@
+[
+  {
+    "file": "tx_hfq.csv",
+    "rows": 2030,
+    "sha256": "8446fb0555a2f2bd13be8b1a01fc13d5be1efd0981b92626d84cc08db72761b9",
+    "retrieved_at": "2026-10-24T14:54:47.903953+00:00",
+    "adjust": "hfq",
+    "endpoint": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get",
+    "symbol": "sz300750",
+    "start": "2018-06-11",
+    "end": "2026-10-23",
+    "first_close": 36.2,
+    "last_close": 467.61
+  },
+  {
+    "file": "tx_raw.csv",
+    "rows": 2030,
+    "sha256": "ee4b7cda824ff8191bd50eb69e6e14d718a57d2a0c82edb57bbb2b0543705c5c",
+    "retrieved_at": "2026-10-24T14:55:14.596942+00:00",
+    "adjust": "unadjusted",
+    "endpoint": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get",
+    "symbol": "sz300750",
+    "start": "2018-06-11",
+    "end": "2026-10-23",
+    "first_close": 36.2,
+    "last_close": 237.6
+  }
+]

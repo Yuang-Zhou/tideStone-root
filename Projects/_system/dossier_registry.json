@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-10-25",
+  "default_stale_threshold_days": 120,
+  "scan_notes": "Re-scan with state preservation (dossier_initialized + pending_reviews retained).",
+  "companies": [
+    {
+      "ticker": "300750.SZ",
+      "company_name": "宁德时代",
+      "sector": "工业",
+      "folder": "companies/300750.SZ",
+      "folder_exists": true,
+      "dossier_path": "companies/300750.SZ/研究档案",
+      "dossier_status": "empty",
+      "exists_count": 0,
+      "documents": {
+        "01_企业文化.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "02_财务分析.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "03_商业模式.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "04_战略决策.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "05_股性分析.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "06_财务预测.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        },
+        "07_估值分析.md": {
+          "exists": false,
+          "legacy_source": null,
+          "all_candidates": [],
+          "shadowed_legacy": [],
+          "integrity_errors": [
+            "该模块尚未被接受"
+          ]
+        }
+      },
+      "pending_reviews": [
+        {
+          "timestamp": "2026-10-24T14-51-54-994665Z",
+          "trigger": "用户要求继续潮石流程，首次完成七模块待审稿；研究截止2026-10-24"
+        }
+      ],
+      "stale_threshold_days": 120,
+      "dossier_initialized": false
+    }
+  ]
+}

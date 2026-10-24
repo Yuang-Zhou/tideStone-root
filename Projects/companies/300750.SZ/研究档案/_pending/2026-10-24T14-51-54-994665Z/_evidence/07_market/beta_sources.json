@@ -1,0 +1,34 @@
+[
+  {
+    "symbol": "000300.SS",
+    "source": "Yahoo Finance via yfinance",
+    "url": "https://finance.yahoo.com/quote/000300.SS/history/",
+    "operation": "history(start=2021-10-15,end=2026-10-24,auto_adjust=False,repair=False,actions=True)",
+    "fetched_utc": "2026-10-24T16:12:09.871200+00:00",
+    "rows": 1,
+    "first": "2026-10-23 00:00:00+08:00",
+    "last": "2026-10-23 00:00:00+08:00",
+    "file": "beta_000300.SS_daily.csv",
+    "sha256": "17bf1ed5882949cc606dd495cc097da2bf820fb0e1021f851aafab17ce082ffe",
+    "history_metadata": "{'YF repair?': False,\n 'chartPreviousClose': 4036.2966,\n 'currency': 'CNY',\n 'currentTradingPeriod': {'post': {'end': Timestamp('2026-10-23 15:00:00+0800', tz='Asia/Shanghai'),\n                                   'start': Timestamp('2026-10-23 15:00:00+0800', tz='Asia/Shanghai')},\n                          'pre': {'end': Timestamp('2026-10-23 09:30:00+0800', tz='Asia/Shanghai'),\n                                  'start': Timestamp('2026-10-23 09:30:00+0800', tz='Asia/Shanghai')},\n                          'regular': {'end': Timestamp('2026-10-23 15:00:00+0800', tz='Asia/Shanghai'),\n                                      'start': Timestamp('2026-10-23 09:30:00+0800', tz='Asia/Shanghai')}},\n 'dataGranularity': '1d',\n 'exchangeName': 'SHH',\n 'exchangeTimezoneName': 'Asia/Shanghai',\n 'fiftyTwoWeekHigh': 4109.5186,\n 'fiftyTwoWeekLow': 3458.44,\n 'firstTradeDate': Timestamp('2021-03-11 09:30:00+0800', tz='Asia/Shanghai'),\n 'fullExchangeName': 'Shanghai',\n 'fulldayChange': 69.032,\n 'fulldayChangePercent': 1.7103,\n 'fulldayPrice': 4105.3286,\n 'gmtoffset': 28800,\n 'hasPrePostMarketData': False,\n 'instrumentType': 'INDEX',\n 'longName': 'CSI 300 Index',\n 'priceHint': 2,\n 'range': '',\n 'regularMarketChangePercent': 1.7103,\n 'regularMarketDayHigh': 4109.5186,\n 'regularMarketDayLow': 3958.1375,\n 'regularMarketPrice': 4105.3286,\n 'regularMarketTime': Timestamp('2026-10-23 15:00:29+0800', tz='Asia/Shanghai'),\n 'regularMarketVolume': 1657684820,\n 'shortName': 'CSI 300 Index',\n 'symbol': '000300.SS',\n 'timezone': 'CST',\n 'tradingPeriods': '<lazy-loaded>',\n 'validRanges': ['1d',\n                 '5d',\n                 '1mo',\n                 '3mo',\n                 '6mo',\n                 '1y',\n                 '2y',\n                 '5y',\n                 '10y',\n                 'ytd',\n                 'max']}"
+  },
+  {
+    "symbol": "399300.SZ",
+    "source": "Yahoo Finance via yfinance",
+    "url": "https://finance.yahoo.com/quote/399300.SZ/history/",
+    "operation": "history(start=2021-10-15,end=2026-10-24,auto_adjust=False,repair=False,actions=True)",
+    "fetched_utc": "2026-10-24T16:12:09.872754+00:00",
+    "rows": 1,
+    "first": "2026-10-23 00:00:00+08:00",
+    "last": "2026-10-23 00:00:00+08:00",
+    "file": "beta_399300.SZ_daily.csv",
+    "sha256": "17bf1ed5882949cc606dd495cc097da2bf820fb0e1021f851aafab17ce082ffe",
+    "history_metadata": "{'YF repair?': False,\n 'chartPreviousClose': 4036.2966,\n 'currency': 'CNY',\n 'currentTradingPeriod': {'post': {'end': Timestamp('2026-10-23 15:00:00+0800', tz='Asia/Shanghai'),\n                                   'start': Timestamp('2026-10-23 15:00:00+0800', tz='Asia/Shanghai')},\n                          'pre': {'end': Timestamp('2026-10-23 09:30:00+0800', tz='Asia/Shanghai'),\n                                  'start': Timestamp('2026-10-23 09:30:00+0800', tz='Asia/Shanghai')},\n                          'regular': {'end': Timestamp('2026-10-23 15:00:00+0800', tz='Asia/Shanghai'),\n                                      'start': Timestamp('2026-10-23 09:30:00+0800', tz='Asia/Shanghai')}},\n 'dataGranularity': '1d',\n 'exchangeName': 'SHZ',\n 'exchangeTimezoneName': 'Asia/Shanghai',\n 'fiftyTwoWeekHigh': 4109.5186,\n 'fiftyTwoWeekLow': 3958.1375,\n 'firstTradeDate': None,\n 'fullExchangeName': 'Shenzhen',\n 'fulldayChange': 69.032,\n 'fulldayChangePercent': 1.7103,\n 'fulldayPrice': 4105.3286,\n 'gmtoffset': 28800,\n 'hasPrePostMarketData': False,\n 'instrumentType': 'INDEX',\n 'longName': 'CSI 300 INDEX',\n 'priceHint': 2,\n 'range': '',\n 'regularMarketChangePercent': 1.7103,\n 'regularMarketDayHigh': 4109.5186,\n 'regularMarketDayLow': 3958.1375,\n 'regularMarketPrice': 4105.3286,\n 'regularMarketTime': Timestamp('2026-10-23 16:29:55+0800', tz='Asia/Shanghai'),\n 'regularMarketVolume': 1657684820,\n 'shortName': 'CSI 300 INDEX',\n 'symbol': '399300.SZ',\n 'timezone': 'CST',\n 'tradingPeriods': '<lazy-loaded>',\n 'validRanges': ['1d', '5d']}"
+  },
+  {
+    "url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/zh_CN/000300factsheet.pdf",
+    "file": "beta_csi300_factsheet.pdf",
+    "fetched_utc": "2026-10-24T16:12:21.043883+00:00",
+    "sha256": "38e1d50e5cf0018afc0cfe7b46bf25faa21de839d4d0e269ce4084575cb00bbc"
+  }
+]

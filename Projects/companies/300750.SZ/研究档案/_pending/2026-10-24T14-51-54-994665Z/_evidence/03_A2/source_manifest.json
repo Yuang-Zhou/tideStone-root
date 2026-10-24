@@ -1,0 +1,89 @@
+{
+  "accessed": "2026-10-24",
+  "kind": "researcher retrieval notes, not raw website archive",
+  "sources": [
+    {
+      "id": "D1",
+      "title": "IEA EV Outlook 2026摘要",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/executive-summary",
+      "published": "2026-05-20",
+      "location": "前两节。"
+    },
+    {
+      "id": "D2",
+      "title": "IEA电池章节",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
+      "published": "2026-05-20",
+      "location": "“deployment”“Emerging…”“EV battery demand outlook”及脚注1。"
+    },
+    {
+      "id": "D3",
+      "title": "IEA储能章节",
+      "url": "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
+      "published": "2026-04-20",
+      "location": "首段、应用结构及UPS段。"
+    },
+    {
+      "id": "D4",
+      "title": "BNEF价格调查",
+      "url": "https://about.bnef.com/insights/clean-transport/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices-bloombergnef/",
+      "published": "2025-12-09",
+      "location": "“survey covers multiple battery end-uses”段及地区段。"
+    },
+    {
+      "id": "D5",
+      "title": "能源局发布会",
+      "url": "https://www.nea.gov.cn/20260730/3ce671c387574eeeb120fc3825be0399/c.html",
+      "published": "2026-07-30",
+      "location": "科技司储能报告、可再生能源发电段。"
+    },
+    {
+      "id": "D6",
+      "title": "CNESA招中标原始统计",
+      "url": "https://research.cnesa.org/report/info/?id=6944",
+      "published": "2026-07-06",
+      "location": "“2026年上半年中标情况”及图4注。"
+    },
+    {
+      "id": "D7",
+      "title": "Tesla全年交付",
+      "url": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2025-production-deliveries-deployments",
+      "published": "2026-01-02",
+      "location": "“2025”表及储能段。"
+    },
+    {
+      "id": "D8",
+      "title": "Tesla Q3交付",
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+      "published": "2026-10-02",
+      "location": "Q3表及首段。"
+    },
+    {
+      "id": "D10",
+      "title": "CNESA 8月投运统计",
+      "url": "https://research.cnesa.org/report/info/?id=7184",
+      "published": "2026-09-17",
+      "location": "“整体市场”“应用结构”。"
+    },
+    {
+      "id": "D11",
+      "title": "IEA整车价格地区比较",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
+      "published": "2026-05-20",
+      "location": "“In emerging markets…”节。"
+    },
+    {
+      "id": "D12",
+      "title": "新型储能专项行动方案",
+      "url": "https://www.nea.gov.cn/20250912/73455a1a61b248d4aef65cc124631398/2025091273455a1a61b248d4aef65cc124631398_358225d8906a1840e98ffbbfcbac506bab.pdf",
+      "published": "2025-09-12",
+      "location": "p1–3、5–6。"
+    }
+  ],
+  "excluded_sources": [
+    "D9 full-text retrieval timed out; official search excerpt only",
+    "D13 secondary report; original scenario assumptions not obtained"
+  ],
+  "draft_sha256": "a6614fe5f2bfc486570672e8fe612b9da4214036af50b145eac050838feb12a0",
+  "source_notes": "retrieval_notes.md"
+}

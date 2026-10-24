@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>TIDESTONE_PROJECTS</key>
+		<string>/Users/yuangzhou/Desktop/tideStone-root/Projects</string>
+		<key>TZ</key>
+		<string>Asia/Shanghai</string>
+	</dict>
+	<key>Label</key>
+	<string>local.tidestone.daily</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/yuangzhou/Desktop/tideStone-root/.venv/bin/python</string>
+		<string>/Users/yuangzhou/Desktop/tideStone-root/scripts/ops.py</string>
+		<string>daily</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/yuangzhou/Desktop/tideStone-root/runs/scheduled.stderr.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/yuangzhou/Desktop/tideStone-root/runs/scheduled.stdout.log</string>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>8</integer>
+		<key>Minute</key>
+		<integer>30</integer>
+	</dict>
+	<key>WorkingDirectory</key>
+	<string>/Users/yuangzhou/Desktop/tideStone-root</string>
+</dict>
+</plist>

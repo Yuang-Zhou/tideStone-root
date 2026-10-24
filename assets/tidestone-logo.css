@@ -1,0 +1,42 @@
+/* Extracted legacy logo only. The namespace and inherited colors are made explicit. */
+.tidestone-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 10px;
+  color: #e9f0e3;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+.tidestone-brand:hover { text-decoration: none; }
+.tidestone-brand strong {
+  display: block;
+  font-size: 28px;
+  letter-spacing: .18em;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.tidestone-brand small {
+  font-size: 10px;
+  letter-spacing: .19em;
+  color: #b6c7bc;
+}
+.tidestone-brand-symbol {
+  height: 49px;
+  width: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.tidestone-brand-symbol span {
+  display: block;
+  height: 8px;
+  background: #c9dc9b;
+  border-radius: 80% 12% 70% 12%;
+  transform: rotate(-12deg);
+}
+.tidestone-brand-symbol span:nth-child(1) { width: 25px; }
+.tidestone-brand-symbol span:nth-child(2) { width: 34px; }
+.tidestone-brand-symbol span:nth-child(3) { width: 39px; }

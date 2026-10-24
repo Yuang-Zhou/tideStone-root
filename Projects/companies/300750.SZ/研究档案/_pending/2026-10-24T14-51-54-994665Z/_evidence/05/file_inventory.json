@@ -1,0 +1,117 @@
+[
+  {
+    "file": "_support/05/calculate_stock_character.py",
+    "bytes": 5849,
+    "sha256": "9ce8834caed879d61cd18d4c84ebfc898de5b3bcc68e8ca8d4ded6fe49913fe4"
+  },
+  {
+    "file": "_support/05/calculation_results.json",
+    "bytes": 8111,
+    "sha256": "bed9eedd880c758eddc67dcf92b24f9c1b68921dca8c8a009a1c900fe8c68e17"
+  },
+  {
+    "file": "_support/05/daily_log_series.csv",
+    "bytes": 196151,
+    "sha256": "c03f9516bdaeb670b610f9821d5790423b00723524d8cae0ec00ab22a7285054"
+  },
+  {
+    "file": "_support/05/fetch_metadata.json",
+    "bytes": 860,
+    "sha256": "df83979a364c3db86d5d02b17f75c449a97e890984d0d6ff7b3dc565aa41c18c"
+  },
+  {
+    "file": "_support/05/handoff_provenance.json",
+    "bytes": 2092,
+    "sha256": "b8ec2a1b9ceed5f38c5a139fe8a49918fa80b3e9a3537ab60437fc1d97320621"
+  },
+  {
+    "file": "_support/05/last_run.json",
+    "bytes": 8112,
+    "sha256": "e14a16f55c718e17a09ce10e8d946bd3c43b27e8559300e7ea674b1639236018"
+  },
+  {
+    "file": "_support/05/tx_hfq.csv",
+    "bytes": 149533,
+    "sha256": "8446fb0555a2f2bd13be8b1a01fc13d5be1efd0981b92626d84cc08db72761b9"
+  },
+  {
+    "file": "_support/05/tx_raw.csv",
+    "bytes": 147587,
+    "sha256": "ee4b7cda824ff8191bd50eb69e6e14d718a57d2a0c82edb57bbb2b0543705c5c"
+  },
+  {
+    "file": "_support/05/yahoo_total_return_input.csv",
+    "bytes": 259351,
+    "sha256": "4ccacbbc94fa41f6c308d792186d2b091a9f62e8172cc7e15ffe8230e36ee5ca"
+  },
+  {
+    "file": "_evidence/05/annual_2018.pdf",
+    "bytes": 10003051,
+    "sha256": "cffd02492f4d06700f629237b4a07df8feca62fbfbbe3eb5d4518e79d4c399bc"
+  },
+  {
+    "file": "_evidence/05/annual_2020.pdf",
+    "bytes": 5900269,
+    "sha256": "6296ba5eb2610d361da715661b2b91047ba312843aaa240e4839a5016197a256"
+  },
+  {
+    "file": "_evidence/05/annual_2020.txt",
+    "bytes": 433105,
+    "sha256": "d9badba94f091ed8d4dc638e959fa02a88fc7a46b6bc1964fe34f539878a84a5"
+  },
+  {
+    "file": "_evidence/05/annual_2021_eastmoney.pdf",
+    "bytes": 6316659,
+    "sha256": "060a73fa73d896d0dce4ea2215dc4d616f92b60aed64a8c09028430def38a4ca"
+  },
+  {
+    "file": "_evidence/05/annual_2021_eastmoney.txt",
+    "bytes": 460198,
+    "sha256": "47f53fc23c5db17c448aae51015c1b2a70a06eed25f507483462a26ad1939d84"
+  },
+  {
+    "file": "_evidence/05/annual_2021_selected_pages.txt",
+    "bytes": 4468,
+    "sha256": "2d4a4ba14280d21e8be6c009762eea36342423bf9f36bf656f46b5a8ece3ab31"
+  },
+  {
+    "file": "_evidence/05/catl_hk_ipo.html",
+    "bytes": 51072,
+    "sha256": "4777a41960b3c626bb9571e8624d7612d12784747d9ee6a631f837d04ef91579"
+  },
+  {
+    "file": "_evidence/05/investing_history.html",
+    "bytes": 3,
+    "sha256": "d26eae87829adde551bf4b852f9da6b8c3c2db9b65b8b68870632a2db5f53e00"
+  },
+  {
+    "file": "_evidence/05/ipo_2018.pdf",
+    "bytes": 426480,
+    "sha256": "6fb9728157933a97a4fca2fbb7a944d1d0185a46c6aab4aa364e1843b172eeca"
+  },
+  {
+    "file": "_evidence/05/policy_20240924.html",
+    "bytes": 80621,
+    "sha256": "d5ab97345b95c73ef860d7853286060fbd1a9e5cd0117435cbc12d9f964ab17c"
+  },
+  {
+    "file": "_evidence/05/sources.json",
+    "bytes": 4700,
+    "sha256": "a95ee1479afbac90ac190e615749450494944a8460d5b50877598355284c6b40"
+  },
+  {
+    "file": "_evidence/05/tariff_20250402.html",
+    "bytes": 329889,
+    "sha256": "cf2fc13d6d469e21081131626cfe0607f42b894e8c0e14e781424a5d888d0ca3"
+  },
+  {
+    "file": "_evidence/05/web_read_snapshot.json",
+    "bytes": 23909,
+    "sha256": "a09bd661a3c23dfc506510fbb51458715b26456d31d371ff1fa81ba52c62d286"
+  },
+  {
+    "file": "_evidence/05/yahoo_history.html",
+    "bytes": 502,
+    "sha256": "5ae611309f48a34dd4603e73e592e36ff02ab92dd65ea31833e3a8d72160df5b"
+  }
+]

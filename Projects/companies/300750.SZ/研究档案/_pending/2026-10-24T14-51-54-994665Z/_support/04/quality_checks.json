@@ -1,0 +1,13 @@
+{
+  "sentinel_last": true,
+  "no_prohibited_handoff_token": true,
+  "H1_bullets": 4,
+  "H2_data_rows": 3,
+  "H3_data_rows": 10,
+  "H4_data_rows": 3,
+  "first_model_scope_disclosed": true,
+  "temporal_strong_confirmation_not_bins_disclosed": true,
+  "tax_once_rule_present": true,
+  "H1_not_Q3_disclosed": true,
+  "output_sha256": "169ec7e7adc79983f8cf570f2d266253957d0852a190fe0363cda9a7ad2535ec"
+}

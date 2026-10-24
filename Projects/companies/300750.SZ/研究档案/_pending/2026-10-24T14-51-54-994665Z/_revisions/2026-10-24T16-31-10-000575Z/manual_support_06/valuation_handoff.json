@@ -1,0 +1,261 @@
+{
+  "unit": "CNY million",
+  "price_date": "2026-10-23",
+  "scenarios": {
+    "bear": {
+      "date": "2026-10-23",
+      "source_balance_date": "2026-09-30",
+      "elapsed_days": 23,
+      "quarter_days": 92,
+      "remaining_days": 69,
+      "accrual_assumption": "all modeled Q4 flows, including dividends/interest/capex, uniformly accrue; no observed October actual; amounts are estimates",
+      "elapsed_net_cash_change": -9106.460238052328,
+      "elapsed_parent_dividends": 1403.1033546330925,
+      "elapsed_minority_dividends": 84.48794393489591,
+      "monetary_funds_estimate": 360707.32576194766,
+      "CE_proxy_estimate": 324291.1107619477,
+      "unclassified_monetary_minus_CE_gap": 36416.215,
+      "explicit_debt_proxy": 189926.135,
+      "supplier_finance_H1_reference_proxy": 57764.224,
+      "net_cash_CE_less_explicit_debt": 134364.9757619477,
+      "net_cash_CE_less_explicit_debt_less_SF_proxy": 76600.75176194769,
+      "net_cash_SF_sensitivity": {
+        "0": 134364.9757619477,
+        "57764.224": 76600.75176194769,
+        "86646.33600000001": 47718.63976194768
+      },
+      "monetary_instead_of_CE_uplift_sensitivity": 36416.215,
+      "equity_method_asset_estimate": 73115.92807610959,
+      "other_financial_assets_book_proxy": 88382.902,
+      "minority_book_equity_estimate": 36462.507915902344,
+      "Q4_remaining_FCFF_economic": -24474.445297434526,
+      "Q4_remaining_FCFF_cash": -24350.695297434526,
+      "remaining_parent_dividends": 4209.310063899277,
+      "FCFF_midpoint_times_years": {
+        "2026_Q4_remaining": 0.09452054794520548,
+        "2027": 0.689041095890411,
+        "2028": 1.689041095890411,
+        "2029": 2.6890410958904107,
+        "2030": 3.6890410958904107,
+        "2031": 4.689041095890411
+      },
+      "FCFF_yearend_times_years": {
+        "2026_Q4_remaining": 0.18904109589041096,
+        "2027": 1.189041095890411,
+        "2028": 2.1890410958904107,
+        "2029": 3.1890410958904107,
+        "2030": 4.189041095890411,
+        "2031": 5.189041095890411
+      },
+      "operating_assets_minimum_cash_assumption": 0.05,
+      "minimum_operating_cash_sensitivity": 29756.822162637363,
+      "shares_million": 4627.25,
+      "FY2027_forward_EPS": 8.216750565063213,
+      "year3_2029_EPS": 10.215064382477465,
+      "NCI_warning": "FCFF consolidated. Deduct NCI economic value or isolate parent operating claims; do not both deduct book NCI and a percentage of enterprise value. Associates/non-operating assets excluded from FCFF; add only their attributable value once.",
+      "Q4_remaining_FCFF_after_optional_required_cash": -25074.49433479716,
+      "required_cash_consistency_warning": "If subtracting required operating cash from date-bridge cash, also use FCFF_after_optional_required_cash each future period. Do not mix definitions.",
+      "other_financial_assets_related_derivative_liability": 1646.355,
+      "excluded_debt_classification_sensitivity_long_payables": 1632.147
+    },
+    "base": {
+      "date": "2026-10-23",
+      "source_balance_date": "2026-09-30",
+      "elapsed_days": 23,
+      "quarter_days": 92,
+      "remaining_days": 69,
+      "accrual_assumption": "all modeled Q4 flows, including dividends/interest/capex, uniformly accrue; no observed October actual; amounts are estimates",
+      "elapsed_net_cash_change": 2300.204572552145,
+      "elapsed_parent_dividends": 2593.7939796330925,
+      "elapsed_minority_dividends": 156.18544393489591,
+      "monetary_funds_estimate": 372113.99057255214,
+      "CE_proxy_estimate": 335697.7755725521,
+      "unclassified_monetary_minus_CE_gap": 36416.215,
+      "explicit_debt_proxy": 189926.135,
+      "supplier_finance_H1_reference_proxy": 57764.224,
+      "net_cash_CE_less_explicit_debt": 145771.6405725521,
+      "net_cash_CE_less_explicit_debt_less_SF_proxy": 88007.4165725521,
+      "net_cash_SF_sensitivity": {
+        "0": 145771.6405725521,
+        "57764.224": 88007.4165725521,
+        "86646.33600000001": 59125.30457255209
+      },
+      "monetary_instead_of_CE_uplift_sensitivity": 36416.215,
+      "equity_method_asset_estimate": 73115.92807610959,
+      "other_financial_assets_book_proxy": 88382.902,
+      "minority_book_equity_estimate": 36570.054165902344,
+      "Q4_remaining_FCFF_economic": 13513.96350937889,
+      "Q4_remaining_FCFF_cash": 13656.46350937889,
+      "remaining_parent_dividends": 7781.381938899278,
+      "FCFF_midpoint_times_years": {
+        "2026_Q4_remaining": 0.09452054794520548,
+        "2027": 0.689041095890411,
+        "2028": 1.689041095890411,
+        "2029": 2.6890410958904107,
+        "2030": 3.6890410958904107,
+        "2031": 4.689041095890411
+      },
+      "FCFF_yearend_times_years": {
+        "2026_Q4_remaining": 0.18904109589041096,
+        "2027": 1.189041095890411,
+        "2028": 2.1890410958904107,
+        "2029": 3.1890410958904107,
+        "2030": 4.189041095890411,
+        "2031": 5.189041095890411
+      },
+      "operating_assets_minimum_cash_assumption": 0.05,
+      "minimum_operating_cash_sensitivity": 30069.322162637363,
+      "shares_million": 4627.25,
+      "FY2027_forward_EPS": 17.932339192947275,
+      "year3_2029_EPS": 24.33611512546785,
+      "NCI_warning": "FCFF consolidated. Deduct NCI economic value or isolate parent operating claims; do not both deduct book NCI and a percentage of enterprise value. Associates/non-operating assets excluded from FCFF; add only their attributable value once.",
+      "Q4_remaining_FCFF_after_optional_required_cash": 11976.414472016251,
+      "required_cash_consistency_warning": "If subtracting required operating cash from date-bridge cash, also use FCFF_after_optional_required_cash each future period. Do not mix definitions.",
+      "other_financial_assets_related_derivative_liability": 1646.355,
+      "excluded_debt_classification_sensitivity_long_payables": 1632.147
+    },
+    "bull": {
+      "date": "2026-10-23",
+      "source_balance_date": "2026-09-30",
+      "elapsed_days": 23,
+      "quarter_days": 92,
+      "remaining_days": 69,
+      "accrual_assumption": "all modeled Q4 flows, including dividends/interest/capex, uniformly accrue; no observed October actual; amounts are estimates",
+      "elapsed_net_cash_change": 13242.825988659148,
+      "elapsed_parent_dividends": 3710.869292133092,
+      "elapsed_minority_dividends": 223.45019393489588,
+      "monetary_funds_estimate": 383056.6119886592,
+      "CE_proxy_estimate": 346640.39698865917,
+      "unclassified_monetary_minus_CE_gap": 36416.215,
+      "explicit_debt_proxy": 189926.135,
+      "supplier_finance_H1_reference_proxy": 57764.224,
+      "net_cash_CE_less_explicit_debt": 156714.26198865916,
+      "net_cash_CE_less_explicit_debt_less_SF_proxy": 98950.03798865915,
+      "net_cash_SF_sensitivity": {
+        "0": 156714.26198865916,
+        "57764.224": 98950.03798865915,
+        "86646.33600000001": 70067.92598865915
+      },
+      "monetary_instead_of_CE_uplift_sensitivity": 36416.215,
+      "equity_method_asset_estimate": 73115.92807610959,
+      "other_financial_assets_book_proxy": 88382.902,
+      "minority_book_equity_estimate": 36670.95129090234,
+      "Q4_remaining_FCFF_economic": 49879.847945199916,
+      "Q4_remaining_FCFF_cash": 50037.347945199916,
+      "remaining_parent_dividends": 11132.607876399277,
+      "FCFF_midpoint_times_years": {
+        "2026_Q4_remaining": 0.09452054794520548,
+        "2027": 0.689041095890411,
+        "2028": 1.689041095890411,
+        "2029": 2.6890410958904107,
+        "2030": 3.6890410958904107,
+        "2031": 4.689041095890411
+      },
+      "FCFF_yearend_times_years": {
+        "2026_Q4_remaining": 0.18904109589041096,
+        "2027": 1.189041095890411,
+        "2028": 2.1890410958904107,
+        "2029": 3.1890410958904107,
+        "2030": 4.189041095890411,
+        "2031": 5.189041095890411
+      },
+      "operating_assets_minimum_cash_assumption": 0.05,
+      "minimum_operating_cash_sensitivity": 30319.322162637363,
+      "shares_million": 4627.25,
+      "FY2027_forward_EPS": 26.41177632256068,
+      "year3_2029_EPS": 38.199146860756535,
+      "NCI_warning": "FCFF consolidated. Deduct NCI economic value or isolate parent operating claims; do not both deduct book NCI and a percentage of enterprise value. Associates/non-operating assets excluded from FCFF; add only their attributable value once.",
+      "Q4_remaining_FCFF_after_optional_required_cash": 47592.29890783728,
+      "required_cash_consistency_warning": "If subtracting required operating cash from date-bridge cash, also use FCFF_after_optional_required_cash each future period. Do not mix definitions.",
+      "other_financial_assets_related_derivative_liability": 1646.355,
+      "excluded_debt_classification_sensitivity_long_payables": 1632.147
+    }
+  },
+  "drivers": [
+    {
+      "id": "D1",
+      "name": "同口径合并毛利率",
+      "source": "04 H2; H3第3/9行",
+      "bear": "x<21%",
+      "base": "21%<=x<25%",
+      "bull": "x>=25%",
+      "latest": {
+        "2026_H1": 0.23928393886707688,
+        "2026_Q3": 0.20687898798047555
+      },
+      "latest_bucket": "bear",
+      "latest_period": "2026_Q3",
+      "frequency": "每季；Q4/H1后另检查连续两季联合强确认",
+      "actual_source": "2026H1 p73–74; Q3 p9–10; quarter bridges",
+      "reason": "成本/税费/组合共同结果；24–25%过渡带归基准预警，不改变H2基准21–24强确认"
+    },
+    {
+      "id": "D2",
+      "name": "单季经营现金流/合并净利润",
+      "source": "04 H2; H3第8行上游代理",
+      "bear": "x<1.0",
+      "base": "1.0<=x<1.4",
+      "bull": "x>=1.4",
+      "latest": {
+        "2026_H1": 1.2803749547263212,
+        "2026_Q3": 0.06269572719910681
+      },
+      "latest_bucket": "bear",
+      "latest_period": "2026_Q3",
+      "frequency": "每季；H1目前仅半年累计作前期参照，不冒称Q2",
+      "actual_source": "2026H1 p73–78; Q3 p9–13; quarter bridges",
+      "reason": "周转/供应商支付/预付与其他现金调整代理；利润<=0时不可评分，须单列负利润风险"
+    },
+    {
+      "id": "D3",
+      "name": "净存货平均周转天数",
+      "source": "04 H2; H3第7行",
+      "bear": "x>120日",
+      "base": "90日<x<=120日",
+      "bull": "x<=90日",
+      "latest": {
+        "2026_H1": 96.81124744837398,
+        "2026_Q3": 96.7419889555507
+      },
+      "latest_bucket": "base",
+      "latest_period": "2026_Q3",
+      "frequency": "每季；平均期初期末净存货/同期间成本×天数",
+      "actual_source": "H1 p68–74; Q3 p5–10",
+      "reason": "110–120日过渡归基准预警；不把库存高低直接等同滞销或回款"
+    },
+    {
+      "id": "D4",
+      "name": "净应收账款平均周转天数",
+      "source": "04 H2; H3第6行",
+      "bear": "x>80日",
+      "base": "60日<x<=80日",
+      "bull": "x<=60日",
+      "latest": {
+        "2026_H1": 53.865763270657176,
+        "2026_Q3": 56.05323722955925
+      },
+      "latest_bucket": "bull",
+      "latest_period": "2026_Q3",
+      "frequency": "每季；平均净应收/同期间收入×天数",
+      "actual_source": "H1 p68–74; Q3 p5–10",
+      "reason": "75–80日过渡归基准预警；应收款项融资另入模型，不混入该AR指标"
+    },
+    {
+      "id": "D5",
+      "name": "FY2027全年收入同比",
+      "source": "04 H2; H3第1行",
+      "bear": "x<12%",
+      "base": "12%<=x<20%",
+      "bull": "x>=20%",
+      "latest": {
+        "2027_FY": null
+      },
+      "latest_bucket": "unscorable",
+      "latest_period": "2027_FY_not_due",
+      "frequency": "2027年报后；季度/2026高增长不可代替",
+      "actual_source": "未来2027年报；截止日无数据",
+      "reason": "8–12%及18–20%为过渡分箱；强确认仍按H2原条件，超过28%属于上行桶另查质量"
+    }
+  ],
+  "model_file": "forecast_model.json"
+}

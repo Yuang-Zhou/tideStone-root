@@ -1,0 +1,151 @@
+[
+  {
+    "file": "sne_2026_08.html",
+    "url": "https://www.sneresearch.com/en/insight/release_view/744/page/0?s_cat=%7C&s_keyword=",
+    "retrieved_utc": "2026-10-24T15:31:57.171141+00:00",
+    "bytes": 37763,
+    "sha256": "b8f07108ab281e2cecc7070b8f246311ca2a43fac8f2c01491073067a732072f",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "calb_2025.pdf",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042900020_c.pdf",
+    "retrieved_utc": "2026-10-24T15:31:58.053213+00:00",
+    "bytes": 3612844,
+    "sha256": "0015ab1e89c850d48edbc36920130bc67ef2119d6e27db78337b90be1fe0e240",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "eve_2025.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045391.PDF",
+    "retrieved_utc": "2026-10-24T15:31:58.223935+00:00",
+    "bytes": 5815598,
+    "sha256": "3bee0ca9a6232c60c53f195d078446a45fd4941bd997258b474cebe835eea3b8",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "eve_2026h1.pdf",
+    "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-08-20/65c64f9e-abde-4f3f-af3e-3239b8975341.PDF",
+    "retrieved_utc": "2026-10-24T15:31:58.719027+00:00",
+    "bytes": 5013054,
+    "sha256": "e7c873e533141ede8bb9ebff7ac1285484b78fcd4fedd13f12778ebb420c1a7d",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "byd_2025.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225045351.PDF",
+    "retrieved_utc": "2026-10-24T15:31:58.950495+00:00",
+    "bytes": 7533972,
+    "sha256": "710d8b2e08e37ba521f1c4071d2c3e2369d3cadabc21a45073215d9f72138b0b",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "sdi_2025.pdf",
+    "url": "https://www.samsungsdi.com/upload/download/ir/2025.4Q_IR_Final_En.pdf",
+    "retrieved_utc": "2026-10-24T15:31:57.429848+00:00",
+    "bytes": 1130038,
+    "sha256": "c0c677d64b464825eeb44dff9887a024eb45036e3178fcf68156de0cd26cfbc1",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "lges_2025.html",
+    "url": "https://kind.krx.co.kr/external/2026/02/13/001136/20260213002784/00591.htm",
+    "retrieved_utc": "2026-10-24T15:31:56.721633+00:00",
+    "bytes": 210698,
+    "sha256": "f8a3d56da9f4b5670b63b151b8b0166fff8def4515740d79785a05ed51bf2e7e",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "lges_2026q2.html",
+    "url": "https://lgcorp.com/media/release/30412",
+    "retrieved_utc": "2026-10-24T15:31:56.465918+00:00",
+    "bytes": 31117,
+    "sha256": "96f8b92a0296375926f4e0990177daffd5283aef33ddb9f8b46bc5bf6bec998c",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "iea_2026_battery.html",
+    "url": "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
+    "retrieved_utc": "2026-10-24T15:31:59.905621+00:00",
+    "bytes": 364814,
+    "sha256": "13d057668ab1deaee20b3b2744fe1671923ed1a251252fc1d060db8f20548d20",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "infolink_2026h1.html",
+    "url": "https://www.infolink-group.com/energy-article/cn/energy-storage-topic-global-battery-shipment-ranking-1H26",
+    "retrieved_utc": "2026-10-24T15:32:00.148280+00:00",
+    "bytes": 90626,
+    "sha256": "486f65ce92a47a862f4cbe16a38f94d099af61b8ba808f34af94bbca8488f336",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "bmw_solid.html",
+    "url": "https://www.press.bmwgroup.com/global/article/detail/T0453689EN/bmw-group-and-solid-power-take-next-step-in-assb-development-path%3A-new-partner-samsung-sdi-joins-the-effort?language=en",
+    "retrieved_utc": "2026-10-24T15:31:59.792971+00:00",
+    "bytes": 64388,
+    "sha256": "39ce84d6c1a0812915c8ceafb7dcf951497bfe168d308b19bdac5fe5a419784a",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "iea_flexibility.html",
+    "url": "https://www.iea.org/reports/electricity-2026/flexibility",
+    "retrieved_utc": "2026-10-24T15:31:59.924663+00:00",
+    "bytes": 279431,
+    "sha256": "23fd823a67127b2fdf3d4c36c2240d27f1c1c77f4f43f1aa20227b185e891eb6",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "byd_about.html",
+    "url": "https://www.byd.com/en/about-byd",
+    "retrieved_utc": "2026-10-24T15:31:59.863932+00:00",
+    "bytes": 61633,
+    "sha256": "16a67581276f19d397d40a18311efb0c61e22a589aec70531530609d53c06bb2",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "lges_mercedes.html",
+    "url": "https://www.lg.com/global/newsroom/news/corporate/lg-and-mercedes-benz-discuss-expanding-one-lg-solution-collaboration/",
+    "retrieved_utc": "2026-10-24T15:32:01.855205+00:00",
+    "bytes": 274532,
+    "sha256": "2ccf383d7db47c56ee49327b03618e2693c4a2ad56d231e31d8bbf3b8c26aed8",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "catl_bmw.html",
+    "url": "https://www.catl.com/en/news/1016.html",
+    "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '35', 'https://www.catl.com/en/news/1016.html', '-o', '/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A3/catl_bmw.html']' returned non-zero exit status 56."
+  },
+  {
+    "file": "sdi_2026q2.html",
+    "url": "https://www.samsungsdi.co.kr/sdi-now/sdi-news/4941.html",
+    "retrieved_utc": "2026-10-24T15:32:02.531907+00:00",
+    "bytes": 119842,
+    "sha256": "58405000eeb683e70f4d00aeb72a52772ddc36d1c730373af92f835a5594fef8",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "cnevpost_2025.html",
+    "url": "https://cnevpost.com/2026/02/04/global-ev-battery-market-share-2025/",
+    "retrieved_utc": "2026-10-24T15:36:02.706783+00:00",
+    "bytes": 330036,
+    "sha256": "45201f58aaad74af0c9894f0954ff719bd46376602d2ae7b4c028e372708b140",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "infolink_2025.html",
+    "url": "https://www.infolink-group.com/latest-event/global_energy_Storage_surges_61_in_2025_infolink_forecasts_350_gwh_installation",
+    "retrieved_utc": "2026-10-24T15:36:03.181364+00:00",
+    "bytes": 71299,
+    "sha256": "29799bddd01c13f35e76ee9fd3b81e15424087e82ff9d9f89c624d13bb2f524a",
+    "transport": "curl TLS verification enabled"
+  },
+  {
+    "file": "iea_es_types.html",
+    "url": "https://iea-es.org/electrical-storage/",
+    "retrieved_utc": "2026-10-24T15:36:02.565648+00:00",
+    "bytes": 49332,
+    "sha256": "8b4b2cd8b3860cc825948184562695564e752e5cff242278471720df6e2a7809",
+    "transport": "curl TLS verification enabled"
+  }
+]

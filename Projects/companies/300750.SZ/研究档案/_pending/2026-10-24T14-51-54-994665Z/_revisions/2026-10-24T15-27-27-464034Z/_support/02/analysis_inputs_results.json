@@ -1,0 +1,5661 @@
+{
+  "as_of": "2026-10-24",
+  "fetched_at": "2026-10-24",
+  "currency": "CNY",
+  "unit": "million",
+  "ttm_end": "2026-09-30",
+  "source_schema": "local CAS finite extraction; no EDGAR capabilities advertised",
+  "capabilities": [
+    "acquisitions",
+    "admin",
+    "ap",
+    "bonds_payable",
+    "borrowing_proceeds",
+    "buyback",
+    "cash_paid_for_long_lived_assets",
+    "construction",
+    "contract_liabilities",
+    "cost_of_sales",
+    "current_assets",
+    "current_liabilities",
+    "current_portion_of_noncurrent_liabilities",
+    "da",
+    "debt_proxy",
+    "debt_repaid",
+    "deferred_amortization",
+    "depreciation",
+    "dta",
+    "employee_liabilities",
+    "ending_cash_equivalents",
+    "fcf",
+    "finance_cost",
+    "financing_cash_flow",
+    "financing_inflows",
+    "financing_outflows",
+    "fx_effect_on_cash",
+    "goodwill",
+    "income_tax_expense",
+    "intang_amortization",
+    "intangibles",
+    "interest_expensed",
+    "interest_income",
+    "inventories",
+    "investing_cash_flow",
+    "investing_inflows",
+    "investing_outflows",
+    "lease_noncurrent",
+    "long_term_borrowings",
+    "minority_equity",
+    "monetary_funds",
+    "net_adj",
+    "net_cash_conservative",
+    "net_change_in_cash",
+    "net_debt_repay",
+    "net_profit",
+    "net_profit_minority",
+    "net_profit_parent",
+    "noncurrent_assets",
+    "noncurrent_liabilities",
+    "notes_payable",
+    "notes_receivable",
+    "op_adj",
+    "opening_cash_equivalents",
+    "operating_cash_flow",
+    "operating_inflows",
+    "operating_nonrec",
+    "operating_outflows",
+    "operating_profit",
+    "other_income",
+    "parent_adj",
+    "parent_equity",
+    "ppe_net",
+    "prepayments",
+    "profit_before_tax",
+    "provisions",
+    "receivables_financing",
+    "research_and_development_expenses",
+    "restricted_cash",
+    "revenue",
+    "rou",
+    "rou_depreciation",
+    "sbc",
+    "selling_expenses",
+    "shares_outstanding",
+    "short_term_borrowings",
+    "supplier_finance",
+    "tangible_equity",
+    "total_assets",
+    "total_equity",
+    "total_liabilities",
+    "trade_receivables",
+    "trading_assets"
+  ],
+  "suspect_metrics": [
+    "2023_basic_eps"
+  ],
+  "data": {
+    "2021": {
+      "revenue": 130355.7964,
+      "net_profit_parent": 15931.3179,
+      "parent_adj": 13442.3643,
+      "operating_cash_flow": 42908.0087,
+      "total_assets": 307666.8609,
+      "parent_equity": 84513.2713,
+      "monetary_funds": 89071.88970000001,
+      "trading_assets": 1363.9729000000002,
+      "trade_receivables": 23753.548199999997,
+      "notes_receivable": 1463.828,
+      "receivables_financing": 6486.3808,
+      "prepayments": 6466.439300000001,
+      "inventories": 40199.6919,
+      "ppe_net": 41275.3333,
+      "construction": 30998.1595,
+      "rou": 678.6253,
+      "intangibles": 4479.606400000001,
+      "goodwill": 527.8507,
+      "dta": 5542.5544,
+      "ap": 48784.2863,
+      "notes_payable": 58405.7513,
+      "contract_liabilities": 11537.9153,
+      "employee_liabilities": 5122.7878,
+      "lease_noncurrent": 395.30400000000003,
+      "provisions": 9953.762700000001,
+      "shares_outstanding": 2330.8512,
+      "short_term_borrowings": 12123.0569,
+      "long_term_borrowings": 22119.0788,
+      "bonds_payable": 15855.052,
+      "current_portion_of_noncurrent_liabilities": 3548.5328000000004,
+      "total_equity": 92622.1745,
+      "current_assets": 177734.93870000003,
+      "current_liabilities": 149344.8326,
+      "cost_of_sales": 96093.72230000001,
+      "admin": 3368.9371,
+      "selling_expenses": 4367.8694000000005,
+      "research_and_development_expenses": 7691.4276,
+      "finance_cost": -641.2,
+      "interest_expensed": 1161.1004,
+      "other_income": 1673.4541000000002,
+      "operating_profit": 19823.729199999998,
+      "income_tax_expense": 2026.399,
+      "net_profit": 17860.7301,
+      "profit_before_tax": 19887.1291,
+      "borrowing_proceeds": 26276.5825,
+      "debt_repaid": 5457.9079,
+      "acquisitions": 295.8003,
+      "cash_paid_for_long_lived_assets": 43767.7708,
+      "ending_cash_equivalents": 75505.7352,
+      "depreciation": 5847.138199999999,
+      "rou_depreciation": 90.03020000000001,
+      "intang_amortization": 159.20260000000002,
+      "deferred_amortization": 340.25309999999996,
+      "sbc": 286.7502,
+      "buyback": 45.7064,
+      "da": 6436.624099999999,
+      "fcf": -859.7620999999999,
+      "tangible_equity": 87614.7174,
+      "debt_proxy": 54041.02449999999,
+      "net_cash_conservative": 21464.710700000003,
+      "net_debt_repay": -24025.746
+    },
+    "2022": {
+      "monetary_funds": 191043.4095,
+      "trade_receivables": 57966.5169,
+      "inventories": 76668.8988,
+      "current_assets": 387734.857,
+      "noncurrent_assets": 213217.4949,
+      "total_assets": 600952.3519,
+      "short_term_borrowings": 14415.4025,
+      "long_term_borrowings": 59099.3584,
+      "bonds_payable": 19177.8886,
+      "current_portion_of_noncurrent_liabilities": 7232.2244,
+      "current_liabilities": 295761.4193,
+      "noncurrent_liabilities": 128281.7706,
+      "total_liabilities": 424043.1899,
+      "parent_equity": 164481.2516,
+      "minority_equity": 12427.9104,
+      "total_equity": 176909.162,
+      "revenue": 328593.9875,
+      "cost_of_sales": 262049.6092,
+      "selling_expenses": 11099.4012,
+      "research_and_development_expenses": 15510.4535,
+      "operating_profit": 36821.9831,
+      "profit_before_tax": 36672.8562,
+      "income_tax_expense": 3215.7127,
+      "net_profit": 33457.1435,
+      "net_profit_parent": 30729.1635,
+      "net_profit_minority": 2727.9801,
+      "operating_inflows": 329811.1528,
+      "operating_outflows": 268602.3096,
+      "operating_cash_flow": 61208.8433,
+      "investing_inflows": 3580.2699,
+      "investing_outflows": 67720.1112,
+      "investing_cash_flow": -64139.8413,
+      "cash_paid_for_long_lived_assets": 48215.2681,
+      "financing_inflows": 103621.1115,
+      "financing_outflows": 21354.6804,
+      "financing_cash_flow": 82266.4312,
+      "fx_effect_on_cash": 2788.1489,
+      "net_change_in_cash": 82123.582,
+      "opening_cash_equivalents": 75505.7352,
+      "ending_cash_equivalents": 157629.3172,
+      "trading_assets": 1981.3281,
+      "notes_receivable": 3526.0837,
+      "receivables_financing": 18965.7146,
+      "prepayments": 15843.2844,
+      "ppe_net": 89070.8347,
+      "construction": 35397.6506,
+      "rou": 849.134,
+      "intangibles": 9539.9632,
+      "goodwill": 704.0652,
+      "dta": 9483.6604,
+      "ap": 94534.976,
+      "notes_payable": 126229.4682,
+      "contract_liabilities": 22444.7853,
+      "employee_liabilities": 9476.018399999999,
+      "lease_noncurrent": 572.3502,
+      "provisions": 19697.3746,
+      "shares_outstanding": 2442.5145,
+      "admin": 6978.6694,
+      "finance_cost": -2799.9858000000004,
+      "interest_expensed": 2132.3754,
+      "interest_income": 3987.3652,
+      "other_income": 3037.3448,
+      "depreciation": 11960.5786,
+      "rou_depreciation": 161.3836,
+      "intang_amortization": 236.4496,
+      "deferred_amortization": 894.1292,
+      "borrowing_proceeds": 50957.7266,
+      "debt_repaid": 17605.770500000002,
+      "parent_adj": 28213.0982,
+      "buyback": 85.6257,
+      "da": 13252.541,
+      "fcf": 12993.5752,
+      "tangible_equity": 166665.1336,
+      "debt_proxy": 100497.2241,
+      "net_cash_conservative": 57132.093099999984,
+      "net_debt_repay": -38351.956099999996
+    },
+    "2023": {
+      "monetary_funds": 264306.515,
+      "trade_receivables": 64020.533,
+      "inventories": 45433.89,
+      "current_assets": 449788.002,
+      "noncurrent_assets": 267380.039,
+      "total_assets": 717168.041,
+      "short_term_borrowings": 15181.012,
+      "long_term_borrowings": 83448.982,
+      "bonds_payable": 19237.014,
+      "current_portion_of_noncurrent_liabilities": 7008.874,
+      "current_liabilities": 287001.069,
+      "noncurrent_liabilities": 210283.821,
+      "total_liabilities": 497284.89,
+      "parent_equity": 197708.052,
+      "minority_equity": 22175.098,
+      "total_equity": 219883.151,
+      "revenue": 400917.045,
+      "cost_of_sales": 323982.13,
+      "selling_expenses": 3042.744,
+      "research_and_development_expenses": 18356.108,
+      "operating_profit": 53718.302,
+      "profit_before_tax": 53914.053,
+      "income_tax_expense": 7153.019,
+      "net_profit": 46761.034,
+      "net_profit_parent": 44121.248,
+      "net_profit_minority": 2639.786,
+      "operating_inflows": 446407.497,
+      "operating_outflows": 353581.373,
+      "operating_cash_flow": 92826.124,
+      "investing_inflows": 10618.51,
+      "investing_outflows": 39806.275,
+      "investing_cash_flow": -29187.764,
+      "cash_paid_for_long_lived_assets": 33624.897,
+      "financing_inflows": 50286.501,
+      "financing_outflows": 35570.138,
+      "financing_cash_flow": 14716.363,
+      "fx_effect_on_cash": 2181.447,
+      "net_change_in_cash": 80536.17,
+      "opening_cash_equivalents": 157629.317,
+      "ending_cash_equivalents": 238165.487,
+      "trading_assets": 7.767,
+      "notes_receivable": 1751.7250000000001,
+      "receivables_financing": 55289.319,
+      "prepayments": 6962.8730000000005,
+      "ppe_net": 115387.96,
+      "construction": 25011.907,
+      "rou": 377.934,
+      "intangibles": 15675.876,
+      "goodwill": 707.8820000000001,
+      "dta": 17395.585,
+      "ap": 117038.774,
+      "notes_payable": 77514.941,
+      "contract_liabilities": 23982.352,
+      "employee_liabilities": 14846.251,
+      "lease_noncurrent": 283.296,
+      "provisions": 51638.913,
+      "shares_outstanding": 4399.041,
+      "admin": 8461.824,
+      "finance_cost": -4927.697,
+      "interest_expensed": 3446.516,
+      "interest_income": 8321.802,
+      "other_income": 6267.388,
+      "depreciation": 21098.131,
+      "rou_depreciation": 117.593,
+      "intang_amortization": 330.992,
+      "deferred_amortization": 1099.266,
+      "borrowing_proceeds": 46595.746,
+      "debt_repaid": 23795.322,
+      "acquisitions": 321.445,
+      "parent_adj": 40091.674,
+      "sbc": 676.7224,
+      "buyback": 1823.1055,
+      "operating_nonrec": 5808.514,
+      "net_adj": 41950.796,
+      "da": 22645.982,
+      "fcf": 59201.227,
+      "op_adj": 47909.788,
+      "tangible_equity": 203499.393,
+      "debt_proxy": 125159.178,
+      "net_cash_conservative": 113006.309,
+      "net_debt_repay": -22800.424
+    },
+    "2024": {
+      "monetary_funds": 303511.993,
+      "trade_receivables": 64135.51,
+      "inventories": 59835.533,
+      "current_assets": 510142.089,
+      "noncurrent_assets": 276516.035,
+      "total_assets": 786658.123,
+      "short_term_borrowings": 19696.282,
+      "long_term_borrowings": 81238.456,
+      "bonds_payable": 11922.623,
+      "current_portion_of_noncurrent_liabilities": 22881.417,
+      "current_liabilities": 317171.534,
+      "noncurrent_liabilities": 196030.416,
+      "total_liabilities": 513201.949,
+      "parent_equity": 246930.033,
+      "minority_equity": 26526.141,
+      "total_equity": 273456.174,
+      "revenue": 362012.554,
+      "cost_of_sales": 273518.959,
+      "selling_expenses": 3562.797,
+      "research_and_development_expenses": 18606.756,
+      "operating_profit": 64051.799,
+      "profit_before_tax": 63182.039,
+      "income_tax_expense": 9175.245,
+      "net_profit": 54006.794,
+      "net_profit_parent": 50744.682,
+      "net_profit_minority": 3262.113,
+      "operating_inflows": 444879.417,
+      "operating_outflows": 347889.072,
+      "operating_cash_flow": 96990.345,
+      "investing_inflows": 4906.012,
+      "investing_outflows": 53781.323,
+      "investing_cash_flow": -48875.311,
+      "cash_paid_for_long_lived_assets": 31179.943,
+      "financing_inflows": 33392.735,
+      "financing_outflows": 47916.971,
+      "financing_cash_flow": -14524.236,
+      "fx_effect_on_cash": -1596.552,
+      "net_change_in_cash": 31994.247,
+      "opening_cash_equivalents": 238165.487,
+      "ending_cash_equivalents": 270159.734,
+      "trading_assets": 14282.253,
+      "notes_receivable": 130.403,
+      "receivables_financing": 53309.701,
+      "prepayments": 5969.685,
+      "ppe_net": 112589.053,
+      "construction": 29754.703,
+      "rou": 889.995,
+      "intangibles": 14419.804,
+      "goodwill": 894.7570000000001,
+      "dta": 24118.834,
+      "ap": 130977.408,
+      "notes_payable": 67356.323,
+      "contract_liabilities": 27834.446,
+      "employee_liabilities": 18653.079,
+      "lease_noncurrent": 662.814,
+      "provisions": 71926.943,
+      "shares_outstanding": 4403.466,
+      "admin": 9689.839,
+      "finance_cost": -4131.918,
+      "interest_expensed": 3879.076,
+      "interest_income": 9502.997,
+      "other_income": 9967.630000000001,
+      "depreciation": 22437.872,
+      "rou_depreciation": 239.273,
+      "intang_amortization": 470.401,
+      "deferred_amortization": 1790.382,
+      "borrowing_proceeds": 30540.129,
+      "debt_repaid": 19972.24,
+      "acquisitions": 244.022,
+      "parent_adj": 44992.919,
+      "sbc": 688.995,
+      "buyback": 1209.018,
+      "operating_nonrec": 8529.408,
+      "net_adj": 47140.39,
+      "restricted_cash": 23339.555,
+      "supplier_finance": 44362.409,
+      "da": 24937.928000000004,
+      "fcf": 65810.402,
+      "op_adj": 55522.391,
+      "tangible_equity": 258141.613,
+      "debt_proxy": 136346.553,
+      "net_cash_conservative": 133813.18099999998,
+      "net_debt_repay": -10567.889
+    },
+    "2025": {
+      "monetary_funds": 333512.927,
+      "trade_receivables": 76403.264,
+      "inventories": 94526.239,
+      "current_assets": 638481.543,
+      "noncurrent_assets": 336346.001,
+      "total_assets": 974827.544,
+      "short_term_borrowings": 12935.498,
+      "long_term_borrowings": 78234.935,
+      "bonds_payable": 3443.434,
+      "current_portion_of_noncurrent_liabilities": 22237.54,
+      "current_liabilities": 399625.988,
+      "noncurrent_liabilities": 204175.232,
+      "total_liabilities": 603801.22,
+      "parent_equity": 337107.747,
+      "minority_equity": 33918.577,
+      "total_equity": 371026.324,
+      "revenue": 423701.834,
+      "cost_of_sales": 312383.297,
+      "selling_expenses": 3735.118,
+      "research_and_development_expenses": 22146.581,
+      "operating_profit": 89518.636,
+      "profit_before_tax": 89526.545,
+      "income_tax_expense": 12740.236,
+      "net_profit": 76786.309,
+      "net_profit_parent": 72201.282,
+      "net_profit_minority": 4585.027,
+      "operating_inflows": 511868.353,
+      "operating_outflows": 378648.372,
+      "operating_cash_flow": 133219.982,
+      "investing_inflows": 8303.785,
+      "investing_outflows": 102779.575,
+      "investing_cash_flow": -94475.79,
+      "cash_paid_for_long_lived_assets": 42344.558,
+      "financing_inflows": 85607.537,
+      "financing_outflows": 91917.08,
+      "financing_cash_flow": -6309.543,
+      "fx_effect_on_cash": -2664.64,
+      "net_change_in_cash": 29770.008,
+      "opening_cash_equivalents": 270159.734,
+      "ending_cash_equivalents": 299929.741,
+      "trading_assets": 58993.528,
+      "notes_receivable": 1380.016,
+      "receivables_financing": 43205.292,
+      "prepayments": 14282.335000000001,
+      "ppe_net": 146400.592,
+      "construction": 29733.108,
+      "rou": 3268.966,
+      "intangibles": 15263.875,
+      "goodwill": 837.328,
+      "dta": 28170.283,
+      "ap": 160328.962,
+      "notes_payable": 103276.999,
+      "contract_liabilities": 49233.377,
+      "employee_liabilities": 23110.912,
+      "lease_noncurrent": 2805.081,
+      "provisions": 85324.35800000001,
+      "shares_outstanding": 4563.803,
+      "admin": 11666.741,
+      "finance_cost": -7939.863,
+      "interest_expensed": 2734.0170000000003,
+      "interest_income": 10594.657000000001,
+      "other_income": 10600.477,
+      "depreciation": 24322.78,
+      "rou_depreciation": 337.367,
+      "intang_amortization": 512.0,
+      "deferred_amortization": 1764.508,
+      "borrowing_proceeds": 39790.079,
+      "debt_repaid": 51702.039000000004,
+      "acquisitions": 2053.675,
+      "parent_adj": 64507.864,
+      "sbc": -82.524,
+      "buyback": 4413.337,
+      "operating_nonrec": 10883.724,
+      "net_adj": 67912.208,
+      "restricted_cash": 18890.217,
+      "supplier_finance": 37222.781,
+      "da": 26936.655,
+      "fcf": 90875.424,
+      "op_adj": 78634.912,
+      "tangible_equity": 354925.12100000004,
+      "debt_proxy": 119601.19699999999,
+      "net_cash_conservative": 180328.544,
+      "net_debt_repay": 11911.960000000006
+    },
+    "2026_9M": {
+      "monetary_funds": 369813.786,
+      "trade_receivables": 112911.65,
+      "inventories": 144769.537,
+      "current_assets": 767131.309,
+      "noncurrent_assets": 416042.258,
+      "total_assets": 1183173.567,
+      "short_term_borrowings": 39897.579,
+      "long_term_borrowings": 76354.823,
+      "bonds_payable": 52737.747,
+      "current_portion_of_noncurrent_liabilities": 16871.1,
+      "current_liabilities": 489179.703,
+      "noncurrent_liabilities": 270777.098,
+      "total_liabilities": 759956.8,
+      "parent_equity": 386880.99,
+      "minority_equity": 36335.776,
+      "total_equity": 423216.766,
+      "revenue": 442137.424,
+      "cost_of_sales": 341695.013,
+      "selling_expenses": 3371.025,
+      "research_and_development_expenses": 18516.986,
+      "operating_profit": 80933.059,
+      "profit_before_tax": 81028.004,
+      "income_tax_expense": 11529.551,
+      "net_profit": 69498.453,
+      "net_profit_parent": 64530.063,
+      "net_profit_minority": 4968.389,
+      "operating_inflows": 428766.629,
+      "operating_outflows": 367141.142,
+      "operating_cash_flow": 61625.487,
+      "investing_inflows": 24000.33,
+      "investing_outflows": 81426.154,
+      "investing_cash_flow": -57425.825,
+      "cash_paid_for_long_lived_assets": 42167.472,
+      "financing_inflows": 120673.827,
+      "financing_outflows": 85433.875,
+      "financing_cash_flow": 35239.952,
+      "fx_effect_on_cash": -5971.785,
+      "net_change_in_cash": 33467.829,
+      "opening_cash_equivalents": 299929.741,
+      "ending_cash_equivalents": 333397.571,
+      "trading_assets": 62779.978,
+      "notes_receivable": 464.25,
+      "receivables_financing": 25783.555,
+      "prepayments": 26460.002,
+      "ppe_net": 184125.94700000001,
+      "construction": 43032.402,
+      "rou": 4700.8640000000005,
+      "intangibles": 16131.683,
+      "goodwill": 819.488,
+      "dta": 33309.42,
+      "ap": 180441.683,
+      "notes_payable": 152929.878,
+      "contract_liabilities": 40668.908,
+      "employee_liabilities": 24512.322,
+      "lease_noncurrent": 4064.886,
+      "provisions": 104110.971,
+      "shares_outstanding": 4627.25,
+      "admin": 9315.309,
+      "finance_cost": -1446.905,
+      "interest_expensed": 2528.779,
+      "interest_income": 7412.521,
+      "other_income": 6388.126,
+      "borrowing_proceeds": 33548.328,
+      "debt_repaid": 36222.703,
+      "acquisitions": 199.887,
+      "parent_adj": 57875.782,
+      "fcf": 19458.015,
+      "tangible_equity": 406265.595,
+      "debt_proxy": 189926.135,
+      "net_cash_conservative": 143471.436,
+      "net_debt_repay": -47310.305
+    },
+    "2025_9M": {
+      "revenue": 283071.987,
+      "cost_of_sales": 211427.147,
+      "selling_expenses": 2408.522,
+      "research_and_development_expenses": 15067.826,
+      "operating_profit": 60552.312,
+      "profit_before_tax": 60712.402,
+      "income_tax_expense": 8415.535,
+      "net_profit": 52296.866,
+      "net_profit_parent": 49034.109,
+      "net_profit_minority": 3262.757,
+      "operating_inflows": 363056.644,
+      "operating_outflows": 282396.214,
+      "operating_cash_flow": 80660.43,
+      "investing_inflows": 6501.309,
+      "investing_outflows": 63792.799,
+      "investing_cash_flow": -57291.49,
+      "cash_paid_for_long_lived_assets": 30087.78,
+      "financing_inflows": 74995.566,
+      "financing_outflows": 70719.026,
+      "financing_cash_flow": 4276.539,
+      "fx_effect_on_cash": -621.254,
+      "net_change_in_cash": 27024.225,
+      "opening_cash_equivalents": 270159.734,
+      "ending_cash_equivalents": 297183.959,
+      "admin": 8231.715,
+      "finance_cost": -7015.786,
+      "interest_expensed": 2183.477,
+      "interest_income": 8060.682,
+      "other_income": 7693.237,
+      "borrowing_proceeds": 30597.681,
+      "debt_repaid": 32237.114,
+      "acquisitions": 2045.2730000000001,
+      "parent_adj": 43619.225000000006,
+      "fcf": 50572.649999999994,
+      "net_debt_repay": 1639.433000000001
+    },
+    "2025_bal": {
+      "trading_assets": 58993.528,
+      "notes_receivable": 1380.016,
+      "receivables_financing": 43205.292,
+      "prepayments": 14282.335000000001,
+      "ppe_net": 146400.592,
+      "construction": 29733.108,
+      "rou": 3268.966,
+      "intangibles": 15263.875,
+      "goodwill": 837.328,
+      "dta": 28170.283,
+      "ap": 160328.962,
+      "notes_payable": 103276.999,
+      "contract_liabilities": 49233.377,
+      "employee_liabilities": 23110.912,
+      "lease_noncurrent": 2805.081,
+      "provisions": 85324.35800000001,
+      "shares_outstanding": 4563.803
+    },
+    "2020": {
+      "revenue": 50319.4877,
+      "cost_of_sales": 36349.1536,
+      "admin": 1768.1152,
+      "selling_expenses": 2216.7095000000004,
+      "research_and_development_expenses": 3569.3777000000005,
+      "finance_cost": -712.6424000000001,
+      "interest_expensed": 640.4343,
+      "other_income": 1135.9404,
+      "operating_profit": 6959.4896,
+      "income_tax_expense": 878.6354,
+      "net_profit": 6103.918100000001
+    },
+    "TTM": {
+      "parent_adj": 78764.421,
+      "revenue": 582767.271,
+      "cost_of_sales": 442651.16300000006,
+      "selling_expenses": 4697.621,
+      "admin": 12750.335,
+      "research_and_development_expenses": 25595.740999999995,
+      "finance_cost": -2370.982,
+      "interest_expensed": 3079.3190000000004,
+      "interest_income": 9946.496,
+      "operating_profit": 109899.383,
+      "profit_before_tax": 109842.147,
+      "income_tax_expense": 15854.252,
+      "net_profit": 93987.89599999998,
+      "net_profit_parent": 87697.236,
+      "operating_cash_flow": 114185.03899999999,
+      "cash_paid_for_long_lived_assets": 54424.25,
+      "fcf": 59760.789000000004
+    }
+  },
+  "records": [
+    {
+      "year": "2022",
+      "field": "monetary_funds",
+      "value_million": 191043.4095,
+      "source": "annual_2023",
+      "page": 115,
+      "column": "comparative",
+      "excerpt": "货币资金 26,430,651.47 19,104,340.95"
+    },
+    {
+      "year": "2022",
+      "field": "trade_receivables",
+      "value_million": 57966.5169,
+      "source": "annual_2023",
+      "page": 115,
+      "column": "comparative",
+      "excerpt": "应收账款 6,402,053.34 5,796,651.69"
+    },
+    {
+      "year": "2022",
+      "field": "inventories",
+      "value_million": 76668.8988,
+      "source": "annual_2023",
+      "page": 115,
+      "column": "comparative",
+      "excerpt": "存货 4,543,389.01 7,666,889.88"
+    },
+    {
+      "year": "2022",
+      "field": "current_assets",
+      "value_million": 387734.857,
+      "source": "annual_2023",
+      "page": 115,
+      "column": "comparative",
+      "excerpt": "流动资产合计 44,978,800.17 38,773,485.70"
+    },
+    {
+      "year": "2022",
+      "field": "noncurrent_assets",
+      "value_million": 213217.4949,
+      "source": "annual_2023",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "非流动资产合计 26,738,003.94 21,321,749.49"
+    },
+    {
+      "year": "2022",
+      "field": "total_assets",
+      "value_million": 600952.3519,
+      "source": "annual_2023",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "资产总计 71,716,804.11 60,095,235.19"
+    },
+    {
+      "year": "2022",
+      "field": "short_term_borrowings",
+      "value_million": 14415.4025,
+      "source": "annual_2023",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "短期借款 1,518,101.21 1,441,540.25"
+    },
+    {
+      "year": "2022",
+      "field": "long_term_borrowings",
+      "value_million": 59099.3584,
+      "source": "annual_2023",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "长期借款 8,344,898.17 5,909,935.84"
+    },
+    {
+      "year": "2022",
+      "field": "bonds_payable",
+      "value_million": 19177.8886,
+      "source": "annual_2023",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "应付债券 1,923,701.44 1,917,788.86"
+    },
+    {
+      "year": "2022",
+      "field": "current_portion_of_noncurrent_liabilities",
+      "value_million": 7232.2244,
+      "source": "annual_2023",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "一年内到期的非流动负债 700,887.42 723,222.44"
+    },
+    {
+      "year": "2022",
+      "field": "current_liabilities",
+      "value_million": 295761.4193,
+      "source": "annual_2023",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "流动负债合计 28,700,106.91 29,576,141.93"
+    },
+    {
+      "year": "2022",
+      "field": "noncurrent_liabilities",
+      "value_million": 128281.7706,
+      "source": "annual_2023",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "非流动负债合计 21,028,382.14 12,828,177.06"
+    },
+    {
+      "year": "2022",
+      "field": "total_liabilities",
+      "value_million": 424043.1899,
+      "source": "annual_2023",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "负债合计 49,728,489.05 42,404,318.99"
+    },
+    {
+      "year": "2022",
+      "field": "parent_equity",
+      "value_million": 164481.2516,
+      "source": "annual_2023",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "归属于母公司所有者权益合计 19,770,805.24 16,448,125.16"
+    },
+    {
+      "year": "2022",
+      "field": "minority_equity",
+      "value_million": 12427.9104,
+      "source": "annual_2023",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "少数股东权益 2,217,509.82 1,242,791.04"
+    },
+    {
+      "year": "2022",
+      "field": "total_equity",
+      "value_million": 176909.162,
+      "source": "annual_2023",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "所有者权益合计 21,988,315.06 17,690,916.20"
+    },
+    {
+      "year": "2022",
+      "field": "revenue",
+      "value_million": 328593.9875,
+      "source": "annual_2023",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "其中：营业收入 40,091,704.49 32,859,398.75"
+    },
+    {
+      "year": "2022",
+      "field": "cost_of_sales",
+      "value_million": 262049.6092,
+      "source": "annual_2023",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "其中：营业成本 30,907,043.40 26,204,960.92"
+    },
+    {
+      "year": "2022",
+      "field": "selling_expenses",
+      "value_million": 11099.4012,
+      "source": "annual_2023",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "销售费用 1,795,444.05 1,109,940.12"
+    },
+    {
+      "year": "2022",
+      "field": "research_and_development_expenses",
+      "value_million": 15510.4535,
+      "source": "annual_2023",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "研发费用 1,835,610.84 1,551,045.35"
+    },
+    {
+      "year": "2022",
+      "field": "operating_profit",
+      "value_million": 36821.9831,
+      "source": "annual_2023",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "三、营业利润（亏损以“－”号填列） 5,371,830.21 3,682,198.31"
+    },
+    {
+      "year": "2022",
+      "field": "profit_before_tax",
+      "value_million": 36672.8562,
+      "source": "annual_2023",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "四、利润总额（亏损总额以“－”号填 列） 5,391,405.33 3,667,285.62"
+    },
+    {
+      "year": "2022",
+      "field": "income_tax_expense",
+      "value_million": 3215.7127,
+      "source": "annual_2023",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "减：所得税费用 715,301.88 321,571.27"
+    },
+    {
+      "year": "2022",
+      "field": "net_profit",
+      "value_million": 33457.1435,
+      "source": "annual_2023",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "五、净利润（净亏损以“－”号填列） 4,676,103.45 3,345,714.35"
+    },
+    {
+      "year": "2022",
+      "field": "net_profit_parent",
+      "value_million": 30729.1635,
+      "source": "annual_2023",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "1.归属于母公司股东的净利润 4,412,124.83 3,072,916.35"
+    },
+    {
+      "year": "2022",
+      "field": "net_profit_minority",
+      "value_million": 2727.9801,
+      "source": "annual_2023",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "2.少数股东损益 263,978.61 272,798.01"
+    },
+    {
+      "year": "2022",
+      "field": "operating_inflows",
+      "value_million": 329811.1528,
+      "source": "annual_2023",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "经营活动现金流入小计 44,640,749.71 32,981,115.28"
+    },
+    {
+      "year": "2022",
+      "field": "operating_outflows",
+      "value_million": 268602.3096,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "经营活动现金流出小计 35,358,137.27 26,860,230.96"
+    },
+    {
+      "year": "2022",
+      "field": "operating_cash_flow",
+      "value_million": 61208.8433,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "经营活动产生的现金流量净额 9,282,612.44 6,120,884.33"
+    },
+    {
+      "year": "2022",
+      "field": "investing_inflows",
+      "value_million": 3580.2699,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "投资活动现金流入小计 1,061,851.04 358,026.99"
+    },
+    {
+      "year": "2022",
+      "field": "investing_outflows",
+      "value_million": 67720.1112,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "投资活动现金流出小计 3,980,627.46 6,772,011.12"
+    },
+    {
+      "year": "2022",
+      "field": "investing_cash_flow",
+      "value_million": -64139.8413,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "投资活动产生的现金流量净额 -2,918,776.42 -6,413,984.13"
+    },
+    {
+      "year": "2022",
+      "field": "cash_paid_for_long_lived_assets",
+      "value_million": 48215.2681,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 3,362,489.65 4,821,526.81"
+    },
+    {
+      "year": "2022",
+      "field": "financing_inflows",
+      "value_million": 103621.1115,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "筹资活动现金流入小计 5,028,650.08 10,362,111.15"
+    },
+    {
+      "year": "2022",
+      "field": "financing_outflows",
+      "value_million": 21354.6804,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "筹资活动现金流出小计 3,557,013.81 2,135,468.04"
+    },
+    {
+      "year": "2022",
+      "field": "financing_cash_flow",
+      "value_million": 82266.4312,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "筹资活动产生的现金流量净额 1,471,636.27 8,226,643.12"
+    },
+    {
+      "year": "2022",
+      "field": "fx_effect_on_cash",
+      "value_million": 2788.1489,
+      "source": "annual_2023",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "四、汇率变动对现金及现金等价物的 218,144.68 278,814.89"
+    },
+    {
+      "year": "2022",
+      "field": "net_change_in_cash",
+      "value_million": 82123.582,
+      "source": "annual_2023",
+      "page": 125,
+      "column": "comparative",
+      "excerpt": "五、现金及现金等价物净增加额 8,053,616.97 8,212,358.20"
+    },
+    {
+      "year": "2022",
+      "field": "opening_cash_equivalents",
+      "value_million": 75505.7352,
+      "source": "annual_2023",
+      "page": 125,
+      "column": "comparative",
+      "excerpt": "加：期初现金及现金等价物余额 15,762,931.72 7,550,573.52"
+    },
+    {
+      "year": "2022",
+      "field": "ending_cash_equivalents",
+      "value_million": 157629.3172,
+      "source": "annual_2023",
+      "page": 125,
+      "column": "comparative",
+      "excerpt": "六、期末现金及现金等价物余额 23,816,548.69 15,762,931.72"
+    },
+    {
+      "year": "2023",
+      "field": "monetary_funds",
+      "value_million": 264306.515,
+      "source": "annual_2024",
+      "page": 114,
+      "column": "comparative",
+      "excerpt": "货币资金 303,511,993 264,306,515"
+    },
+    {
+      "year": "2023",
+      "field": "trade_receivables",
+      "value_million": 64020.533,
+      "source": "annual_2024",
+      "page": 114,
+      "column": "comparative",
+      "excerpt": "应收账款 64,135,510 64,020,533"
+    },
+    {
+      "year": "2023",
+      "field": "inventories",
+      "value_million": 45433.89,
+      "source": "annual_2024",
+      "page": 114,
+      "column": "comparative",
+      "excerpt": "存货 59,835,533 45,433,890"
+    },
+    {
+      "year": "2023",
+      "field": "current_assets",
+      "value_million": 449788.002,
+      "source": "annual_2024",
+      "page": 114,
+      "column": "comparative",
+      "excerpt": "流动资产合计 510,142,089 449,788,002"
+    },
+    {
+      "year": "2023",
+      "field": "noncurrent_assets",
+      "value_million": 267380.039,
+      "source": "annual_2024",
+      "page": 115,
+      "column": "comparative",
+      "excerpt": "非流动资产合计 276,516,035 267,380,039"
+    },
+    {
+      "year": "2023",
+      "field": "total_assets",
+      "value_million": 717168.041,
+      "source": "annual_2024",
+      "page": 115,
+      "column": "comparative",
+      "excerpt": "资产总计 786,658,123 717,168,041"
+    },
+    {
+      "year": "2023",
+      "field": "short_term_borrowings",
+      "value_million": 15181.012,
+      "source": "annual_2024",
+      "page": 115,
+      "column": "comparative",
+      "excerpt": "短期借款 19,696,282 15,181,012"
+    },
+    {
+      "year": "2023",
+      "field": "long_term_borrowings",
+      "value_million": 83448.982,
+      "source": "annual_2024",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "长期借款 81,238,456 83,448,982"
+    },
+    {
+      "year": "2023",
+      "field": "bonds_payable",
+      "value_million": 19237.014,
+      "source": "annual_2024",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "应付债券 11,922,623 19,237,014"
+    },
+    {
+      "year": "2023",
+      "field": "current_portion_of_noncurrent_liabilities",
+      "value_million": 7008.874,
+      "source": "annual_2024",
+      "page": 115,
+      "column": "comparative",
+      "excerpt": "一年内到期的非流动负债 22,881,417 7,008,874"
+    },
+    {
+      "year": "2023",
+      "field": "current_liabilities",
+      "value_million": 287001.069,
+      "source": "annual_2024",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "流动负债合计 317,171,534 287,001,069"
+    },
+    {
+      "year": "2023",
+      "field": "noncurrent_liabilities",
+      "value_million": 210283.821,
+      "source": "annual_2024",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "非流动负债合计 196,030,416 210,283,821"
+    },
+    {
+      "year": "2023",
+      "field": "total_liabilities",
+      "value_million": 497284.89,
+      "source": "annual_2024",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "负债合计 513,201,949 497,284,890"
+    },
+    {
+      "year": "2023",
+      "field": "parent_equity",
+      "value_million": 197708.052,
+      "source": "annual_2024",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "归属于母公司所有者权益合计 246,930,033 197,708,052"
+    },
+    {
+      "year": "2023",
+      "field": "minority_equity",
+      "value_million": 22175.098,
+      "source": "annual_2024",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "少数股东权益 26,526,141 22,175,098"
+    },
+    {
+      "year": "2023",
+      "field": "total_equity",
+      "value_million": 219883.151,
+      "source": "annual_2024",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "所有者权益合计 273,456,174 219,883,151"
+    },
+    {
+      "year": "2023",
+      "field": "revenue",
+      "value_million": 400917.045,
+      "source": "annual_2024",
+      "page": 119,
+      "column": "comparative",
+      "excerpt": "其中：营业收入 362,012,554 400,917,045"
+    },
+    {
+      "year": "2023",
+      "field": "cost_of_sales",
+      "value_million": 323982.13,
+      "source": "annual_2024",
+      "page": 119,
+      "column": "comparative",
+      "excerpt": "其中：营业成本 273,518,959 323,982,130"
+    },
+    {
+      "year": "2023",
+      "field": "selling_expenses",
+      "value_million": 3042.744,
+      "source": "annual_2024",
+      "page": 119,
+      "column": "comparative",
+      "excerpt": "销售费用 3,562,797 3,042,744"
+    },
+    {
+      "year": "2023",
+      "field": "research_and_development_expenses",
+      "value_million": 18356.108,
+      "source": "annual_2024",
+      "page": 119,
+      "column": "comparative",
+      "excerpt": "研发费用 18,606,756 18,356,108"
+    },
+    {
+      "year": "2023",
+      "field": "operating_profit",
+      "value_million": 53718.302,
+      "source": "annual_2024",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "三、营业利润（亏损以“－”号填列） 64,051,799 53,718,302"
+    },
+    {
+      "year": "2023",
+      "field": "profit_before_tax",
+      "value_million": 53914.053,
+      "source": "annual_2024",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "四、利润总额（亏损总额以“－”号填 列） 63,182,039 53,914,053"
+    },
+    {
+      "year": "2023",
+      "field": "income_tax_expense",
+      "value_million": 7153.019,
+      "source": "annual_2024",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "减：所得税费用 9,175,245 7,153,019"
+    },
+    {
+      "year": "2023",
+      "field": "net_profit",
+      "value_million": 46761.034,
+      "source": "annual_2024",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "五、净利润（净亏损以“－”号填列） 54,006,794 46,761,034"
+    },
+    {
+      "year": "2023",
+      "field": "net_profit_parent",
+      "value_million": 44121.248,
+      "source": "annual_2024",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "1.归属于母公司股东的净利润 50,744,682 44,121,248"
+    },
+    {
+      "year": "2023",
+      "field": "net_profit_minority",
+      "value_million": 2639.786,
+      "source": "annual_2024",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "2.少数股东损益 3,262,113 2,639,786"
+    },
+    {
+      "year": "2023",
+      "field": "operating_inflows",
+      "value_million": 446407.497,
+      "source": "annual_2024",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "经营活动现金流入小计 444,879,417 446,407,497"
+    },
+    {
+      "year": "2023",
+      "field": "operating_outflows",
+      "value_million": 353581.373,
+      "source": "annual_2024",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "经营活动现金流出小计 347,889,072 353,581,373"
+    },
+    {
+      "year": "2023",
+      "field": "operating_cash_flow",
+      "value_million": 92826.124,
+      "source": "annual_2024",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "经营活动产生的现金流量净额 96,990,345 92,826,124"
+    },
+    {
+      "year": "2023",
+      "field": "investing_inflows",
+      "value_million": 10618.51,
+      "source": "annual_2024",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "投资活动现金流入小计 4,906,012 10,618,510"
+    },
+    {
+      "year": "2023",
+      "field": "investing_outflows",
+      "value_million": 39806.275,
+      "source": "annual_2024",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "投资活动现金流出小计 53,781,323 39,806,275"
+    },
+    {
+      "year": "2023",
+      "field": "investing_cash_flow",
+      "value_million": -29187.764,
+      "source": "annual_2024",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "投资活动产生的现金流量净额 -48,875,311 -29,187,764"
+    },
+    {
+      "year": "2023",
+      "field": "cash_paid_for_long_lived_assets",
+      "value_million": 33624.897,
+      "source": "annual_2024",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 31,179,943 33,624,897"
+    },
+    {
+      "year": "2023",
+      "field": "financing_inflows",
+      "value_million": 50286.501,
+      "source": "annual_2024",
+      "page": 123,
+      "column": "comparative",
+      "excerpt": "筹资活动现金流入小计 33,392,735 50,286,501"
+    },
+    {
+      "year": "2023",
+      "field": "financing_outflows",
+      "value_million": 35570.138,
+      "source": "annual_2024",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "筹资活动现金流出小计 47,916,971 35,570,138"
+    },
+    {
+      "year": "2023",
+      "field": "financing_cash_flow",
+      "value_million": 14716.363,
+      "source": "annual_2024",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "筹资活动产生的现金流量净额 -14,524,236 14,716,363"
+    },
+    {
+      "year": "2023",
+      "field": "fx_effect_on_cash",
+      "value_million": 2181.447,
+      "source": "annual_2024",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "四、汇率变动对现金及现金等价物的 影响 -1,596,552 2,181,447"
+    },
+    {
+      "year": "2023",
+      "field": "net_change_in_cash",
+      "value_million": 80536.17,
+      "source": "annual_2024",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "五、现金及现金等价物净增加额 31,994,247 80,536,170"
+    },
+    {
+      "year": "2023",
+      "field": "opening_cash_equivalents",
+      "value_million": 157629.317,
+      "source": "annual_2024",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "加：期初现金及现金等价物余额 238,165,487 157,629,317"
+    },
+    {
+      "year": "2023",
+      "field": "ending_cash_equivalents",
+      "value_million": 238165.487,
+      "source": "annual_2024",
+      "page": 124,
+      "column": "comparative",
+      "excerpt": "六、期末现金及现金等价物余额 270,159,734 238,165,487"
+    },
+    {
+      "year": "2024",
+      "field": "monetary_funds",
+      "value_million": 303511.993,
+      "source": "annual_2025",
+      "page": 111,
+      "column": "comparative",
+      "excerpt": "货币资金 333,512,927 303,511,993"
+    },
+    {
+      "year": "2024",
+      "field": "trade_receivables",
+      "value_million": 64135.51,
+      "source": "annual_2025",
+      "page": 111,
+      "column": "comparative",
+      "excerpt": "应收账款 76,403,264 64,135,510"
+    },
+    {
+      "year": "2024",
+      "field": "inventories",
+      "value_million": 59835.533,
+      "source": "annual_2025",
+      "page": 111,
+      "column": "comparative",
+      "excerpt": "存货 94,526,239 59,835,533"
+    },
+    {
+      "year": "2024",
+      "field": "current_assets",
+      "value_million": 510142.089,
+      "source": "annual_2025",
+      "page": 111,
+      "column": "comparative",
+      "excerpt": "流动资产合计 638,481,543 510,142,089"
+    },
+    {
+      "year": "2024",
+      "field": "noncurrent_assets",
+      "value_million": 276516.035,
+      "source": "annual_2025",
+      "page": 112,
+      "column": "comparative",
+      "excerpt": "非流动资产合计 336,346,001 276,516,035"
+    },
+    {
+      "year": "2024",
+      "field": "total_assets",
+      "value_million": 786658.123,
+      "source": "annual_2025",
+      "page": 112,
+      "column": "comparative",
+      "excerpt": "资产总计 974,827,544 786,658,123"
+    },
+    {
+      "year": "2024",
+      "field": "short_term_borrowings",
+      "value_million": 19696.282,
+      "source": "annual_2025",
+      "page": 112,
+      "column": "comparative",
+      "excerpt": "短期借款 12,935,498 19,696,282"
+    },
+    {
+      "year": "2024",
+      "field": "long_term_borrowings",
+      "value_million": 81238.456,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "comparative",
+      "excerpt": "长期借款 78,234,935 81,238,456"
+    },
+    {
+      "year": "2024",
+      "field": "bonds_payable",
+      "value_million": 11922.623,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "comparative",
+      "excerpt": "应付债券 3,443,434 11,922,623"
+    },
+    {
+      "year": "2024",
+      "field": "current_portion_of_noncurrent_liabilities",
+      "value_million": 22881.417,
+      "source": "annual_2025",
+      "page": 112,
+      "column": "comparative",
+      "excerpt": "一年内到期的非流动负债 22,237,540 22,881,417"
+    },
+    {
+      "year": "2024",
+      "field": "current_liabilities",
+      "value_million": 317171.534,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "comparative",
+      "excerpt": "流动负债合计 399,625,988 317,171,534"
+    },
+    {
+      "year": "2024",
+      "field": "noncurrent_liabilities",
+      "value_million": 196030.416,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "comparative",
+      "excerpt": "非流动负债合计 204,175,232 196,030,416"
+    },
+    {
+      "year": "2024",
+      "field": "total_liabilities",
+      "value_million": 513201.949,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "comparative",
+      "excerpt": "负债合计 603,801,220 513,201,949"
+    },
+    {
+      "year": "2024",
+      "field": "parent_equity",
+      "value_million": 246930.033,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "comparative",
+      "excerpt": "归属于母公司所有者权益合计 337,107,747 246,930,033"
+    },
+    {
+      "year": "2024",
+      "field": "minority_equity",
+      "value_million": 26526.141,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "comparative",
+      "excerpt": "少数股东权益 33,918,577 26,526,141"
+    },
+    {
+      "year": "2024",
+      "field": "total_equity",
+      "value_million": 273456.174,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "comparative",
+      "excerpt": "所有者权益合计 371,026,324 273,456,174"
+    },
+    {
+      "year": "2024",
+      "field": "revenue",
+      "value_million": 362012.554,
+      "source": "annual_2025",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "其中：营业收入 423,701,834 362,012,554"
+    },
+    {
+      "year": "2024",
+      "field": "cost_of_sales",
+      "value_million": 273518.959,
+      "source": "annual_2025",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "其中：营业成本 312,383,297 273,518,959"
+    },
+    {
+      "year": "2024",
+      "field": "selling_expenses",
+      "value_million": 3562.797,
+      "source": "annual_2025",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "销售费用 3,735,118 3,562,797"
+    },
+    {
+      "year": "2024",
+      "field": "research_and_development_expenses",
+      "value_million": 18606.756,
+      "source": "annual_2025",
+      "page": 116,
+      "column": "comparative",
+      "excerpt": "研发费用 22,146,581 18,606,756"
+    },
+    {
+      "year": "2024",
+      "field": "operating_profit",
+      "value_million": 64051.799,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "三、营业利润（亏损以“－”号填列） 89,518,636 64,051,799"
+    },
+    {
+      "year": "2024",
+      "field": "profit_before_tax",
+      "value_million": 63182.039,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "四、利润总额（亏损总额以“－”号填 列） 89,526,545 63,182,039"
+    },
+    {
+      "year": "2024",
+      "field": "income_tax_expense",
+      "value_million": 9175.245,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "减：所得税费用 12,740,236 9,175,245"
+    },
+    {
+      "year": "2024",
+      "field": "net_profit",
+      "value_million": 54006.794,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "五、净利润（净亏损以“－”号填列） 76,786,309 54,006,794"
+    },
+    {
+      "year": "2024",
+      "field": "net_profit_parent",
+      "value_million": 50744.682,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "1.归属于母公司股东的净利润 72,201,282 50,744,682"
+    },
+    {
+      "year": "2024",
+      "field": "net_profit_minority",
+      "value_million": 3262.113,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "comparative",
+      "excerpt": "2.少数股东损益 4,585,027 3,262,113"
+    },
+    {
+      "year": "2024",
+      "field": "operating_inflows",
+      "value_million": 444879.417,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "经营活动现金流入小计 511,868,353 444,879,417"
+    },
+    {
+      "year": "2024",
+      "field": "operating_outflows",
+      "value_million": 347889.072,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "经营活动现金流出小计 378,648,372 347,889,072"
+    },
+    {
+      "year": "2024",
+      "field": "operating_cash_flow",
+      "value_million": 96990.345,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "经营活动产生的现金流量净额 133,219,982 96,990,345"
+    },
+    {
+      "year": "2024",
+      "field": "investing_inflows",
+      "value_million": 4906.012,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "投资活动现金流入小计 8,303,785 4,906,012"
+    },
+    {
+      "year": "2024",
+      "field": "investing_outflows",
+      "value_million": 53781.323,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "投资活动现金流出小计 102,779,575 53,781,323"
+    },
+    {
+      "year": "2024",
+      "field": "investing_cash_flow",
+      "value_million": -48875.311,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "投资活动产生的现金流量净额 -94,475,790 -48,875,311"
+    },
+    {
+      "year": "2024",
+      "field": "cash_paid_for_long_lived_assets",
+      "value_million": 31179.943,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 42,344,558 31,179,943"
+    },
+    {
+      "year": "2024",
+      "field": "financing_inflows",
+      "value_million": 33392.735,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "comparative",
+      "excerpt": "筹资活动现金流入小计 85,607,537 33,392,735"
+    },
+    {
+      "year": "2024",
+      "field": "financing_outflows",
+      "value_million": 47916.971,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "筹资活动现金流出小计 91,917,080 47,916,971"
+    },
+    {
+      "year": "2024",
+      "field": "financing_cash_flow",
+      "value_million": -14524.236,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "筹资活动产生的现金流量净额 -6,309,543 -14,524,236"
+    },
+    {
+      "year": "2024",
+      "field": "fx_effect_on_cash",
+      "value_million": -1596.552,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "四、汇率变动对现金及现金等价物的 影响 -2,664,640 -1,596,552"
+    },
+    {
+      "year": "2024",
+      "field": "net_change_in_cash",
+      "value_million": 31994.247,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "五、现金及现金等价物净增加额 29,770,008 31,994,247"
+    },
+    {
+      "year": "2024",
+      "field": "opening_cash_equivalents",
+      "value_million": 238165.487,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "加：期初现金及现金等价物余额 270,159,734 238,165,487"
+    },
+    {
+      "year": "2024",
+      "field": "ending_cash_equivalents",
+      "value_million": 270159.734,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "comparative",
+      "excerpt": "六、期末现金及现金等价物余额 299,929,741 270,159,734"
+    },
+    {
+      "year": "2025",
+      "field": "monetary_funds",
+      "value_million": 333512.927,
+      "source": "annual_2025",
+      "page": 111,
+      "column": "current",
+      "excerpt": "货币资金 333,512,927 303,511,993"
+    },
+    {
+      "year": "2025",
+      "field": "trade_receivables",
+      "value_million": 76403.264,
+      "source": "annual_2025",
+      "page": 111,
+      "column": "current",
+      "excerpt": "应收账款 76,403,264 64,135,510"
+    },
+    {
+      "year": "2025",
+      "field": "inventories",
+      "value_million": 94526.239,
+      "source": "annual_2025",
+      "page": 111,
+      "column": "current",
+      "excerpt": "存货 94,526,239 59,835,533"
+    },
+    {
+      "year": "2025",
+      "field": "current_assets",
+      "value_million": 638481.543,
+      "source": "annual_2025",
+      "page": 111,
+      "column": "current",
+      "excerpt": "流动资产合计 638,481,543 510,142,089"
+    },
+    {
+      "year": "2025",
+      "field": "noncurrent_assets",
+      "value_million": 336346.001,
+      "source": "annual_2025",
+      "page": 112,
+      "column": "current",
+      "excerpt": "非流动资产合计 336,346,001 276,516,035"
+    },
+    {
+      "year": "2025",
+      "field": "total_assets",
+      "value_million": 974827.544,
+      "source": "annual_2025",
+      "page": 112,
+      "column": "current",
+      "excerpt": "资产总计 974,827,544 786,658,123"
+    },
+    {
+      "year": "2025",
+      "field": "short_term_borrowings",
+      "value_million": 12935.498,
+      "source": "annual_2025",
+      "page": 112,
+      "column": "current",
+      "excerpt": "短期借款 12,935,498 19,696,282"
+    },
+    {
+      "year": "2025",
+      "field": "long_term_borrowings",
+      "value_million": 78234.935,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "current",
+      "excerpt": "长期借款 78,234,935 81,238,456"
+    },
+    {
+      "year": "2025",
+      "field": "bonds_payable",
+      "value_million": 3443.434,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "current",
+      "excerpt": "应付债券 3,443,434 11,922,623"
+    },
+    {
+      "year": "2025",
+      "field": "current_portion_of_noncurrent_liabilities",
+      "value_million": 22237.54,
+      "source": "annual_2025",
+      "page": 112,
+      "column": "current",
+      "excerpt": "一年内到期的非流动负债 22,237,540 22,881,417"
+    },
+    {
+      "year": "2025",
+      "field": "current_liabilities",
+      "value_million": 399625.988,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "current",
+      "excerpt": "流动负债合计 399,625,988 317,171,534"
+    },
+    {
+      "year": "2025",
+      "field": "noncurrent_liabilities",
+      "value_million": 204175.232,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "current",
+      "excerpt": "非流动负债合计 204,175,232 196,030,416"
+    },
+    {
+      "year": "2025",
+      "field": "total_liabilities",
+      "value_million": 603801.22,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "current",
+      "excerpt": "负债合计 603,801,220 513,201,949"
+    },
+    {
+      "year": "2025",
+      "field": "parent_equity",
+      "value_million": 337107.747,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "current",
+      "excerpt": "归属于母公司所有者权益合计 337,107,747 246,930,033"
+    },
+    {
+      "year": "2025",
+      "field": "minority_equity",
+      "value_million": 33918.577,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "current",
+      "excerpt": "少数股东权益 33,918,577 26,526,141"
+    },
+    {
+      "year": "2025",
+      "field": "total_equity",
+      "value_million": 371026.324,
+      "source": "annual_2025",
+      "page": 113,
+      "column": "current",
+      "excerpt": "所有者权益合计 371,026,324 273,456,174"
+    },
+    {
+      "year": "2025",
+      "field": "revenue",
+      "value_million": 423701.834,
+      "source": "annual_2025",
+      "page": 116,
+      "column": "current",
+      "excerpt": "其中：营业收入 423,701,834 362,012,554"
+    },
+    {
+      "year": "2025",
+      "field": "cost_of_sales",
+      "value_million": 312383.297,
+      "source": "annual_2025",
+      "page": 116,
+      "column": "current",
+      "excerpt": "其中：营业成本 312,383,297 273,518,959"
+    },
+    {
+      "year": "2025",
+      "field": "selling_expenses",
+      "value_million": 3735.118,
+      "source": "annual_2025",
+      "page": 116,
+      "column": "current",
+      "excerpt": "销售费用 3,735,118 3,562,797"
+    },
+    {
+      "year": "2025",
+      "field": "research_and_development_expenses",
+      "value_million": 22146.581,
+      "source": "annual_2025",
+      "page": 116,
+      "column": "current",
+      "excerpt": "研发费用 22,146,581 18,606,756"
+    },
+    {
+      "year": "2025",
+      "field": "operating_profit",
+      "value_million": 89518.636,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "current",
+      "excerpt": "三、营业利润（亏损以“－”号填列） 89,518,636 64,051,799"
+    },
+    {
+      "year": "2025",
+      "field": "profit_before_tax",
+      "value_million": 89526.545,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "current",
+      "excerpt": "四、利润总额（亏损总额以“－”号填 列） 89,526,545 63,182,039"
+    },
+    {
+      "year": "2025",
+      "field": "income_tax_expense",
+      "value_million": 12740.236,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "current",
+      "excerpt": "减：所得税费用 12,740,236 9,175,245"
+    },
+    {
+      "year": "2025",
+      "field": "net_profit",
+      "value_million": 76786.309,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "current",
+      "excerpt": "五、净利润（净亏损以“－”号填列） 76,786,309 54,006,794"
+    },
+    {
+      "year": "2025",
+      "field": "net_profit_parent",
+      "value_million": 72201.282,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "current",
+      "excerpt": "1.归属于母公司股东的净利润 72,201,282 50,744,682"
+    },
+    {
+      "year": "2025",
+      "field": "net_profit_minority",
+      "value_million": 4585.027,
+      "source": "annual_2025",
+      "page": 117,
+      "column": "current",
+      "excerpt": "2.少数股东损益 4,585,027 3,262,113"
+    },
+    {
+      "year": "2025",
+      "field": "operating_inflows",
+      "value_million": 511868.353,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "current",
+      "excerpt": "经营活动现金流入小计 511,868,353 444,879,417"
+    },
+    {
+      "year": "2025",
+      "field": "operating_outflows",
+      "value_million": 378648.372,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "current",
+      "excerpt": "经营活动现金流出小计 378,648,372 347,889,072"
+    },
+    {
+      "year": "2025",
+      "field": "operating_cash_flow",
+      "value_million": 133219.982,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "current",
+      "excerpt": "经营活动产生的现金流量净额 133,219,982 96,990,345"
+    },
+    {
+      "year": "2025",
+      "field": "investing_inflows",
+      "value_million": 8303.785,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "current",
+      "excerpt": "投资活动现金流入小计 8,303,785 4,906,012"
+    },
+    {
+      "year": "2025",
+      "field": "investing_outflows",
+      "value_million": 102779.575,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "current",
+      "excerpt": "投资活动现金流出小计 102,779,575 53,781,323"
+    },
+    {
+      "year": "2025",
+      "field": "investing_cash_flow",
+      "value_million": -94475.79,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "current",
+      "excerpt": "投资活动产生的现金流量净额 -94,475,790 -48,875,311"
+    },
+    {
+      "year": "2025",
+      "field": "cash_paid_for_long_lived_assets",
+      "value_million": 42344.558,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "current",
+      "excerpt": "购建固定资产、无形资产和其他长 期资产支付的现金 42,344,558 31,179,943"
+    },
+    {
+      "year": "2025",
+      "field": "financing_inflows",
+      "value_million": 85607.537,
+      "source": "annual_2025",
+      "page": 120,
+      "column": "current",
+      "excerpt": "筹资活动现金流入小计 85,607,537 33,392,735"
+    },
+    {
+      "year": "2025",
+      "field": "financing_outflows",
+      "value_million": 91917.08,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "current",
+      "excerpt": "筹资活动现金流出小计 91,917,080 47,916,971"
+    },
+    {
+      "year": "2025",
+      "field": "financing_cash_flow",
+      "value_million": -6309.543,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "current",
+      "excerpt": "筹资活动产生的现金流量净额 -6,309,543 -14,524,236"
+    },
+    {
+      "year": "2025",
+      "field": "fx_effect_on_cash",
+      "value_million": -2664.64,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "current",
+      "excerpt": "四、汇率变动对现金及现金等价物的 影响 -2,664,640 -1,596,552"
+    },
+    {
+      "year": "2025",
+      "field": "net_change_in_cash",
+      "value_million": 29770.008,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "current",
+      "excerpt": "五、现金及现金等价物净增加额 29,770,008 31,994,247"
+    },
+    {
+      "year": "2025",
+      "field": "opening_cash_equivalents",
+      "value_million": 270159.734,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "current",
+      "excerpt": "加：期初现金及现金等价物余额 270,159,734 238,165,487"
+    },
+    {
+      "year": "2025",
+      "field": "ending_cash_equivalents",
+      "value_million": 299929.741,
+      "source": "annual_2025",
+      "page": 121,
+      "column": "current",
+      "excerpt": "六、期末现金及现金等价物余额 299,929,741 270,159,734"
+    },
+    {
+      "year": "2026_9M",
+      "field": "monetary_funds",
+      "value_million": 369813.786,
+      "source": "q3_2026",
+      "page": 5,
+      "column": "current",
+      "excerpt": "货币资金 369,813,786 333,512,927"
+    },
+    {
+      "year": "2026_9M",
+      "field": "trade_receivables",
+      "value_million": 112911.65,
+      "source": "q3_2026",
+      "page": 6,
+      "column": "current",
+      "excerpt": "应收账款 112,911,650 76,403,264"
+    },
+    {
+      "year": "2026_9M",
+      "field": "inventories",
+      "value_million": 144769.537,
+      "source": "q3_2026",
+      "page": 6,
+      "column": "current",
+      "excerpt": "存货 144,769,537 94,526,239"
+    },
+    {
+      "year": "2026_9M",
+      "field": "current_assets",
+      "value_million": 767131.309,
+      "source": "q3_2026",
+      "page": 6,
+      "column": "current",
+      "excerpt": "流动资产合计 767,131,309 638,481,543"
+    },
+    {
+      "year": "2026_9M",
+      "field": "noncurrent_assets",
+      "value_million": 416042.258,
+      "source": "q3_2026",
+      "page": 7,
+      "column": "current",
+      "excerpt": "非流动资产合计 416,042,258 336,346,001"
+    },
+    {
+      "year": "2026_9M",
+      "field": "total_assets",
+      "value_million": 1183173.567,
+      "source": "q3_2026",
+      "page": 7,
+      "column": "current",
+      "excerpt": "资产总计 1,183,173,567 974,827,544"
+    },
+    {
+      "year": "2026_9M",
+      "field": "short_term_borrowings",
+      "value_million": 39897.579,
+      "source": "q3_2026",
+      "page": 7,
+      "column": "current",
+      "excerpt": "短期借款 39,897,579 12,935,498"
+    },
+    {
+      "year": "2026_9M",
+      "field": "long_term_borrowings",
+      "value_million": 76354.823,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "长期借款 76,354,823 78,234,935"
+    },
+    {
+      "year": "2026_9M",
+      "field": "bonds_payable",
+      "value_million": 52737.747,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "应付债券 52,737,747 3,443,434"
+    },
+    {
+      "year": "2026_9M",
+      "field": "current_portion_of_noncurrent_liabilities",
+      "value_million": 16871.1,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "一年内到期的非流动负债 16,871,100 22,237,540"
+    },
+    {
+      "year": "2026_9M",
+      "field": "current_liabilities",
+      "value_million": 489179.703,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "流动负债合计 489,179,703 399,625,988"
+    },
+    {
+      "year": "2026_9M",
+      "field": "noncurrent_liabilities",
+      "value_million": 270777.098,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "非流动负债合计 270,777,098 204,175,232"
+    },
+    {
+      "year": "2026_9M",
+      "field": "total_liabilities",
+      "value_million": 759956.8,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "负债合计 759,956,800 603,801,220"
+    },
+    {
+      "year": "2026_9M",
+      "field": "parent_equity",
+      "value_million": 386880.99,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "归属于母公司所有者权益合计 386,880,990 337,107,747"
+    },
+    {
+      "year": "2026_9M",
+      "field": "minority_equity",
+      "value_million": 36335.776,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "少数股东权益 36,335,776 33,918,577"
+    },
+    {
+      "year": "2026_9M",
+      "field": "total_equity",
+      "value_million": 423216.766,
+      "source": "q3_2026",
+      "page": 8,
+      "column": "current",
+      "excerpt": "所有者权益合计 423,216,766 371,026,324"
+    },
+    {
+      "year": "2026_9M",
+      "field": "revenue",
+      "value_million": 442137.424,
+      "source": "q3_2026",
+      "page": 9,
+      "column": "current",
+      "excerpt": "其中：营业收入 442,137,424 283,071,987"
+    },
+    {
+      "year": "2026_9M",
+      "field": "cost_of_sales",
+      "value_million": 341695.013,
+      "source": "q3_2026",
+      "page": 9,
+      "column": "current",
+      "excerpt": "其中：营业成本 341,695,013 211,427,147"
+    },
+    {
+      "year": "2026_9M",
+      "field": "selling_expenses",
+      "value_million": 3371.025,
+      "source": "q3_2026",
+      "page": 9,
+      "column": "current",
+      "excerpt": "销售费用 3,371,025 2,408,522"
+    },
+    {
+      "year": "2026_9M",
+      "field": "research_and_development_expenses",
+      "value_million": 18516.986,
+      "source": "q3_2026",
+      "page": 9,
+      "column": "current",
+      "excerpt": "研发费用 18,516,986 15,067,826"
+    },
+    {
+      "year": "2026_9M",
+      "field": "operating_profit",
+      "value_million": 80933.059,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "current",
+      "excerpt": "三、营业利润（亏损以“－”号填列） 80,933,059 60,552,312"
+    },
+    {
+      "year": "2026_9M",
+      "field": "profit_before_tax",
+      "value_million": 81028.004,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "current",
+      "excerpt": "四、利润总额（亏损总额以“－”号填列） 81,028,004 60,712,402"
+    },
+    {
+      "year": "2026_9M",
+      "field": "income_tax_expense",
+      "value_million": 11529.551,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "current",
+      "excerpt": "减：所得税费用 11,529,551 8,415,535"
+    },
+    {
+      "year": "2026_9M",
+      "field": "net_profit",
+      "value_million": 69498.453,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "current",
+      "excerpt": "五、净利润（净亏损以“－”号填列） 69,498,453 52,296,866"
+    },
+    {
+      "year": "2026_9M",
+      "field": "net_profit_parent",
+      "value_million": 64530.063,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "current",
+      "excerpt": "1.归属于母公司股东的净利润（净亏损以“-” 号填列） 64,530,063 49,034,109"
+    },
+    {
+      "year": "2026_9M",
+      "field": "net_profit_minority",
+      "value_million": 4968.389,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "current",
+      "excerpt": "2.少数股东损益（净亏损以“-”号填列） 4,968,389 3,262,757"
+    },
+    {
+      "year": "2026_9M",
+      "field": "operating_inflows",
+      "value_million": 428766.629,
+      "source": "q3_2026",
+      "page": 11,
+      "column": "current",
+      "excerpt": "经营活动现金流入小计 428,766,629 363,056,644"
+    },
+    {
+      "year": "2026_9M",
+      "field": "operating_outflows",
+      "value_million": 367141.142,
+      "source": "q3_2026",
+      "page": 11,
+      "column": "current",
+      "excerpt": "经营活动现金流出小计 367,141,142 282,396,214"
+    },
+    {
+      "year": "2026_9M",
+      "field": "operating_cash_flow",
+      "value_million": 61625.487,
+      "source": "q3_2026",
+      "page": 11,
+      "column": "current",
+      "excerpt": "经营活动产生的现金流量净额 61,625,487 80,660,430"
+    },
+    {
+      "year": "2026_9M",
+      "field": "investing_inflows",
+      "value_million": 24000.33,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "投资活动现金流入小计 24,000,330 6,501,309"
+    },
+    {
+      "year": "2026_9M",
+      "field": "investing_outflows",
+      "value_million": 81426.154,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "投资活动现金流出小计 81,426,154 63,792,799"
+    },
+    {
+      "year": "2026_9M",
+      "field": "investing_cash_flow",
+      "value_million": -57425.825,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "投资活动产生的现金流量净额 -57,425,825 -57,291,490"
+    },
+    {
+      "year": "2026_9M",
+      "field": "cash_paid_for_long_lived_assets",
+      "value_million": 42167.472,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "购建固定资产、无形资产和其他长期资产支 付的现金 42,167,472 30,087,780"
+    },
+    {
+      "year": "2026_9M",
+      "field": "financing_inflows",
+      "value_million": 120673.827,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "筹资活动现金流入小计 120,673,827 74,995,566"
+    },
+    {
+      "year": "2026_9M",
+      "field": "financing_outflows",
+      "value_million": 85433.875,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "筹资活动现金流出小计 85,433,875 70,719,026"
+    },
+    {
+      "year": "2026_9M",
+      "field": "financing_cash_flow",
+      "value_million": 35239.952,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "筹资活动产生的现金流量净额 35,239,952 4,276,539"
+    },
+    {
+      "year": "2026_9M",
+      "field": "fx_effect_on_cash",
+      "value_million": -5971.785,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "四、汇率变动对现金及现金等价物的影响 -5,971,785 -621,254"
+    },
+    {
+      "year": "2026_9M",
+      "field": "net_change_in_cash",
+      "value_million": 33467.829,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "五、现金及现金等价物净增加额 33,467,829 27,024,225"
+    },
+    {
+      "year": "2026_9M",
+      "field": "opening_cash_equivalents",
+      "value_million": 299929.741,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "加：期初现金及现金等价物余额 299,929,741 270,159,734"
+    },
+    {
+      "year": "2026_9M",
+      "field": "ending_cash_equivalents",
+      "value_million": 333397.571,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "current",
+      "excerpt": "六、期末现金及现金等价物余额 333,397,571 297,183,959"
+    },
+    {
+      "year": "2025_9M",
+      "field": "revenue",
+      "value_million": 283071.987,
+      "source": "q3_2026",
+      "page": 9,
+      "column": "comparative",
+      "excerpt": "其中：营业收入 442,137,424 283,071,987"
+    },
+    {
+      "year": "2025_9M",
+      "field": "cost_of_sales",
+      "value_million": 211427.147,
+      "source": "q3_2026",
+      "page": 9,
+      "column": "comparative",
+      "excerpt": "其中：营业成本 341,695,013 211,427,147"
+    },
+    {
+      "year": "2025_9M",
+      "field": "selling_expenses",
+      "value_million": 2408.522,
+      "source": "q3_2026",
+      "page": 9,
+      "column": "comparative",
+      "excerpt": "销售费用 3,371,025 2,408,522"
+    },
+    {
+      "year": "2025_9M",
+      "field": "research_and_development_expenses",
+      "value_million": 15067.826,
+      "source": "q3_2026",
+      "page": 9,
+      "column": "comparative",
+      "excerpt": "研发费用 18,516,986 15,067,826"
+    },
+    {
+      "year": "2025_9M",
+      "field": "operating_profit",
+      "value_million": 60552.312,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "comparative",
+      "excerpt": "三、营业利润（亏损以“－”号填列） 80,933,059 60,552,312"
+    },
+    {
+      "year": "2025_9M",
+      "field": "profit_before_tax",
+      "value_million": 60712.402,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "comparative",
+      "excerpt": "四、利润总额（亏损总额以“－”号填列） 81,028,004 60,712,402"
+    },
+    {
+      "year": "2025_9M",
+      "field": "income_tax_expense",
+      "value_million": 8415.535,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "comparative",
+      "excerpt": "减：所得税费用 11,529,551 8,415,535"
+    },
+    {
+      "year": "2025_9M",
+      "field": "net_profit",
+      "value_million": 52296.866,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "comparative",
+      "excerpt": "五、净利润（净亏损以“－”号填列） 69,498,453 52,296,866"
+    },
+    {
+      "year": "2025_9M",
+      "field": "net_profit_parent",
+      "value_million": 49034.109,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "comparative",
+      "excerpt": "1.归属于母公司股东的净利润（净亏损以“-” 号填列） 64,530,063 49,034,109"
+    },
+    {
+      "year": "2025_9M",
+      "field": "net_profit_minority",
+      "value_million": 3262.757,
+      "source": "q3_2026",
+      "page": 10,
+      "column": "comparative",
+      "excerpt": "2.少数股东损益（净亏损以“-”号填列） 4,968,389 3,262,757"
+    },
+    {
+      "year": "2025_9M",
+      "field": "operating_inflows",
+      "value_million": 363056.644,
+      "source": "q3_2026",
+      "page": 11,
+      "column": "comparative",
+      "excerpt": "经营活动现金流入小计 428,766,629 363,056,644"
+    },
+    {
+      "year": "2025_9M",
+      "field": "operating_outflows",
+      "value_million": 282396.214,
+      "source": "q3_2026",
+      "page": 11,
+      "column": "comparative",
+      "excerpt": "经营活动现金流出小计 367,141,142 282,396,214"
+    },
+    {
+      "year": "2025_9M",
+      "field": "operating_cash_flow",
+      "value_million": 80660.43,
+      "source": "q3_2026",
+      "page": 11,
+      "column": "comparative",
+      "excerpt": "经营活动产生的现金流量净额 61,625,487 80,660,430"
+    },
+    {
+      "year": "2025_9M",
+      "field": "investing_inflows",
+      "value_million": 6501.309,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "投资活动现金流入小计 24,000,330 6,501,309"
+    },
+    {
+      "year": "2025_9M",
+      "field": "investing_outflows",
+      "value_million": 63792.799,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "投资活动现金流出小计 81,426,154 63,792,799"
+    },
+    {
+      "year": "2025_9M",
+      "field": "investing_cash_flow",
+      "value_million": -57291.49,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "投资活动产生的现金流量净额 -57,425,825 -57,291,490"
+    },
+    {
+      "year": "2025_9M",
+      "field": "cash_paid_for_long_lived_assets",
+      "value_million": 30087.78,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "购建固定资产、无形资产和其他长期资产支 付的现金 42,167,472 30,087,780"
+    },
+    {
+      "year": "2025_9M",
+      "field": "financing_inflows",
+      "value_million": 74995.566,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "筹资活动现金流入小计 120,673,827 74,995,566"
+    },
+    {
+      "year": "2025_9M",
+      "field": "financing_outflows",
+      "value_million": 70719.026,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "筹资活动现金流出小计 85,433,875 70,719,026"
+    },
+    {
+      "year": "2025_9M",
+      "field": "financing_cash_flow",
+      "value_million": 4276.539,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "筹资活动产生的现金流量净额 35,239,952 4,276,539"
+    },
+    {
+      "year": "2025_9M",
+      "field": "fx_effect_on_cash",
+      "value_million": -621.254,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "四、汇率变动对现金及现金等价物的影响 -5,971,785 -621,254"
+    },
+    {
+      "year": "2025_9M",
+      "field": "net_change_in_cash",
+      "value_million": 27024.225,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "五、现金及现金等价物净增加额 33,467,829 27,024,225"
+    },
+    {
+      "year": "2025_9M",
+      "field": "opening_cash_equivalents",
+      "value_million": 270159.734,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "加：期初现金及现金等价物余额 299,929,741 270,159,734"
+    },
+    {
+      "year": "2025_9M",
+      "field": "ending_cash_equivalents",
+      "value_million": 297183.959,
+      "source": "q3_2026",
+      "page": 12,
+      "column": "comparative",
+      "excerpt": "六、期末现金及现金等价物余额 333,397,571 297,183,959"
+    },
+    {
+      "year": "2023",
+      "field": "trading_assets",
+      "value_million": 7.767200000000001,
+      "source": "annual_2023",
+      "page": 115,
+      "column": 0,
+      "excerpt": "交易性金融资产 776.72  198,132.81 "
+    },
+    {
+      "year": "2022",
+      "field": "trading_assets",
+      "value_million": 1981.3281,
+      "source": "annual_2023",
+      "page": 115,
+      "column": 1,
+      "excerpt": "交易性金融资产 776.72  198,132.81 "
+    },
+    {
+      "year": "2023",
+      "field": "notes_receivable",
+      "value_million": 1751.7246,
+      "source": "annual_2023",
+      "page": 115,
+      "column": 0,
+      "excerpt": "应收票据 175,172.46  352,608.37 "
+    },
+    {
+      "year": "2022",
+      "field": "notes_receivable",
+      "value_million": 3526.0837,
+      "source": "annual_2023",
+      "page": 115,
+      "column": 1,
+      "excerpt": "应收票据 175,172.46  352,608.37 "
+    },
+    {
+      "year": "2023",
+      "field": "receivables_financing",
+      "value_million": 55289.3188,
+      "source": "annual_2023",
+      "page": 115,
+      "column": 0,
+      "excerpt": "应收款项融资 5,528,931.88  1,896,571.46 "
+    },
+    {
+      "year": "2022",
+      "field": "receivables_financing",
+      "value_million": 18965.7146,
+      "source": "annual_2023",
+      "page": 115,
+      "column": 1,
+      "excerpt": "应收款项融资 5,528,931.88  1,896,571.46 "
+    },
+    {
+      "year": "2023",
+      "field": "prepayments",
+      "value_million": 6962.872600000001,
+      "source": "annual_2023",
+      "page": 115,
+      "column": 0,
+      "excerpt": "预付款项 696,287.26  1,584,328.44 "
+    },
+    {
+      "year": "2022",
+      "field": "prepayments",
+      "value_million": 15843.2844,
+      "source": "annual_2023",
+      "page": 115,
+      "column": 1,
+      "excerpt": "预付款项 696,287.26  1,584,328.44 "
+    },
+    {
+      "year": "2023",
+      "field": "ppe_net",
+      "value_million": 115387.9601,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "固定资产 11,538,796.01  8,907,083.47 "
+    },
+    {
+      "year": "2022",
+      "field": "ppe_net",
+      "value_million": 89070.8347,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "固定资产 11,538,796.01  8,907,083.47 "
+    },
+    {
+      "year": "2023",
+      "field": "construction",
+      "value_million": 25011.9071,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "在建工程 2,501,190.71  3,539,765.06 "
+    },
+    {
+      "year": "2022",
+      "field": "construction",
+      "value_million": 35397.6506,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "在建工程 2,501,190.71  3,539,765.06 "
+    },
+    {
+      "year": "2023",
+      "field": "rou",
+      "value_million": 377.93410000000006,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "使用权资产 37,793.41  84,913.40 "
+    },
+    {
+      "year": "2022",
+      "field": "rou",
+      "value_million": 849.134,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "使用权资产 37,793.41  84,913.40 "
+    },
+    {
+      "year": "2023",
+      "field": "intangibles",
+      "value_million": 15675.8762,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "无形资产 1,567,587.62  953,996.32 "
+    },
+    {
+      "year": "2022",
+      "field": "intangibles",
+      "value_million": 9539.9632,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "无形资产 1,567,587.62  953,996.32 "
+    },
+    {
+      "year": "2023",
+      "field": "goodwill",
+      "value_million": 707.8817,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "商誉 70,788.17  70,406.52 "
+    },
+    {
+      "year": "2022",
+      "field": "goodwill",
+      "value_million": 704.0652,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "商誉 70,788.17  70,406.52 "
+    },
+    {
+      "year": "2023",
+      "field": "dta",
+      "value_million": 17395.5853,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "递延所得税资产 1,739,558.53  948,366.04 "
+    },
+    {
+      "year": "2022",
+      "field": "dta",
+      "value_million": 9483.6604,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "递延所得税资产 1,739,558.53  948,366.04 "
+    },
+    {
+      "year": "2023",
+      "field": "ap",
+      "value_million": 117038.7736,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "应付账款 11,703,877.36  9,453,497.60 "
+    },
+    {
+      "year": "2022",
+      "field": "ap",
+      "value_million": 94534.976,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "应付账款 11,703,877.36  9,453,497.60 "
+    },
+    {
+      "year": "2023",
+      "field": "notes_payable",
+      "value_million": 77514.9407,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "应付票据 7,751,494.07  12,622,946.82 "
+    },
+    {
+      "year": "2022",
+      "field": "notes_payable",
+      "value_million": 126229.4682,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "应付票据 7,751,494.07  12,622,946.82 "
+    },
+    {
+      "year": "2023",
+      "field": "contract_liabilities",
+      "value_million": 23982.3519,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "合同负债 2,398,235.19  2,244,478.53 "
+    },
+    {
+      "year": "2022",
+      "field": "contract_liabilities",
+      "value_million": 22444.7853,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "合同负债 2,398,235.19  2,244,478.53 "
+    },
+    {
+      "year": "2023",
+      "field": "employee_liabilities",
+      "value_million": 14846.2512,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 0,
+      "excerpt": "应付职工薪酬 1,484,625.12  947,601.84 "
+    },
+    {
+      "year": "2022",
+      "field": "employee_liabilities",
+      "value_million": 9476.018399999999,
+      "source": "annual_2023",
+      "page": 116,
+      "column": 1,
+      "excerpt": "应付职工薪酬 1,484,625.12  947,601.84 "
+    },
+    {
+      "year": "2023",
+      "field": "lease_noncurrent",
+      "value_million": 283.2962,
+      "source": "annual_2023",
+      "page": 117,
+      "column": 0,
+      "excerpt": "租赁负债 28,329.62  57,235.02 "
+    },
+    {
+      "year": "2022",
+      "field": "lease_noncurrent",
+      "value_million": 572.3502,
+      "source": "annual_2023",
+      "page": 117,
+      "column": 1,
+      "excerpt": "租赁负债 28,329.62  57,235.02 "
+    },
+    {
+      "year": "2023",
+      "field": "provisions",
+      "value_million": 51638.913499999995,
+      "source": "annual_2023",
+      "page": 117,
+      "column": 0,
+      "excerpt": "预计负债 5,163,891.35  1,969,737.46 "
+    },
+    {
+      "year": "2022",
+      "field": "provisions",
+      "value_million": 19697.3746,
+      "source": "annual_2023",
+      "page": 117,
+      "column": 1,
+      "excerpt": "预计负债 5,163,891.35  1,969,737.46 "
+    },
+    {
+      "year": "2023",
+      "field": "shares_outstanding",
+      "value_million": 4399.0412,
+      "source": "annual_2023",
+      "page": 117,
+      "column": 0,
+      "excerpt": "股本 439,904.12  244,251.45 "
+    },
+    {
+      "year": "2022",
+      "field": "shares_outstanding",
+      "value_million": 2442.5145,
+      "source": "annual_2023",
+      "page": 117,
+      "column": 1,
+      "excerpt": "股本 439,904.12  244,251.45 "
+    },
+    {
+      "year": "2024",
+      "field": "trading_assets",
+      "value_million": 14282.253,
+      "source": "annual_2024",
+      "page": 114,
+      "column": 0,
+      "excerpt": "交易性金融资产                  14,282,253                           7,767  "
+    },
+    {
+      "year": "2023",
+      "field": "trading_assets",
+      "value_million": 7.767,
+      "source": "annual_2024",
+      "page": 114,
+      "column": 1,
+      "excerpt": "交易性金融资产                  14,282,253                           7,767  "
+    },
+    {
+      "year": "2024",
+      "field": "notes_receivable",
+      "value_million": 130.403,
+      "source": "annual_2024",
+      "page": 114,
+      "column": 0,
+      "excerpt": "应收票据                      130,403                     1,751,725  "
+    },
+    {
+      "year": "2023",
+      "field": "notes_receivable",
+      "value_million": 1751.7250000000001,
+      "source": "annual_2024",
+      "page": 114,
+      "column": 1,
+      "excerpt": "应收票据                      130,403                     1,751,725  "
+    },
+    {
+      "year": "2024",
+      "field": "receivables_financing",
+      "value_million": 53309.701,
+      "source": "annual_2024",
+      "page": 114,
+      "column": 0,
+      "excerpt": "应收款项融资                  53,309,701                   55,289,319  "
+    },
+    {
+      "year": "2023",
+      "field": "receivables_financing",
+      "value_million": 55289.319,
+      "source": "annual_2024",
+      "page": 114,
+      "column": 1,
+      "excerpt": "应收款项融资                  53,309,701                   55,289,319  "
+    },
+    {
+      "year": "2024",
+      "field": "prepayments",
+      "value_million": 5969.685,
+      "source": "annual_2024",
+      "page": 114,
+      "column": 0,
+      "excerpt": "预付款项                    5,969,685                     6,962,873  "
+    },
+    {
+      "year": "2023",
+      "field": "prepayments",
+      "value_million": 6962.8730000000005,
+      "source": "annual_2024",
+      "page": 114,
+      "column": 1,
+      "excerpt": "预付款项                    5,969,685                     6,962,873  "
+    },
+    {
+      "year": "2024",
+      "field": "ppe_net",
+      "value_million": 112589.053,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "固定资产                112,589,053                 115,387,960  "
+    },
+    {
+      "year": "2023",
+      "field": "ppe_net",
+      "value_million": 115387.96,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "固定资产                112,589,053                 115,387,960  "
+    },
+    {
+      "year": "2024",
+      "field": "construction",
+      "value_million": 29754.703,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "在建工程 29,754,703 25,011,907 "
+    },
+    {
+      "year": "2023",
+      "field": "construction",
+      "value_million": 25011.907,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "在建工程 29,754,703 25,011,907 "
+    },
+    {
+      "year": "2024",
+      "field": "rou",
+      "value_million": 889.995,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "使用权资产                      889,995                       377,934  "
+    },
+    {
+      "year": "2023",
+      "field": "rou",
+      "value_million": 377.934,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "使用权资产                      889,995                       377,934  "
+    },
+    {
+      "year": "2024",
+      "field": "intangibles",
+      "value_million": 14419.804,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "无形资产                  14,419,804                   15,675,876  "
+    },
+    {
+      "year": "2023",
+      "field": "intangibles",
+      "value_million": 15675.876,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "无形资产                  14,419,804                   15,675,876  "
+    },
+    {
+      "year": "2024",
+      "field": "goodwill",
+      "value_million": 894.7570000000001,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "商誉                      894,757                       707,882  "
+    },
+    {
+      "year": "2023",
+      "field": "goodwill",
+      "value_million": 707.8820000000001,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "商誉                      894,757                       707,882  "
+    },
+    {
+      "year": "2024",
+      "field": "dta",
+      "value_million": 24118.834,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "递延所得税资产 24,118,834                  17,395,585  "
+    },
+    {
+      "year": "2023",
+      "field": "dta",
+      "value_million": 17395.585,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "递延所得税资产 24,118,834                  17,395,585  "
+    },
+    {
+      "year": "2024",
+      "field": "ap",
+      "value_million": 130977.408,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "应付账款                130,977,408                 117,038,774  "
+    },
+    {
+      "year": "2023",
+      "field": "ap",
+      "value_million": 117038.774,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "应付账款                130,977,408                 117,038,774  "
+    },
+    {
+      "year": "2024",
+      "field": "notes_payable",
+      "value_million": 67356.323,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "应付票据                  67,356,323                   77,514,941  "
+    },
+    {
+      "year": "2023",
+      "field": "notes_payable",
+      "value_million": 77514.941,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "应付票据                  67,356,323                   77,514,941  "
+    },
+    {
+      "year": "2024",
+      "field": "contract_liabilities",
+      "value_million": 27834.446,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "合同负债                  27,834,446                   23,982,352  "
+    },
+    {
+      "year": "2023",
+      "field": "contract_liabilities",
+      "value_million": 23982.352,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "合同负债                  27,834,446                   23,982,352  "
+    },
+    {
+      "year": "2024",
+      "field": "employee_liabilities",
+      "value_million": 18653.079,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 0,
+      "excerpt": "应付职工薪酬                  18,653,079                   14,846,251  "
+    },
+    {
+      "year": "2023",
+      "field": "employee_liabilities",
+      "value_million": 14846.251,
+      "source": "annual_2024",
+      "page": 115,
+      "column": 1,
+      "excerpt": "应付职工薪酬                  18,653,079                   14,846,251  "
+    },
+    {
+      "year": "2024",
+      "field": "lease_noncurrent",
+      "value_million": 662.814,
+      "source": "annual_2024",
+      "page": 116,
+      "column": 0,
+      "excerpt": "租赁负债                      662,814                       283,296  "
+    },
+    {
+      "year": "2023",
+      "field": "lease_noncurrent",
+      "value_million": 283.296,
+      "source": "annual_2024",
+      "page": 116,
+      "column": 1,
+      "excerpt": "租赁负债                      662,814                       283,296  "
+    },
+    {
+      "year": "2024",
+      "field": "provisions",
+      "value_million": 71926.943,
+      "source": "annual_2024",
+      "page": 116,
+      "column": 0,
+      "excerpt": "预计负债                  71,926,943                   51,638,913  "
+    },
+    {
+      "year": "2023",
+      "field": "provisions",
+      "value_million": 51638.913,
+      "source": "annual_2024",
+      "page": 116,
+      "column": 1,
+      "excerpt": "预计负债                  71,926,943                   51,638,913  "
+    },
+    {
+      "year": "2024",
+      "field": "shares_outstanding",
+      "value_million": 4403.466,
+      "source": "annual_2024",
+      "page": 116,
+      "column": 0,
+      "excerpt": "股本                    4,403,466                     4,399,041  "
+    },
+    {
+      "year": "2023",
+      "field": "shares_outstanding",
+      "value_million": 4399.041,
+      "source": "annual_2024",
+      "page": 116,
+      "column": 1,
+      "excerpt": "股本                    4,403,466                     4,399,041  "
+    },
+    {
+      "year": "2025",
+      "field": "trading_assets",
+      "value_million": 58993.528,
+      "source": "annual_2025",
+      "page": 111,
+      "column": 0,
+      "excerpt": "交易性金融资产  58,993,528   14,282,253  "
+    },
+    {
+      "year": "2024",
+      "field": "trading_assets",
+      "value_million": 14282.253,
+      "source": "annual_2025",
+      "page": 111,
+      "column": 1,
+      "excerpt": "交易性金融资产  58,993,528   14,282,253  "
+    },
+    {
+      "year": "2025",
+      "field": "notes_receivable",
+      "value_million": 1380.016,
+      "source": "annual_2025",
+      "page": 111,
+      "column": 0,
+      "excerpt": "应收票据  1,380,016   130,403  "
+    },
+    {
+      "year": "2024",
+      "field": "notes_receivable",
+      "value_million": 130.403,
+      "source": "annual_2025",
+      "page": 111,
+      "column": 1,
+      "excerpt": "应收票据  1,380,016   130,403  "
+    },
+    {
+      "year": "2025",
+      "field": "receivables_financing",
+      "value_million": 43205.292,
+      "source": "annual_2025",
+      "page": 111,
+      "column": 0,
+      "excerpt": "应收款项融资  43,205,292   53,309,701  "
+    },
+    {
+      "year": "2024",
+      "field": "receivables_financing",
+      "value_million": 53309.701,
+      "source": "annual_2025",
+      "page": 111,
+      "column": 1,
+      "excerpt": "应收款项融资  43,205,292   53,309,701  "
+    },
+    {
+      "year": "2025",
+      "field": "prepayments",
+      "value_million": 14282.335000000001,
+      "source": "annual_2025",
+      "page": 111,
+      "column": 0,
+      "excerpt": "预付款项  14,282,335   5,969,685  "
+    },
+    {
+      "year": "2024",
+      "field": "prepayments",
+      "value_million": 5969.685,
+      "source": "annual_2025",
+      "page": 111,
+      "column": 1,
+      "excerpt": "预付款项  14,282,335   5,969,685  "
+    },
+    {
+      "year": "2025",
+      "field": "ppe_net",
+      "value_million": 146400.592,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "固定资产  146,400,592   112,589,053  "
+    },
+    {
+      "year": "2024",
+      "field": "ppe_net",
+      "value_million": 112589.053,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "固定资产  146,400,592   112,589,053  "
+    },
+    {
+      "year": "2025",
+      "field": "construction",
+      "value_million": 29733.108,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "在建工程  29,733,108   29,754,703  "
+    },
+    {
+      "year": "2024",
+      "field": "construction",
+      "value_million": 29754.703,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "在建工程  29,733,108   29,754,703  "
+    },
+    {
+      "year": "2025",
+      "field": "rou",
+      "value_million": 3268.966,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "使用权资产  3,268,966   889,995  "
+    },
+    {
+      "year": "2024",
+      "field": "rou",
+      "value_million": 889.995,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "使用权资产  3,268,966   889,995  "
+    },
+    {
+      "year": "2025",
+      "field": "intangibles",
+      "value_million": 15263.875,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "无形资产  15,263,875   14,419,804  "
+    },
+    {
+      "year": "2024",
+      "field": "intangibles",
+      "value_million": 14419.804,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "无形资产  15,263,875   14,419,804  "
+    },
+    {
+      "year": "2025",
+      "field": "goodwill",
+      "value_million": 837.328,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "商誉  837,328   894,757  "
+    },
+    {
+      "year": "2024",
+      "field": "goodwill",
+      "value_million": 894.7570000000001,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "商誉  837,328   894,757  "
+    },
+    {
+      "year": "2025",
+      "field": "dta",
+      "value_million": 28170.283,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "递延所得税资产  28,170,283   24,118,834  "
+    },
+    {
+      "year": "2024",
+      "field": "dta",
+      "value_million": 24118.834,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "递延所得税资产  28,170,283   24,118,834  "
+    },
+    {
+      "year": "2025",
+      "field": "ap",
+      "value_million": 160328.962,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "应付账款  160,328,962   130,977,408  "
+    },
+    {
+      "year": "2024",
+      "field": "ap",
+      "value_million": 130977.408,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "应付账款  160,328,962   130,977,408  "
+    },
+    {
+      "year": "2025",
+      "field": "notes_payable",
+      "value_million": 103276.999,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "应付票据  103,276,999   67,356,323  "
+    },
+    {
+      "year": "2024",
+      "field": "notes_payable",
+      "value_million": 67356.323,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "应付票据  103,276,999   67,356,323  "
+    },
+    {
+      "year": "2025",
+      "field": "contract_liabilities",
+      "value_million": 49233.377,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "合同负债  49,233,377   27,834,446  "
+    },
+    {
+      "year": "2024",
+      "field": "contract_liabilities",
+      "value_million": 27834.446,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "合同负债  49,233,377   27,834,446  "
+    },
+    {
+      "year": "2025",
+      "field": "employee_liabilities",
+      "value_million": 23110.912,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 0,
+      "excerpt": "应付职工薪酬  23,110,912   18,653,079  "
+    },
+    {
+      "year": "2024",
+      "field": "employee_liabilities",
+      "value_million": 18653.079,
+      "source": "annual_2025",
+      "page": 112,
+      "column": 1,
+      "excerpt": "应付职工薪酬  23,110,912   18,653,079  "
+    },
+    {
+      "year": "2025",
+      "field": "lease_noncurrent",
+      "value_million": 2805.081,
+      "source": "annual_2025",
+      "page": 113,
+      "column": 0,
+      "excerpt": "租赁负债  2,805,081   662,814  "
+    },
+    {
+      "year": "2024",
+      "field": "lease_noncurrent",
+      "value_million": 662.814,
+      "source": "annual_2025",
+      "page": 113,
+      "column": 1,
+      "excerpt": "租赁负债  2,805,081   662,814  "
+    },
+    {
+      "year": "2025",
+      "field": "provisions",
+      "value_million": 85324.35800000001,
+      "source": "annual_2025",
+      "page": 113,
+      "column": 0,
+      "excerpt": "预计负债  85,324,358   71,926,943  "
+    },
+    {
+      "year": "2024",
+      "field": "provisions",
+      "value_million": 71926.943,
+      "source": "annual_2025",
+      "page": 113,
+      "column": 1,
+      "excerpt": "预计负债  85,324,358   71,926,943  "
+    },
+    {
+      "year": "2025",
+      "field": "shares_outstanding",
+      "value_million": 4563.803,
+      "source": "annual_2025",
+      "page": 113,
+      "column": 0,
+      "excerpt": "股本  4,563,803   4,403,466  "
+    },
+    {
+      "year": "2024",
+      "field": "shares_outstanding",
+      "value_million": 4403.466,
+      "source": "annual_2025",
+      "page": 113,
+      "column": 1,
+      "excerpt": "股本  4,563,803   4,403,466  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "trading_assets",
+      "value_million": 62779.978,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 0,
+      "excerpt": "交易性金融资产                  62,779,978                   58,993,528  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "trading_assets",
+      "value_million": 58993.528,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 1,
+      "excerpt": "交易性金融资产                  62,779,978                   58,993,528  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "notes_receivable",
+      "value_million": 464.25,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 0,
+      "excerpt": "应收票据 464,250                     1,380,016  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "notes_receivable",
+      "value_million": 1380.016,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 1,
+      "excerpt": "应收票据 464,250                     1,380,016  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "receivables_financing",
+      "value_million": 25783.555,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 0,
+      "excerpt": "应收款项融资                  25,783,555                   43,205,292  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "receivables_financing",
+      "value_million": 43205.292,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 1,
+      "excerpt": "应收款项融资                  25,783,555                   43,205,292  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "prepayments",
+      "value_million": 26460.002,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 0,
+      "excerpt": "预付款项                  26,460,002                   14,282,335  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "prepayments",
+      "value_million": 14282.335000000001,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 1,
+      "excerpt": "预付款项                  26,460,002                   14,282,335  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "ppe_net",
+      "value_million": 184125.94700000001,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 0,
+      "excerpt": "固定资产                184,125,947                 146,400,592  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "ppe_net",
+      "value_million": 146400.592,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 1,
+      "excerpt": "固定资产                184,125,947                 146,400,592  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "construction",
+      "value_million": 43032.402,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 0,
+      "excerpt": "在建工程                  43,032,402                   29,733,108  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "construction",
+      "value_million": 29733.108,
+      "source": "q3_2026",
+      "page": 6,
+      "column": 1,
+      "excerpt": "在建工程                  43,032,402                   29,733,108  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "rou",
+      "value_million": 4700.8640000000005,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 0,
+      "excerpt": "使用权资产                    4,700,864                     3,268,966  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "rou",
+      "value_million": 3268.966,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 1,
+      "excerpt": "使用权资产                    4,700,864                     3,268,966  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "intangibles",
+      "value_million": 16131.683,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 0,
+      "excerpt": "无形资产                  16,131,683                   15,263,875  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "intangibles",
+      "value_million": 15263.875,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 1,
+      "excerpt": "无形资产                  16,131,683                   15,263,875  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "goodwill",
+      "value_million": 819.488,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 0,
+      "excerpt": "商誉 819,488  837,328  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "goodwill",
+      "value_million": 837.328,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 1,
+      "excerpt": "商誉 819,488  837,328  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "dta",
+      "value_million": 33309.42,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 0,
+      "excerpt": "递延所得税资产                  33,309,420                   28,170,283  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "dta",
+      "value_million": 28170.283,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 1,
+      "excerpt": "递延所得税资产                  33,309,420                   28,170,283  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "ap",
+      "value_million": 180441.683,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 0,
+      "excerpt": "应付账款                180,441,683                 160,328,962  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "ap",
+      "value_million": 160328.962,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 1,
+      "excerpt": "应付账款                180,441,683                 160,328,962  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "notes_payable",
+      "value_million": 152929.878,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 0,
+      "excerpt": "应付票据                152,929,878                 103,276,999  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "notes_payable",
+      "value_million": 103276.999,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 1,
+      "excerpt": "应付票据                152,929,878                 103,276,999  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "contract_liabilities",
+      "value_million": 40668.908,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 0,
+      "excerpt": "合同负债                  40,668,908                   49,233,377  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "contract_liabilities",
+      "value_million": 49233.377,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 1,
+      "excerpt": "合同负债                  40,668,908                   49,233,377  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "employee_liabilities",
+      "value_million": 24512.322,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 0,
+      "excerpt": "应付职工薪酬                  24,512,322                   23,110,912  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "employee_liabilities",
+      "value_million": 23110.912,
+      "source": "q3_2026",
+      "page": 7,
+      "column": 1,
+      "excerpt": "应付职工薪酬                  24,512,322                   23,110,912  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "lease_noncurrent",
+      "value_million": 4064.886,
+      "source": "q3_2026",
+      "page": 8,
+      "column": 0,
+      "excerpt": "租赁负债                    4,064,886                     2,805,081  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "lease_noncurrent",
+      "value_million": 2805.081,
+      "source": "q3_2026",
+      "page": 8,
+      "column": 1,
+      "excerpt": "租赁负债                    4,064,886                     2,805,081  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "provisions",
+      "value_million": 104110.971,
+      "source": "q3_2026",
+      "page": 8,
+      "column": 0,
+      "excerpt": "预计负债                104,110,971                   85,324,358  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "provisions",
+      "value_million": 85324.35800000001,
+      "source": "q3_2026",
+      "page": 8,
+      "column": 1,
+      "excerpt": "预计负债                104,110,971                   85,324,358  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "shares_outstanding",
+      "value_million": 4627.25,
+      "source": "q3_2026",
+      "page": 8,
+      "column": 0,
+      "excerpt": "股本                    4,627,250                     4,563,803  "
+    },
+    {
+      "year": "2025_bal",
+      "field": "shares_outstanding",
+      "value_million": 4563.803,
+      "source": "q3_2026",
+      "page": 8,
+      "column": 1,
+      "excerpt": "股本                    4,627,250                     4,563,803  "
+    },
+    {
+      "year": "2023",
+      "field": "admin",
+      "value_million": 8461.8243,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 0,
+      "excerpt": "管理费用 846,182.43 697,866.94 "
+    },
+    {
+      "year": "2022",
+      "field": "admin",
+      "value_million": 6978.6694,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 1,
+      "excerpt": "管理费用 846,182.43 697,866.94 "
+    },
+    {
+      "year": "2023",
+      "field": "finance_cost",
+      "value_million": -4927.6974,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 0,
+      "excerpt": "财务费用 -492,769.74 -279,998.58 "
+    },
+    {
+      "year": "2022",
+      "field": "finance_cost",
+      "value_million": -2799.9858000000004,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 1,
+      "excerpt": "财务费用 -492,769.74 -279,998.58 "
+    },
+    {
+      "year": "2023",
+      "field": "interest_expensed",
+      "value_million": 3446.5158,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 0,
+      "excerpt": "其中：利息费用 344,651.58 213,237.54 "
+    },
+    {
+      "year": "2022",
+      "field": "interest_expensed",
+      "value_million": 2132.3754,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 1,
+      "excerpt": "其中：利息费用 344,651.58 213,237.54 "
+    },
+    {
+      "year": "2023",
+      "field": "interest_income",
+      "value_million": 8321.802099999999,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 0,
+      "excerpt": "利息收入 832,180.21 398,736.52 "
+    },
+    {
+      "year": "2022",
+      "field": "interest_income",
+      "value_million": 3987.3652,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 1,
+      "excerpt": "利息收入 832,180.21 398,736.52 "
+    },
+    {
+      "year": "2023",
+      "field": "other_income",
+      "value_million": 6267.388000000001,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 0,
+      "excerpt": "加：其他收益 626,738.80 303,734.48 "
+    },
+    {
+      "year": "2022",
+      "field": "other_income",
+      "value_million": 3037.3448,
+      "source": "annual_2023",
+      "page": 120,
+      "column": 1,
+      "excerpt": "加：其他收益 626,738.80 303,734.48 "
+    },
+    {
+      "year": "2024",
+      "field": "admin",
+      "value_million": 9689.839,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 0,
+      "excerpt": "管理费用                    9,689,839                     8,461,824  "
+    },
+    {
+      "year": "2023",
+      "field": "admin",
+      "value_million": 8461.824,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 1,
+      "excerpt": "管理费用                    9,689,839                     8,461,824  "
+    },
+    {
+      "year": "2024",
+      "field": "finance_cost",
+      "value_million": -4131.918,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 0,
+      "excerpt": "财务费用                  -4,131,918                   -4,927,697  "
+    },
+    {
+      "year": "2023",
+      "field": "finance_cost",
+      "value_million": -4927.697,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 1,
+      "excerpt": "财务费用                  -4,131,918                   -4,927,697  "
+    },
+    {
+      "year": "2024",
+      "field": "interest_expensed",
+      "value_million": 3879.076,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 0,
+      "excerpt": "其中：利息费用                    3,879,076                     3,446,516  "
+    },
+    {
+      "year": "2023",
+      "field": "interest_expensed",
+      "value_million": 3446.516,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 1,
+      "excerpt": "其中：利息费用                    3,879,076                     3,446,516  "
+    },
+    {
+      "year": "2024",
+      "field": "interest_income",
+      "value_million": 9502.997,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 0,
+      "excerpt": "利息收入                    9,502,997                     8,321,802  "
+    },
+    {
+      "year": "2023",
+      "field": "interest_income",
+      "value_million": 8321.802,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 1,
+      "excerpt": "利息收入                    9,502,997                     8,321,802  "
+    },
+    {
+      "year": "2024",
+      "field": "other_income",
+      "value_million": 9967.630000000001,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 0,
+      "excerpt": "加：其他收益                    9,967,630                     6,267,388  "
+    },
+    {
+      "year": "2023",
+      "field": "other_income",
+      "value_million": 6267.388,
+      "source": "annual_2024",
+      "page": 119,
+      "column": 1,
+      "excerpt": "加：其他收益                    9,967,630                     6,267,388  "
+    },
+    {
+      "year": "2025",
+      "field": "admin",
+      "value_million": 11666.741,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 0,
+      "excerpt": "管理费用  11,666,741   9,689,839  "
+    },
+    {
+      "year": "2024",
+      "field": "admin",
+      "value_million": 9689.839,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 1,
+      "excerpt": "管理费用  11,666,741   9,689,839  "
+    },
+    {
+      "year": "2025",
+      "field": "finance_cost",
+      "value_million": -7939.863,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 0,
+      "excerpt": "财务费用  -7,939,863   -4,131,918  "
+    },
+    {
+      "year": "2024",
+      "field": "finance_cost",
+      "value_million": -4131.918,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 1,
+      "excerpt": "财务费用  -7,939,863   -4,131,918  "
+    },
+    {
+      "year": "2025",
+      "field": "interest_expensed",
+      "value_million": 2734.0170000000003,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 0,
+      "excerpt": "其中：利息费用  2,734,017   3,879,076  "
+    },
+    {
+      "year": "2024",
+      "field": "interest_expensed",
+      "value_million": 3879.076,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 1,
+      "excerpt": "其中：利息费用  2,734,017   3,879,076  "
+    },
+    {
+      "year": "2025",
+      "field": "interest_income",
+      "value_million": 10594.657000000001,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 0,
+      "excerpt": "利息收入  10,594,657   9,502,997  "
+    },
+    {
+      "year": "2024",
+      "field": "interest_income",
+      "value_million": 9502.997,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 1,
+      "excerpt": "利息收入  10,594,657   9,502,997  "
+    },
+    {
+      "year": "2025",
+      "field": "other_income",
+      "value_million": 10600.477,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 0,
+      "excerpt": "加：其他收益  10,600,477   9,967,630  "
+    },
+    {
+      "year": "2024",
+      "field": "other_income",
+      "value_million": 9967.630000000001,
+      "source": "annual_2025",
+      "page": 116,
+      "column": 1,
+      "excerpt": "加：其他收益  10,600,477   9,967,630  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "admin",
+      "value_million": 9315.309,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 0,
+      "excerpt": "管理费用               9,315,309                     8,231,715  "
+    },
+    {
+      "year": "2025_9M",
+      "field": "admin",
+      "value_million": 8231.715,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 1,
+      "excerpt": "管理费用               9,315,309                     8,231,715  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "finance_cost",
+      "value_million": -1446.905,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 0,
+      "excerpt": "财务费用              -1,446,905                   -7,015,786  "
+    },
+    {
+      "year": "2025_9M",
+      "field": "finance_cost",
+      "value_million": -7015.786,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 1,
+      "excerpt": "财务费用              -1,446,905                   -7,015,786  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "interest_expensed",
+      "value_million": 2528.779,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 0,
+      "excerpt": "其中：利息费用               2,528,779                     2,183,477  "
+    },
+    {
+      "year": "2025_9M",
+      "field": "interest_expensed",
+      "value_million": 2183.477,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 1,
+      "excerpt": "其中：利息费用               2,528,779                     2,183,477  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "interest_income",
+      "value_million": 7412.521,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 0,
+      "excerpt": "利息收入               7,412,521                     8,060,682  "
+    },
+    {
+      "year": "2025_9M",
+      "field": "interest_income",
+      "value_million": 8060.682,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 1,
+      "excerpt": "利息收入               7,412,521                     8,060,682  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "other_income",
+      "value_million": 6388.126,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 0,
+      "excerpt": "加：其他收益               6,388,126                     7,693,237  "
+    },
+    {
+      "year": "2025_9M",
+      "field": "other_income",
+      "value_million": 7693.237,
+      "source": "q3_2026",
+      "page": 9,
+      "column": 1,
+      "excerpt": "加：其他收益               6,388,126                     7,693,237  "
+    },
+    {
+      "year": "2023",
+      "field": "depreciation",
+      "value_million": 21098.1306,
+      "source": "annual_2023",
+      "page": 201,
+      "column": 0,
+      "excerpt": "固定资产折旧、油气资产折 耗、生产性生物资产折旧 2,109,813.06 1,196,057.86 "
+    },
+    {
+      "year": "2022",
+      "field": "depreciation",
+      "value_million": 11960.5786,
+      "source": "annual_2023",
+      "page": 201,
+      "column": 1,
+      "excerpt": "固定资产折旧、油气资产折 耗、生产性生物资产折旧 2,109,813.06 1,196,057.86 "
+    },
+    {
+      "year": "2023",
+      "field": "rou_depreciation",
+      "value_million": 117.5934,
+      "source": "annual_2023",
+      "page": 201,
+      "column": 0,
+      "excerpt": "使用权资产折旧 11,759.34 16,138.36 "
+    },
+    {
+      "year": "2022",
+      "field": "rou_depreciation",
+      "value_million": 161.3836,
+      "source": "annual_2023",
+      "page": 201,
+      "column": 1,
+      "excerpt": "使用权资产折旧 11,759.34 16,138.36 "
+    },
+    {
+      "year": "2023",
+      "field": "intang_amortization",
+      "value_million": 330.99199999999996,
+      "source": "annual_2023",
+      "page": 201,
+      "column": 0,
+      "excerpt": "无形资产摊销 33,099.20 23,644.96 "
+    },
+    {
+      "year": "2022",
+      "field": "intang_amortization",
+      "value_million": 236.4496,
+      "source": "annual_2023",
+      "page": 201,
+      "column": 1,
+      "excerpt": "无形资产摊销 33,099.20 23,644.96 "
+    },
+    {
+      "year": "2023",
+      "field": "deferred_amortization",
+      "value_million": 1099.2658000000001,
+      "source": "annual_2023",
+      "page": 202,
+      "column": 0,
+      "excerpt": "长期待摊费用摊销 109,926.58 89,412.92 "
+    },
+    {
+      "year": "2022",
+      "field": "deferred_amortization",
+      "value_million": 894.1292,
+      "source": "annual_2023",
+      "page": 202,
+      "column": 1,
+      "excerpt": "长期待摊费用摊销 109,926.58 89,412.92 "
+    },
+    {
+      "year": "2024",
+      "field": "depreciation",
+      "value_million": 22437.872,
+      "source": "annual_2024",
+      "page": 202,
+      "column": 0,
+      "excerpt": "固定资产折旧 22,437,872 21,098,131 "
+    },
+    {
+      "year": "2023",
+      "field": "depreciation",
+      "value_million": 21098.131,
+      "source": "annual_2024",
+      "page": 202,
+      "column": 1,
+      "excerpt": "固定资产折旧 22,437,872 21,098,131 "
+    },
+    {
+      "year": "2024",
+      "field": "rou_depreciation",
+      "value_million": 239.273,
+      "source": "annual_2024",
+      "page": 202,
+      "column": 0,
+      "excerpt": "使用权资产折旧 239,273 117,593 "
+    },
+    {
+      "year": "2023",
+      "field": "rou_depreciation",
+      "value_million": 117.593,
+      "source": "annual_2024",
+      "page": 202,
+      "column": 1,
+      "excerpt": "使用权资产折旧 239,273 117,593 "
+    },
+    {
+      "year": "2024",
+      "field": "intang_amortization",
+      "value_million": 470.401,
+      "source": "annual_2024",
+      "page": 202,
+      "column": 0,
+      "excerpt": "无形资产摊销 470,401 330,992 "
+    },
+    {
+      "year": "2023",
+      "field": "intang_amortization",
+      "value_million": 330.992,
+      "source": "annual_2024",
+      "page": 202,
+      "column": 1,
+      "excerpt": "无形资产摊销 470,401 330,992 "
+    },
+    {
+      "year": "2024",
+      "field": "deferred_amortization",
+      "value_million": 1790.382,
+      "source": "annual_2024",
+      "page": 202,
+      "column": 0,
+      "excerpt": "长期待摊费用摊销 1,790,382 1,099,266 "
+    },
+    {
+      "year": "2023",
+      "field": "deferred_amortization",
+      "value_million": 1099.266,
+      "source": "annual_2024",
+      "page": 202,
+      "column": 1,
+      "excerpt": "长期待摊费用摊销 1,790,382 1,099,266 "
+    },
+    {
+      "year": "2025",
+      "field": "depreciation",
+      "value_million": 24322.78,
+      "source": "annual_2025",
+      "page": 201,
+      "column": 0,
+      "excerpt": "固定资产折旧、油气资产折 耗、生产性生物资产折旧 24,322,780 22,437,872 "
+    },
+    {
+      "year": "2024",
+      "field": "depreciation",
+      "value_million": 22437.872,
+      "source": "annual_2025",
+      "page": 201,
+      "column": 1,
+      "excerpt": "固定资产折旧、油气资产折 耗、生产性生物资产折旧 24,322,780 22,437,872 "
+    },
+    {
+      "year": "2025",
+      "field": "rou_depreciation",
+      "value_million": 337.367,
+      "source": "annual_2025",
+      "page": 201,
+      "column": 0,
+      "excerpt": "使用权资产折旧 337,367 239,273 "
+    },
+    {
+      "year": "2024",
+      "field": "rou_depreciation",
+      "value_million": 239.273,
+      "source": "annual_2025",
+      "page": 201,
+      "column": 1,
+      "excerpt": "使用权资产折旧 337,367 239,273 "
+    },
+    {
+      "year": "2025",
+      "field": "intang_amortization",
+      "value_million": 512.0,
+      "source": "annual_2025",
+      "page": 201,
+      "column": 0,
+      "excerpt": "无形资产摊销 512,000 470,401 "
+    },
+    {
+      "year": "2024",
+      "field": "intang_amortization",
+      "value_million": 470.401,
+      "source": "annual_2025",
+      "page": 201,
+      "column": 1,
+      "excerpt": "无形资产摊销 512,000 470,401 "
+    },
+    {
+      "year": "2025",
+      "field": "deferred_amortization",
+      "value_million": 1764.508,
+      "source": "annual_2025",
+      "page": 201,
+      "column": 0,
+      "excerpt": "长期待摊费用摊销 1,764,508 1,790,382 "
+    },
+    {
+      "year": "2024",
+      "field": "deferred_amortization",
+      "value_million": 1790.382,
+      "source": "annual_2025",
+      "page": 201,
+      "column": 1,
+      "excerpt": "长期待摊费用摊销 1,764,508 1,790,382 "
+    },
+    {
+      "year": "2023",
+      "field": "borrowing_proceeds",
+      "value_million": 46595.746399999996,
+      "source": "annual_2023",
+      "page": 124,
+      "column": 0,
+      "excerpt": "取得借款收到的现金 4,659,574.64  5,095,772.66 "
+    },
+    {
+      "year": "2022",
+      "field": "borrowing_proceeds",
+      "value_million": 50957.7266,
+      "source": "annual_2023",
+      "page": 124,
+      "column": 1,
+      "excerpt": "取得借款收到的现金 4,659,574.64  5,095,772.66 "
+    },
+    {
+      "year": "2023",
+      "field": "debt_repaid",
+      "value_million": 23795.322000000004,
+      "source": "annual_2023",
+      "page": 124,
+      "column": 0,
+      "excerpt": "偿还债务支付的现金 2,379,532.20  1,760,577.05 "
+    },
+    {
+      "year": "2022",
+      "field": "debt_repaid",
+      "value_million": 17605.770500000002,
+      "source": "annual_2023",
+      "page": 124,
+      "column": 1,
+      "excerpt": "偿还债务支付的现金 2,379,532.20  1,760,577.05 "
+    },
+    {
+      "year": "2023",
+      "field": "acquisitions",
+      "value_million": 321.4454,
+      "source": "annual_2023",
+      "page": 124,
+      "column": 0,
+      "excerpt": "取得子公司及其他营业单位支付的 现金净额 32,144.54    支付其他与投资活动有关的现金 21,024.32  674,018.24 "
+    },
+    {
+      "year": "2024",
+      "field": "borrowing_proceeds",
+      "value_million": 30540.129,
+      "source": "annual_2024",
+      "page": 123,
+      "column": 0,
+      "excerpt": "取得借款收到的现金 30,540,129                  46,595,746  "
+    },
+    {
+      "year": "2023",
+      "field": "borrowing_proceeds",
+      "value_million": 46595.746,
+      "source": "annual_2024",
+      "page": 123,
+      "column": 1,
+      "excerpt": "取得借款收到的现金 30,540,129                  46,595,746  "
+    },
+    {
+      "year": "2024",
+      "field": "debt_repaid",
+      "value_million": 19972.24,
+      "source": "annual_2024",
+      "page": 123,
+      "column": 0,
+      "excerpt": "偿还债务支付的现金 19,972,240                  23,795,322  "
+    },
+    {
+      "year": "2023",
+      "field": "debt_repaid",
+      "value_million": 23795.322,
+      "source": "annual_2024",
+      "page": 123,
+      "column": 1,
+      "excerpt": "偿还债务支付的现金 19,972,240                  23,795,322  "
+    },
+    {
+      "year": "2024",
+      "field": "acquisitions",
+      "value_million": 244.022,
+      "source": "annual_2024",
+      "page": 123,
+      "column": 0,
+      "excerpt": "取得子公司及其他营业单位支付的 现金净额 244,022                      321,445  "
+    },
+    {
+      "year": "2023",
+      "field": "acquisitions",
+      "value_million": 321.445,
+      "source": "annual_2024",
+      "page": 123,
+      "column": 1,
+      "excerpt": "取得子公司及其他营业单位支付的 现金净额 244,022                      321,445  "
+    },
+    {
+      "year": "2025",
+      "field": "borrowing_proceeds",
+      "value_million": 39790.079,
+      "source": "annual_2025",
+      "page": 120,
+      "column": 0,
+      "excerpt": "取得借款收到的现金  39,790,079   30,540,129  "
+    },
+    {
+      "year": "2024",
+      "field": "borrowing_proceeds",
+      "value_million": 30540.129,
+      "source": "annual_2025",
+      "page": 120,
+      "column": 1,
+      "excerpt": "取得借款收到的现金  39,790,079   30,540,129  "
+    },
+    {
+      "year": "2025",
+      "field": "debt_repaid",
+      "value_million": 51702.039000000004,
+      "source": "annual_2025",
+      "page": 121,
+      "column": 0,
+      "excerpt": "偿还债务支付的现金  51,702,039   19,972,240  "
+    },
+    {
+      "year": "2024",
+      "field": "debt_repaid",
+      "value_million": 19972.24,
+      "source": "annual_2025",
+      "page": 121,
+      "column": 1,
+      "excerpt": "偿还债务支付的现金  51,702,039   19,972,240  "
+    },
+    {
+      "year": "2025",
+      "field": "acquisitions",
+      "value_million": 2053.675,
+      "source": "annual_2025",
+      "page": 120,
+      "column": 0,
+      "excerpt": "取得子公司及其他营业单位支付的 现金净额  2,053,675   244,022  "
+    },
+    {
+      "year": "2024",
+      "field": "acquisitions",
+      "value_million": 244.022,
+      "source": "annual_2025",
+      "page": 120,
+      "column": 1,
+      "excerpt": "取得子公司及其他营业单位支付的 现金净额  2,053,675   244,022  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "borrowing_proceeds",
+      "value_million": 33548.328,
+      "source": "q3_2026",
+      "page": 12,
+      "column": 0,
+      "excerpt": "取得借款收到的现金               33,548,328                  30,597,681  "
+    },
+    {
+      "year": "2025_9M",
+      "field": "borrowing_proceeds",
+      "value_million": 30597.681,
+      "source": "q3_2026",
+      "page": 12,
+      "column": 1,
+      "excerpt": "取得借款收到的现金               33,548,328                  30,597,681  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "debt_repaid",
+      "value_million": 36222.703,
+      "source": "q3_2026",
+      "page": 12,
+      "column": 0,
+      "excerpt": "偿还债务支付的现金                  36,222,703                   32,237,114  "
+    },
+    {
+      "year": "2025_9M",
+      "field": "debt_repaid",
+      "value_million": 32237.114,
+      "source": "q3_2026",
+      "page": 12,
+      "column": 1,
+      "excerpt": "偿还债务支付的现金                  36,222,703                   32,237,114  "
+    },
+    {
+      "year": "2026_9M",
+      "field": "acquisitions",
+      "value_million": 199.887,
+      "source": "q3_2026",
+      "page": 12,
+      "column": 0,
+      "excerpt": "取得子公司及其他营业单位支付的现金净额 199,887                     2,045,273  "
+    },
+    {
+      "year": "2025_9M",
+      "field": "acquisitions",
+      "value_million": 2045.2730000000001,
+      "source": "q3_2026",
+      "page": 12,
+      "column": 1,
+      "excerpt": "取得子公司及其他营业单位支付的现金净额 199,887                     2,045,273  "
+    },
+    {
+      "year": "2021",
+      "field": "revenue",
+      "value_million": 130355.7964,
+      "source": "annual_2023",
+      "page": 7,
+      "extraction": "explicit verified input",
+      "excerpt": "2021比较列，万元×0.01"
+    },
+    {
+      "year": "2021",
+      "field": "net_profit_parent",
+      "value_million": 15931.3179,
+      "source": "annual_2023",
+      "page": 7,
+      "extraction": "explicit verified input",
+      "excerpt": "2021比较列，万元×0.01"
+    },
+    {
+      "year": "2021",
+      "field": "parent_adj",
+      "value_million": 13442.3643,
+      "source": "annual_2023",
+      "page": 7,
+      "extraction": "explicit verified input",
+      "excerpt": "2021比较列，万元×0.01"
+    },
+    {
+      "year": "2021",
+      "field": "operating_cash_flow",
+      "value_million": 42908.0087,
+      "source": "annual_2023",
+      "page": 7,
+      "extraction": "explicit verified input",
+      "excerpt": "2021比较列，万元×0.01"
+    },
+    {
+      "year": "2021",
+      "field": "total_assets",
+      "value_million": 307666.8609,
+      "source": "annual_2023",
+      "page": 7,
+      "extraction": "explicit verified input",
+      "excerpt": "2021比较列，万元×0.01"
+    },
+    {
+      "year": "2021",
+      "field": "parent_equity",
+      "value_million": 84513.2713,
+      "source": "annual_2023",
+      "page": 7,
+      "extraction": "explicit verified input",
+      "excerpt": "2021比较列，万元×0.01"
+    },
+    {
+      "year": "2022",
+      "field": "parent_adj",
+      "value_million": 28213.0982,
+      "source": "annual_2023",
+      "page": 7,
+      "extraction": "explicit verified input",
+      "excerpt": "公司披露扣非归母净利润；2025=72201.282-7693.417"
+    },
+    {
+      "year": "2023",
+      "field": "parent_adj",
+      "value_million": 40091.674,
+      "source": "annual_2024",
+      "page": 9,
+      "extraction": "explicit verified input",
+      "excerpt": "公司披露扣非归母净利润；2025=72201.282-7693.417"
+    },
+    {
+      "year": "2024",
+      "field": "parent_adj",
+      "value_million": 44992.919,
+      "source": "annual_2024",
+      "page": 9,
+      "extraction": "explicit verified input",
+      "excerpt": "公司披露扣非归母净利润；2025=72201.282-7693.417"
+    },
+    {
+      "year": "2025",
+      "field": "parent_adj",
+      "value_million": 64507.865,
+      "source": "annual_2025",
+      "page": 231,
+      "extraction": "explicit verified input",
+      "excerpt": "公司披露扣非归母净利润；2025=72201.282-7693.417"
+    },
+    {
+      "year": "2026_9M",
+      "field": "parent_adj",
+      "value_million": 57875.782,
+      "source": "q3_2026",
+      "page": 1,
+      "extraction": "explicit verified input",
+      "excerpt": "公司披露扣非归母净利润；2025=72201.282-7693.417"
+    },
+    {
+      "year": "2023",
+      "field": "sbc",
+      "value_million": 676.7224,
+      "source": "annual_2023",
+      "page": 221,
+      "extraction": "explicit verified input",
+      "excerpt": "股份支付确认费用"
+    },
+    {
+      "year": "2024",
+      "field": "sbc",
+      "value_million": 688.995,
+      "source": "annual_2024",
+      "page": 219,
+      "extraction": "explicit verified input",
+      "excerpt": "股份支付确认费用"
+    },
+    {
+      "year": "2025",
+      "field": "sbc",
+      "value_million": -82.524,
+      "source": "annual_2025",
+      "page": 220,
+      "extraction": "explicit verified input",
+      "excerpt": "股份支付确认费用"
+    },
+    {
+      "year": "2022",
+      "field": "buyback",
+      "value_million": 85.6257,
+      "source": "annual_2023",
+      "page": 201,
+      "extraction": "explicit verified input",
+      "excerpt": "支付股份回购款现金口径"
+    },
+    {
+      "year": "2023",
+      "field": "buyback",
+      "value_million": 1823.1055,
+      "source": "annual_2023",
+      "page": 201,
+      "extraction": "explicit verified input",
+      "excerpt": "支付股份回购款现金口径"
+    },
+    {
+      "year": "2024",
+      "field": "buyback",
+      "value_million": 1209.018,
+      "source": "annual_2025",
+      "page": 200,
+      "extraction": "explicit verified input",
+      "excerpt": "支付股份回购款现金口径"
+    },
+    {
+      "year": "2025",
+      "field": "buyback",
+      "value_million": 4413.337,
+      "source": "annual_2025",
+      "page": 200,
+      "extraction": "explicit verified input",
+      "excerpt": "支付股份回购款现金口径"
+    },
+    {
+      "year": "2025",
+      "field": "operating_nonrec",
+      "value_million": 10883.724,
+      "source": "annual_2025",
+      "page": 231,
+      "extraction": "explicit verified input",
+      "excerpt": "税前非经常性合计减其他营业外净额；2025=788.312+1362.488+28.886+8704.038；2024=169.816+664.223+179.608+2.687+8128.318"
+    },
+    {
+      "year": "2024",
+      "field": "operating_nonrec",
+      "value_million": 8529.408,
+      "source": "annual_2024",
+      "page": 228,
+      "extraction": "explicit verified input",
+      "excerpt": "税前非经常性合计减其他营业外净额；2025=788.312+1362.488+28.886+8704.038；2024=169.816+664.223+179.608+2.687+8128.318"
+    },
+    {
+      "year": "2025",
+      "field": "net_adj",
+      "value_million": 67912.208,
+      "source": "annual_2025",
+      "page": 231,
+      "extraction": "explicit verified input",
+      "excerpt": "合并净利-非经常性税前10891.633+税2017.532，含少数股东"
+    },
+    {
+      "year": "2024",
+      "field": "net_adj",
+      "value_million": 47140.39,
+      "source": "annual_2024",
+      "page": 228,
+      "extraction": "explicit verified input",
+      "excerpt": "54006.794-(8529.408-612.613)+1665.244"
+    },
+    {
+      "year": "2025",
+      "field": "restricted_cash",
+      "value_million": 18890.217,
+      "source": "annual_2025",
+      "page": 185,
+      "extraction": "explicit verified input",
+      "excerpt": "保证金及质押定期存款"
+    },
+    {
+      "year": "2024",
+      "field": "restricted_cash",
+      "value_million": 23339.555,
+      "source": "annual_2025",
+      "page": 185,
+      "extraction": "explicit verified input",
+      "excerpt": "比较列"
+    },
+    {
+      "year": "2025",
+      "field": "supplier_finance",
+      "value_million": 37222.781,
+      "source": "annual_2025",
+      "page": 203,
+      "extraction": "explicit verified input",
+      "excerpt": "融单+反向保理"
+    },
+    {
+      "year": "2024",
+      "field": "supplier_finance",
+      "value_million": 44362.409,
+      "source": "annual_2025",
+      "page": 202,
+      "extraction": "explicit verified input",
+      "excerpt": "比较列融单"
+    },
+    {
+      "year": "2021",
+      "field": "monetary_funds",
+      "value_million": 89071.88970000001,
+      "source": "annual_2021",
+      "page": 108,
+      "column": 0,
+      "excerpt": "  货币资金 8,907,188.97 6,842,411.61 "
+    },
+    {
+      "year": "2021",
+      "field": "trading_assets",
+      "value_million": 1363.9729000000002,
+      "source": "annual_2021",
+      "page": 108,
+      "column": 0,
+      "excerpt": "  交易性金融资产 136,397.29 328,807.15 "
+    },
+    {
+      "year": "2021",
+      "field": "trade_receivables",
+      "value_million": 23753.548199999997,
+      "source": "annual_2021",
+      "page": 108,
+      "column": 0,
+      "excerpt": "  应收账款 2,375,354.82 1,129,352.37 "
+    },
+    {
+      "year": "2021",
+      "field": "notes_receivable",
+      "value_million": 1463.828,
+      "source": "annual_2021",
+      "page": 108,
+      "column": 0,
+      "excerpt": "  应收票据 146,382.80 987,715.63 "
+    },
+    {
+      "year": "2021",
+      "field": "receivables_financing",
+      "value_million": 6486.3808,
+      "source": "annual_2021",
+      "page": 108,
+      "column": 0,
+      "excerpt": "  应收款项融资 648,638.08  "
+    },
+    {
+      "year": "2021",
+      "field": "prepayments",
+      "value_million": 6466.439300000001,
+      "source": "annual_2021",
+      "page": 108,
+      "column": 0,
+      "excerpt": "  预付款项 646,643.93 99,711.86 "
+    },
+    {
+      "year": "2021",
+      "field": "inventories",
+      "value_million": 40199.6919,
+      "source": "annual_2021",
+      "page": 108,
+      "column": 0,
+      "excerpt": "  存货 4,019,969.19 1,322,464.10 "
+    },
+    {
+      "year": "2021",
+      "field": "ppe_net",
+      "value_million": 41275.3333,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  固定资产 4,127,533.33 1,962,164.84 "
+    },
+    {
+      "year": "2021",
+      "field": "construction",
+      "value_million": 30998.1595,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  在建工程 3,099,815.95 575,035.18 "
+    },
+    {
+      "year": "2021",
+      "field": "rou",
+      "value_million": 678.6253,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  使用权资产 67,862.53  "
+    },
+    {
+      "year": "2021",
+      "field": "intangibles",
+      "value_million": 4479.606400000001,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  无形资产 447,960.64 251,793.57 "
+    },
+    {
+      "year": "2021",
+      "field": "goodwill",
+      "value_million": 527.8507,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  商誉 52,785.07 14,795.19 "
+    },
+    {
+      "year": "2021",
+      "field": "dta",
+      "value_million": 5542.5544,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  递延所得税资产 554,255.44 316,710.99 "
+    },
+    {
+      "year": "2021",
+      "field": "ap",
+      "value_million": 48784.2863,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  应付账款 4,878,428.63 1,563,484.43 "
+    },
+    {
+      "year": "2021",
+      "field": "notes_payable",
+      "value_million": 58405.7513,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  应付票据 5,840,575.13 1,563,658.95 "
+    },
+    {
+      "year": "2021",
+      "field": "contract_liabilities",
+      "value_million": 11537.9153,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  合同负债 1,153,791.53 687,522.78 "
+    },
+    {
+      "year": "2021",
+      "field": "employee_liabilities",
+      "value_million": 5122.7878,
+      "source": "annual_2021",
+      "page": 110,
+      "column": 0,
+      "excerpt": "  应付职工薪酬 512,278.78 265,756.49 "
+    },
+    {
+      "year": "2021",
+      "field": "lease_noncurrent",
+      "value_million": 395.30400000000003,
+      "source": "annual_2021",
+      "page": 110,
+      "column": 0,
+      "excerpt": "  租赁负债 39,530.40  "
+    },
+    {
+      "year": "2021",
+      "field": "provisions",
+      "value_million": 9953.762700000001,
+      "source": "annual_2021",
+      "page": 110,
+      "column": 0,
+      "excerpt": "  预计负债 995,376.27 679,770.49 "
+    },
+    {
+      "year": "2021",
+      "field": "shares_outstanding",
+      "value_million": 2330.8512,
+      "source": "annual_2021",
+      "page": 110,
+      "column": 0,
+      "excerpt": "  股本 233,085.12 232,947.40 "
+    },
+    {
+      "year": "2021",
+      "field": "short_term_borrowings",
+      "value_million": 12123.0569,
+      "source": "annual_2021",
+      "page": 109,
+      "column": 0,
+      "excerpt": "  短期借款 1,212,305.69 633,508.02 "
+    },
+    {
+      "year": "2021",
+      "field": "long_term_borrowings",
+      "value_million": 22119.0788,
+      "source": "annual_2021",
+      "page": 110,
+      "column": 0,
+      "excerpt": "  长期借款 2,211,907.88 606,816.33 "
+    },
+    {
+      "year": "2021",
+      "field": "bonds_payable",
+      "value_million": 15855.052,
+      "source": "annual_2021",
+      "page": 110,
+      "column": 0,
+      "excerpt": "  应付债券 1,585,505.20 1,438,225.60 "
+    },
+    {
+      "year": "2021",
+      "field": "current_portion_of_noncurrent_liabilities",
+      "value_million": 3548.5328000000004,
+      "source": "annual_2021",
+      "page": 110,
+      "column": 0,
+      "excerpt": "  一年内到期的非流动负债 354,853.28 134,903.87 "
+    },
+    {
+      "year": "2021",
+      "field": "total_equity",
+      "value_million": 92622.1745,
+      "source": "annual_2021",
+      "page": 111,
+      "column": 0,
+      "excerpt": "所有者权益合计 9,262,217.45 6,919,471.64 "
+    },
+    {
+      "year": "2021",
+      "field": "current_assets",
+      "value_million": 177734.93870000003,
+      "source": "annual_2021",
+      "page": 108,
+      "column": 0,
+      "excerpt": "流动资产合计 17,773,493.87 11,286,498.93 "
+    },
+    {
+      "year": "2021",
+      "field": "current_liabilities",
+      "value_million": 149344.8326,
+      "source": "annual_2021",
+      "page": 110,
+      "column": 0,
+      "excerpt": "流动负债合计 14,934,483.26 5,497,718.98 "
+    },
+    {
+      "year": "2021",
+      "field": "revenue",
+      "value_million": 130355.7964,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 0,
+      "excerpt": "  其中：营业收入 13,035,579.64 5,031,948.77 "
+    },
+    {
+      "year": "2020",
+      "field": "revenue",
+      "value_million": 50319.4877,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 1,
+      "excerpt": "  其中：营业收入 13,035,579.64 5,031,948.77 "
+    },
+    {
+      "year": "2021",
+      "field": "cost_of_sales",
+      "value_million": 96093.72230000001,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 0,
+      "excerpt": "  其中：营业成本 9,609,372.23 3,634,915.36 "
+    },
+    {
+      "year": "2020",
+      "field": "cost_of_sales",
+      "value_million": 36349.1536,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 1,
+      "excerpt": "  其中：营业成本 9,609,372.23 3,634,915.36 "
+    },
+    {
+      "year": "2021",
+      "field": "admin",
+      "value_million": 3368.9371,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 0,
+      "excerpt": "     管理费用 336,893.71 176,811.52 "
+    },
+    {
+      "year": "2020",
+      "field": "admin",
+      "value_million": 1768.1152,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 1,
+      "excerpt": "     管理费用 336,893.71 176,811.52 "
+    },
+    {
+      "year": "2021",
+      "field": "selling_expenses",
+      "value_million": 4367.8694000000005,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 0,
+      "excerpt": "     销售费用 436,786.94 221,670.95 "
+    },
+    {
+      "year": "2020",
+      "field": "selling_expenses",
+      "value_million": 2216.7095000000004,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 1,
+      "excerpt": "     销售费用 436,786.94 221,670.95 "
+    },
+    {
+      "year": "2021",
+      "field": "research_and_development_expenses",
+      "value_million": 7691.4276,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 0,
+      "excerpt": "     研发费用 769,142.76 356,937.77 "
+    },
+    {
+      "year": "2020",
+      "field": "research_and_development_expenses",
+      "value_million": 3569.3777000000005,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 1,
+      "excerpt": "     研发费用 769,142.76 356,937.77 "
+    },
+    {
+      "year": "2021",
+      "field": "finance_cost",
+      "value_million": -641.2,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 0,
+      "excerpt": "     财务费用 -64,120.00 -71,264.24 "
+    },
+    {
+      "year": "2020",
+      "field": "finance_cost",
+      "value_million": -712.6424000000001,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 1,
+      "excerpt": "     财务费用 -64,120.00 -71,264.24 "
+    },
+    {
+      "year": "2021",
+      "field": "interest_expensed",
+      "value_million": 1161.1004,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 0,
+      "excerpt": "      其中：利息费用 116,110.04 64,043.43 "
+    },
+    {
+      "year": "2020",
+      "field": "interest_expensed",
+      "value_million": 640.4343,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 1,
+      "excerpt": "      其中：利息费用 116,110.04 64,043.43 "
+    },
+    {
+      "year": "2021",
+      "field": "other_income",
+      "value_million": 1673.4541000000002,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 0,
+      "excerpt": "  加：其他收益 167,345.41 113,594.04 "
+    },
+    {
+      "year": "2020",
+      "field": "other_income",
+      "value_million": 1135.9404,
+      "source": "annual_2021",
+      "page": 114,
+      "column": 1,
+      "excerpt": "  加：其他收益 167,345.41 113,594.04 "
+    },
+    {
+      "year": "2021",
+      "field": "operating_profit",
+      "value_million": 19823.729199999998,
+      "source": "annual_2021",
+      "page": 115,
+      "column": 0,
+      "excerpt": "三、营业利润（亏损以“－”号填列） 1,982,372.92 695,948.96 "
+    },
+    {
+      "year": "2020",
+      "field": "operating_profit",
+      "value_million": 6959.4896,
+      "source": "annual_2021",
+      "page": 115,
+      "column": 1,
+      "excerpt": "三、营业利润（亏损以“－”号填列） 1,982,372.92 695,948.96 "
+    },
+    {
+      "year": "2021",
+      "field": "income_tax_expense",
+      "value_million": 2026.399,
+      "source": "annual_2021",
+      "page": 115,
+      "column": 0,
+      "excerpt": "  减：所得税费用 202,639.90 87,863.54 "
+    },
+    {
+      "year": "2020",
+      "field": "income_tax_expense",
+      "value_million": 878.6354,
+      "source": "annual_2021",
+      "page": 115,
+      "column": 1,
+      "excerpt": "  减：所得税费用 202,639.90 87,863.54 "
+    },
+    {
+      "year": "2021",
+      "field": "net_profit",
+      "value_million": 17860.7301,
+      "source": "annual_2021",
+      "page": 115,
+      "column": 0,
+      "excerpt": "五、净利润（净亏损以“－”号填列） 1,786,073.01 610,391.81 "
+    },
+    {
+      "year": "2020",
+      "field": "net_profit",
+      "value_million": 6103.918100000001,
+      "source": "annual_2021",
+      "page": 115,
+      "column": 1,
+      "excerpt": "五、净利润（净亏损以“－”号填列） 1,786,073.01 610,391.81 "
+    },
+    {
+      "year": "2021",
+      "field": "profit_before_tax",
+      "value_million": 19887.1291,
+      "source": "annual_2021",
+      "page": 115,
+      "extraction": "explicit verified input",
+      "excerpt": "利润总额1988712.91万元"
+    },
+    {
+      "year": "2021",
+      "field": "borrowing_proceeds",
+      "value_million": 26276.5825,
+      "source": "annual_2021",
+      "page": 120,
+      "column": 0,
+      "excerpt": "  取得借款收到的现金 2,627,658.25 945,092.07 "
+    },
+    {
+      "year": "2021",
+      "field": "debt_repaid",
+      "value_million": 5457.9079,
+      "source": "annual_2021",
+      "page": 120,
+      "column": 0,
+      "excerpt": "  偿还债务支付的现金 545,790.79 474,370.12 "
+    },
+    {
+      "year": "2021",
+      "field": "acquisitions",
+      "value_million": 295.8003,
+      "source": "annual_2021",
+      "page": 119,
+      "column": 0,
+      "excerpt": "  取得子公司及其他营业单位支付 的现金净额  29,580.03  "
+    },
+    {
+      "year": "2021",
+      "field": "cash_paid_for_long_lived_assets",
+      "value_million": 43767.7708,
+      "source": "annual_2021",
+      "page": 119,
+      "column": 0,
+      "excerpt": "  购建固定资产、无形资产和其他 长期资产支付的现金  4,376,777.08 1,330,235.58 "
+    },
+    {
+      "year": "2021",
+      "field": "ending_cash_equivalents",
+      "value_million": 75505.7352,
+      "source": "annual_2021",
+      "page": 120,
+      "column": 0,
+      "excerpt": "六、期末现金及现金等价物余额 7,550,573.52 6,343,198.60 "
+    },
+    {
+      "year": "2021",
+      "field": "depreciation",
+      "value_million": 5847.138199999999,
+      "source": "annual_2021",
+      "page": 205,
+      "column": 0,
+      "excerpt": "    固定资产折旧、油气资产折耗、 生产性生物资产折旧  584,713.82  457,679.78 "
+    },
+    {
+      "year": "2021",
+      "field": "rou_depreciation",
+      "value_million": 90.03020000000001,
+      "source": "annual_2021",
+      "page": 205,
+      "column": 0,
+      "excerpt": "    使用权资产折旧  9,003.02   "
+    },
+    {
+      "year": "2021",
+      "field": "intang_amortization",
+      "value_million": 159.20260000000002,
+      "source": "annual_2021",
+      "page": 205,
+      "column": 0,
+      "excerpt": "    无形资产摊销 15,920.26 13,524.38 "
+    },
+    {
+      "year": "2021",
+      "field": "deferred_amortization",
+      "value_million": 340.25309999999996,
+      "source": "annual_2021",
+      "page": 205,
+      "column": 0,
+      "excerpt": "    长期待摊费用摊销 34,025.31 15,584.79 "
+    },
+    {
+      "year": "2021",
+      "field": "sbc",
+      "value_million": 286.7502,
+      "source": "annual_2021",
+      "page": 224,
+      "extraction": "explicit verified input",
+      "excerpt": "本期股份支付费用28675.02万元"
+    },
+    {
+      "year": "2021",
+      "field": "buyback",
+      "value_million": 45.7064,
+      "source": "annual_2021",
+      "page": 205,
+      "extraction": "explicit verified input",
+      "excerpt": "支付股份回购款4570.64万元"
+    },
+    {
+      "year": "2025",
+      "field": "parent_adj",
+      "value_million": 64507.864,
+      "source": "annual_2025",
+      "page": 11,
+      "extraction": "explicit verified input",
+      "excerpt": "公司摘要披露；减法64507.865差0.001百万元属舍入"
+    },
+    {
+      "year": "2025_9M",
+      "field": "parent_adj",
+      "value_million": 43619.225000000006,
+      "source": "annual_2025",
+      "page": 12,
+      "extraction": "explicit verified input",
+      "excerpt": "2025前三季度扣非归母加总，保留输入11829.172+15368.296+16421.757"
+    },
+    {
+      "year": "2023",
+      "field": "operating_nonrec",
+      "value_million": 5808.514,
+      "source": "annual_2025",
+      "page": 12,
+      "extraction": "explicit verified input",
+      "excerpt": "2023比较非经常性税前分项剔其他营业外195.751"
+    },
+    {
+      "year": "2023",
+      "field": "net_adj",
+      "value_million": 41950.796,
+      "source": "annual_2025",
+      "page": 12,
+      "extraction": "explicit verified input",
+      "excerpt": "合并口径扣除税后非经常损益，含少数股东"
+    }
+  ],
+  "ttm_formulas": {
+    "parent_adj": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        64507.864,
+        57875.782,
+        43619.225000000006
+      ],
+      "result": 78764.421
+    },
+    "revenue": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        423701.834,
+        442137.424,
+        283071.987
+      ],
+      "result": 582767.271
+    },
+    "cost_of_sales": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        312383.297,
+        341695.013,
+        211427.147
+      ],
+      "result": 442651.16300000006
+    },
+    "selling_expenses": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        3735.118,
+        3371.025,
+        2408.522
+      ],
+      "result": 4697.621
+    },
+    "admin": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        11666.741,
+        9315.309,
+        8231.715
+      ],
+      "result": 12750.335
+    },
+    "research_and_development_expenses": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        22146.581,
+        18516.986,
+        15067.826
+      ],
+      "result": 25595.740999999995
+    },
+    "finance_cost": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        -7939.863,
+        -1446.905,
+        -7015.786
+      ],
+      "result": -2370.982
+    },
+    "interest_expensed": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        2734.0170000000003,
+        2528.779,
+        2183.477
+      ],
+      "result": 3079.3190000000004
+    },
+    "interest_income": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        10594.657000000001,
+        7412.521,
+        8060.682
+      ],
+      "result": 9946.496
+    },
+    "operating_profit": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        89518.636,
+        80933.059,
+        60552.312
+      ],
+      "result": 109899.383
+    },
+    "profit_before_tax": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        89526.545,
+        81028.004,
+        60712.402
+      ],
+      "result": 109842.147
+    },
+    "income_tax_expense": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        12740.236,
+        11529.551,
+        8415.535
+      ],
+      "result": 15854.252
+    },
+    "net_profit": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        76786.309,
+        69498.453,
+        52296.866
+      ],
+      "result": 93987.89599999998
+    },
+    "net_profit_parent": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        72201.282,
+        64530.063,
+        49034.109
+      ],
+      "result": 87697.236
+    },
+    "operating_cash_flow": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        133219.982,
+        61625.487,
+        80660.43
+      ],
+      "result": 114185.03899999999
+    },
+    "cash_paid_for_long_lived_assets": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        42344.558,
+        42167.472,
+        30087.78
+      ],
+      "result": 54424.25
+    },
+    "fcf": {
+      "formula": "FY2025 + 2026_9M - 2025_9M",
+      "inputs": [
+        90875.424,
+        19458.015,
+        50572.649999999994
+      ],
+      "result": 59760.789000000004
+    }
+  },
+  "limitations": [
+    "FY2021 completed from original annual report mirrored by Eastmoney; 2020 revenue comparative for CAGR",
+    "2022 cost and selling expenses before warranty reclassification",
+    "2023 EPS11.79 vs10.06 quarantined",
+    "TTM parent adjusted net profit calculated from FY2025 and observed nine-month periods; 0.001m rounding allowed",
+    "FY2025/FY2024 debt excludes noninterest current long-term payable; latest debt proxy includes it conservatively",
+    "cash paid long-lived assets used as cash capex proxy; no maintenance/growth split",
+    "TTM adjusted consolidated/op profit, DA and SBC unavailable without 2025Q3 details; never annualize"
+  ]
+}

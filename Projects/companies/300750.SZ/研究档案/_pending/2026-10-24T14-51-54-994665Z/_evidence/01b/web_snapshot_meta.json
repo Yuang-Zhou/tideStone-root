@@ -1,0 +1,14 @@
+[
+  {
+    "file": "web_access_20261024.txt",
+    "retrieved_date": "2026-10-24",
+    "format": "browser_tool_text_not_original_html",
+    "sha256": "f74509f06568e20f8f954af3c22a680b3cdde923e414f814c1f7849305a614b4"
+  },
+  {
+    "file": "web_targeted_20261024.txt",
+    "retrieved_date": "2026-10-24",
+    "format": "browser_tool_text_not_original_html",
+    "sha256": "623d3834c8853ab9ca8aaadcca04045cc95ac93b42755a83b129495b775c7273"
+  }
+]

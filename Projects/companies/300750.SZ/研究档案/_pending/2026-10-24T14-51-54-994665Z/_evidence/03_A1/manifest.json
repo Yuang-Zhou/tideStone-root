@@ -1,0 +1,138 @@
+[
+  {
+    "id": "bmw_20220909.pdf",
+    "published_at": "2022-09-09",
+    "url": "https://www.press.bmwgroup.com/united-kingdom/article/attachment/T0403568EN_GB/566314",
+    "retrieved_at": "2026-10-24",
+    "sha256": "9c76ee5644da73efb85722096dc4dce00312f7b7adde9de8aa638a2fecaebbc8",
+    "bytes": 1149827,
+    "file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/bmw_20220909.pdf",
+    "selected_pages": [
+      3
+    ],
+    "visual_check": "bmw_p3.png",
+    "note": "PDF text extraction not useful; visually verified physical p3"
+  },
+  {
+    "id": "stellantis_20241210.html",
+    "published_at": "2024-12-10",
+    "url": "https://www.stellantis.com/en/news/press-releases/2024/december/stellantis-and-calt-to-invest-up-to-4-1-billion-in-joint-venture-for-large-scale-lfp-battery-plant-in-spain",
+    "retrieved_at": "2026-10-24",
+    "sha256": "151fe80af912ffded56b397cfdb3fb8e00f2080b5c077b9478c41ff79c3a3dc7",
+    "bytes": 106079,
+    "file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/stellantis_20241210.html"
+  },
+  {
+    "id": "ford_20230213.html",
+    "published_at": "2023-02-13",
+    "url": "https://www.fromtheroad.ford.com/us/en/articles/2023/ford-taps-michigan-for-new-lfp-battery-plant--new-battery-chemis",
+    "retrieved_at": "2026-10-24",
+    "sha256": "46cffc42c1bffbc3dedda9acea1c4f9067bfb23186bc650e98c77999d0ff832a",
+    "bytes": 220165,
+    "file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/ford_20230213.html"
+  },
+  {
+    "id": "nio_20240314.html",
+    "published_at": "2024-03-14",
+    "url": "https://www.nio.com/news/NIO-Joins-Hands-With-CATL",
+    "retrieved_at": "2026-10-24",
+    "sha256": "6e8cb41e9b6bae1255033b576a2824c148813d1fe750d7dd99754aff7b4ea173",
+    "bytes": 74662,
+    "file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/nio_20240314.html"
+  },
+  {
+    "id": "hyperstrong_200gwh.html",
+    "published_at": "2025 (page displays 12/11/2025; day-month order not independently resolved)",
+    "url": "https://www.hyperstrong.com/en/news/company-news/77",
+    "retrieved_at": "2026-10-24",
+    "sha256": "1d290f8792b37df6bde0c4b8f25fe109cff38582e1eed57f431b3c44b5bc4f21",
+    "bytes": 112595,
+    "file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/hyperstrong_200gwh.html"
+  },
+  {
+    "id": "catl_hyperstrong_60gwh.html",
+    "url": "https://www.catl.com/en/news/6812.html",
+    "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '30', 'https://www.catl.com/en/news/6812.html']' returned non-zero exit status 56.",
+    "retrieved_at": "2026-10-24",
+    "published_at": "2026-05-06",
+    "snapshot": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/catl_hyperstrong_60gwh_web_snapshot.json",
+    "snapshot_sha256": "e137f8366df143af60de5d1299ac18b83c04a03adba1396bb4fa18f368b76eb6",
+    "acquisition": "web tool; direct curl403"
+  },
+  {
+    "id": "annual_2025",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002214.PDF",
+    "published_at": "2026-03-10",
+    "retrieved_at": "2026-10-24T22:35:25.666359+08:00",
+    "source_sha256": "c15272977147dee7e6935a38ea0e4fd6855370aabb106f54cfe20f7cf6048ec9",
+    "source_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/OFFICIAL/annual_2025.pdf",
+    "selected_pages": [
+      14,
+      15,
+      24,
+      25,
+      26,
+      28,
+      151,
+      195,
+      209
+    ],
+    "snapshot": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/annual_2025_selected_pages.txt",
+    "snapshot_sha256": "b10c8cb1a53f24b64760765d9bcfcd277993bec6bef636853e8f052817e8b2f9"
+  },
+  {
+    "id": "interim_2026",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225441586.PDF",
+    "published_at": "2026-07-25",
+    "retrieved_at": "2026-10-24T22:35:25.666264+08:00",
+    "source_sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9",
+    "source_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/OFFICIAL/interim_2026.pdf",
+    "selected_pages": [
+      16,
+      162
+    ],
+    "snapshot": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/interim_2026_selected_pages.txt",
+    "snapshot_sha256": "8c09c6807dda60a210bea1910be0b2b2bcfcc38301fcb86d13d58295c4535a80"
+  },
+  {
+    "id": "ir_20260309",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225002708.PDF",
+    "published_at": "2026-03-10",
+    "retrieved_at": "2026-10-24T22:36:28.404315+08:00",
+    "source_sha256": "3d41391972aa85460edc4808fbb48a45836779470685e1175692fd62ff470b0b",
+    "source_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/transcripts/OFFICIAL_IR/ir_20260309.pdf",
+    "selected_pages": [
+      2
+    ],
+    "snapshot": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/ir_20260309_selected_pages.txt",
+    "snapshot_sha256": "b81fb1ca8e734d408d4b3abc69b9ec03c23a39d8c9e15d8ca0b53784d51fe669"
+  },
+  {
+    "id": "ir_20260724",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-07-26/1225442224.PDF",
+    "published_at": "2026-07-26",
+    "retrieved_at": "2026-10-24T22:36:31.755055+08:00",
+    "source_sha256": "e3e0d885ef439c1ed49f3c0d91c7d3ce34a7124232432b89d5d6dcea226e5437",
+    "source_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/transcripts/OFFICIAL_IR/ir_20260724.pdf",
+    "selected_pages": [
+      1,
+      2,
+      3
+    ],
+    "snapshot": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/ir_20260724_selected_pages.txt",
+    "snapshot_sha256": "577afc8264b24c1bb216bc07c6daf098c00fc7e06a510851f0c83d6c18c18202"
+  },
+  {
+    "id": "ir_20261020",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613436.PDF",
+    "published_at": "2026-10-21",
+    "retrieved_at": "2026-10-24T22:36:32.200133+08:00",
+    "source_sha256": "42d041299a85b939e9b5dff4c687be929629e2b572f702f462a4b1c29de85cd2",
+    "source_file": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/300750.SZ Wiki/raw/transcripts/OFFICIAL_IR/ir_20261020.pdf",
+    "selected_pages": [
+      2
+    ],
+    "snapshot": "/Users/yuangzhou/Desktop/tideStone-root/Projects/companies/300750.SZ/研究档案/_pending/2026-10-24T14-51-54-994665Z/_evidence/03_A1/ir_20261020_selected_pages.txt",
+    "snapshot_sha256": "10c14c315eadd9cd7c43c65facf33386ce6586f5c00ba78bbe24692bc8ec2bca"
+  }
+]
